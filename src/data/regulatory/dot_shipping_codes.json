@@ -1,0 +1,8434 @@
+[
+  {
+    "un": "UN0011",
+    "name": "Explosive, blasting, type C",
+    "class": "1.1D",
+    "cas": []
+  },
+  {
+    "un": "UN0012",
+    "name": "Cartridges for weapons, blank",
+    "class": "1.4S",
+    "cas": []
+  },
+  {
+    "un": "UN0013",
+    "name": "Cartridges, small arms",
+    "class": "1.4S",
+    "cas": []
+  },
+  {
+    "un": "UN0014",
+    "name": "Cartridges for weapons, tracer",
+    "class": "1.3C",
+    "cas": []
+  },
+  {
+    "un": "UN0015",
+    "name": "Explosive, blasting, type E",
+    "class": "1.1D",
+    "cas": []
+  },
+  {
+    "un": "UN0016",
+    "name": "Explosive, blasting, type F",
+    "class": "1.1D",
+    "cas": []
+  },
+  {
+    "un": "UN0017",
+    "name": "Fuzes, detonating",
+    "class": "1.1B",
+    "cas": []
+  },
+  {
+    "un": "UN0018",
+    "name": "Fuzes, incendiary",
+    "class": "1.1G",
+    "cas": []
+  },
+  {
+    "un": "UN0019",
+    "name": "Fuzes, mechanical",
+    "class": "1.1E",
+    "cas": []
+  },
+  {
+    "un": "UN0020",
+    "name": "Cartridges, signal",
+    "class": "1.3G",
+    "cas": []
+  },
+  {
+    "un": "UN0021",
+    "name": "Cartridges, tear gas",
+    "class": "1.4G",
+    "cas": []
+  },
+  {
+    "un": "UN0022",
+    "name": "Cartridges, tool",
+    "class": "1.4S",
+    "cas": []
+  },
+  {
+    "un": "UN0023",
+    "name": "Charges, bursting",
+    "class": "1.1D",
+    "cas": []
+  },
+  {
+    "un": "UN0024",
+    "name": "Charges, demolition",
+    "class": "1.1D",
+    "cas": []
+  },
+  {
+    "un": "UN0025",
+    "name": "Charges, depth",
+    "class": "1.1D",
+    "cas": []
+  },
+  {
+    "un": "UN0026",
+    "name": "Charges, shaped",
+    "class": "1.1D",
+    "cas": []
+  },
+  {
+    "un": "UN0027",
+    "name": "Charges, supplementary",
+    "class": "1.1D",
+    "cas": []
+  },
+  {
+    "un": "UN0028",
+    "name": "Explosives, blasting, type G",
+    "class": "1.1D",
+    "cas": []
+  },
+  {
+    "un": "UN0029",
+    "name": "Explosives, blasting, type H",
+    "class": "1.1D",
+    "cas": []
+  },
+  {
+    "un": "UN0030",
+    "name": "Explosives, blasting, type I",
+    "class": "1.1D",
+    "cas": []
+  },
+  {
+    "un": "UN0031",
+    "name": "Explosives, blasting, type J",
+    "class": "1.1D",
+    "cas": []
+  },
+  {
+    "un": "UN0032",
+    "name": "Explosives, blasting, type K",
+    "class": "1.1D",
+    "cas": []
+  },
+  {
+    "un": "UN0033",
+    "name": "Explosives, blasting, type L",
+    "class": "1.1D",
+    "cas": []
+  },
+  {
+    "un": "UN0034",
+    "name": "Explosives, blasting, type M",
+    "class": "1.1D",
+    "cas": []
+  },
+  {
+    "un": "UN0035",
+    "name": "Explosives, blasting, type N",
+    "class": "1.1D",
+    "cas": []
+  },
+  {
+    "un": "UN0036",
+    "name": "Explosives, blasting, type O",
+    "class": "1.1D",
+    "cas": []
+  },
+  {
+    "un": "UN0037",
+    "name": "Explosives, blasting, type P",
+    "class": "1.1D",
+    "cas": []
+  },
+  {
+    "un": "UN0038",
+    "name": "Explosives, blasting, type Q",
+    "class": "1.1D",
+    "cas": []
+  },
+  {
+    "un": "UN0039",
+    "name": "Explosives, blasting, type R",
+    "class": "1.1D",
+    "cas": []
+  },
+  {
+    "un": "UN0040",
+    "name": "Explosives, blasting, type S",
+    "class": "1.1D",
+    "cas": []
+  },
+  {
+    "un": "UN0041",
+    "name": "Explosives, blasting, type T",
+    "class": "1.1D",
+    "cas": []
+  },
+  {
+    "un": "UN0042",
+    "name": "Explosives, blasting, type U",
+    "class": "1.1D",
+    "cas": []
+  },
+  {
+    "un": "UN0043",
+    "name": "Explosives, blasting, type V",
+    "class": "1.1D",
+    "cas": []
+  },
+  {
+    "un": "UN0044",
+    "name": "Explosives, blasting, type W",
+    "class": "1.1D",
+    "cas": []
+  },
+  {
+    "un": "UN0045",
+    "name": "Explosives, blasting, type X",
+    "class": "1.1D",
+    "cas": []
+  },
+  {
+    "un": "UN0046",
+    "name": "Explosives, blasting, type Y",
+    "class": "1.1D",
+    "cas": []
+  },
+  {
+    "un": "UN0047",
+    "name": "Explosives, blasting, type Z",
+    "class": "1.1D",
+    "cas": []
+  },
+  {
+    "un": "UN0048",
+    "name": "Projectiles, with burster or expelling charge",
+    "class": "1.1E",
+    "cas": []
+  },
+  {
+    "un": "UN0049",
+    "name": "Projectiles, inert with tracer",
+    "class": "1.3C",
+    "cas": []
+  },
+  {
+    "un": "UN0050",
+    "name": "Barium azide, dry or wetted with less than 50% water",
+    "class": "1.1D",
+    "cas": [
+      "18810-58-7"
+    ]
+  },
+  {
+    "un": "UN0051",
+    "name": "Benzoyl peroxide, dry or wetted with less than 40% water",
+    "class": "5.2",
+    "cas": [
+      "94-36-0"
+    ]
+  },
+  {
+    "un": "UN0052",
+    "name": "Benzyl chloride",
+    "class": "6.1",
+    "cas": [
+      "100-44-7"
+    ]
+  },
+  {
+    "un": "UN0053",
+    "name": "Beryllium",
+    "class": "6.1",
+    "cas": [
+      "7440-41-7"
+    ]
+  },
+  {
+    "un": "UN0055",
+    "name": "Bromine",
+    "class": "8",
+    "cas": [
+      "7726-95-6"
+    ]
+  },
+  {
+    "un": "UN0056",
+    "name": "Bromine chloride",
+    "class": "2.3",
+    "cas": [
+      "13863-41-7"
+    ]
+  },
+  {
+    "un": "UN0057",
+    "name": "Bromine pentafluoride",
+    "class": "5.1",
+    "cas": [
+      "7789-30-2"
+    ]
+  },
+  {
+    "un": "UN0058",
+    "name": "Bromine trifluoride",
+    "class": "5.1",
+    "cas": [
+      "7787-71-5"
+    ]
+  },
+  {
+    "un": "UN0059",
+    "name": "Butylamine",
+    "class": "3",
+    "cas": [
+      "109-73-9"
+    ]
+  },
+  {
+    "un": "UN0060",
+    "name": "Butyl mercaptan",
+    "class": "3",
+    "cas": [
+      "109-79-5"
+    ]
+  },
+  {
+    "un": "UN0061",
+    "name": "Calcium carbide",
+    "class": "4.3",
+    "cas": [
+      "75-20-7"
+    ]
+  },
+  {
+    "un": "UN0062",
+    "name": "Calcium chlorate",
+    "class": "5.1",
+    "cas": [
+      "10137-74-3"
+    ]
+  },
+  {
+    "un": "UN0063",
+    "name": "Calcium cyanide",
+    "class": "6.1",
+    "cas": [
+      "592-01-8"
+    ]
+  },
+  {
+    "un": "UN0064",
+    "name": "Calcium hypochlorite, dry",
+    "class": "5.1",
+    "cas": [
+      "7778-54-3"
+    ]
+  },
+  {
+    "un": "UN0065",
+    "name": "Calcium hypochlorite, hydrated",
+    "class": "5.1",
+    "cas": [
+      "7778-54-3"
+    ]
+  },
+  {
+    "un": "UN0066",
+    "name": "Calcium phosphide",
+    "class": "4.3",
+    "cas": [
+      "1305-99-3"
+    ]
+  },
+  {
+    "un": "UN0067",
+    "name": "Camphor oil",
+    "class": "3",
+    "cas": [
+      "8008-51-3"
+    ]
+  },
+  {
+    "un": "UN0068",
+    "name": "Caprolactam, molten",
+    "class": "9",
+    "cas": [
+      "105-60-2"
+    ]
+  },
+  {
+    "un": "UN0069",
+    "name": "Carbon disulfide",
+    "class": "3",
+    "cas": [
+      "75-15-0"
+    ]
+  },
+  {
+    "un": "UN0070",
+    "name": "Carbon tetrachloride",
+    "class": "6.1",
+    "cas": [
+      "56-23-5"
+    ]
+  },
+  {
+    "un": "UN0071",
+    "name": "Charcoal",
+    "class": "4.2",
+    "cas": [
+      "16291-96-6"
+    ]
+  },
+  {
+    "un": "UN0072",
+    "name": "Chloric acid",
+    "class": "5.1",
+    "cas": [
+      "7790-93-4"
+    ]
+  },
+  {
+    "un": "UN0073",
+    "name": "Chlorine",
+    "class": "2.3",
+    "cas": [
+      "7782-50-5"
+    ]
+  },
+  {
+    "un": "UN0074",
+    "name": "Chlorine dioxide",
+    "class": "2.3",
+    "cas": [
+      "10049-04-4"
+    ]
+  },
+  {
+    "un": "UN0075",
+    "name": "Chlorine trifluoride",
+    "class": "2.3",
+    "cas": [
+      "7790-91-2"
+    ]
+  },
+  {
+    "un": "UN0076",
+    "name": "Chlorobenzene",
+    "class": "3",
+    "cas": [
+      "108-90-7"
+    ]
+  },
+  {
+    "un": "UN0077",
+    "name": "Chloroform",
+    "class": "6.1",
+    "cas": [
+      "67-66-3"
+    ]
+  },
+  {
+    "un": "UN0078",
+    "name": "Chloropicrin",
+    "class": "6.1",
+    "cas": [
+      "76-06-2"
+    ]
+  },
+  {
+    "un": "UN0079",
+    "name": "Chromic acid solution",
+    "class": "8",
+    "cas": [
+      "7738-94-5"
+    ]
+  },
+  {
+    "un": "UN0080",
+    "name": "Chrysotile asbestos",
+    "class": "9",
+    "cas": [
+      "12001-29-5"
+    ]
+  },
+  {
+    "un": "UN0081",
+    "name": "Cresols, liquid",
+    "class": "6.1",
+    "cas": [
+      "1319-77-3"
+    ]
+  },
+  {
+    "un": "UN0082",
+    "name": "Crotonaldehyde",
+    "class": "6.1",
+    "cas": [
+      "123-73-9"
+    ]
+  },
+  {
+    "un": "UN0083",
+    "name": "Cumene",
+    "class": "3",
+    "cas": [
+      "98-82-8"
+    ]
+  },
+  {
+    "un": "UN0087",
+    "name": "Cyanogen",
+    "class": "2.3",
+    "cas": [
+      "460-19-5"
+    ]
+  },
+  {
+    "un": "UN0088",
+    "name": "Cyanogen bromide",
+    "class": "6.1",
+    "cas": [
+      "506-68-3"
+    ]
+  },
+  {
+    "un": "UN0089",
+    "name": "Cyanogen chloride",
+    "class": "2.3",
+    "cas": [
+      "506-77-4"
+    ]
+  },
+  {
+    "un": "UN0090",
+    "name": "Cyclohexanone",
+    "class": "3",
+    "cas": [
+      "108-94-1"
+    ]
+  },
+  {
+    "un": "UN0091",
+    "name": "Cyclohexylamine",
+    "class": "8",
+    "cas": [
+      "108-91-8"
+    ]
+  },
+  {
+    "un": "UN0092",
+    "name": "Cyclopropylamine",
+    "class": "3",
+    "cas": [
+      "765-30-0"
+    ]
+  },
+  {
+    "un": "UN0093",
+    "name": "Dibenzoyl peroxide, wetted",
+    "class": "5.2",
+    "cas": [
+      "94-36-0"
+    ]
+  },
+  {
+    "un": "UN0094",
+    "name": "Dibromodifluoromethane",
+    "class": "2.2",
+    "cas": [
+      "75-61-6"
+    ]
+  },
+  {
+    "un": "UN0095",
+    "name": "Dibutyl phthalate",
+    "class": "9",
+    "cas": [
+      "84-74-2"
+    ]
+  },
+  {
+    "un": "UN0096",
+    "name": "Dichlorodifluoromethane",
+    "class": "2.2",
+    "cas": [
+      "75-71-8"
+    ]
+  },
+  {
+    "un": "UN0097",
+    "name": "Dichloromethane (Methylene chloride)",
+    "class": "6.1",
+    "cas": [
+      "75-09-2"
+    ]
+  },
+  {
+    "un": "UN0098",
+    "name": "Diethylamine",
+    "class": "3",
+    "cas": [
+      "109-89-7"
+    ]
+  },
+  {
+    "un": "UN0099",
+    "name": "Diethyl ether",
+    "class": "3",
+    "cas": [
+      "60-29-7"
+    ]
+  },
+  {
+    "un": "UN0100",
+    "name": "Diethyl sulfate",
+    "class": "6.1",
+    "cas": [
+      "64-67-5"
+    ]
+  },
+  {
+    "un": "UN0101",
+    "name": "Dimethyl sulfate",
+    "class": "6.1",
+    "cas": [
+      "77-78-1"
+    ]
+  },
+  {
+    "un": "UN0102",
+    "name": "Dinitrophenol",
+    "class": "6.1",
+    "cas": [
+      "51-28-5"
+    ]
+  },
+  {
+    "un": "UN0107",
+    "name": "Dinitrotoluenes",
+    "class": "6.1",
+    "cas": [
+      "25321-14-6"
+    ]
+  },
+  {
+    "un": "UN0108",
+    "name": "Dioxane",
+    "class": "3",
+    "cas": [
+      "123-91-1"
+    ]
+  },
+  {
+    "un": "UN0109",
+    "name": "Diphenylamine",
+    "class": "6.1",
+    "cas": [
+      "122-39-4"
+    ]
+  },
+  {
+    "un": "UN0110",
+    "name": "Diphenyl ether",
+    "class": "9",
+    "cas": [
+      "101-84-8"
+    ]
+  },
+  {
+    "un": "UN0111",
+    "name": "Diphenylmethane diisocyanate",
+    "class": "6.1",
+    "cas": [
+      "26447-40-5"
+    ]
+  },
+  {
+    "un": "UN0112",
+    "name": "Disulfoton",
+    "class": "6.1",
+    "cas": [
+      "298-04-4"
+    ]
+  },
+  {
+    "un": "UN0113",
+    "name": "Diuron",
+    "class": "6.1",
+    "cas": [
+      "330-54-1"
+    ]
+  },
+  {
+    "un": "UN0114",
+    "name": "Epichlorohydrin",
+    "class": "3",
+    "cas": [
+      "106-89-8"
+    ]
+  },
+  {
+    "un": "UN0115",
+    "name": "Ethyl acrylate",
+    "class": "3",
+    "cas": [
+      "140-88-5"
+    ]
+  },
+  {
+    "un": "UN0116",
+    "name": "Ethylamine",
+    "class": "3",
+    "cas": [
+      "75-04-7"
+    ]
+  },
+  {
+    "un": "UN0117",
+    "name": "Ethylenediamine",
+    "class": "8",
+    "cas": [
+      "107-15-3"
+    ]
+  },
+  {
+    "un": "UN0118",
+    "name": "Ethylene glycol dinitrate",
+    "class": "1.1D",
+    "cas": [
+      "628-96-6"
+    ]
+  },
+  {
+    "un": "UN0119",
+    "name": "Ethyleneimine",
+    "class": "3",
+    "cas": [
+      "151-56-4"
+    ]
+  },
+  {
+    "un": "UN0120",
+    "name": "Ethylene oxide",
+    "class": "2.1",
+    "cas": [
+      "75-21-8"
+    ]
+  },
+  {
+    "un": "UN0121",
+    "name": "Ferric chloride solution",
+    "class": "8",
+    "cas": [
+      "7705-08-0"
+    ]
+  },
+  {
+    "un": "UN0122",
+    "name": "Ferrous sulfate",
+    "class": "6.1",
+    "cas": [
+      "7720-78-7"
+    ]
+  },
+  {
+    "un": "UN0123",
+    "name": "Fluorine, compressed",
+    "class": "2.3",
+    "cas": [
+      "7782-41-4"
+    ]
+  },
+  {
+    "un": "UN0124",
+    "name": "Formaldehyde solution",
+    "class": "8",
+    "cas": [
+      "50-00-0"
+    ]
+  },
+  {
+    "un": "UN0125",
+    "name": "Formic acid",
+    "class": "8",
+    "cas": [
+      "64-18-6"
+    ]
+  },
+  {
+    "un": "UN0126",
+    "name": "Formic acid solution, not less than 85% acid",
+    "class": "8",
+    "cas": [
+      "64-18-6"
+    ]
+  },
+  {
+    "un": "UN0127",
+    "name": "Furfural",
+    "class": "6.1",
+    "cas": [
+      "98-01-1"
+    ]
+  },
+  {
+    "un": "UN0128",
+    "name": "Gasoline",
+    "class": "3",
+    "cas": [
+      "8006-61-9"
+    ]
+  },
+  {
+    "un": "UN0129",
+    "name": "Glyoxal",
+    "class": "8",
+    "cas": [
+      "107-22-2"
+    ]
+  },
+  {
+    "un": "UN0130",
+    "name": "Hexachloroethane",
+    "class": "6.1",
+    "cas": [
+      "67-72-1"
+    ]
+  },
+  {
+    "un": "UN0131",
+    "name": "Hexachlorobutadiene",
+    "class": "6.1",
+    "cas": [
+      "87-68-3"
+    ]
+  },
+  {
+    "un": "UN0132",
+    "name": "Hexachlorocyclopentadiene",
+    "class": "6.1",
+    "cas": [
+      "77-47-4"
+    ]
+  },
+  {
+    "un": "UN0133",
+    "name": "Hydrazine, anhydrous",
+    "class": "8",
+    "cas": [
+      "302-01-2"
+    ]
+  },
+  {
+    "un": "UN0134",
+    "name": "Hydriodic acid",
+    "class": "8",
+    "cas": [
+      "10034-85-2"
+    ]
+  },
+  {
+    "un": "UN0135",
+    "name": "Hydrobromic acid",
+    "class": "8",
+    "cas": [
+      "10035-10-6"
+    ]
+  },
+  {
+    "un": "UN0136",
+    "name": "Hydrochloric acid",
+    "class": "8",
+    "cas": [
+      "7647-01-0"
+    ]
+  },
+  {
+    "un": "UN0137",
+    "name": "Hydrofluoric acid",
+    "class": "8",
+    "cas": [
+      "7664-39-3"
+    ]
+  },
+  {
+    "un": "UN0138",
+    "name": "Hydrogen",
+    "class": "2.1",
+    "cas": [
+      "1333-74-0"
+    ]
+  },
+  {
+    "un": "UN0139",
+    "name": "Hydrogen bromide, anhydrous",
+    "class": "2.3",
+    "cas": [
+      "10035-10-6"
+    ]
+  },
+  {
+    "un": "UN0140",
+    "name": "Hydrogen chloride, anhydrous",
+    "class": "2.3",
+    "cas": [
+      "7647-01-0"
+    ]
+  },
+  {
+    "un": "UN0141",
+    "name": "Hydrogen cyanide, stabilized",
+    "class": "2.3",
+    "cas": [
+      "74-90-8"
+    ]
+  },
+  {
+    "un": "UN0142",
+    "name": "Hydrogen fluoride, anhydrous",
+    "class": "2.3",
+    "cas": [
+      "7664-39-3"
+    ]
+  },
+  {
+    "un": "UN0143",
+    "name": "Hydrogen iodide",
+    "class": "2.3",
+    "cas": [
+      "10034-85-2"
+    ]
+  },
+  {
+    "un": "UN0144",
+    "name": "Hydrogen peroxide, aqueous solution with more than 60% hydrogen peroxide",
+    "class": "5.1",
+    "cas": [
+      "7722-84-1"
+    ]
+  },
+  {
+    "un": "UN0145",
+    "name": "Hydrogen peroxide, aqueous solution with not less than 20% but not more than 60% hydrogen peroxide",
+    "class": "5.1",
+    "cas": [
+      "7722-84-1"
+    ]
+  },
+  {
+    "un": "UN0146",
+    "name": "Hydrogen peroxide, stabilized",
+    "class": "5.1",
+    "cas": [
+      "7722-84-1"
+    ]
+  },
+  {
+    "un": "UN0147",
+    "name": "Hydrogen sulfide",
+    "class": "2.3",
+    "cas": [
+      "7783-06-4"
+    ]
+  },
+  {
+    "un": "UN0148",
+    "name": "Hypochlorite solutions",
+    "class": "8",
+    "cas": [
+      "7681-52-9"
+    ]
+  },
+  {
+    "un": "UN0149",
+    "name": "Iodine",
+    "class": "8",
+    "cas": [
+      "7553-56-2"
+    ]
+  },
+  {
+    "un": "UN0150",
+    "name": "Isobutylamine",
+    "class": "3",
+    "cas": [
+      "78-81-9"
+    ]
+  },
+  {
+    "un": "UN0151",
+    "name": "Isophorone",
+    "class": "3",
+    "cas": [
+      "78-59-1"
+    ]
+  },
+  {
+    "un": "UN0152",
+    "name": "Isopropanol (Isopropyl alcohol)",
+    "class": "3",
+    "cas": [
+      "67-63-0"
+    ]
+  },
+  {
+    "un": "UN0153",
+    "name": "Isopropylamine",
+    "class": "3",
+    "cas": [
+      "75-31-0"
+    ]
+  },
+  {
+    "un": "UN0154",
+    "name": "Isopropyl nitrate",
+    "class": "3",
+    "cas": [
+      "1712-64-7"
+    ]
+  },
+  {
+    "un": "UN0155",
+    "name": "Kerosene",
+    "class": "3",
+    "cas": [
+      "8008-20-6"
+    ]
+  },
+  {
+    "un": "UN0156",
+    "name": "Lactic acid",
+    "class": "8",
+    "cas": [
+      "50-21-5"
+    ]
+  },
+  {
+    "un": "UN0157",
+    "name": "Lead acetate solution",
+    "class": "6.1",
+    "cas": [
+      "301-04-2"
+    ]
+  },
+  {
+    "un": "UN0158",
+    "name": "Lead nitrate",
+    "class": "5.1",
+    "cas": [
+      "10099-74-8"
+    ]
+  },
+  {
+    "un": "UN0159",
+    "name": "Lead oxide",
+    "class": "6.1",
+    "cas": [
+      "1317-36-8"
+    ]
+  },
+  {
+    "un": "UN0160",
+    "name": "Lead tetraethyl",
+    "class": "6.1",
+    "cas": [
+      "78-00-2"
+    ]
+  },
+  {
+    "un": "UN0161",
+    "name": "Lithium",
+    "class": "4.3",
+    "cas": [
+      "7439-93-2"
+    ]
+  },
+  {
+    "un": "UN0162",
+    "name": "Lithium aluminum hydride",
+    "class": "4.3",
+    "cas": [
+      "16853-85-3"
+    ]
+  },
+  {
+    "un": "UN0163",
+    "name": "Lithium hydride",
+    "class": "4.3",
+    "cas": [
+      "7580-67-8"
+    ]
+  },
+  {
+    "un": "UN0164",
+    "name": "Lithium nitrate",
+    "class": "5.1",
+    "cas": [
+      "7790-69-4"
+    ]
+  },
+  {
+    "un": "UN0165",
+    "name": "Magnesium",
+    "class": "4.1",
+    "cas": [
+      "7439-95-4"
+    ]
+  },
+  {
+    "un": "UN0166",
+    "name": "Magnesium nitrate",
+    "class": "5.1",
+    "cas": [
+      "10377-60-3"
+    ]
+  },
+  {
+    "un": "UN0167",
+    "name": "Maleic anhydride",
+    "class": "8",
+    "cas": [
+      "108-31-6"
+    ]
+  },
+  {
+    "un": "UN0170",
+    "name": "Mercuric chloride",
+    "class": "6.1",
+    "cas": [
+      "7487-94-7"
+    ]
+  },
+  {
+    "un": "UN0171",
+    "name": "Mercuric nitrate",
+    "class": "6.1",
+    "cas": [
+      "10045-94-0"
+    ]
+  },
+  {
+    "un": "UN0172",
+    "name": "Mercuric oxide",
+    "class": "6.1",
+    "cas": [
+      "21908-53-2"
+    ]
+  },
+  {
+    "un": "UN0173",
+    "name": "Mercurous chloride",
+    "class": "6.1",
+    "cas": [
+      "10112-91-1"
+    ]
+  },
+  {
+    "un": "UN0174",
+    "name": "Mercurous nitrate",
+    "class": "6.1",
+    "cas": [
+      "7783-34-8"
+    ]
+  },
+  {
+    "un": "UN0175",
+    "name": "Mercury",
+    "class": "8",
+    "cas": [
+      "7439-97-6"
+    ]
+  },
+  {
+    "un": "UN0178",
+    "name": "Methacrylic acid",
+    "class": "8",
+    "cas": [
+      "79-41-4"
+    ]
+  },
+  {
+    "un": "UN0179",
+    "name": "Methanol",
+    "class": "3",
+    "cas": [
+      "67-56-1"
+    ]
+  },
+  {
+    "un": "UN0180",
+    "name": "Methomyl",
+    "class": "6.1",
+    "cas": [
+      "16752-77-5"
+    ]
+  },
+  {
+    "un": "UN0181",
+    "name": "Methyl acrylate",
+    "class": "3",
+    "cas": [
+      "96-33-3"
+    ]
+  },
+  {
+    "un": "UN0182",
+    "name": "Methylamine, anhydrous",
+    "class": "2.1",
+    "cas": [
+      "74-89-5"
+    ]
+  },
+  {
+    "un": "UN0183",
+    "name": "Methyl bromide",
+    "class": "2.3",
+    "cas": [
+      "74-83-9"
+    ]
+  },
+  {
+    "un": "UN0184",
+    "name": "Methyl chloride",
+    "class": "2.1",
+    "cas": [
+      "74-87-3"
+    ]
+  },
+  {
+    "un": "UN0185",
+    "name": "Methyl ethyl ketone",
+    "class": "3",
+    "cas": [
+      "78-93-3"
+    ]
+  },
+  {
+    "un": "UN0186",
+    "name": "Methyl isobutyl ketone",
+    "class": "3",
+    "cas": [
+      "108-10-1"
+    ]
+  },
+  {
+    "un": "UN0187",
+    "name": "Methyl iodide",
+    "class": "6.1",
+    "cas": [
+      "74-88-4"
+    ]
+  },
+  {
+    "un": "UN0188",
+    "name": "Methyl methacrylate, stabilized",
+    "class": "3",
+    "cas": [
+      "80-62-6"
+    ]
+  },
+  {
+    "un": "UN0189",
+    "name": "Methyl tert-butyl ether",
+    "class": "3",
+    "cas": [
+      "1634-04-4"
+    ]
+  },
+  {
+    "un": "UN0190",
+    "name": "Methylamine solution",
+    "class": "8",
+    "cas": [
+      "74-89-5"
+    ]
+  },
+  {
+    "un": "UN0192",
+    "name": "Monochloroacetic acid",
+    "class": "6.1",
+    "cas": [
+      "79-11-8"
+    ]
+  },
+  {
+    "un": "UN0193",
+    "name": "Morpholine",
+    "class": "8",
+    "cas": [
+      "110-91-8"
+    ]
+  },
+  {
+    "un": "UN0194",
+    "name": "Napthalene",
+    "class": "4.1",
+    "cas": [
+      "91-20-3"
+    ]
+  },
+  {
+    "un": "UN0195",
+    "name": "Nickel carbonyl",
+    "class": "6.1",
+    "cas": [
+      "13463-39-3"
+    ]
+  },
+  {
+    "un": "UN0196",
+    "name": "Nicotine",
+    "class": "6.1",
+    "cas": [
+      "54-11-5"
+    ]
+  },
+  {
+    "un": "UN0197",
+    "name": "Nitric acid",
+    "class": "8",
+    "cas": [
+      "7697-37-2"
+    ]
+  },
+  {
+    "un": "UN0198",
+    "name": "Nitric acid, red fuming",
+    "class": "8",
+    "cas": [
+      "7697-37-2"
+    ]
+  },
+  {
+    "un": "UN0199",
+    "name": "Nitric oxide",
+    "class": "2.3",
+    "cas": [
+      "10102-43-9"
+    ]
+  },
+  {
+    "un": "UN0200",
+    "name": "Nitrobenzene",
+    "class": "6.1",
+    "cas": [
+      "98-95-3"
+    ]
+  },
+  {
+    "un": "UN0251",
+    "name": "Sodium peroxide",
+    "class": "5.1",
+    "cas": [
+      "1313-60-6"
+    ]
+  },
+  {
+    "un": "UN0252",
+    "name": "Sodium phosphate, monobasic",
+    "class": "8",
+    "cas": [
+      "7558-80-7"
+    ]
+  },
+  {
+    "un": "UN0253",
+    "name": "Sodium sulfide, anhydrous",
+    "class": "4.2",
+    "cas": [
+      "1313-82-2"
+    ]
+  },
+  {
+    "un": "UN0254",
+    "name": "Sodium sulfite",
+    "class": "8",
+    "cas": [
+      "7757-83-7"
+    ]
+  },
+  {
+    "un": "UN0255",
+    "name": "Stannic chloride",
+    "class": "8",
+    "cas": [
+      "7646-78-8"
+    ]
+  },
+  {
+    "un": "UN0256",
+    "name": "Stibine",
+    "class": "2.3",
+    "cas": [
+      "7803-52-3"
+    ]
+  },
+  {
+    "un": "UN0257",
+    "name": "Styrene monomer, stabilized",
+    "class": "3",
+    "cas": [
+      "100-42-5"
+    ]
+  },
+  {
+    "un": "UN0258",
+    "name": "Sulfur",
+    "class": "4.1",
+    "cas": [
+      "7704-34-9"
+    ]
+  },
+  {
+    "un": "UN0259",
+    "name": "Sulfur dioxide",
+    "class": "2.3",
+    "cas": [
+      "7446-09-5"
+    ]
+  },
+  {
+    "un": "UN0260",
+    "name": "Sulfur hexafluoride",
+    "class": "2.2",
+    "cas": [
+      "2551-62-4"
+    ]
+  },
+  {
+    "un": "UN0261",
+    "name": "Sulfuric acid",
+    "class": "8",
+    "cas": [
+      "7664-93-9"
+    ]
+  },
+  {
+    "un": "UN0262",
+    "name": "Sulfurous acid",
+    "class": "8",
+    "cas": [
+      "7782-99-2"
+    ]
+  },
+  {
+    "un": "UN0263",
+    "name": "Tannic acid",
+    "class": "6.1",
+    "cas": [
+      "1401-55-4"
+    ]
+  },
+  {
+    "un": "UN0264",
+    "name": "Tartaric acid",
+    "class": "8",
+    "cas": [
+      "87-69-4"
+    ]
+  },
+  {
+    "un": "UN0265",
+    "name": "Tellurium hexafluoride",
+    "class": "2.3",
+    "cas": [
+      "7783-80-4"
+    ]
+  },
+  {
+    "un": "UN0266",
+    "name": "Tetrachloroethylene",
+    "class": "6.1",
+    "cas": [
+      "127-18-4"
+    ]
+  },
+  {
+    "un": "UN0267",
+    "name": "Tetramethyllead",
+    "class": "6.1",
+    "cas": [
+      "75-74-1"
+    ]
+  },
+  {
+    "un": "UN0268",
+    "name": "Tetraethyllead",
+    "class": "6.1",
+    "cas": [
+      "78-00-2"
+    ]
+  },
+  {
+    "un": "UN0269",
+    "name": "Thionyl chloride",
+    "class": "8",
+    "cas": [
+      "7719-09-7"
+    ]
+  },
+  {
+    "un": "UN0270",
+    "name": "Thiourea",
+    "class": "6.1",
+    "cas": [
+      "62-56-6"
+    ]
+  },
+  {
+    "un": "UN0271",
+    "name": "Toluene",
+    "class": "3",
+    "cas": [
+      "108-88-3"
+    ]
+  },
+  {
+    "un": "UN0272",
+    "name": "Toluene diisocyanate",
+    "class": "6.1",
+    "cas": [
+      "26471-62-5"
+    ]
+  },
+  {
+    "un": "UN0273",
+    "name": "Trichloroethylene",
+    "class": "6.1",
+    "cas": [
+      "79-01-6"
+    ]
+  },
+  {
+    "un": "UN0274",
+    "name": "Triethanolamine",
+    "class": "8",
+    "cas": [
+      "102-71-6"
+    ]
+  },
+  {
+    "un": "UN0275",
+    "name": "Triethylamine",
+    "class": "3",
+    "cas": [
+      "121-44-8"
+    ]
+  },
+  {
+    "un": "UN0276",
+    "name": "Trimethylamine, anhydrous",
+    "class": "2.1",
+    "cas": [
+      "75-50-3"
+    ]
+  },
+  {
+    "un": "UN0277",
+    "name": "Urea nitrate",
+    "class": "1.1D",
+    "cas": [
+      "124-47-0"
+    ]
+  },
+  {
+    "un": "UN0278",
+    "name": "Uranium hexafluoride, radioactive material",
+    "class": "7",
+    "cas": [
+      "7783-81-5"
+    ]
+  },
+  {
+    "un": "UN0279",
+    "name": "Vanadium pentoxide",
+    "class": "6.1",
+    "cas": [
+      "1314-62-1"
+    ]
+  },
+  {
+    "un": "UN0280",
+    "name": "Vinyl acetate, stabilized",
+    "class": "3",
+    "cas": [
+      "108-05-4"
+    ]
+  },
+  {
+    "un": "UN0281",
+    "name": "Vinyl chloride, stabilized",
+    "class": "2.1",
+    "cas": [
+      "75-01-4"
+    ]
+  },
+  {
+    "un": "UN0282",
+    "name": "Xylene",
+    "class": "3",
+    "cas": [
+      "1330-20-7"
+    ]
+  },
+  {
+    "un": "UN0283",
+    "name": "Zinc phosphide",
+    "class": "6.1",
+    "cas": [
+      "1314-84-7"
+    ]
+  },
+  {
+    "un": "UN0284",
+    "name": "Zinc powder",
+    "class": "4.3",
+    "cas": [
+      "7440-66-6"
+    ]
+  },
+  {
+    "un": "UN0285",
+    "name": "Zirconium powder, wetted",
+    "class": "4.1",
+    "cas": [
+      "7440-67-7"
+    ]
+  },
+  {
+    "un": "UN0301",
+    "name": "Ammonium nitrate and fuel oil mixture (ANFO)",
+    "class": "1.1D",
+    "cas": [
+      "6484-52-2"
+    ]
+  },
+  {
+    "un": "UN1001",
+    "name": "Acetylene, dissolved",
+    "class": "2.1",
+    "cas": [
+      "74-86-2"
+    ]
+  },
+  {
+    "un": "UN1003",
+    "name": "Ammonia, anhydrous",
+    "class": "2.3",
+    "cas": [
+      "7664-41-7"
+    ]
+  },
+  {
+    "un": "UN1004",
+    "name": "Ammonia, solutions (more than 50% ammonia)",
+    "class": "2.3",
+    "cas": [
+      "1336-21-6"
+    ]
+  },
+  {
+    "un": "UN1005",
+    "name": "Ammonium allylsulfonate",
+    "class": "4.1",
+    "cas": [
+      "2495-39-8"
+    ]
+  },
+  {
+    "un": "UN1006",
+    "name": "Argon, compressed",
+    "class": "2.2",
+    "cas": [
+      "7440-37-1"
+    ]
+  },
+  {
+    "un": "UN1007",
+    "name": "Argon, refrigerated liquid",
+    "class": "2.2",
+    "cas": [
+      "7440-37-1"
+    ]
+  },
+  {
+    "un": "UN1008",
+    "name": "Asphalt, liquid",
+    "class": "3",
+    "cas": [
+      "8052-42-4"
+    ]
+  },
+  {
+    "un": "UN1009",
+    "name": "Boron trifluoride",
+    "class": "2.3",
+    "cas": [
+      "7637-07-2"
+    ]
+  },
+  {
+    "un": "UN1010",
+    "name": "Butadienes, stabilized",
+    "class": "2.1",
+    "cas": [
+      "106-99-0"
+    ]
+  },
+  {
+    "un": "UN1011",
+    "name": "Butane",
+    "class": "2.1",
+    "cas": [
+      "106-97-8"
+    ]
+  },
+  {
+    "un": "UN1012",
+    "name": "Butylene",
+    "class": "2.1",
+    "cas": [
+      "106-98-9"
+    ]
+  },
+  {
+    "un": "UN1013",
+    "name": "Carbon dioxide",
+    "class": "2.2",
+    "cas": [
+      "124-38-9"
+    ]
+  },
+  {
+    "un": "UN1014",
+    "name": "Carbon monoxide, compressed",
+    "class": "2.3",
+    "cas": [
+      "630-08-0"
+    ]
+  },
+  {
+    "un": "UN1015",
+    "name": "Chlorine",
+    "class": "2.3",
+    "cas": [
+      "7782-50-5"
+    ]
+  },
+  {
+    "un": "UN1016",
+    "name": "Chlorodifluoromethane",
+    "class": "2.2",
+    "cas": [
+      "75-45-6"
+    ]
+  },
+  {
+    "un": "UN1017",
+    "name": "Chlorine trifluoride",
+    "class": "2.3",
+    "cas": [
+      "7790-91-2"
+    ]
+  },
+  {
+    "un": "UN1018",
+    "name": "Cyclopropane",
+    "class": "2.1",
+    "cas": [
+      "75-19-4"
+    ]
+  },
+  {
+    "un": "UN1019",
+    "name": "Chlorotrifluoromethane",
+    "class": "2.2",
+    "cas": [
+      "75-72-9"
+    ]
+  },
+  {
+    "un": "UN1020",
+    "name": "Dichlorodifluoromethane",
+    "class": "2.2",
+    "cas": [
+      "75-71-8"
+    ]
+  },
+  {
+    "un": "UN1021",
+    "name": "Dimethylamine, anhydrous",
+    "class": "2.1",
+    "cas": [
+      "124-40-3"
+    ]
+  },
+  {
+    "un": "UN1022",
+    "name": "Ethane",
+    "class": "2.1",
+    "cas": [
+      "74-84-0"
+    ]
+  },
+  {
+    "un": "UN1023",
+    "name": "Ethyl chloride",
+    "class": "2.1",
+    "cas": [
+      "75-00-3"
+    ]
+  },
+  {
+    "un": "UN1024",
+    "name": "Ethylene",
+    "class": "2.1",
+    "cas": [
+      "74-85-1"
+    ]
+  },
+  {
+    "un": "UN1025",
+    "name": "Ethylene oxide",
+    "class": "2.3",
+    "cas": [
+      "75-21-8"
+    ]
+  },
+  {
+    "un": "UN1026",
+    "name": "Hydrogen, compressed",
+    "class": "2.1",
+    "cas": [
+      "1333-74-0"
+    ]
+  },
+  {
+    "un": "UN1027",
+    "name": "Hydrogen chloride, anhydrous",
+    "class": "2.3",
+    "cas": [
+      "7647-01-0"
+    ]
+  },
+  {
+    "un": "UN1028",
+    "name": "Isobutane",
+    "class": "2.1",
+    "cas": [
+      "75-28-5"
+    ]
+  },
+  {
+    "un": "UN1029",
+    "name": "Isobutylene",
+    "class": "2.1",
+    "cas": [
+      "115-11-7"
+    ]
+  },
+  {
+    "un": "UN1030",
+    "name": "Isopentane",
+    "class": "3",
+    "cas": [
+      "78-78-4"
+    ]
+  },
+  {
+    "un": "UN1031",
+    "name": "Isoprene, stabilized",
+    "class": "3",
+    "cas": [
+      "78-79-5"
+    ]
+  },
+  {
+    "un": "UN1032",
+    "name": "Krypton, compressed",
+    "class": "2.2",
+    "cas": [
+      "7439-90-9"
+    ]
+  },
+  {
+    "un": "UN1035",
+    "name": "Lithium hydride",
+    "class": "4.3",
+    "cas": [
+      "7580-67-8"
+    ]
+  },
+  {
+    "un": "UN1037",
+    "name": "Methyl bromide",
+    "class": "2.3",
+    "cas": [
+      "74-83-9"
+    ]
+  },
+  {
+    "un": "UN1038",
+    "name": "Methyl chloride",
+    "class": "2.1",
+    "cas": [
+      "74-87-3"
+    ]
+  },
+  {
+    "un": "UN1039",
+    "name": "Methylamine, anhydrous",
+    "class": "2.1",
+    "cas": [
+      "74-89-5"
+    ]
+  },
+  {
+    "un": "UN1040",
+    "name": "Methyl mercaptan",
+    "class": "2.3",
+    "cas": [
+      "74-93-1"
+    ]
+  },
+  {
+    "un": "UN1041",
+    "name": "Methylacetylene, stabilized",
+    "class": "2.1",
+    "cas": [
+      "74-99-7"
+    ]
+  },
+  {
+    "un": "UN1042",
+    "name": "Methylal",
+    "class": "3",
+    "cas": [
+      "109-87-5"
+    ]
+  },
+  {
+    "un": "UN1043",
+    "name": "Methylamine solution",
+    "class": "3",
+    "cas": [
+      "74-89-5"
+    ]
+  },
+  {
+    "un": "UN1044",
+    "name": "Monochlorotrifluoromethane",
+    "class": "2.2",
+    "cas": [
+      "75-72-9"
+    ]
+  },
+  {
+    "un": "UN1045",
+    "name": "Nitric oxide",
+    "class": "2.3",
+    "cas": [
+      "10102-43-9"
+    ]
+  },
+  {
+    "un": "UN1046",
+    "name": "Nitrogen, compressed",
+    "class": "2.2",
+    "cas": [
+      "7727-37-9"
+    ]
+  },
+  {
+    "un": "UN1047",
+    "name": "Nitrogen, refrigerated liquid",
+    "class": "2.2",
+    "cas": [
+      "7727-37-9"
+    ]
+  },
+  {
+    "un": "UN1048",
+    "name": "Nitrous oxide",
+    "class": "2.2",
+    "cas": [
+      "10024-97-2"
+    ]
+  },
+  {
+    "un": "UN1049",
+    "name": "Oxirane (ethylene oxide), stabilized",
+    "class": "2.3",
+    "cas": [
+      "75-21-8"
+    ]
+  },
+  {
+    "un": "UN1050",
+    "name": "Phosgene",
+    "class": "2.3",
+    "cas": [
+      "75-44-5"
+    ]
+  },
+  {
+    "un": "UN1051",
+    "name": "Phosphine",
+    "class": "2.3",
+    "cas": [
+      "7803-51-2"
+    ]
+  },
+  {
+    "un": "UN1052",
+    "name": "Phosphorus oxychloride",
+    "class": "6.1",
+    "cas": [
+      "10025-87-3"
+    ]
+  },
+  {
+    "un": "UN1053",
+    "name": "Phosphorus pentachloride",
+    "class": "8",
+    "cas": [
+      "10026-13-8"
+    ]
+  },
+  {
+    "un": "UN1054",
+    "name": "Phosphorus trichloride",
+    "class": "6.1",
+    "cas": [
+      "7719-12-2"
+    ]
+  },
+  {
+    "un": "UN1055",
+    "name": "Propadiene, stabilized",
+    "class": "2.1",
+    "cas": [
+      "463-49-0"
+    ]
+  },
+  {
+    "un": "UN1056",
+    "name": "Propane",
+    "class": "2.1",
+    "cas": [
+      "74-98-6"
+    ]
+  },
+  {
+    "un": "UN1058",
+    "name": "Propylene",
+    "class": "2.1",
+    "cas": [
+      "115-07-1"
+    ]
+  },
+  {
+    "un": "UN1059",
+    "name": "Sarin, stabilized",
+    "class": "6.1",
+    "cas": [
+      "107-44-8"
+    ]
+  },
+  {
+    "un": "UN1060",
+    "name": "Silane",
+    "class": "2.1",
+    "cas": [
+      "7803-62-5"
+    ]
+  },
+  {
+    "un": "UN1061",
+    "name": "Silicon tetrafluoride",
+    "class": "2.3",
+    "cas": [
+      "7783-61-1"
+    ]
+  },
+  {
+    "un": "UN1062",
+    "name": "Stibine",
+    "class": "2.3",
+    "cas": [
+      "7803-52-3"
+    ]
+  },
+  {
+    "un": "UN1063",
+    "name": "Sulfur dioxide",
+    "class": "2.3",
+    "cas": [
+      "7446-09-5"
+    ]
+  },
+  {
+    "un": "UN1064",
+    "name": "Sulfur hexafluoride",
+    "class": "2.2",
+    "cas": [
+      "2551-62-4"
+    ]
+  },
+  {
+    "un": "UN1065",
+    "name": "Tetrafluoroethylene, stabilized",
+    "class": "2.1",
+    "cas": [
+      "116-14-3"
+    ]
+  },
+  {
+    "un": "UN1066",
+    "name": "Nitrogen trifluoride",
+    "class": "2.2",
+    "cas": [
+      "7783-54-2"
+    ]
+  },
+  {
+    "un": "UN1067",
+    "name": "Trichlorosilane",
+    "class": "4.3",
+    "cas": [
+      "10025-78-2"
+    ]
+  },
+  {
+    "un": "UN1068",
+    "name": "Vinyl chloride, stabilized",
+    "class": "2.1",
+    "cas": [
+      "75-01-4"
+    ]
+  },
+  {
+    "un": "UN1069",
+    "name": "Vinyl fluoride",
+    "class": "2.1",
+    "cas": [
+      "75-02-5"
+    ]
+  },
+  {
+    "un": "UN1070",
+    "name": "Vinyl methyl ether, stabilized",
+    "class": "2.1",
+    "cas": [
+      "107-25-5"
+    ]
+  },
+  {
+    "un": "UN1071",
+    "name": "Butadienes, stabilized",
+    "class": "2.1",
+    "cas": [
+      "106-99-0"
+    ]
+  },
+  {
+    "un": "UN1072",
+    "name": "Oxygen, compressed",
+    "class": "2.2",
+    "cas": [
+      "7782-44-7"
+    ]
+  },
+  {
+    "un": "UN1073",
+    "name": "Oxygen, refrigerated liquid",
+    "class": "2.2",
+    "cas": [
+      "7782-44-7"
+    ]
+  },
+  {
+    "un": "UN1074",
+    "name": "Dichlorodifluoromethane",
+    "class": "2.2",
+    "cas": [
+      "75-71-8"
+    ]
+  },
+  {
+    "un": "UN1075",
+    "name": "Petroleum gases, liquefied or Liquefied petroleum gas (LPG)",
+    "class": "2.1",
+    "cas": [
+      "68476-85-7"
+    ]
+  },
+  {
+    "un": "UN1076",
+    "name": "Pentafluoroethane",
+    "class": "2.2",
+    "cas": [
+      "354-33-6"
+    ]
+  },
+  {
+    "un": "UN1077",
+    "name": "Propylene oxide",
+    "class": "3",
+    "cas": [
+      "75-56-9"
+    ]
+  },
+  {
+    "un": "UN1078",
+    "name": "Refrigerant gas R 12",
+    "class": "2.2",
+    "cas": [
+      "75-71-8"
+    ]
+  },
+  {
+    "un": "UN1079",
+    "name": "Sulfur tetrafluoride",
+    "class": "2.3",
+    "cas": [
+      "7783-60-0"
+    ]
+  },
+  {
+    "un": "UN1080",
+    "name": "Tetrafluoroethylene",
+    "class": "2.1",
+    "cas": [
+      "116-14-3"
+    ]
+  },
+  {
+    "un": "UN1081",
+    "name": "Tetrafluoromethane",
+    "class": "2.2",
+    "cas": [
+      "75-73-0"
+    ]
+  },
+  {
+    "un": "UN1082",
+    "name": "Tetrahydrofuran",
+    "class": "3",
+    "cas": [
+      "109-99-9"
+    ]
+  },
+  {
+    "un": "UN1083",
+    "name": "Trifluoromethane",
+    "class": "2.2",
+    "cas": [
+      "75-46-7"
+    ]
+  },
+  {
+    "un": "UN1084",
+    "name": "Trifluoroethane",
+    "class": "2.2",
+    "cas": [
+      "420-46-2"
+    ]
+  },
+  {
+    "un": "UN1085",
+    "name": "Vinyl acetate, stabilized",
+    "class": "3",
+    "cas": [
+      "108-05-4"
+    ]
+  },
+  {
+    "un": "UN1086",
+    "name": "Vinyl bromide, stabilized",
+    "class": "2.1",
+    "cas": [
+      "593-60-2"
+    ]
+  },
+  {
+    "un": "UN1087",
+    "name": "Vinyl ethyl ether, stabilized",
+    "class": "2.1",
+    "cas": [
+      "109-92-2"
+    ]
+  },
+  {
+    "un": "UN1088",
+    "name": "Vinylidene chloride, stabilized",
+    "class": "3",
+    "cas": [
+      "75-35-4"
+    ]
+  },
+  {
+    "un": "UN1089",
+    "name": "Zinc bromide solution",
+    "class": "8",
+    "cas": [
+      "7699-45-8"
+    ]
+  },
+  {
+    "un": "UN1090",
+    "name": "Acetone",
+    "class": "3",
+    "cas": [
+      "67-64-1"
+    ]
+  },
+  {
+    "un": "UN1092",
+    "name": "Acetone cyanohydrin, stabilized",
+    "class": "6.1",
+    "cas": [
+      "75-86-5"
+    ]
+  },
+  {
+    "un": "UN1093",
+    "name": "Acetonitrile",
+    "class": "3",
+    "cas": [
+      "75-05-8"
+    ]
+  },
+  {
+    "un": "UN1094",
+    "name": "Acetone thiosemicarbazone",
+    "class": "6.1",
+    "cas": [
+      "97-18-7"
+    ]
+  },
+  {
+    "un": "UN1095",
+    "name": "Allyl alcohol",
+    "class": "6.1",
+    "cas": [
+      "107-18-6"
+    ]
+  },
+  {
+    "un": "UN1096",
+    "name": "Allylamine",
+    "class": "3",
+    "cas": [
+      "107-11-9"
+    ]
+  },
+  {
+    "un": "UN1097",
+    "name": "Allyl chloride",
+    "class": "3",
+    "cas": [
+      "107-05-1"
+    ]
+  },
+  {
+    "un": "UN1098",
+    "name": "Allyl isothiocyanate",
+    "class": "6.1",
+    "cas": [
+      "57-06-7"
+    ]
+  },
+  {
+    "un": "UN1100",
+    "name": "Aluminum nitrate, solid",
+    "class": "5.1",
+    "cas": [
+      "13473-90-0"
+    ]
+  },
+  {
+    "un": "UN1101",
+    "name": "Aluminum phosphide",
+    "class": "4.3",
+    "cas": [
+      "20859-73-8"
+    ]
+  },
+  {
+    "un": "UN1102",
+    "name": "Ammonia solution, relative density less than 0.880 at 15\u00b0C in water, with more than 10% but not more than 35% ammonia",
+    "class": "8",
+    "cas": [
+      "1336-21-6"
+    ]
+  },
+  {
+    "un": "UN1103",
+    "name": "Ammonia solution, relative density less than 0.880 at 15\u00b0C in water, with more than 35% ammonia",
+    "class": "2.2",
+    "cas": [
+      "1336-21-6"
+    ]
+  },
+  {
+    "un": "UN1104",
+    "name": "Ammonium bifluoride",
+    "class": "8",
+    "cas": [
+      "1341-49-7"
+    ]
+  },
+  {
+    "un": "UN1105",
+    "name": "Ammonium chlorate",
+    "class": "5.1",
+    "cas": [
+      "10192-29-7"
+    ]
+  },
+  {
+    "un": "UN1106",
+    "name": "Ammonium dichromate",
+    "class": "5.1",
+    "cas": [
+      "7789-09-5"
+    ]
+  },
+  {
+    "un": "UN1107",
+    "name": "Ammonium nitrate",
+    "class": "5.1",
+    "cas": [
+      "6484-52-2"
+    ]
+  },
+  {
+    "un": "UN1108",
+    "name": "Ammonium nitrate with not more than 0.2% combustible substances, including any organic substance calculated as carbon, to the exclusion of any other added substance",
+    "class": "5.1",
+    "cas": [
+      "6484-52-2"
+    ]
+  },
+  {
+    "un": "UN1109",
+    "name": "Ammonium nitrate with not more than 0.4% total combustible substances, including any organic substance calculated as carbon, to the exclusion of any other added substance",
+    "class": "5.1",
+    "cas": [
+      "6484-52-2"
+    ]
+  },
+  {
+    "un": "UN1110",
+    "name": "Ammonium nitrate fertilizer",
+    "class": "5.1",
+    "cas": [
+      "6484-52-2"
+    ]
+  },
+  {
+    "un": "UN1111",
+    "name": "Ammonium nitrate based fertilizer, uniform mixture",
+    "class": "5.1",
+    "cas": [
+      "6484-52-2"
+    ]
+  },
+  {
+    "un": "UN1113",
+    "name": "Ammonium permanganate",
+    "class": "5.1",
+    "cas": [
+      "7787-36-2"
+    ]
+  },
+  {
+    "un": "UN1114",
+    "name": "Amyl nitrate",
+    "class": "3",
+    "cas": [
+      "1002-16-0"
+    ]
+  },
+  {
+    "un": "UN1115",
+    "name": "Amylamine",
+    "class": "3",
+    "cas": [
+      "110-58-7"
+    ]
+  },
+  {
+    "un": "UN1116",
+    "name": "Aniline",
+    "class": "6.1",
+    "cas": [
+      "62-53-3"
+    ]
+  },
+  {
+    "un": "UN1118",
+    "name": "Animal charcoal",
+    "class": "4.2",
+    "cas": [
+      "7783-94-0"
+    ]
+  },
+  {
+    "un": "UN1119",
+    "name": "Antimony pentafluoride",
+    "class": "6.1",
+    "cas": [
+      "7783-70-2"
+    ]
+  },
+  {
+    "un": "UN1120",
+    "name": "Antimony trichloride",
+    "class": "8",
+    "cas": [
+      "10025-91-9"
+    ]
+  },
+  {
+    "un": "UN1121",
+    "name": "Arsenic trioxide",
+    "class": "6.1",
+    "cas": [
+      "1327-53-3"
+    ]
+  },
+  {
+    "un": "UN1122",
+    "name": "Arsenic acid solution",
+    "class": "8",
+    "cas": [
+      "7778-39-4"
+    ]
+  },
+  {
+    "un": "UN1126",
+    "name": "Asbestos, amphibole (amosite, tremolite, actinolite, anthophyllite)",
+    "class": "9",
+    "cas": [
+      "12172-73-5",
+      "77536-68-6",
+      "77536-66-4",
+      "77536-67-5"
+    ]
+  },
+  {
+    "un": "UN1127",
+    "name": "Asbestos, chrysotile",
+    "class": "9",
+    "cas": [
+      "12001-29-5"
+    ]
+  },
+  {
+    "un": "UN1128",
+    "name": "Butyraldehyde",
+    "class": "3",
+    "cas": [
+      "123-72-8"
+    ]
+  },
+  {
+    "un": "UN1129",
+    "name": "Acetaldehyde",
+    "class": "3",
+    "cas": [
+      "75-07-0"
+    ]
+  },
+  {
+    "un": "UN1130",
+    "name": "Ethanol or Ethanol solutions",
+    "class": "3",
+    "cas": [
+      "64-17-5"
+    ]
+  },
+  {
+    "un": "UN1131",
+    "name": "Methanol",
+    "class": "3",
+    "cas": [
+      "67-56-1"
+    ]
+  },
+  {
+    "un": "UN1132",
+    "name": "Butanol or isomers",
+    "class": "3",
+    "cas": [
+      "71-36-3",
+      "78-92-2",
+      "75-65-0",
+      "123-51-3"
+    ]
+  },
+  {
+    "un": "UN1136",
+    "name": "Ammonia solution, with more than 35% ammonia",
+    "class": "2.2",
+    "cas": [
+      "1336-21-6"
+    ]
+  },
+  {
+    "un": "UN1137",
+    "name": "Battery fluid, acid",
+    "class": "8",
+    "cas": [
+      "7664-93-9"
+    ]
+  },
+  {
+    "un": "UN1138",
+    "name": "Battery fluid, alkali",
+    "class": "8",
+    "cas": [
+      "1310-73-2"
+    ]
+  },
+  {
+    "un": "UN1139",
+    "name": "Benzyl chloride",
+    "class": "6.1",
+    "cas": [
+      "100-44-7"
+    ]
+  },
+  {
+    "un": "UN1140",
+    "name": "Butyl acrylate, stabilized",
+    "class": "3",
+    "cas": [
+      "141-32-2"
+    ]
+  },
+  {
+    "un": "UN1141",
+    "name": "Crotonaldehyde",
+    "class": "6.1",
+    "cas": [
+      "4170-30-3"
+    ]
+  },
+  {
+    "un": "UN1142",
+    "name": "Diethyl ether",
+    "class": "3",
+    "cas": [
+      "60-29-7"
+    ]
+  },
+  {
+    "un": "UN1143",
+    "name": "Dimethyl ether",
+    "class": "2.1",
+    "cas": [
+      "115-10-6"
+    ]
+  },
+  {
+    "un": "UN1144",
+    "name": "Ethyl acrylate, stabilized",
+    "class": "3",
+    "cas": [
+      "140-88-5"
+    ]
+  },
+  {
+    "un": "UN1145",
+    "name": "Formaldehyde solution, flammable",
+    "class": "3",
+    "cas": [
+      "50-00-0"
+    ]
+  },
+  {
+    "un": "UN1146",
+    "name": "Formic acid",
+    "class": "8",
+    "cas": [
+      "64-18-6"
+    ]
+  },
+  {
+    "un": "UN1147",
+    "name": "Furfural",
+    "class": "6.1",
+    "cas": [
+      "98-01-1"
+    ]
+  },
+  {
+    "un": "UN1150",
+    "name": "Hexane",
+    "class": "3",
+    "cas": [
+      "110-54-3"
+    ]
+  },
+  {
+    "un": "UN1151",
+    "name": "Hydroquinone",
+    "class": "6.1",
+    "cas": [
+      "123-31-9"
+    ]
+  },
+  {
+    "un": "UN1152",
+    "name": "Isobutyl acetate",
+    "class": "3",
+    "cas": [
+      "110-19-0"
+    ]
+  },
+  {
+    "un": "UN1153",
+    "name": "Isophorone",
+    "class": "3",
+    "cas": [
+      "78-59-1"
+    ]
+  },
+  {
+    "un": "UN1154",
+    "name": "Isopropyl acetate",
+    "class": "3",
+    "cas": [
+      "108-21-4"
+    ]
+  },
+  {
+    "un": "UN1155",
+    "name": "Isopropylamine",
+    "class": "3",
+    "cas": [
+      "75-31-0"
+    ]
+  },
+  {
+    "un": "UN1157",
+    "name": "Methyl acetate",
+    "class": "3",
+    "cas": [
+      "79-20-9"
+    ]
+  },
+  {
+    "un": "UN1158",
+    "name": "Methyl acrylate, stabilized",
+    "class": "3",
+    "cas": [
+      "96-33-3"
+    ]
+  },
+  {
+    "un": "UN1159",
+    "name": "Methyl ethyl ketone peroxide, Type B, liquid",
+    "class": "5.2",
+    "cas": [
+      "1338-23-4"
+    ]
+  },
+  {
+    "un": "UN1160",
+    "name": "Methyl ethyl ketone peroxide, Type C, liquid",
+    "class": "5.2",
+    "cas": [
+      "1338-23-4"
+    ]
+  },
+  {
+    "un": "UN1161",
+    "name": "Nitromethane",
+    "class": "3",
+    "cas": [
+      "75-52-5"
+    ]
+  },
+  {
+    "un": "UN1162",
+    "name": "Octane",
+    "class": "3",
+    "cas": [
+      "111-65-9"
+    ]
+  },
+  {
+    "un": "UN1164",
+    "name": "Perchloric acid, with more than 50% but not more than 72% acid",
+    "class": "5.1",
+    "cas": [
+      "7601-90-3"
+    ]
+  },
+  {
+    "un": "UN1165",
+    "name": "Phenol solution",
+    "class": "6.1",
+    "cas": [
+      "108-95-2"
+    ]
+  },
+  {
+    "un": "UN1168",
+    "name": "Petroleum gases, liquefied",
+    "class": "2.1",
+    "cas": [
+      "68476-85-7"
+    ]
+  },
+  {
+    "un": "UN1170",
+    "name": "Ethanol or Ethanol solutions (same as UN1130)",
+    "class": "3",
+    "cas": [
+      "64-17-5"
+    ]
+  },
+  {
+    "un": "UN1172",
+    "name": "Tetrahydrofuran, stabilized",
+    "class": "3",
+    "cas": [
+      "109-99-9"
+    ]
+  },
+  {
+    "un": "UN1173",
+    "name": "Trichloroethylene",
+    "class": "6.1",
+    "cas": [
+      "79-01-6"
+    ]
+  },
+  {
+    "un": "UN1174",
+    "name": "Toluene diisocyanate",
+    "class": "6.1",
+    "cas": [
+      "26471-62-5"
+    ]
+  },
+  {
+    "un": "UN1175",
+    "name": "Toluene",
+    "class": "3",
+    "cas": [
+      "108-88-3"
+    ]
+  },
+  {
+    "un": "UN1176",
+    "name": "Trimethylamine, anhydrous",
+    "class": "2.1",
+    "cas": [
+      "75-50-3"
+    ]
+  },
+  {
+    "un": "UN1177",
+    "name": "Trioxane",
+    "class": "3",
+    "cas": [
+      "110-88-3"
+    ]
+  },
+  {
+    "un": "UN1179",
+    "name": "Formic acid",
+    "class": "8",
+    "cas": [
+      "64-18-6"
+    ]
+  },
+  {
+    "un": "UN1180",
+    "name": "Hydrofluorosilicic acid",
+    "class": "8",
+    "cas": [
+      "16961-83-4"
+    ]
+  },
+  {
+    "un": "UN1181",
+    "name": "Ethylene dibromide",
+    "class": "6.1",
+    "cas": [
+      "106-93-4"
+    ]
+  },
+  {
+    "un": "UN1182",
+    "name": "Ethylene dichloride",
+    "class": "3",
+    "cas": [
+      "107-06-2"
+    ]
+  },
+  {
+    "un": "UN1183",
+    "name": "Ethylene glycol dinitrate",
+    "class": "1.1D",
+    "cas": [
+      "628-96-6"
+    ]
+  },
+  {
+    "un": "UN1187",
+    "name": "Ethylene oxide",
+    "class": "2.3",
+    "cas": [
+      "75-21-8"
+    ]
+  },
+  {
+    "un": "UN1188",
+    "name": "Acetylene, dissolved",
+    "class": "2.1",
+    "cas": [
+      "74-86-2"
+    ]
+  },
+  {
+    "un": "UN1189",
+    "name": "Acetylene, solvent-free",
+    "class": "2.1",
+    "cas": [
+      "74-86-2"
+    ]
+  },
+  {
+    "un": "UN1190",
+    "name": "Benzene",
+    "class": "3",
+    "cas": [
+      "71-43-2"
+    ]
+  },
+  {
+    "un": "UN1191",
+    "name": "Cyclohexanone",
+    "class": "3",
+    "cas": [
+      "108-94-1"
+    ]
+  },
+  {
+    "un": "UN1192",
+    "name": "Diethylamine",
+    "class": "3",
+    "cas": [
+      "109-89-7"
+    ]
+  },
+  {
+    "un": "UN1193",
+    "name": "Ethyl methyl ketone (MEK)",
+    "class": "3",
+    "cas": [
+      "78-93-3"
+    ]
+  },
+  {
+    "un": "UN1194",
+    "name": "Ethyl nitrate",
+    "class": "1.1D",
+    "cas": [
+      "625-58-1"
+    ]
+  },
+  {
+    "un": "UN1195",
+    "name": "Ethylamine, anhydrous",
+    "class": "2.1",
+    "cas": [
+      "75-04-7"
+    ]
+  },
+  {
+    "un": "UN1196",
+    "name": "Formaldehyde solutions, flammable",
+    "class": "3",
+    "cas": [
+      "50-00-0"
+    ]
+  },
+  {
+    "un": "UN1197",
+    "name": "Formaldehyde solutions, non-flammable",
+    "class": "8",
+    "cas": [
+      "50-00-0"
+    ]
+  },
+  {
+    "un": "UN1198",
+    "name": "Hydrazine, aqueous solution",
+    "class": "8",
+    "cas": [
+      "302-01-2"
+    ]
+  },
+  {
+    "un": "UN1199",
+    "name": "Hydrazine, anhydrous",
+    "class": "6.1",
+    "cas": [
+      "302-01-2"
+    ]
+  },
+  {
+    "un": "UN1200",
+    "name": "Gasoline",
+    "class": "3",
+    "cas": [
+      "8006-61-9"
+    ]
+  },
+  {
+    "un": "UN1201",
+    "name": "Hexane",
+    "class": "3",
+    "cas": [
+      "110-54-3"
+    ]
+  },
+  {
+    "un": "UN1202",
+    "name": "Diesel fuel",
+    "class": "3",
+    "cas": [
+      "68334-30-5"
+    ]
+  },
+  {
+    "un": "UN1203",
+    "name": "Gasoline motor spirit or petrol",
+    "class": "3",
+    "cas": [
+      "8006-61-9"
+    ]
+  },
+  {
+    "un": "UN1204",
+    "name": "Nitroglycerin, solution in alcohol",
+    "class": "1.1D",
+    "cas": [
+      "55-63-0"
+    ]
+  },
+  {
+    "un": "UN1205",
+    "name": "Hexyl nitrate",
+    "class": "3",
+    "cas": [
+      "628-99-9"
+    ]
+  },
+  {
+    "un": "UN1206",
+    "name": "Heptanes",
+    "class": "3",
+    "cas": [
+      "142-82-5"
+    ]
+  },
+  {
+    "un": "UN1208",
+    "name": "Isopentane",
+    "class": "3",
+    "cas": [
+      "78-78-4"
+    ]
+  },
+  {
+    "un": "UN1209",
+    "name": "Isoprene, stabilized",
+    "class": "3",
+    "cas": [
+      "78-79-5"
+    ]
+  },
+  {
+    "un": "UN1211",
+    "name": "Isobutylene",
+    "class": "2.1",
+    "cas": [
+      "115-11-7"
+    ]
+  },
+  {
+    "un": "UN1212",
+    "name": "Isobutyl acetate",
+    "class": "3",
+    "cas": [
+      "110-19-0"
+    ]
+  },
+  {
+    "un": "UN1213",
+    "name": "Isobutyl alcohol",
+    "class": "3",
+    "cas": [
+      "78-83-1"
+    ]
+  },
+  {
+    "un": "UN1214",
+    "name": "Isobutyraldehyde",
+    "class": "3",
+    "cas": [
+      "78-84-2"
+    ]
+  },
+  {
+    "un": "UN1215",
+    "name": "Isopropylamine",
+    "class": "3",
+    "cas": [
+      "75-31-0"
+    ]
+  },
+  {
+    "un": "UN1216",
+    "name": "Isopropyl chloride",
+    "class": "3",
+    "cas": [
+      "75-29-6"
+    ]
+  },
+  {
+    "un": "UN1217",
+    "name": "Isopropyl ether",
+    "class": "3",
+    "cas": [
+      "108-20-3"
+    ]
+  },
+  {
+    "un": "UN1218",
+    "name": "Isopropyl nitrate, stabilized",
+    "class": "3",
+    "cas": [
+      "1712-64-7"
+    ]
+  },
+  {
+    "un": "UN1219",
+    "name": "Isopropanol (Isopropyl alcohol)",
+    "class": "3",
+    "cas": [
+      "67-63-0"
+    ]
+  },
+  {
+    "un": "UN1220",
+    "name": "Isopropyl formate",
+    "class": "3",
+    "cas": [
+      "625-45-6"
+    ]
+  },
+  {
+    "un": "UN1221",
+    "name": "Isopropyl methyl ketone",
+    "class": "3",
+    "cas": [
+      "563-80-4"
+    ]
+  },
+  {
+    "un": "UN1222",
+    "name": "Isopropyl phenol",
+    "class": "8",
+    "cas": [
+      "88-69-7"
+    ]
+  },
+  {
+    "un": "UN1223",
+    "name": "Kerosene",
+    "class": "3",
+    "cas": [
+      "8008-20-6"
+    ]
+  },
+  {
+    "un": "UN1225",
+    "name": "Lithium",
+    "class": "4.3",
+    "cas": [
+      "7439-93-2"
+    ]
+  },
+  {
+    "un": "UN1226",
+    "name": "Magnesium",
+    "class": "4.1",
+    "cas": [
+      "7439-95-4"
+    ]
+  },
+  {
+    "un": "UN1227",
+    "name": "Magnesium powder",
+    "class": "4.1",
+    "cas": [
+      "7439-95-4"
+    ]
+  },
+  {
+    "un": "UN1228",
+    "name": "Magnesium nitrate",
+    "class": "5.1",
+    "cas": [
+      "10377-60-3"
+    ]
+  },
+  {
+    "un": "UN1229",
+    "name": "Magnesium phosphide",
+    "class": "4.3",
+    "cas": [
+      "12057-74-8"
+    ]
+  },
+  {
+    "un": "UN1230",
+    "name": "Methanol",
+    "class": "3",
+    "cas": [
+      "67-56-1"
+    ]
+  },
+  {
+    "un": "UN1231",
+    "name": "Methyl acetate",
+    "class": "3",
+    "cas": [
+      "79-20-9"
+    ]
+  },
+  {
+    "un": "UN1232",
+    "name": "Methyl acrylate, stabilized",
+    "class": "3",
+    "cas": [
+      "96-33-3"
+    ]
+  },
+  {
+    "un": "UN1234",
+    "name": "Methylamine, anhydrous",
+    "class": "2.1",
+    "cas": [
+      "74-89-5"
+    ]
+  },
+  {
+    "un": "UN1235",
+    "name": "Methylamine, aqueous solution",
+    "class": "8",
+    "cas": [
+      "74-89-5"
+    ]
+  },
+  {
+    "un": "UN1236",
+    "name": "Methyl butyl ketone",
+    "class": "3",
+    "cas": [
+      "591-78-6"
+    ]
+  },
+  {
+    "un": "UN1237",
+    "name": "Methyl cellosolve",
+    "class": "3",
+    "cas": [
+      "109-86-4"
+    ]
+  },
+  {
+    "un": "UN1238",
+    "name": "Methyl chloroform",
+    "class": "6.1",
+    "cas": [
+      "71-55-6"
+    ]
+  },
+  {
+    "un": "UN1239",
+    "name": "Methyl crotonate",
+    "class": "3",
+    "cas": [
+      "623-43-8"
+    ]
+  },
+  {
+    "un": "UN1240",
+    "name": "Methyl ethyl ketone (MEK)",
+    "class": "3",
+    "cas": [
+      "78-93-3"
+    ]
+  },
+  {
+    "un": "UN1241",
+    "name": "Methyl formate",
+    "class": "3",
+    "cas": [
+      "107-31-3"
+    ]
+  },
+  {
+    "un": "UN1242",
+    "name": "Methyl hydrazine",
+    "class": "6.1",
+    "cas": [
+      "60-34-4"
+    ]
+  },
+  {
+    "un": "UN1243",
+    "name": "Methyl iodide",
+    "class": "6.1",
+    "cas": [
+      "74-88-4"
+    ]
+  },
+  {
+    "un": "UN1244",
+    "name": "Methyl isobutyl ketone",
+    "class": "3",
+    "cas": [
+      "108-10-1"
+    ]
+  },
+  {
+    "un": "UN1245",
+    "name": "Methyl methacrylate monomer, stabilized",
+    "class": "3",
+    "cas": [
+      "80-62-6"
+    ]
+  },
+  {
+    "un": "UN1246",
+    "name": "Methyl nitrate, stabilized",
+    "class": "1.1D",
+    "cas": [
+      "598-58-3"
+    ]
+  },
+  {
+    "un": "UN1247",
+    "name": "Methyl propyl ketone",
+    "class": "3",
+    "cas": [
+      "107-87-9"
+    ]
+  },
+  {
+    "un": "UN1248",
+    "name": "Methyl vinyl ketone, stabilized",
+    "class": "3",
+    "cas": [
+      "78-94-4"
+    ]
+  },
+  {
+    "un": "UN1249",
+    "name": "Methylal",
+    "class": "3",
+    "cas": [
+      "109-87-5"
+    ]
+  },
+  {
+    "un": "UN1250",
+    "name": "Methylcyclohexane",
+    "class": "3",
+    "cas": [
+      "108-87-2"
+    ]
+  },
+  {
+    "un": "UN1251",
+    "name": "Methylene chloride",
+    "class": "6.1",
+    "cas": [
+      "75-09-2"
+    ]
+  },
+  {
+    "un": "UN1252",
+    "name": "Methyltrichlorosilane",
+    "class": "3",
+    "cas": [
+      "75-79-6"
+    ]
+  },
+  {
+    "un": "UN1255",
+    "name": "Naphtha",
+    "class": "3",
+    "cas": [
+      "8032-32-4"
+    ]
+  },
+  {
+    "un": "UN1256",
+    "name": "Napthalene",
+    "class": "4.1",
+    "cas": [
+      "91-20-3"
+    ]
+  },
+  {
+    "un": "UN1257",
+    "name": "Neopentane",
+    "class": "2.1",
+    "cas": [
+      "463-82-1"
+    ]
+  },
+  {
+    "un": "UN1258",
+    "name": "n-Butyl acetate",
+    "class": "3",
+    "cas": [
+      "123-86-4"
+    ]
+  },
+  {
+    "un": "UN1259",
+    "name": "n-Butyl alcohol",
+    "class": "3",
+    "cas": [
+      "71-36-3"
+    ]
+  },
+  {
+    "un": "UN1260",
+    "name": "n-Butylamine",
+    "class": "3",
+    "cas": [
+      "109-73-9"
+    ]
+  },
+  {
+    "un": "UN1261",
+    "name": "Nitrobenzene",
+    "class": "6.1",
+    "cas": [
+      "98-95-3"
+    ]
+  },
+  {
+    "un": "UN1262",
+    "name": "Nitrocellulose solution",
+    "class": "3",
+    "cas": [
+      "9004-70-0"
+    ]
+  },
+  {
+    "un": "UN1264",
+    "name": "Nitrotoluene",
+    "class": "6.1",
+    "cas": [
+      "88-72-2"
+    ]
+  },
+  {
+    "un": "UN1265",
+    "name": "Petroleum naphtha",
+    "class": "3",
+    "cas": [
+      "8030-30-6"
+    ]
+  },
+  {
+    "un": "UN1266",
+    "name": "Perchloryl fluoride",
+    "class": "2.3",
+    "cas": [
+      "7616-94-6"
+    ]
+  },
+  {
+    "un": "UN1267",
+    "name": "Petroleum crude oil",
+    "class": "3",
+    "cas": [
+      "8002-05-9"
+    ]
+  },
+  {
+    "un": "UN1269",
+    "name": "Petroleum ether",
+    "class": "3",
+    "cas": [
+      "8032-32-4"
+    ]
+  },
+  {
+    "un": "UN1271",
+    "name": "Phenol solution",
+    "class": "6.1",
+    "cas": [
+      "108-95-2"
+    ]
+  },
+  {
+    "un": "UN1272",
+    "name": "Phenyl hydrazine",
+    "class": "6.1",
+    "cas": [
+      "100-63-0"
+    ]
+  },
+  {
+    "un": "UN1273",
+    "name": "Picolines",
+    "class": "3",
+    "cas": [
+      "108-89-4"
+    ]
+  },
+  {
+    "un": "UN1274",
+    "name": "Piperidine",
+    "class": "3",
+    "cas": [
+      "110-89-4"
+    ]
+  },
+  {
+    "un": "UN1275",
+    "name": "Pyridine",
+    "class": "3",
+    "cas": [
+      "110-86-1"
+    ]
+  },
+  {
+    "un": "UN1276",
+    "name": "Propyl nitrate",
+    "class": "3",
+    "cas": [
+      "627-13-4"
+    ]
+  },
+  {
+    "un": "UN1277",
+    "name": "Propylene oxide",
+    "class": "3",
+    "cas": [
+      "75-56-9"
+    ]
+  },
+  {
+    "un": "UN1278",
+    "name": "Pyrogallol",
+    "class": "6.1",
+    "cas": [
+      "87-66-1"
+    ]
+  },
+  {
+    "un": "UN1279",
+    "name": "Quinoline",
+    "class": "6.1",
+    "cas": [
+      "91-22-5"
+    ]
+  },
+  {
+    "un": "UN1281",
+    "name": "Styrene monomer, stabilized",
+    "class": "3",
+    "cas": [
+      "100-42-5"
+    ]
+  },
+  {
+    "un": "UN1282",
+    "name": "Sulfur dichloride",
+    "class": "6.1",
+    "cas": [
+      "10545-99-0"
+    ]
+  },
+  {
+    "un": "UN1283",
+    "name": "Sulfur trioxide",
+    "class": "8",
+    "cas": [
+      "7446-11-9"
+    ]
+  },
+  {
+    "un": "UN1284",
+    "name": "Tetrahydrofuran",
+    "class": "3",
+    "cas": [
+      "109-99-9"
+    ]
+  },
+  {
+    "un": "UN1285",
+    "name": "Toluene",
+    "class": "3",
+    "cas": [
+      "108-88-3"
+    ]
+  },
+  {
+    "un": "UN1286",
+    "name": "Trichloroethylene",
+    "class": "6.1",
+    "cas": [
+      "79-01-6"
+    ]
+  },
+  {
+    "un": "UN1287",
+    "name": "Triethylamine",
+    "class": "3",
+    "cas": [
+      "121-44-8"
+    ]
+  },
+  {
+    "un": "UN1288",
+    "name": "White spirit",
+    "class": "3",
+    "cas": [
+      "8052-41-3"
+    ]
+  },
+  {
+    "un": "UN1289",
+    "name": "Xylenes",
+    "class": "3",
+    "cas": [
+      "1330-20-7"
+    ]
+  },
+  {
+    "un": "UN1290",
+    "name": "o-Xylene",
+    "class": "3",
+    "cas": [
+      "95-47-6"
+    ]
+  },
+  {
+    "un": "UN1291",
+    "name": "m-Xylene",
+    "class": "3",
+    "cas": [
+      "108-38-3"
+    ]
+  },
+  {
+    "un": "UN1292",
+    "name": "p-Xylene",
+    "class": "3",
+    "cas": [
+      "106-42-3"
+    ]
+  },
+  {
+    "un": "UN1293",
+    "name": "Turpentine",
+    "class": "3",
+    "cas": [
+      "8006-64-2"
+    ]
+  },
+  {
+    "un": "UN1294",
+    "name": "Tetraethyllead",
+    "class": "6.1",
+    "cas": [
+      "78-00-2"
+    ]
+  },
+  {
+    "un": "UN1295",
+    "name": "Trimethylamine, anhydrous",
+    "class": "2.1",
+    "cas": [
+      "75-50-3"
+    ]
+  },
+  {
+    "un": "UN1296",
+    "name": "Vinyl acetate, stabilized",
+    "class": "3",
+    "cas": [
+      "108-05-4"
+    ]
+  },
+  {
+    "un": "UN1298",
+    "name": "Vinyl toluene",
+    "class": "3",
+    "cas": [
+      "25013-15-4"
+    ]
+  },
+  {
+    "un": "UN1299",
+    "name": "Zinc phosphide, solid",
+    "class": "6.1",
+    "cas": [
+      "1314-84-7"
+    ]
+  },
+  {
+    "un": "UN1300",
+    "name": "Turpentine substitute",
+    "class": "3",
+    "cas": [
+      "64742-95-6"
+    ]
+  },
+  {
+    "un": "UN1301",
+    "name": "Vinyl chloride, stabilized",
+    "class": "2.1",
+    "cas": [
+      "75-01-4"
+    ]
+  },
+  {
+    "un": "UN1302",
+    "name": "White phosphorus, dry or under water or in solution",
+    "class": "4.2",
+    "cas": [
+      "7723-14-0"
+    ]
+  },
+  {
+    "un": "UN1303",
+    "name": "Zinc powder or Zinc dust (pyrophoric)",
+    "class": "4.2",
+    "cas": [
+      "7440-66-6"
+    ]
+  },
+  {
+    "un": "UN1304",
+    "name": "Zinc phosphide, paste",
+    "class": "6.1",
+    "cas": [
+      "1314-84-7"
+    ]
+  },
+  {
+    "un": "UN1305",
+    "name": "Air, refrigerated liquid",
+    "class": "2.2",
+    "cas": [
+      "132259-10-0"
+    ]
+  },
+  {
+    "un": "UN1307",
+    "name": "Allyl alcohol",
+    "class": "6.1",
+    "cas": [
+      "107-18-6"
+    ]
+  },
+  {
+    "un": "UN1308",
+    "name": "Allyl chloride",
+    "class": "3",
+    "cas": [
+      "107-05-1"
+    ]
+  },
+  {
+    "un": "UN1309",
+    "name": "Aluminum nitrate",
+    "class": "5.1",
+    "cas": [
+      "13473-90-0"
+    ]
+  },
+  {
+    "un": "UN1310",
+    "name": "Aluminum phosphide",
+    "class": "4.3",
+    "cas": [
+      "20859-73-8"
+    ]
+  },
+  {
+    "un": "UN1311",
+    "name": "Aminophenol, liquid",
+    "class": "6.1",
+    "cas": [
+      "591-27-5"
+    ]
+  },
+  {
+    "un": "UN1312",
+    "name": "Aminophenol, solid",
+    "class": "6.1",
+    "cas": [
+      "591-27-5"
+    ]
+  },
+  {
+    "un": "UN1313",
+    "name": "Ammonium dichromate",
+    "class": "5.1",
+    "cas": [
+      "7789-09-5"
+    ]
+  },
+  {
+    "un": "UN1314",
+    "name": "Ammonium nitrate",
+    "class": "5.1",
+    "cas": [
+      "6484-52-2"
+    ]
+  },
+  {
+    "un": "UN1315",
+    "name": "Ammonium permanganate",
+    "class": "5.1",
+    "cas": [
+      "7787-36-2"
+    ]
+  },
+  {
+    "un": "UN1316",
+    "name": "Amyl acetate, normal",
+    "class": "3",
+    "cas": [
+      "628-63-7"
+    ]
+  },
+  {
+    "un": "UN1317",
+    "name": "Amyl acetate, iso",
+    "class": "3",
+    "cas": [
+      "123-92-2"
+    ]
+  },
+  {
+    "un": "UN1318",
+    "name": "Amyl alcohol, normal",
+    "class": "3",
+    "cas": [
+      "71-41-0"
+    ]
+  },
+  {
+    "un": "UN1319",
+    "name": "Amyl alcohol, iso",
+    "class": "3",
+    "cas": [
+      "123-51-3"
+    ]
+  },
+  {
+    "un": "UN1320",
+    "name": "Amylamine",
+    "class": "3",
+    "cas": [
+      "110-58-7"
+    ]
+  },
+  {
+    "un": "UN1321",
+    "name": "Aniline",
+    "class": "6.1",
+    "cas": [
+      "62-53-3"
+    ]
+  },
+  {
+    "un": "UN1323",
+    "name": "Antimony potassium tartrate trihydrate",
+    "class": "6.1",
+    "cas": [
+      "28300-74-5"
+    ]
+  },
+  {
+    "un": "UN1324",
+    "name": "Barium azide",
+    "class": "1.1",
+    "cas": [
+      "18810-58-7"
+    ]
+  },
+  {
+    "un": "UN1326",
+    "name": "Benzenesulfonyl chloride",
+    "class": "8",
+    "cas": [
+      "98-09-9"
+    ]
+  },
+  {
+    "un": "UN1327",
+    "name": "Benzoquinone",
+    "class": "5.1",
+    "cas": [
+      "106-51-4"
+    ]
+  },
+  {
+    "un": "UN1328",
+    "name": "Benzoyl peroxide",
+    "class": "5.2",
+    "cas": [
+      "94-36-0"
+    ]
+  },
+  {
+    "un": "UN1329",
+    "name": "Benzyl chloride",
+    "class": "6.1",
+    "cas": [
+      "100-44-7"
+    ]
+  },
+  {
+    "un": "UN1330",
+    "name": "Xylenes",
+    "class": "3",
+    "cas": [
+      "1330-20-7"
+    ]
+  },
+  {
+    "un": "UN1331",
+    "name": "Biphenyl",
+    "class": "9",
+    "cas": [
+      "92-52-4"
+    ]
+  },
+  {
+    "un": "UN1332",
+    "name": "Black powder",
+    "class": "1.1D",
+    "cas": [
+      "39387-93-4"
+    ]
+  },
+  {
+    "un": "UN1333",
+    "name": "Boron trifluoride",
+    "class": "2.3",
+    "cas": [
+      "7637-07-2"
+    ]
+  },
+  {
+    "un": "UN1334",
+    "name": "Bromine",
+    "class": "8",
+    "cas": [
+      "7726-95-6"
+    ]
+  },
+  {
+    "un": "UN1335",
+    "name": "Butane",
+    "class": "2.1",
+    "cas": [
+      "106-97-8"
+    ]
+  },
+  {
+    "un": "UN1336",
+    "name": "Butyl acetate",
+    "class": "3",
+    "cas": [
+      "123-86-4"
+    ]
+  },
+  {
+    "un": "UN1337",
+    "name": "Butyl acrylate, stabilized",
+    "class": "3",
+    "cas": [
+      "141-32-2"
+    ]
+  },
+  {
+    "un": "UN1340",
+    "name": "Calcium carbide",
+    "class": "4.3",
+    "cas": [
+      "75-20-7"
+    ]
+  },
+  {
+    "un": "UN1341",
+    "name": "Calcium cyanide",
+    "class": "6.1",
+    "cas": [
+      "592-01-8"
+    ]
+  },
+  {
+    "un": "UN1342",
+    "name": "Calcium hypochlorite, dry",
+    "class": "5.1",
+    "cas": [
+      "7778-54-3"
+    ]
+  },
+  {
+    "un": "UN1343",
+    "name": "Calcium phosphide",
+    "class": "4.3",
+    "cas": [
+      "1305-99-3"
+    ]
+  },
+  {
+    "un": "UN1344",
+    "name": "Caprylyl chloride",
+    "class": "8",
+    "cas": [
+      "20205-85-0"
+    ]
+  },
+  {
+    "un": "UN1345",
+    "name": "Carbon disulfide",
+    "class": "3",
+    "cas": [
+      "75-15-0"
+    ]
+  },
+  {
+    "un": "UN1346",
+    "name": "Carbon tetrachloride",
+    "class": "6.1",
+    "cas": [
+      "56-23-5"
+    ]
+  },
+  {
+    "un": "UN1349",
+    "name": "Chlorine",
+    "class": "2.3",
+    "cas": [
+      "7782-50-5"
+    ]
+  },
+  {
+    "un": "UN1350",
+    "name": "Coal tar distillates, liquid",
+    "class": "6.1",
+    "cas": [
+      "8007-45-2"
+    ]
+  },
+  {
+    "un": "UN1351",
+    "name": "Cresols, liquid",
+    "class": "6.1",
+    "cas": [
+      "1319-77-3"
+    ]
+  },
+  {
+    "un": "UN1352",
+    "name": "Cumene",
+    "class": "3",
+    "cas": [
+      "98-82-8"
+    ]
+  },
+  {
+    "un": "UN1353",
+    "name": "Cyclohexane",
+    "class": "3",
+    "cas": [
+      "110-82-7"
+    ]
+  },
+  {
+    "un": "UN1354",
+    "name": "Cyclohexanol",
+    "class": "3",
+    "cas": [
+      "108-93-0"
+    ]
+  },
+  {
+    "un": "UN1355",
+    "name": "Cyclohexanone",
+    "class": "3",
+    "cas": [
+      "108-94-1"
+    ]
+  },
+  {
+    "un": "UN1356",
+    "name": "Cyclohexylamine",
+    "class": "3",
+    "cas": [
+      "108-91-8"
+    ]
+  },
+  {
+    "un": "UN1357",
+    "name": "Cyanogen chloride, stabilized",
+    "class": "2.3",
+    "cas": [
+      "506-77-4"
+    ]
+  },
+  {
+    "un": "UN1358",
+    "name": "Cyanuric chloride",
+    "class": "6.1",
+    "cas": [
+      "108-77-0"
+    ]
+  },
+  {
+    "un": "UN1359",
+    "name": "Decaborane",
+    "class": "4.1",
+    "cas": [
+      "17702-41-9"
+    ]
+  },
+  {
+    "un": "UN1360",
+    "name": "Diacetone alcohol",
+    "class": "3",
+    "cas": [
+      "123-42-2"
+    ]
+  },
+  {
+    "un": "UN1361",
+    "name": "Ferrophosphorus",
+    "class": "4.3",
+    "cas": [
+      "8049-19-2"
+    ]
+  },
+  {
+    "un": "UN1362",
+    "name": "Graphite, artificial",
+    "class": "4.2",
+    "cas": [
+      "7782-42-5"
+    ]
+  },
+  {
+    "un": "UN1363",
+    "name": "Graphite, natural",
+    "class": "4.2",
+    "cas": [
+      "7782-42-5"
+    ]
+  },
+  {
+    "un": "UN1364",
+    "name": "Hexachloroethane",
+    "class": "6.1",
+    "cas": [
+      "67-72-1"
+    ]
+  },
+  {
+    "un": "UN1365",
+    "name": "Hydrazine, aqueous solution",
+    "class": "8",
+    "cas": [
+      "302-01-2"
+    ]
+  },
+  {
+    "un": "UN1366",
+    "name": "Iodine",
+    "class": "8",
+    "cas": [
+      "7553-56-2"
+    ]
+  },
+  {
+    "un": "UN1367",
+    "name": "Isobutane",
+    "class": "2.1",
+    "cas": [
+      "75-28-5"
+    ]
+  },
+  {
+    "un": "UN1369",
+    "name": "Isophorone",
+    "class": "3",
+    "cas": [
+      "78-59-1"
+    ]
+  },
+  {
+    "un": "UN1370",
+    "name": "Kerosene",
+    "class": "3",
+    "cas": [
+      "8008-20-6"
+    ]
+  },
+  {
+    "un": "UN1371",
+    "name": "Lime, unslaked",
+    "class": "8",
+    "cas": [
+      "1305-78-8"
+    ]
+  },
+  {
+    "un": "UN1372",
+    "name": "Magnesium nitrate, hexahydrate",
+    "class": "5.1",
+    "cas": [
+      "13446-18-9"
+    ]
+  },
+  {
+    "un": "UN1375",
+    "name": "Nickel carbonyl",
+    "class": "6.1",
+    "cas": [
+      "13463-39-3"
+    ]
+  },
+  {
+    "un": "UN1378",
+    "name": "Nitrobenzene",
+    "class": "6.1",
+    "cas": [
+      "98-95-3"
+    ]
+  },
+  {
+    "un": "UN1380",
+    "name": "Nitroguanidine (picrite), wetted with not less than 20% water",
+    "class": "4.1",
+    "cas": [
+      "556-88-7"
+    ]
+  },
+  {
+    "un": "UN1381",
+    "name": "Nitromethane",
+    "class": "3",
+    "cas": [
+      "75-52-5"
+    ]
+  },
+  {
+    "un": "UN1383",
+    "name": "Nitrosodimethylamine",
+    "class": "6.1",
+    "cas": [
+      "62-75-9"
+    ]
+  },
+  {
+    "un": "UN1385",
+    "name": "Octyl nitrate",
+    "class": "3",
+    "cas": [
+      "627-13-4"
+    ]
+  },
+  {
+    "un": "UN1386",
+    "name": "Phosphorus, amorphous",
+    "class": "4.1",
+    "cas": [
+      "7723-14-0"
+    ]
+  },
+  {
+    "un": "UN1387",
+    "name": "Phosphorus pentachloride",
+    "class": "8",
+    "cas": [
+      "10026-13-8"
+    ]
+  },
+  {
+    "un": "UN1388",
+    "name": "Phosphorus pentasulfide",
+    "class": "4.1",
+    "cas": [
+      "1314-80-3"
+    ]
+  },
+  {
+    "un": "UN1389",
+    "name": "Phosphorus trichloride",
+    "class": "8",
+    "cas": [
+      "7719-12-2"
+    ]
+  },
+  {
+    "un": "UN1390",
+    "name": "Phosphorus tribromide",
+    "class": "8",
+    "cas": [
+      "7789-60-8"
+    ]
+  },
+  {
+    "un": "UN1391",
+    "name": "Phosphoryl chloride",
+    "class": "8",
+    "cas": [
+      "10025-87-3"
+    ]
+  },
+  {
+    "un": "UN1392",
+    "name": "Picric acid, wetted with not less than 30% water",
+    "class": "4.1",
+    "cas": [
+      "88-89-1"
+    ]
+  },
+  {
+    "un": "UN1393",
+    "name": "Piperidine",
+    "class": "3",
+    "cas": [
+      "110-89-4"
+    ]
+  },
+  {
+    "un": "UN1395",
+    "name": "Polychlorinated biphenyls, liquid",
+    "class": "9",
+    "cas": [
+      "1336-36-3"
+    ]
+  },
+  {
+    "un": "UN1396",
+    "name": "Polychlorinated biphenyls, solid",
+    "class": "9",
+    "cas": [
+      "1336-36-3"
+    ]
+  },
+  {
+    "un": "UN1397",
+    "name": "Potassium chlorate",
+    "class": "5.1",
+    "cas": [
+      "3811-04-9"
+    ]
+  },
+  {
+    "un": "UN1398",
+    "name": "Potassium cyanide",
+    "class": "6.1",
+    "cas": [
+      "151-50-8"
+    ]
+  },
+  {
+    "un": "UN1399",
+    "name": "Potassium nitrate",
+    "class": "5.1",
+    "cas": [
+      "7757-79-1"
+    ]
+  },
+  {
+    "un": "UN1400",
+    "name": "Potassium peroxide",
+    "class": "5.1",
+    "cas": [
+      "12030-88-5"
+    ]
+  },
+  {
+    "un": "UN1401",
+    "name": "Potassium picrate, dry or wetted with less than 10 percent water, by mass",
+    "class": "1.1D",
+    "cas": [
+      "1312-42-1"
+    ]
+  },
+  {
+    "un": "UN1402",
+    "name": "Potassium sulfide",
+    "class": "4.2",
+    "cas": [
+      "1312-73-8"
+    ]
+  },
+  {
+    "un": "UN1403",
+    "name": "Potassium tetraphenylborate",
+    "class": "6.1",
+    "cas": [
+      "143-66-8"
+    ]
+  },
+  {
+    "un": "UN1404",
+    "name": "Potassium trichloroacetate",
+    "class": "6.1",
+    "cas": [
+      "6531-73-1"
+    ]
+  },
+  {
+    "un": "UN1406",
+    "name": "Propadiene, stabilized",
+    "class": "2.1",
+    "cas": [
+      "463-49-0"
+    ]
+  },
+  {
+    "un": "UN1407",
+    "name": "Propane",
+    "class": "2.1",
+    "cas": [
+      "74-98-6"
+    ]
+  },
+  {
+    "un": "UN1408",
+    "name": "Propargyl bromide",
+    "class": "6.1",
+    "cas": [
+      "106-96-7"
+    ]
+  },
+  {
+    "un": "UN1409",
+    "name": "Propionic anhydride",
+    "class": "8",
+    "cas": [
+      "123-62-6"
+    ]
+  },
+  {
+    "un": "UN1410",
+    "name": "Propionaldehyde",
+    "class": "3",
+    "cas": [
+      "123-38-6"
+    ]
+  },
+  {
+    "un": "UN1411",
+    "name": "Propionitrile",
+    "class": "3",
+    "cas": [
+      "107-12-0"
+    ]
+  },
+  {
+    "un": "UN1412",
+    "name": "Propylamine",
+    "class": "3",
+    "cas": [
+      "107-10-8"
+    ]
+  },
+  {
+    "un": "UN1413",
+    "name": "Propylene",
+    "class": "2.1",
+    "cas": [
+      "115-07-1"
+    ]
+  },
+  {
+    "un": "UN1414",
+    "name": "Propylene oxide",
+    "class": "3",
+    "cas": [
+      "75-56-9"
+    ]
+  },
+  {
+    "un": "UN1415",
+    "name": "Propyleneimine",
+    "class": "3",
+    "cas": [
+      "75-55-8"
+    ]
+  },
+  {
+    "un": "UN1416",
+    "name": "Propyl nitrate",
+    "class": "3",
+    "cas": [
+      "627-13-4"
+    ]
+  },
+  {
+    "un": "UN1417",
+    "name": "Propylamine, aqueous solution",
+    "class": "3",
+    "cas": [
+      "107-10-8"
+    ]
+  },
+  {
+    "un": "UN1418",
+    "name": "Pyridine",
+    "class": "3",
+    "cas": [
+      "110-86-1"
+    ]
+  },
+  {
+    "un": "UN1420",
+    "name": "Red phosphorus",
+    "class": "4.1",
+    "cas": [
+      "7723-14-0"
+    ]
+  },
+  {
+    "un": "UN1423",
+    "name": "Sodium acetate, anhydrous",
+    "class": "9",
+    "cas": [
+      "127-09-3"
+    ]
+  },
+  {
+    "un": "UN1424",
+    "name": "Sodium acetate, hydrated",
+    "class": "9",
+    "cas": [
+      "6131-90-4"
+    ]
+  },
+  {
+    "un": "UN1425",
+    "name": "Sodium azide",
+    "class": "6.1",
+    "cas": [
+      "26628-22-8"
+    ]
+  },
+  {
+    "un": "UN1426",
+    "name": "Sodium chlorate",
+    "class": "5.1",
+    "cas": [
+      "7775-09-9"
+    ]
+  },
+  {
+    "un": "UN1427",
+    "name": "Sodium cyanide, solid",
+    "class": "6.1",
+    "cas": [
+      "143-33-9"
+    ]
+  },
+  {
+    "un": "UN1428",
+    "name": "Sodium hydride",
+    "class": "4.3",
+    "cas": [
+      "7646-69-7"
+    ]
+  },
+  {
+    "un": "UN1429",
+    "name": "Sodium peroxide",
+    "class": "5.1",
+    "cas": [
+      "1313-60-6"
+    ]
+  },
+  {
+    "un": "UN1430",
+    "name": "Sodium sulfide, anhydrous",
+    "class": "4.2",
+    "cas": [
+      "1313-82-2"
+    ]
+  },
+  {
+    "un": "UN1431",
+    "name": "Sodium sulfide, hydrated",
+    "class": "4.2",
+    "cas": [
+      "27610-45-3"
+    ]
+  },
+  {
+    "un": "UN1432",
+    "name": "Sodium nitrite",
+    "class": "5.1",
+    "cas": [
+      "7632-00-0"
+    ]
+  },
+  {
+    "un": "UN1433",
+    "name": "Sodium nitrate",
+    "class": "5.1",
+    "cas": [
+      "7631-99-4"
+    ]
+  },
+  {
+    "un": "UN1434",
+    "name": "Sodium",
+    "class": "4.3",
+    "cas": [
+      "7440-23-5"
+    ]
+  },
+  {
+    "un": "UN1435",
+    "name": "Sodium amide",
+    "class": "4.3",
+    "cas": [
+      "7782-92-5"
+    ]
+  },
+  {
+    "un": "UN1436",
+    "name": "Sodium dithionite",
+    "class": "4.2",
+    "cas": [
+      "7775-14-6"
+    ]
+  },
+  {
+    "un": "UN1437",
+    "name": "Sodium picramate",
+    "class": "4.1",
+    "cas": [
+      "831-52-7"
+    ]
+  },
+  {
+    "un": "UN1438",
+    "name": "Sodium sulfite",
+    "class": "9",
+    "cas": [
+      "7757-83-7"
+    ]
+  },
+  {
+    "un": "UN1439",
+    "name": "Sodium thiosulfate",
+    "class": "9",
+    "cas": [
+      "7772-98-7"
+    ]
+  },
+  {
+    "un": "UN1440",
+    "name": "Sodium nitroprusside",
+    "class": "6.1",
+    "cas": [
+      "14402-89-2"
+    ]
+  },
+  {
+    "un": "UN1441",
+    "name": "Sodium perchlorate",
+    "class": "5.1",
+    "cas": [
+      "7601-89-0"
+    ]
+  },
+  {
+    "un": "UN1442",
+    "name": "Sodium permanganate",
+    "class": "5.1",
+    "cas": [
+      "10101-50-5"
+    ]
+  },
+  {
+    "un": "UN1443",
+    "name": "Sodium chromate",
+    "class": "6.1",
+    "cas": [
+      "7775-11-3"
+    ]
+  },
+  {
+    "un": "UN1444",
+    "name": "Sodium dichromate",
+    "class": "6.1",
+    "cas": [
+      "10588-01-9"
+    ]
+  },
+  {
+    "un": "UN1445",
+    "name": "Sodium metabisulfite",
+    "class": "8",
+    "cas": [
+      "7681-57-4"
+    ]
+  },
+  {
+    "un": "UN1446",
+    "name": "Sodium persulfate",
+    "class": "5.1",
+    "cas": [
+      "7775-27-1"
+    ]
+  },
+  {
+    "un": "UN1447",
+    "name": "Sodium phosphate, dibasic",
+    "class": "9",
+    "cas": [
+      "7558-79-4"
+    ]
+  },
+  {
+    "un": "UN1448",
+    "name": "Sodium silicate",
+    "class": "8",
+    "cas": [
+      "1344-09-8"
+    ]
+  },
+  {
+    "un": "UN1449",
+    "name": "Sodium tripolyphosphate",
+    "class": "9",
+    "cas": [
+      "7758-29-4"
+    ]
+  },
+  {
+    "un": "UN1450",
+    "name": "Dinitrophenol",
+    "class": "6.1",
+    "cas": [
+      "51-28-5"
+    ]
+  },
+  {
+    "un": "UN1451",
+    "name": "Dinitrophenylhydrazine, wetted",
+    "class": "4.1",
+    "cas": [
+      "119-26-6"
+    ]
+  },
+  {
+    "un": "UN1452",
+    "name": "Dinitroresorcinol",
+    "class": "6.1",
+    "cas": [
+      "3690-10-6"
+    ]
+  },
+  {
+    "un": "UN1453",
+    "name": "Dinitrotoluene, wetted",
+    "class": "6.1",
+    "cas": [
+      "25321-14-6"
+    ]
+  },
+  {
+    "un": "UN1454",
+    "name": "Dioxane",
+    "class": "3",
+    "cas": [
+      "123-91-1"
+    ]
+  },
+  {
+    "un": "UN1455",
+    "name": "Diphenylamine",
+    "class": "6.1",
+    "cas": [
+      "122-39-4"
+    ]
+  },
+  {
+    "un": "UN1456",
+    "name": "Diphenylhydrazine",
+    "class": "6.1",
+    "cas": [
+      "122-66-7"
+    ]
+  },
+  {
+    "un": "UN1457",
+    "name": "Diphenylmethane-4,4'-diisocyanate",
+    "class": "6.1",
+    "cas": [
+      "101-68-8"
+    ]
+  },
+  {
+    "un": "UN1458",
+    "name": "Dipropyl peroxydicarbonate",
+    "class": "5.2",
+    "cas": [
+      "105-64-6"
+    ]
+  },
+  {
+    "un": "UN1459",
+    "name": "Divinyl ether",
+    "class": "3",
+    "cas": [
+      "109-93-3"
+    ]
+  },
+  {
+    "un": "UN1460",
+    "name": "Dodecyl mercaptan",
+    "class": "6.1",
+    "cas": [
+      "112-55-0"
+    ]
+  },
+  {
+    "un": "UN1461",
+    "name": "Dodecylbenzene sulfonic acid",
+    "class": "8",
+    "cas": [
+      "27176-87-0"
+    ]
+  },
+  {
+    "un": "UN1462",
+    "name": "Dronabinol solution",
+    "class": "3",
+    "cas": [
+      "1972-08-3"
+    ]
+  },
+  {
+    "un": "UN1463",
+    "name": "Dry ice (Carbon dioxide, solid)",
+    "class": "9",
+    "cas": [
+      "124-38-9"
+    ]
+  },
+  {
+    "un": "UN1466",
+    "name": "Epichlorohydrin",
+    "class": "6.1",
+    "cas": [
+      "106-89-8"
+    ]
+  },
+  {
+    "un": "UN1467",
+    "name": "Ethanethiol",
+    "class": "3",
+    "cas": [
+      "75-08-1"
+    ]
+  },
+  {
+    "un": "UN1468",
+    "name": "Ethyl acrylate",
+    "class": "3",
+    "cas": [
+      "140-88-5"
+    ]
+  },
+  {
+    "un": "UN1469",
+    "name": "Ethylamine, anhydrous",
+    "class": "2.1",
+    "cas": [
+      "75-04-7"
+    ]
+  },
+  {
+    "un": "UN1470",
+    "name": "Ethylbenzene",
+    "class": "3",
+    "cas": [
+      "100-41-4"
+    ]
+  },
+  {
+    "un": "UN1471",
+    "name": "Ethylchloroformate",
+    "class": "3",
+    "cas": [
+      "541-41-3"
+    ]
+  },
+  {
+    "un": "UN1472",
+    "name": "Ethylene chlorohydrin",
+    "class": "6.1",
+    "cas": [
+      "107-07-3"
+    ]
+  },
+  {
+    "un": "UN1473",
+    "name": "Ethylene diamine",
+    "class": "8",
+    "cas": [
+      "107-15-3"
+    ]
+  },
+  {
+    "un": "UN1474",
+    "name": "Ethylene glycol dinitrate, desensitized",
+    "class": "3",
+    "cas": [
+      "628-96-6"
+    ]
+  },
+  {
+    "un": "UN1475",
+    "name": "Ethylene glycol monomethyl ether acetate",
+    "class": "3",
+    "cas": [
+      "110-49-6"
+    ]
+  },
+  {
+    "un": "UN1476",
+    "name": "Ethyleneimine, stabilized",
+    "class": "3",
+    "cas": [
+      "151-56-4"
+    ]
+  },
+  {
+    "un": "UN1478",
+    "name": "Ferric nitrate",
+    "class": "5.1",
+    "cas": [
+      "10421-48-4"
+    ]
+  },
+  {
+    "un": "UN1479",
+    "name": "Ferrous nitrate",
+    "class": "5.1",
+    "cas": [
+      "13478-00-7"
+    ]
+  },
+  {
+    "un": "UN1480",
+    "name": "Ferrous sulfate, monohydrate",
+    "class": "6.1",
+    "cas": [
+      "17375-41-6"
+    ]
+  },
+  {
+    "un": "UN1481",
+    "name": "Ferric chloride solution",
+    "class": "8",
+    "cas": [
+      "7705-08-0"
+    ]
+  },
+  {
+    "un": "UN1484",
+    "name": "Fluoboric acid",
+    "class": "8",
+    "cas": [
+      "16872-11-0"
+    ]
+  },
+  {
+    "un": "UN1485",
+    "name": "Fluorine, compressed",
+    "class": "2.3",
+    "cas": [
+      "7782-41-4"
+    ]
+  },
+  {
+    "un": "UN1486",
+    "name": "Fluorobenzene",
+    "class": "3",
+    "cas": [
+      "462-06-6"
+    ]
+  },
+  {
+    "un": "UN1487",
+    "name": "Fluorotrichloromethane",
+    "class": "2.2",
+    "cas": [
+      "75-69-4"
+    ]
+  },
+  {
+    "un": "UN1488",
+    "name": "Formaldehyde solution, flammable",
+    "class": "3",
+    "cas": [
+      "50-00-0"
+    ]
+  },
+  {
+    "un": "UN1489",
+    "name": "Formamide",
+    "class": "6.1",
+    "cas": [
+      "75-12-7"
+    ]
+  },
+  {
+    "un": "UN1490",
+    "name": "Formic acid",
+    "class": "8",
+    "cas": [
+      "64-18-6"
+    ]
+  },
+  {
+    "un": "UN1492",
+    "name": "Formyl chloride",
+    "class": "3",
+    "cas": [
+      "593-61-3"
+    ]
+  },
+  {
+    "un": "UN1493",
+    "name": "Furan",
+    "class": "3",
+    "cas": [
+      "110-00-9"
+    ]
+  },
+  {
+    "un": "UN1494",
+    "name": "Gasoline",
+    "class": "3",
+    "cas": [
+      "8006-61-9"
+    ]
+  },
+  {
+    "un": "UN1495",
+    "name": "Germanium tetrafluoride",
+    "class": "2.3",
+    "cas": [
+      "10038-98-9"
+    ]
+  },
+  {
+    "un": "UN1496",
+    "name": "Glutaraldehyde solution",
+    "class": "8",
+    "cas": [
+      "111-30-8"
+    ]
+  },
+  {
+    "un": "UN1497",
+    "name": "Glycolic acid",
+    "class": "8",
+    "cas": [
+      "79-14-1"
+    ]
+  },
+  {
+    "un": "UN1498",
+    "name": "Guanylurea dinitramide",
+    "class": "1.1D",
+    "cas": [
+      "15928-17-7"
+    ]
+  },
+  {
+    "un": "UN1499",
+    "name": "Gypsum, dust",
+    "class": "9",
+    "cas": [
+      "13397-24-5"
+    ]
+  },
+  {
+    "un": "UN1500",
+    "name": "Hydrogen peroxide",
+    "class": "8",
+    "cas": [
+      "7722-84-1"
+    ]
+  },
+  {
+    "un": "UN1501",
+    "name": "Potassium cyanide, solid",
+    "class": "6.1",
+    "cas": [
+      "151-50-8"
+    ]
+  },
+  {
+    "un": "UN1502",
+    "name": "Potassium picrate, dry or wetted with less than 30% water, by mass",
+    "class": "1.1D",
+    "cas": [
+      "131-74-8"
+    ]
+  },
+  {
+    "un": "UN1503",
+    "name": "Potassium chlorate",
+    "class": "5.1",
+    "cas": [
+      "3811-04-9"
+    ]
+  },
+  {
+    "un": "UN1504",
+    "name": "Potassium nitrate",
+    "class": "5.1",
+    "cas": [
+      "7757-79-1"
+    ]
+  },
+  {
+    "un": "UN1505",
+    "name": "Potassium nitrite",
+    "class": "5.1",
+    "cas": [
+      "7758-09-0"
+    ]
+  },
+  {
+    "un": "UN1506",
+    "name": "Potassium peroxide",
+    "class": "5.1",
+    "cas": [
+      "12030-88-5"
+    ]
+  },
+  {
+    "un": "UN1507",
+    "name": "Potassium superoxide",
+    "class": "5.1",
+    "cas": [
+      "12040-49-8"
+    ]
+  },
+  {
+    "un": "UN1508",
+    "name": "Potassium sulphide, anhydrous",
+    "class": "4.2",
+    "cas": [
+      "1312-73-8"
+    ]
+  },
+  {
+    "un": "UN1509",
+    "name": "Potassium sulphide, hydrated",
+    "class": "4.2",
+    "cas": [
+      "1312-73-8"
+    ]
+  },
+  {
+    "un": "UN1510",
+    "name": "Propargyl alcohol",
+    "class": "6.1",
+    "cas": [
+      "107-19-7"
+    ]
+  },
+  {
+    "un": "UN1511",
+    "name": "Propiolactone, beta-",
+    "class": "6.1",
+    "cas": [
+      "57-57-8"
+    ]
+  },
+  {
+    "un": "UN1512",
+    "name": "Propionitrile",
+    "class": "3",
+    "cas": [
+      "107-12-0"
+    ]
+  },
+  {
+    "un": "UN1513",
+    "name": "Propionaldehyde",
+    "class": "3",
+    "cas": [
+      "123-38-6"
+    ]
+  },
+  {
+    "un": "UN1514",
+    "name": "Propionic acid",
+    "class": "8",
+    "cas": [
+      "79-09-4"
+    ]
+  },
+  {
+    "un": "UN1515",
+    "name": "Propyl chloroformate",
+    "class": "6.1",
+    "cas": [
+      "623-50-7"
+    ]
+  },
+  {
+    "un": "UN1516",
+    "name": "Propyleneimine, stabilized",
+    "class": "3",
+    "cas": [
+      "75-55-8"
+    ]
+  },
+  {
+    "un": "UN1517",
+    "name": "Propylene oxide",
+    "class": "3",
+    "cas": [
+      "75-56-9"
+    ]
+  },
+  {
+    "un": "UN1518",
+    "name": "Pyridine",
+    "class": "3",
+    "cas": [
+      "110-86-1"
+    ]
+  },
+  {
+    "un": "UN1519",
+    "name": "Resorcinol",
+    "class": "6.1",
+    "cas": [
+      "108-46-3"
+    ]
+  },
+  {
+    "un": "UN1520",
+    "name": "Rosin spirit",
+    "class": "3",
+    "cas": [
+      "8052-14-0"
+    ]
+  },
+  {
+    "un": "UN1521",
+    "name": "Sodium aluminium hydride",
+    "class": "4.3",
+    "cas": [
+      "13770-96-2"
+    ]
+  },
+  {
+    "un": "UN1522",
+    "name": "Sodium amide",
+    "class": "4.3",
+    "cas": [
+      "7782-92-5"
+    ]
+  },
+  {
+    "un": "UN1523",
+    "name": "Sodium azide",
+    "class": "6.1",
+    "cas": [
+      "26628-22-8"
+    ]
+  },
+  {
+    "un": "UN1524",
+    "name": "Sodium cyanide, solid",
+    "class": "6.1",
+    "cas": [
+      "143-33-9"
+    ]
+  },
+  {
+    "un": "UN1525",
+    "name": "Sodium hydride",
+    "class": "4.3",
+    "cas": [
+      "7646-69-7"
+    ]
+  },
+  {
+    "un": "UN1526",
+    "name": "Sodium peroxide",
+    "class": "5.1",
+    "cas": [
+      "1313-60-6"
+    ]
+  },
+  {
+    "un": "UN1527",
+    "name": "Sodium sulfide, anhydrous",
+    "class": "4.2",
+    "cas": [
+      "1313-82-2"
+    ]
+  },
+  {
+    "un": "UN1528",
+    "name": "Strontium phosphide",
+    "class": "4.3",
+    "cas": [
+      "12504-89-3"
+    ]
+  },
+  {
+    "un": "UN1529",
+    "name": "Styrene monomer, stabilized",
+    "class": "3",
+    "cas": [
+      "100-42-5"
+    ]
+  },
+  {
+    "un": "UN1530",
+    "name": "Tetraethyl dithiopyrophosphate",
+    "class": "6.1",
+    "cas": [
+      "3689-24-5"
+    ]
+  },
+  {
+    "un": "UN1531",
+    "name": "Thallium(I) sulfate",
+    "class": "6.1",
+    "cas": [
+      "7446-18-6"
+    ]
+  },
+  {
+    "un": "UN1532",
+    "name": "Thioacetamide",
+    "class": "6.1",
+    "cas": [
+      "62-55-5"
+    ]
+  },
+  {
+    "un": "UN1533",
+    "name": "Thiourea",
+    "class": "6.1",
+    "cas": [
+      "62-56-6"
+    ]
+  },
+  {
+    "un": "UN1534",
+    "name": "Thiram",
+    "class": "6.1",
+    "cas": [
+      "137-26-8"
+    ]
+  },
+  {
+    "un": "UN1535",
+    "name": "Titanium tetrachloride",
+    "class": "8",
+    "cas": [
+      "7550-45-0"
+    ]
+  },
+  {
+    "un": "UN1536",
+    "name": "Toluene-2,4-diisocyanate",
+    "class": "6.1",
+    "cas": [
+      "584-84-9"
+    ]
+  },
+  {
+    "un": "UN1537",
+    "name": "Toluene-2,6-diisocyanate",
+    "class": "6.1",
+    "cas": [
+      "91-08-7"
+    ]
+  },
+  {
+    "un": "UN1538",
+    "name": "Triethylaluminium",
+    "class": "4.2",
+    "cas": [
+      "97-93-8"
+    ]
+  },
+  {
+    "un": "UN1539",
+    "name": "Triethylborane",
+    "class": "4.2",
+    "cas": [
+      "97-94-9"
+    ]
+  },
+  {
+    "un": "UN1540",
+    "name": "Trifluoroacetic acid",
+    "class": "8",
+    "cas": [
+      "76-05-1"
+    ]
+  },
+  {
+    "un": "UN1541",
+    "name": "Triethylenetetramine",
+    "class": "8",
+    "cas": [
+      "112-24-3"
+    ]
+  },
+  {
+    "un": "UN1542",
+    "name": "Vanadium oxytrichloride",
+    "class": "8",
+    "cas": [
+      "10026-07-0"
+    ]
+  },
+  {
+    "un": "UN1543",
+    "name": "Vanadium pentoxide, powder",
+    "class": "6.1",
+    "cas": [
+      "1314-62-1"
+    ]
+  },
+  {
+    "un": "UN1544",
+    "name": "Warfarin, solid",
+    "class": "6.1",
+    "cas": [
+      "81-81-2"
+    ]
+  },
+  {
+    "un": "UN1545",
+    "name": "Xylidine isomers, liquid",
+    "class": "6.1",
+    "cas": [
+      "1300-73-8"
+    ]
+  },
+  {
+    "un": "UN1546",
+    "name": "Zinc phosphide",
+    "class": "6.1",
+    "cas": [
+      "1314-84-7"
+    ]
+  },
+  {
+    "un": "UN1547",
+    "name": "Zinc powder",
+    "class": "4.3",
+    "cas": [
+      "7440-66-6"
+    ]
+  },
+  {
+    "un": "UN1548",
+    "name": "Zirconium powder, dry",
+    "class": "4.1",
+    "cas": [
+      "7440-67-7"
+    ]
+  },
+  {
+    "un": "UN1549",
+    "name": "2-Chloro-1,3-butadiene, stabilized (Chloroprene)",
+    "class": "3",
+    "cas": [
+      "126-99-8"
+    ]
+  },
+  {
+    "un": "UN1550",
+    "name": "1,2-Dichloropropane",
+    "class": "3",
+    "cas": [
+      "78-87-5"
+    ]
+  },
+  {
+    "un": "UN1551",
+    "name": "1,2-Dibromoethane",
+    "class": "6.1",
+    "cas": [
+      "106-93-4"
+    ]
+  },
+  {
+    "un": "UN1552",
+    "name": "N-Methylformamide",
+    "class": "6.1",
+    "cas": [
+      "123-39-7"
+    ]
+  },
+  {
+    "un": "UN1553",
+    "name": "N-Nitrosodimethylamine",
+    "class": "6.1",
+    "cas": [
+      "62-75-9"
+    ]
+  },
+  {
+    "un": "UN1554",
+    "name": "Ethyl acrylate",
+    "class": "3",
+    "cas": [
+      "140-88-5"
+    ]
+  },
+  {
+    "un": "UN1555",
+    "name": "Allyl alcohol",
+    "class": "6.1",
+    "cas": [
+      "107-18-6"
+    ]
+  },
+  {
+    "un": "UN1556",
+    "name": "Vinyl acetate, stabilized",
+    "class": "3",
+    "cas": [
+      "108-05-4"
+    ]
+  },
+  {
+    "un": "UN1557",
+    "name": "Ethyleneimine",
+    "class": "3",
+    "cas": [
+      "151-56-4"
+    ]
+  },
+  {
+    "un": "UN1558",
+    "name": "Chloroacetyl chloride",
+    "class": "6.1",
+    "cas": [
+      "79-04-9"
+    ]
+  },
+  {
+    "un": "UN1559",
+    "name": "Ethyl chloroformate",
+    "class": "6.1",
+    "cas": [
+      "541-41-3"
+    ]
+  },
+  {
+    "un": "UN1560",
+    "name": "Chloromethyl methyl ether",
+    "class": "6.1",
+    "cas": [
+      "107-30-2"
+    ]
+  },
+  {
+    "un": "UN1561",
+    "name": "Hydrogen selenide, compressed",
+    "class": "2.3",
+    "cas": [
+      "7783-07-5"
+    ]
+  },
+  {
+    "un": "UN1562",
+    "name": "Allyl chloride",
+    "class": "3",
+    "cas": [
+      "107-05-1"
+    ]
+  },
+  {
+    "un": "UN1563",
+    "name": "Nitroanilines, solid",
+    "class": "6.1",
+    "cas": [
+      "100-01-6"
+    ]
+  },
+  {
+    "un": "UN1564",
+    "name": "Hexachlorocyclopentadiene",
+    "class": "6.1",
+    "cas": [
+      "77-47-4"
+    ]
+  },
+  {
+    "un": "UN1565",
+    "name": "Acrylonitrile, inhibited",
+    "class": "3",
+    "cas": [
+      "107-13-1"
+    ]
+  },
+  {
+    "un": "UN1566",
+    "name": "Styrene monomer, stabilized",
+    "class": "3",
+    "cas": [
+      "100-42-5"
+    ]
+  },
+  {
+    "un": "UN1567",
+    "name": "Trichloroethylene",
+    "class": "6.1",
+    "cas": [
+      "79-01-6"
+    ]
+  },
+  {
+    "un": "UN1568",
+    "name": "1,1,2-Trichloroethane",
+    "class": "6.1",
+    "cas": [
+      "79-00-5"
+    ]
+  },
+  {
+    "un": "UN1569",
+    "name": "1,2-Dichloroethylene, stabilized",
+    "class": "3",
+    "cas": [
+      "156-60-5"
+    ]
+  },
+  {
+    "un": "UN1570",
+    "name": "Carbon tetrachloride",
+    "class": "6.1",
+    "cas": [
+      "56-23-5"
+    ]
+  },
+  {
+    "un": "UN1571",
+    "name": "Chlorobenzene",
+    "class": "3",
+    "cas": [
+      "108-90-7"
+    ]
+  },
+  {
+    "un": "UN1572",
+    "name": "1,2,4-Trichlorobenzene",
+    "class": "6.1",
+    "cas": [
+      "120-82-1"
+    ]
+  },
+  {
+    "un": "UN1573",
+    "name": "Bromobenzene",
+    "class": "3",
+    "cas": [
+      "108-86-1"
+    ]
+  },
+  {
+    "un": "UN1574",
+    "name": "Chloropicrin",
+    "class": "6.1",
+    "cas": [
+      "76-06-2"
+    ]
+  },
+  {
+    "un": "UN1575",
+    "name": "Isobutyronitrile",
+    "class": "3",
+    "cas": [
+      "78-82-0"
+    ]
+  },
+  {
+    "un": "UN1576",
+    "name": "Propionitrile",
+    "class": "3",
+    "cas": [
+      "107-12-0"
+    ]
+  },
+  {
+    "un": "UN1577",
+    "name": "Sec-butyl isocyanate",
+    "class": "6.1",
+    "cas": [
+      "1569-03-7"
+    ]
+  },
+  {
+    "un": "UN1578",
+    "name": "Methyl isocyanate",
+    "class": "6.1",
+    "cas": [
+      "624-83-9"
+    ]
+  },
+  {
+    "un": "UN1579",
+    "name": "Phenyl isocyanate",
+    "class": "6.1",
+    "cas": [
+      "103-71-9"
+    ]
+  },
+  {
+    "un": "UN1580",
+    "name": "Toluene diisocyanate",
+    "class": "6.1",
+    "cas": [
+      "26471-62-5"
+    ]
+  },
+  {
+    "un": "UN1581",
+    "name": "Methylene diphenyl diisocyanate",
+    "class": "6.1",
+    "cas": [
+      "101-68-8"
+    ]
+  },
+  {
+    "un": "UN1582",
+    "name": "Cyclohexyl isocyanate",
+    "class": "6.1",
+    "cas": [
+      "3173-53-3"
+    ]
+  },
+  {
+    "un": "UN1583",
+    "name": "Butyl isocyanate",
+    "class": "6.1",
+    "cas": [
+      "111-36-4"
+    ]
+  },
+  {
+    "un": "UN1584",
+    "name": "Ethyl isocyanate",
+    "class": "6.1",
+    "cas": [
+      "109-90-0"
+    ]
+  },
+  {
+    "un": "UN1585",
+    "name": "Hexyl isocyanate",
+    "class": "6.1",
+    "cas": [
+      "609-32-3"
+    ]
+  },
+  {
+    "un": "UN1586",
+    "name": "Isopropyl isocyanate",
+    "class": "6.1",
+    "cas": [
+      "4098-71-9"
+    ]
+  },
+  {
+    "un": "UN1587",
+    "name": "Naphthyl isocyanate",
+    "class": "6.1",
+    "cas": [
+      "3173-74-8"
+    ]
+  },
+  {
+    "un": "UN1588",
+    "name": "Octyl isocyanate",
+    "class": "6.1",
+    "cas": [
+      "6731-36-8"
+    ]
+  },
+  {
+    "un": "UN1589",
+    "name": "Vinyl isocyanate",
+    "class": "6.1",
+    "cas": [
+      "4170-30-3"
+    ]
+  },
+  {
+    "un": "UN1590",
+    "name": "Allyl isocyanate",
+    "class": "6.1",
+    "cas": [
+      "109-87-5"
+    ]
+  },
+  {
+    "un": "UN1591",
+    "name": "Crotonaldehyde",
+    "class": "6.1",
+    "cas": [
+      "123-73-9"
+    ]
+  },
+  {
+    "un": "UN1592",
+    "name": "Methacrylonitrile",
+    "class": "3",
+    "cas": [
+      "126-98-7"
+    ]
+  },
+  {
+    "un": "UN1593",
+    "name": "Nitrobenzene",
+    "class": "6.1",
+    "cas": [
+      "98-95-3"
+    ]
+  },
+  {
+    "un": "UN1594",
+    "name": "Phenol",
+    "class": "6.1",
+    "cas": [
+      "108-95-2"
+    ]
+  },
+  {
+    "un": "UN1595",
+    "name": "Acetone cyanohydrin, stabilized",
+    "class": "6.1",
+    "cas": [
+      "75-86-5"
+    ]
+  },
+  {
+    "un": "UN1596",
+    "name": "Isobutyronitrile",
+    "class": "3",
+    "cas": [
+      "78-82-0"
+    ]
+  },
+  {
+    "un": "UN1597",
+    "name": "Tert-butyl isocyanate",
+    "class": "6.1",
+    "cas": [
+      "1609-86-5"
+    ]
+  },
+  {
+    "un": "UN1598",
+    "name": "Methacrylonitrile, stabilized",
+    "class": "3",
+    "cas": [
+      "126-98-7"
+    ]
+  },
+  {
+    "un": "UN1599",
+    "name": "Propionitrile",
+    "class": "3",
+    "cas": [
+      "107-12-0"
+    ]
+  },
+  {
+    "un": "UN1600",
+    "name": "Thiourea dioxide",
+    "class": "8",
+    "cas": [
+      "1758-73-2"
+    ]
+  },
+  {
+    "un": "UN1601",
+    "name": "Acetyl chloride",
+    "class": "3",
+    "cas": [
+      "75-36-5"
+    ]
+  },
+  {
+    "un": "UN1602",
+    "name": "Aluminum alkyls, liquid",
+    "class": "4.2",
+    "cas": [
+      "7429-90-5"
+    ]
+  },
+  {
+    "un": "UN1603",
+    "name": "Arsine",
+    "class": "2.3",
+    "cas": [
+      "7784-42-1"
+    ]
+  },
+  {
+    "un": "UN1604",
+    "name": "Boron trifluoride",
+    "class": "2.3",
+    "cas": [
+      "7637-07-2"
+    ]
+  },
+  {
+    "un": "UN1605",
+    "name": "Bromine pentafluoride",
+    "class": "5.1",
+    "cas": [
+      "7789-30-2"
+    ]
+  },
+  {
+    "un": "UN1606",
+    "name": "Chlorine trifluoride",
+    "class": "2.3",
+    "cas": [
+      "7790-91-2"
+    ]
+  },
+  {
+    "un": "UN1607",
+    "name": "Diborane",
+    "class": "2.3",
+    "cas": [
+      "19287-45-7"
+    ]
+  },
+  {
+    "un": "UN1608",
+    "name": "Dichlorosilane",
+    "class": "2.3",
+    "cas": [
+      "4109-96-0"
+    ]
+  },
+  {
+    "un": "UN1609",
+    "name": "Dimethylhydrazine, unsymmetrical",
+    "class": "3",
+    "cas": [
+      "57-14-7"
+    ]
+  },
+  {
+    "un": "UN1610",
+    "name": "Ethyl chloroformate",
+    "class": "6.1",
+    "cas": [
+      "541-41-3"
+    ]
+  },
+  {
+    "un": "UN1611",
+    "name": "Hydrogen bromide, anhydrous",
+    "class": "2.3",
+    "cas": [
+      "10035-10-6"
+    ]
+  },
+  {
+    "un": "UN1612",
+    "name": "Hydrogen chloride, anhydrous",
+    "class": "2.3",
+    "cas": [
+      "7647-01-0"
+    ]
+  },
+  {
+    "un": "UN1613",
+    "name": "Hydrogen cyanide, stabilized",
+    "class": "2.3",
+    "cas": [
+      "74-90-8"
+    ]
+  },
+  {
+    "un": "UN1614",
+    "name": "Hydrogen fluoride, anhydrous",
+    "class": "8",
+    "cas": [
+      "7664-39-3"
+    ]
+  },
+  {
+    "un": "UN1615",
+    "name": "Hydrogen iodide, anhydrous",
+    "class": "2.3",
+    "cas": [
+      "10034-85-2"
+    ]
+  },
+  {
+    "un": "UN1616",
+    "name": "Hydrogen selenide",
+    "class": "2.3",
+    "cas": [
+      "7783-07-5"
+    ]
+  },
+  {
+    "un": "UN1617",
+    "name": "Hydrogen sulfide",
+    "class": "2.3",
+    "cas": [
+      "7783-06-4"
+    ]
+  },
+  {
+    "un": "UN1618",
+    "name": "Methyl chloroformate",
+    "class": "6.1",
+    "cas": [
+      "79-22-1"
+    ]
+  },
+  {
+    "un": "UN1619",
+    "name": "Nitrogen dioxide",
+    "class": "2.3",
+    "cas": [
+      "10102-44-0"
+    ]
+  },
+  {
+    "un": "UN1620",
+    "name": "Nitrosyl chloride",
+    "class": "2.3",
+    "cas": [
+      "2696-92-6"
+    ]
+  },
+  {
+    "un": "UN1621",
+    "name": "Phosphine",
+    "class": "2.3",
+    "cas": [
+      "7803-51-2"
+    ]
+  },
+  {
+    "un": "UN1622",
+    "name": "Phosphorus oxychloride",
+    "class": "8",
+    "cas": [
+      "10025-87-3"
+    ]
+  },
+  {
+    "un": "UN1623",
+    "name": "Phosphorus trichloride",
+    "class": "8",
+    "cas": [
+      "7719-12-2"
+    ]
+  },
+  {
+    "un": "UN1624",
+    "name": "Phosgene",
+    "class": "2.3",
+    "cas": [
+      "75-44-5"
+    ]
+  },
+  {
+    "un": "UN1625",
+    "name": "Silicon tetrachloride",
+    "class": "8",
+    "cas": [
+      "10026-04-7"
+    ]
+  },
+  {
+    "un": "UN1626",
+    "name": "Sulfur dioxide",
+    "class": "2.3",
+    "cas": [
+      "7446-09-5"
+    ]
+  },
+  {
+    "un": "UN1627",
+    "name": "Sulfur tetrafluoride",
+    "class": "2.3",
+    "cas": [
+      "7783-60-0"
+    ]
+  },
+  {
+    "un": "UN1628",
+    "name": "Tellurium hexafluoride",
+    "class": "2.3",
+    "cas": [
+      "7783-80-4"
+    ]
+  },
+  {
+    "un": "UN1629",
+    "name": "Titanium tetrachloride",
+    "class": "8",
+    "cas": [
+      "7550-45-0"
+    ]
+  },
+  {
+    "un": "UN1630",
+    "name": "Vanadium oxytrichloride",
+    "class": "8",
+    "cas": [
+      "10026-07-0"
+    ]
+  },
+  {
+    "un": "UN1631",
+    "name": "Bromine trifluoride",
+    "class": "5.1",
+    "cas": [
+      "7787-71-5"
+    ]
+  },
+  {
+    "un": "UN1632",
+    "name": "Chlorosulfonic acid",
+    "class": "8",
+    "cas": [
+      "7790-94-5"
+    ]
+  },
+  {
+    "un": "UN1633",
+    "name": "Nitric oxide",
+    "class": "2.3",
+    "cas": [
+      "10102-43-9"
+    ]
+  },
+  {
+    "un": "UN1634",
+    "name": "Allyl isocyanate",
+    "class": "6.1",
+    "cas": [
+      "109-87-5"
+    ]
+  },
+  {
+    "un": "UN1635",
+    "name": "Arsenic trichloride",
+    "class": "6.1",
+    "cas": [
+      "7784-34-1"
+    ]
+  },
+  {
+    "un": "UN1636",
+    "name": "Boron tribromide",
+    "class": "8",
+    "cas": [
+      "10294-33-4"
+    ]
+  },
+  {
+    "un": "UN1637",
+    "name": "Chlorine dioxide",
+    "class": "2.3",
+    "cas": [
+      "10049-04-4"
+    ]
+  },
+  {
+    "un": "UN1638",
+    "name": "Chloromethyl methyl ether",
+    "class": "6.1",
+    "cas": [
+      "107-30-2"
+    ]
+  },
+  {
+    "un": "UN1639",
+    "name": "Dimethyl sulfate",
+    "class": "6.1",
+    "cas": [
+      "77-78-1"
+    ]
+  },
+  {
+    "un": "UN1640",
+    "name": "Ethylene dibromide",
+    "class": "6.1",
+    "cas": [
+      "106-93-4"
+    ]
+  },
+  {
+    "un": "UN1641",
+    "name": "Methyl isocyanate",
+    "class": "6.1",
+    "cas": [
+      "624-83-9"
+    ]
+  },
+  {
+    "un": "UN1642",
+    "name": "Methyl chloroformate",
+    "class": "6.1",
+    "cas": [
+      "79-22-1"
+    ]
+  },
+  {
+    "un": "UN1643",
+    "name": "Nickel carbonyl",
+    "class": "6.1",
+    "cas": [
+      "13463-39-3"
+    ]
+  },
+  {
+    "un": "UN1644",
+    "name": "Nitrosyl chloride",
+    "class": "2.3",
+    "cas": [
+      "2696-92-6"
+    ]
+  },
+  {
+    "un": "UN1645",
+    "name": "Phosphorus pentachloride",
+    "class": "8",
+    "cas": [
+      "10026-13-8"
+    ]
+  },
+  {
+    "un": "UN1646",
+    "name": "Phosphorus trichloride",
+    "class": "8",
+    "cas": [
+      "7719-12-2"
+    ]
+  },
+  {
+    "un": "UN1647",
+    "name": "Silicon tetrafluoride",
+    "class": "2.3",
+    "cas": [
+      "7783-61-1"
+    ]
+  },
+  {
+    "un": "UN1648",
+    "name": "Sulfur monochloride",
+    "class": "8",
+    "cas": [
+      "10025-67-9"
+    ]
+  },
+  {
+    "un": "UN1649",
+    "name": "Tetraethyl lead",
+    "class": "6.1",
+    "cas": [
+      "78-00-2"
+    ]
+  },
+  {
+    "un": "UN1650",
+    "name": "Tetranitromethane",
+    "class": "6.1",
+    "cas": [
+      "509-14-8"
+    ]
+  },
+  {
+    "un": "UN1651",
+    "name": "Trichlorosilane",
+    "class": "4.3",
+    "cas": [
+      "10025-78-2"
+    ]
+  },
+  {
+    "un": "UN1652",
+    "name": "Vinyl acetate",
+    "class": "3",
+    "cas": [
+      "108-05-4"
+    ]
+  },
+  {
+    "un": "UN1653",
+    "name": "Vinyl bromide, stabilized",
+    "class": "2.1",
+    "cas": [
+      "593-60-2"
+    ]
+  },
+  {
+    "un": "UN1654",
+    "name": "Vinyl chloride, stabilized",
+    "class": "2.1",
+    "cas": [
+      "75-01-4"
+    ]
+  },
+  {
+    "un": "UN1655",
+    "name": "Zinc phosphide",
+    "class": "6.1",
+    "cas": [
+      "1314-84-7"
+    ]
+  },
+  {
+    "un": "UN1656",
+    "name": "Zirconium tetrachloride",
+    "class": "8",
+    "cas": [
+      "10026-11-6"
+    ]
+  },
+  {
+    "un": "UN1657",
+    "name": "Zirconium hydride",
+    "class": "4.1",
+    "cas": [
+      "7704-99-6"
+    ]
+  },
+  {
+    "un": "UN1658",
+    "name": "Antimony pentafluoride",
+    "class": "6.1",
+    "cas": [
+      "7783-70-2"
+    ]
+  },
+  {
+    "un": "UN1659",
+    "name": "Antimony trichloride",
+    "class": "8",
+    "cas": [
+      "10025-91-9"
+    ]
+  },
+  {
+    "un": "UN1660",
+    "name": "Arsenic trioxide",
+    "class": "6.1",
+    "cas": [
+      "1327-53-3"
+    ]
+  },
+  {
+    "un": "UN1661",
+    "name": "Barium cyanide",
+    "class": "6.1",
+    "cas": [
+      "542-62-1"
+    ]
+  },
+  {
+    "un": "UN1663",
+    "name": "Beryllium powder",
+    "class": "6.1",
+    "cas": [
+      "7440-41-7"
+    ]
+  },
+  {
+    "un": "UN1664",
+    "name": "Beryllium fluoride",
+    "class": "6.1",
+    "cas": [
+      "7787-32-8"
+    ]
+  },
+  {
+    "un": "UN1665",
+    "name": "Beryllium nitrate",
+    "class": "6.1",
+    "cas": [
+      "13597-99-4"
+    ]
+  },
+  {
+    "un": "UN1666",
+    "name": "Beryllium sulfate",
+    "class": "6.1",
+    "cas": [
+      "13510-49-1"
+    ]
+  },
+  {
+    "un": "UN1667",
+    "name": "Bismuth pentafluoride",
+    "class": "6.1",
+    "cas": [
+      "7787-62-2"
+    ]
+  },
+  {
+    "un": "UN1668",
+    "name": "Bromine trifluoride",
+    "class": "5.1",
+    "cas": [
+      "7787-71-5"
+    ]
+  },
+  {
+    "un": "UN1670",
+    "name": "Calcium cyanide",
+    "class": "6.1",
+    "cas": [
+      "592-01-8"
+    ]
+  },
+  {
+    "un": "UN1671",
+    "name": "Calcium hypochlorite, hydrated",
+    "class": "5.1",
+    "cas": [
+      "7778-54-3"
+    ]
+  },
+  {
+    "un": "UN1672",
+    "name": "Calcium hypochlorite, dry",
+    "class": "5.1",
+    "cas": [
+      "7778-54-3"
+    ]
+  },
+  {
+    "un": "UN1673",
+    "name": "Chromic acid solution",
+    "class": "8",
+    "cas": [
+      "7738-94-5"
+    ]
+  },
+  {
+    "un": "UN1674",
+    "name": "Chromium trioxide",
+    "class": "5.1",
+    "cas": [
+      "1333-82-0"
+    ]
+  },
+  {
+    "un": "UN1675",
+    "name": "Cyanogen chloride",
+    "class": "2.3",
+    "cas": [
+      "506-77-4"
+    ]
+  },
+  {
+    "un": "UN1676",
+    "name": "Cyanogen",
+    "class": "2.3",
+    "cas": [
+      "460-19-5"
+    ]
+  },
+  {
+    "un": "UN1677",
+    "name": "Cyclohexyl isocyanate",
+    "class": "6.1",
+    "cas": [
+      "3173-53-3"
+    ]
+  },
+  {
+    "un": "UN1678",
+    "name": "Cyclopropylamine",
+    "class": "3",
+    "cas": [
+      "765-30-0"
+    ]
+  },
+  {
+    "un": "UN1679",
+    "name": "Diphenylamine",
+    "class": "6.1",
+    "cas": [
+      "122-39-4"
+    ]
+  },
+  {
+    "un": "UN1680",
+    "name": "Disulfur dichloride",
+    "class": "8",
+    "cas": [
+      "10025-67-9"
+    ]
+  },
+  {
+    "un": "UN1681",
+    "name": "Dithiobiuret",
+    "class": "6.1",
+    "cas": [
+      "541-53-7"
+    ]
+  },
+  {
+    "un": "UN1682",
+    "name": "Ethyl chloroformate",
+    "class": "6.1",
+    "cas": [
+      "541-41-3"
+    ]
+  },
+  {
+    "un": "UN1683",
+    "name": "Ferric chloride, anhydrous",
+    "class": "8",
+    "cas": [
+      "7705-08-0"
+    ]
+  },
+  {
+    "un": "UN1684",
+    "name": "Formaldehyde solution",
+    "class": "8",
+    "cas": [
+      "50-00-0"
+    ]
+  },
+  {
+    "un": "UN1685",
+    "name": "Hydrazine, anhydrous",
+    "class": "8",
+    "cas": [
+      "302-01-2"
+    ]
+  },
+  {
+    "un": "UN1686",
+    "name": "Hydriodic acid",
+    "class": "8",
+    "cas": [
+      "10034-85-2"
+    ]
+  },
+  {
+    "un": "UN1687",
+    "name": "Hydrobromic acid",
+    "class": "8",
+    "cas": [
+      "10035-10-6"
+    ]
+  },
+  {
+    "un": "UN1688",
+    "name": "Hydrochloric acid",
+    "class": "8",
+    "cas": [
+      "7647-01-0"
+    ]
+  },
+  {
+    "un": "UN1689",
+    "name": "Hydrofluoric acid",
+    "class": "8",
+    "cas": [
+      "7664-39-3"
+    ]
+  },
+  {
+    "un": "UN1690",
+    "name": "Hydrogen",
+    "class": "2.1",
+    "cas": [
+      "1333-74-0"
+    ]
+  },
+  {
+    "un": "UN1691",
+    "name": "Hydrogen bromide",
+    "class": "2.3",
+    "cas": [
+      "10035-10-6"
+    ]
+  },
+  {
+    "un": "UN1692",
+    "name": "Hydrogen chloride",
+    "class": "2.3",
+    "cas": [
+      "7647-01-0"
+    ]
+  },
+  {
+    "un": "UN1693",
+    "name": "Hydrogen cyanide",
+    "class": "2.3",
+    "cas": [
+      "74-90-8"
+    ]
+  },
+  {
+    "un": "UN1694",
+    "name": "Hydrogen fluoride",
+    "class": "2.3",
+    "cas": [
+      "7664-39-3"
+    ]
+  },
+  {
+    "un": "UN1695",
+    "name": "Hydrogen iodide",
+    "class": "2.3",
+    "cas": [
+      "10034-85-2"
+    ]
+  },
+  {
+    "un": "UN1696",
+    "name": "Hydrogen peroxide, aqueous solution with not less than 20% but not more than 60% hydrogen peroxide",
+    "class": "5.1",
+    "cas": [
+      "7722-84-1"
+    ]
+  },
+  {
+    "un": "UN1697",
+    "name": "Hydrogen peroxide, aqueous solution with more than 60% hydrogen peroxide",
+    "class": "5.1",
+    "cas": [
+      "7722-84-1"
+    ]
+  },
+  {
+    "un": "UN1698",
+    "name": "Hydrogen sulfide",
+    "class": "2.3",
+    "cas": [
+      "7783-06-4"
+    ]
+  },
+  {
+    "un": "UN1699",
+    "name": "Hypochlorite solutions",
+    "class": "8",
+    "cas": [
+      "7681-52-9"
+    ]
+  },
+  {
+    "un": "UN1700",
+    "name": "Iodine",
+    "class": "8",
+    "cas": [
+      "7553-56-2"
+    ]
+  },
+  {
+    "un": "UN1701",
+    "name": "Isobutylamine",
+    "class": "3",
+    "cas": [
+      "78-81-9"
+    ]
+  },
+  {
+    "un": "UN1703",
+    "name": "Isopropyl chloroformate",
+    "class": "6.1",
+    "cas": [
+      "4027-25-0"
+    ]
+  },
+  {
+    "un": "UN1704",
+    "name": "Isopropyl isocyanate",
+    "class": "6.1",
+    "cas": [
+      "683-84-5"
+    ]
+  },
+  {
+    "un": "UN1705",
+    "name": "Isopropylamine",
+    "class": "3",
+    "cas": [
+      "75-31-0"
+    ]
+  },
+  {
+    "un": "UN1706",
+    "name": "Lead arsenate",
+    "class": "6.1",
+    "cas": [
+      "10124-36-4"
+    ]
+  },
+  {
+    "un": "UN1707",
+    "name": "Lead nitrate",
+    "class": "5.1",
+    "cas": [
+      "10099-74-8"
+    ]
+  },
+  {
+    "un": "UN1708",
+    "name": "Lithium aluminium hydride",
+    "class": "4.3",
+    "cas": [
+      "16853-85-3"
+    ]
+  },
+  {
+    "un": "UN1709",
+    "name": "Lithium hydride",
+    "class": "4.3",
+    "cas": [
+      "7580-67-8"
+    ]
+  },
+  {
+    "un": "UN1710",
+    "name": "Maleic anhydride",
+    "class": "8",
+    "cas": [
+      "108-31-6"
+    ]
+  },
+  {
+    "un": "UN1713",
+    "name": "Mercuric chloride",
+    "class": "6.1",
+    "cas": [
+      "7487-94-7"
+    ]
+  },
+  {
+    "un": "UN1714",
+    "name": "Mercuric nitrate",
+    "class": "6.1",
+    "cas": [
+      "10045-94-0"
+    ]
+  },
+  {
+    "un": "UN1715",
+    "name": "Mercuric oxide",
+    "class": "6.1",
+    "cas": [
+      "21908-53-2"
+    ]
+  },
+  {
+    "un": "UN1716",
+    "name": "Mercurous chloride",
+    "class": "6.1",
+    "cas": [
+      "10112-91-1"
+    ]
+  },
+  {
+    "un": "UN1717",
+    "name": "Mercurous nitrate",
+    "class": "6.1",
+    "cas": [
+      "7783-34-8"
+    ]
+  },
+  {
+    "un": "UN1718",
+    "name": "Mercury",
+    "class": "8",
+    "cas": [
+      "7439-97-6"
+    ]
+  },
+  {
+    "un": "UN1721",
+    "name": "Methacrylic acid",
+    "class": "8",
+    "cas": [
+      "79-41-4"
+    ]
+  },
+  {
+    "un": "UN1722",
+    "name": "Methacrylonitrile, stabilized",
+    "class": "3",
+    "cas": [
+      "126-98-7"
+    ]
+  },
+  {
+    "un": "UN1723",
+    "name": "Methanol",
+    "class": "3",
+    "cas": [
+      "67-56-1"
+    ]
+  },
+  {
+    "un": "UN1724",
+    "name": "Methomyl",
+    "class": "6.1",
+    "cas": [
+      "16752-77-5"
+    ]
+  },
+  {
+    "un": "UN1725",
+    "name": "Methyl acrylate",
+    "class": "3",
+    "cas": [
+      "96-33-3"
+    ]
+  },
+  {
+    "un": "UN1726",
+    "name": "Methylamine, anhydrous",
+    "class": "2.1",
+    "cas": [
+      "74-89-5"
+    ]
+  },
+  {
+    "un": "UN1727",
+    "name": "Methyl bromide",
+    "class": "2.3",
+    "cas": [
+      "74-83-9"
+    ]
+  },
+  {
+    "un": "UN1728",
+    "name": "Methyl chloride",
+    "class": "2.1",
+    "cas": [
+      "74-87-3"
+    ]
+  },
+  {
+    "un": "UN1729",
+    "name": "Methyl ethyl ketone",
+    "class": "3",
+    "cas": [
+      "78-93-3"
+    ]
+  },
+  {
+    "un": "UN1730",
+    "name": "Methyl hydrazine",
+    "class": "3",
+    "cas": [
+      "60-34-4"
+    ]
+  },
+  {
+    "un": "UN1731",
+    "name": "Methyl iodide",
+    "class": "6.1",
+    "cas": [
+      "74-88-4"
+    ]
+  },
+  {
+    "un": "UN1732",
+    "name": "Methyl isocyanate",
+    "class": "6.1",
+    "cas": [
+      "624-83-9"
+    ]
+  },
+  {
+    "un": "UN1733",
+    "name": "Methyl methacrylate, stabilized",
+    "class": "3",
+    "cas": [
+      "80-62-6"
+    ]
+  },
+  {
+    "un": "UN1734",
+    "name": "Methyl vinyl ketone, stabilized",
+    "class": "3",
+    "cas": [
+      "78-94-4"
+    ]
+  },
+  {
+    "un": "UN1735",
+    "name": "Methylene chloride",
+    "class": "6.1",
+    "cas": [
+      "75-09-2"
+    ]
+  },
+  {
+    "un": "UN1736",
+    "name": "Monochloroacetic acid",
+    "class": "6.1",
+    "cas": [
+      "79-11-8"
+    ]
+  },
+  {
+    "un": "UN1737",
+    "name": "Morpholine",
+    "class": "8",
+    "cas": [
+      "110-91-8"
+    ]
+  },
+  {
+    "un": "UN1738",
+    "name": "Nickel carbonyl",
+    "class": "6.1",
+    "cas": [
+      "13463-39-3"
+    ]
+  },
+  {
+    "un": "UN1739",
+    "name": "Nicotine",
+    "class": "6.1",
+    "cas": [
+      "54-11-5"
+    ]
+  },
+  {
+    "un": "UN1740",
+    "name": "Nitric acid",
+    "class": "8",
+    "cas": [
+      "7697-37-2"
+    ]
+  },
+  {
+    "un": "UN1741",
+    "name": "Nitric acid, red fuming",
+    "class": "8",
+    "cas": [
+      "7697-37-2"
+    ]
+  },
+  {
+    "un": "UN1742",
+    "name": "Nitric oxide",
+    "class": "2.3",
+    "cas": [
+      "10102-43-9"
+    ]
+  },
+  {
+    "un": "UN1743",
+    "name": "Nitrobenzene",
+    "class": "6.1",
+    "cas": [
+      "98-95-3"
+    ]
+  },
+  {
+    "un": "UN1744",
+    "name": "Nitromethane",
+    "class": "3",
+    "cas": [
+      "75-52-5"
+    ]
+  },
+  {
+    "un": "UN1745",
+    "name": "Nitrosodimethylamine",
+    "class": "6.1",
+    "cas": [
+      "62-75-9"
+    ]
+  },
+  {
+    "un": "UN1746",
+    "name": "Nitrosyl chloride",
+    "class": "2.3",
+    "cas": [
+      "2696-92-6"
+    ]
+  },
+  {
+    "un": "UN1747",
+    "name": "Octyl isocyanate",
+    "class": "6.1",
+    "cas": [
+      "1533-86-6"
+    ]
+  },
+  {
+    "un": "UN1748",
+    "name": "Oleum",
+    "class": "8",
+    "cas": [
+      "8014-95-7"
+    ]
+  },
+  {
+    "un": "UN1763",
+    "name": "Perchloric acid, with not more than 50% acid",
+    "class": "8",
+    "cas": [
+      "7601-90-3"
+    ]
+  },
+  {
+    "un": "UN1764",
+    "name": "Phenol",
+    "class": "6.1",
+    "cas": [
+      "108-95-2"
+    ]
+  },
+  {
+    "un": "UN1765",
+    "name": "Phenyl isocyanate",
+    "class": "6.1",
+    "cas": [
+      "103-71-9"
+    ]
+  },
+  {
+    "un": "UN1766",
+    "name": "Phosgene",
+    "class": "2.3",
+    "cas": [
+      "75-44-5"
+    ]
+  },
+  {
+    "un": "UN1767",
+    "name": "Phosphine",
+    "class": "2.3",
+    "cas": [
+      "7803-51-2"
+    ]
+  },
+  {
+    "un": "UN1768",
+    "name": "Phosphorus oxychloride",
+    "class": "8",
+    "cas": [
+      "10025-87-3"
+    ]
+  },
+  {
+    "un": "UN1769",
+    "name": "Phosphorus pentachloride",
+    "class": "8",
+    "cas": [
+      "10026-13-8"
+    ]
+  },
+  {
+    "un": "UN1770",
+    "name": "Phosphorus trichloride",
+    "class": "8",
+    "cas": [
+      "7719-12-2"
+    ]
+  },
+  {
+    "un": "UN1771",
+    "name": "Potassium cyanide, solid",
+    "class": "6.1",
+    "cas": [
+      "151-50-8"
+    ]
+  },
+  {
+    "un": "UN1772",
+    "name": "Potassium picrate",
+    "class": "1.1D",
+    "cas": [
+      "131-74-8"
+    ]
+  },
+  {
+    "un": "UN1773",
+    "name": "Potassium peroxide",
+    "class": "5.1",
+    "cas": [
+      "12030-88-5"
+    ]
+  },
+  {
+    "un": "UN1774",
+    "name": "Propargyl alcohol",
+    "class": "6.1",
+    "cas": [
+      "107-19-7"
+    ]
+  },
+  {
+    "un": "UN1775",
+    "name": "Propiolactone, beta-",
+    "class": "6.1",
+    "cas": [
+      "57-57-8"
+    ]
+  },
+  {
+    "un": "UN1776",
+    "name": "Propionaldehyde",
+    "class": "3",
+    "cas": [
+      "123-38-6"
+    ]
+  },
+  {
+    "un": "UN1777",
+    "name": "Propionitrile",
+    "class": "3",
+    "cas": [
+      "107-12-0"
+    ]
+  },
+  {
+    "un": "UN1778",
+    "name": "Propyl chloroformate",
+    "class": "6.1",
+    "cas": [
+      "623-50-7"
+    ]
+  },
+  {
+    "un": "UN1779",
+    "name": "Pyridine",
+    "class": "3",
+    "cas": [
+      "110-86-1"
+    ]
+  },
+  {
+    "un": "UN1780",
+    "name": "Selenium hexafluoride",
+    "class": "2.3",
+    "cas": [
+      "7783-79-1"
+    ]
+  },
+  {
+    "un": "UN1781",
+    "name": "Silicon tetrachloride",
+    "class": "8",
+    "cas": [
+      "10026-04-7"
+    ]
+  },
+  {
+    "un": "UN1782",
+    "name": "Sodium aluminium hydride",
+    "class": "4.3",
+    "cas": [
+      "13770-96-2"
+    ]
+  },
+  {
+    "un": "UN1783",
+    "name": "Sodium amide",
+    "class": "4.3",
+    "cas": [
+      "7782-92-5"
+    ]
+  },
+  {
+    "un": "UN1784",
+    "name": "Sodium azide",
+    "class": "6.1",
+    "cas": [
+      "26628-22-8"
+    ]
+  },
+  {
+    "un": "UN1785",
+    "name": "Sodium cyanide",
+    "class": "6.1",
+    "cas": [
+      "143-33-9"
+    ]
+  },
+  {
+    "un": "UN1786",
+    "name": "Sodium hydride",
+    "class": "4.3",
+    "cas": [
+      "7646-69-7"
+    ]
+  },
+  {
+    "un": "UN1787",
+    "name": "Sodium peroxide",
+    "class": "5.1",
+    "cas": [
+      "1313-60-6"
+    ]
+  },
+  {
+    "un": "UN1788",
+    "name": "Sodium sulfide, anhydrous",
+    "class": "4.2",
+    "cas": [
+      "1313-82-2"
+    ]
+  },
+  {
+    "un": "UN1789",
+    "name": "Hydrochloric acid, solution",
+    "class": "8",
+    "cas": [
+      "7647-01-0"
+    ]
+  },
+  {
+    "un": "UN1790",
+    "name": "Hydrofluoric acid, solution",
+    "class": "8",
+    "cas": [
+      "7664-39-3"
+    ]
+  },
+  {
+    "un": "UN1791",
+    "name": "Hypochlorite solution",
+    "class": "8",
+    "cas": [
+      "7681-52-9"
+    ]
+  },
+  {
+    "un": "UN1792",
+    "name": "Iodine monochloride",
+    "class": "8",
+    "cas": [
+      "7790-99-0"
+    ]
+  },
+  {
+    "un": "UN1793",
+    "name": "Isobutyryl chloride",
+    "class": "3",
+    "cas": [
+      "79-30-1"
+    ]
+  },
+  {
+    "un": "UN1794",
+    "name": "Isopropyl chloroformate",
+    "class": "6.1",
+    "cas": [
+      "4027-25-0"
+    ]
+  },
+  {
+    "un": "UN1795",
+    "name": "Isopropyl isocyanate",
+    "class": "6.1",
+    "cas": [
+      "683-84-5"
+    ]
+  },
+  {
+    "un": "UN1796",
+    "name": "Isopropylamine",
+    "class": "3",
+    "cas": [
+      "75-31-0"
+    ]
+  },
+  {
+    "un": "UN1797",
+    "name": "Ketene",
+    "class": "2.3",
+    "cas": [
+      "463-51-4"
+    ]
+  },
+  {
+    "un": "UN1798",
+    "name": "Kerosene",
+    "class": "3",
+    "cas": [
+      "8008-20-6"
+    ]
+  },
+  {
+    "un": "UN1799",
+    "name": "Lactic acid",
+    "class": "8",
+    "cas": [
+      "50-21-5"
+    ]
+  },
+  {
+    "un": "UN1800",
+    "name": "Lauric acid",
+    "class": "8",
+    "cas": [
+      "143-07-7"
+    ]
+  },
+  {
+    "un": "UN1801",
+    "name": "Octyltrichlorosilane",
+    "class": "8",
+    "cas": [
+      "5283\u201166\u20119"
+    ]
+  },
+  {
+    "un": "UN1802",
+    "name": "Perchloric acid with not more than 50 percent acid by mass",
+    "class": "8",
+    "cas": [
+      "7601\u201190\u20113"
+    ]
+  },
+  {
+    "un": "UN1803",
+    "name": "Phenolsulfonic acid, liquid",
+    "class": "8",
+    "cas": [
+      "98\u201111\u20111"
+    ]
+  },
+  {
+    "un": "UN1804",
+    "name": "Phenyltrichlorosilane",
+    "class": "8",
+    "cas": [
+      "1079\u201137\u20116"
+    ]
+  },
+  {
+    "un": "UN1805",
+    "name": "Phosphoric acid",
+    "class": "8",
+    "cas": [
+      "7664\u201138\u20112"
+    ]
+  },
+  {
+    "un": "UN1806",
+    "name": "Phosphorus pentachloride",
+    "class": "8",
+    "cas": [
+      "10026\u201113\u20118"
+    ]
+  },
+  {
+    "un": "UN1807",
+    "name": "Phosphorus pentoxide",
+    "class": "8",
+    "cas": [
+      "1314\u201156\u20113"
+    ]
+  },
+  {
+    "un": "UN1808",
+    "name": "Phosphorus tribromide",
+    "class": "8",
+    "cas": [
+      "7723\u201114\u20110"
+    ]
+  },
+  {
+    "un": "UN1809",
+    "name": "Phosphorus trichloride",
+    "class": "6.1",
+    "cas": [
+      "7719\u201112\u20112"
+    ]
+  },
+  {
+    "un": "UN1810",
+    "name": "Phosphorus oxychloride",
+    "class": "8",
+    "cas": [
+      "10025\u201187\u20113"
+    ]
+  },
+  {
+    "un": "UN1811",
+    "name": "Potassium hydrogendifluoride (solid or solution)",
+    "class": "8",
+    "cas": [
+      "7789\u201128\u20110"
+    ]
+  },
+  {
+    "un": "UN1812",
+    "name": "Potassium fluoride",
+    "class": "8",
+    "cas": [
+      "7789\u201123\u20113"
+    ]
+  },
+  {
+    "un": "UN1813",
+    "name": "Potassium hydroxide (solid)",
+    "class": "8",
+    "cas": [
+      "1310\u201158\u20113"
+    ]
+  },
+  {
+    "un": "UN1814",
+    "name": "Potassium hydroxide (solution)",
+    "class": "8",
+    "cas": [
+      "1310\u201158\u20113"
+    ]
+  },
+  {
+    "un": "UN1815",
+    "name": "Propionyl chloride",
+    "class": "3",
+    "cas": [
+      "79\u201103\u20118"
+    ]
+  },
+  {
+    "un": "UN1816",
+    "name": "Propyltrichlorosilane",
+    "class": "8",
+    "cas": [
+      "10564\u201132\u20110"
+    ]
+  },
+  {
+    "un": "UN1817",
+    "name": "Pyrosulfuryl chloride",
+    "class": "8",
+    "cas": [
+      "7791\u201167\u20117"
+    ]
+  },
+  {
+    "un": "UN1818",
+    "name": "Silicon tetrachloride",
+    "class": "8",
+    "cas": [
+      "10026\u201104\u20117"
+    ]
+  },
+  {
+    "un": "UN1819",
+    "name": "Sodium aluminate (solution)",
+    "class": "8",
+    "cas": [
+      "1302\u201142\u20117"
+    ]
+  },
+  {
+    "un": "UN1823",
+    "name": "Sodium hydroxide (solid)",
+    "class": "8",
+    "cas": [
+      "1310\u201173\u20112"
+    ]
+  },
+  {
+    "un": "UN1824",
+    "name": "Sodium hydroxide (solution)",
+    "class": "8",
+    "cas": [
+      "1310\u201173\u20112"
+    ]
+  },
+  {
+    "un": "UN1825",
+    "name": "Sodium monoxide",
+    "class": "8",
+    "cas": [
+      "1302\u201174\u20115"
+    ]
+  },
+  {
+    "un": "UN1827",
+    "name": "Stannic chloride, anhydrous",
+    "class": "8",
+    "cas": [
+      "7646\u201178\u20118"
+    ]
+  },
+  {
+    "un": "UN1829",
+    "name": "Sulfur trioxide, inhibited or stabilized",
+    "class": "8",
+    "cas": [
+      "7446\u201111\u20119"
+    ]
+  },
+  {
+    "un": "UN1830",
+    "name": "Sulfuric acid with more than 51% acid",
+    "class": "8",
+    "cas": [
+      "7664\u201193\u20119"
+    ]
+  },
+  {
+    "un": "UN1832",
+    "name": "Sulfuric acid, spent",
+    "class": "8",
+    "cas": [
+      "7664\u201193\u20119"
+    ]
+  },
+  {
+    "un": "UN1833",
+    "name": "Sulfurous acid",
+    "class": "8",
+    "cas": [
+      "7446\u201109\u20115"
+    ]
+  },
+  {
+    "un": "UN1834",
+    "name": "Sulfuryl chloride",
+    "class": "8",
+    "cas": [
+      "7790\u201194\u20113"
+    ]
+  },
+  {
+    "un": "UN1835",
+    "name": "Tetramethylammonium hydroxide",
+    "class": "8",
+    "cas": [
+      "75\u201159\u20112"
+    ]
+  },
+  {
+    "un": "UN1836",
+    "name": "Thionyl chloride",
+    "class": "8",
+    "cas": [
+      "7719\u201109\u20117"
+    ]
+  },
+  {
+    "un": "UN1837",
+    "name": "Thiophosphoryl chloride",
+    "class": "8",
+    "cas": [
+      "7719\u201112\u20112"
+    ]
+  },
+  {
+    "un": "UN1838",
+    "name": "Titanium tetrachloride",
+    "class": "8",
+    "cas": [
+      "7550\u201145\u20110"
+    ]
+  },
+  {
+    "un": "UN1839",
+    "name": "Trichloroacetic acid",
+    "class": "8",
+    "cas": [
+      "76\u201103\u20119"
+    ]
+  },
+  {
+    "un": "UN1840",
+    "name": "Zinc chloride, solution",
+    "class": "8",
+    "cas": [
+      "7646\u201185\u20117"
+    ]
+  },
+  {
+    "un": "UN1845",
+    "name": "Carbon dioxide, solid (Dry ice)",
+    "class": "9",
+    "cas": [
+      "124\u201138\u20119"
+    ]
+  },
+  {
+    "un": "UN1846",
+    "name": "Carbon tetrachloride",
+    "class": "8",
+    "cas": [
+      "56\u201123\u20115"
+    ]
+  },
+  {
+    "un": "UN1848",
+    "name": "Propionic acid",
+    "class": "8",
+    "cas": [
+      "79\u201109\u20114"
+    ]
+  },
+  {
+    "un": "UN1851",
+    "name": "Sulfuryl chloride",
+    "class": "8",
+    "cas": [
+      "7790\u201194\u20113"
+    ]
+  },
+  {
+    "un": "UN1852",
+    "name": "Stannous chloride, anhydrous",
+    "class": "8",
+    "cas": [
+      "7447\u201185\u20116"
+    ]
+  },
+  {
+    "un": "UN1853",
+    "name": "Tetraethylammonium bromide solution",
+    "class": "8",
+    "cas": [
+      "1112\u201171\u20112"
+    ]
+  },
+  {
+    "un": "UN1854",
+    "name": "Tin trichloride solution",
+    "class": "8",
+    "cas": [
+      "10025\u201169\u20111"
+    ]
+  },
+  {
+    "un": "UN1855",
+    "name": "Triethylaluminum, stabilized",
+    "class": "4.2",
+    "cas": [
+      "97\u201193\u20118"
+    ]
+  },
+  {
+    "un": "UN1856",
+    "name": "Triisobutylaluminum",
+    "class": "4.2",
+    "cas": [
+      "1311\u201109\u20115"
+    ]
+  },
+  {
+    "un": "UN1858",
+    "name": "Triethylaluminum, solution",
+    "class": "4.2",
+    "cas": [
+      "97\u201193\u20118"
+    ]
+  },
+  {
+    "un": "UN1859",
+    "name": "Triisobutylaluminum solution",
+    "class": "4.2",
+    "cas": [
+      "1311\u201109\u20115"
+    ]
+  },
+  {
+    "un": "UN1860",
+    "name": "Tetrahydropyran",
+    "class": "3",
+    "cas": [
+      "142\u201114\u20115"
+    ]
+  },
+  {
+    "un": "UN1861",
+    "name": "Dimethylmercury",
+    "class": "6.1",
+    "cas": [
+      "593\u201174\u20118"
+    ]
+  },
+  {
+    "un": "UN1862",
+    "name": "Dimethylcadmium",
+    "class": "6.1",
+    "cas": [
+      "593\u201132\u20118"
+    ]
+  },
+  {
+    "un": "UN1863",
+    "name": "Cyclopentadienyl manganese tricarbonyl",
+    "class": "6.1",
+    "cas": [
+      "12108\u201113\u20113"
+    ]
+  },
+  {
+    "un": "UN1864",
+    "name": "Hexacarbonyl manganese",
+    "class": "6.1",
+    "cas": [
+      "13927\u201164\u20113"
+    ]
+  },
+  {
+    "un": "UN1865",
+    "name": "Carbonyl dichloride, solution",
+    "class": "6.1",
+    "cas": [
+      "542\u201150\u20111"
+    ]
+  },
+  {
+    "un": "UN1866",
+    "name": "Tetracarbonylnickel",
+    "class": "6.1",
+    "cas": [
+      "118\u201124\u20117"
+    ]
+  },
+  {
+    "un": "UN1868",
+    "name": "Phosphorus pentoxide",
+    "class": "8",
+    "cas": [
+      "1314\u201156\u20113"
+    ]
+  },
+  {
+    "un": "UN1869",
+    "name": "Phosphorus trichloride",
+    "class": "6.1",
+    "cas": [
+      "7719\u201112\u20112"
+    ]
+  },
+  {
+    "un": "UN1870",
+    "name": "Phosphorus oxychloride",
+    "class": "8",
+    "cas": [
+      "10025\u201187\u20113"
+    ]
+  },
+  {
+    "un": "UN1871",
+    "name": "Phosphorus pentachloride",
+    "class": "8",
+    "cas": [
+      "10026\u201113\u20118"
+    ]
+  },
+  {
+    "un": "UN1872",
+    "name": "Phosphorus, red, wet",
+    "class": "4.2",
+    "cas": [
+      "7723\u201114\u20110"
+    ]
+  },
+  {
+    "un": "UN1873",
+    "name": "Phosphorus, yellow, wet",
+    "class": "4.2",
+    "cas": [
+      "7723\u201114\u20110"
+    ]
+  },
+  {
+    "un": "UN1874",
+    "name": "Phosphorus, white, solution",
+    "class": "6.1",
+    "cas": [
+      "7723\u201114\u20110"
+    ]
+  },
+  {
+    "un": "UN1875",
+    "name": "Phosphorus, wet, stabilized",
+    "class": "4.2",
+    "cas": [
+      "7723\u201114\u20110"
+    ]
+  },
+  {
+    "un": "UN1876",
+    "name": "Phosphorus tribromide",
+    "class": "8",
+    "cas": [
+      "7723\u201114\u20110"
+    ]
+  },
+  {
+    "un": "UN1877",
+    "name": "Phosphorus sesquichloride",
+    "class": "8",
+    "cas": [
+      "10026\u201107\u20116"
+    ]
+  },
+  {
+    "un": "UN1878",
+    "name": "Trioxides of phosphorus",
+    "class": "8",
+    "cas": [
+      "1314\u201156\u20113"
+    ]
+  },
+  {
+    "un": "UN1879",
+    "name": "Silicon tetrachloride",
+    "class": "8",
+    "cas": [
+      "10026\u201104\u20117"
+    ]
+  },
+  {
+    "un": "UN1880",
+    "name": "Thionyl chloride",
+    "class": "8",
+    "cas": [
+      "7719\u201109\u20117"
+    ]
+  },
+  {
+    "un": "UN1881",
+    "name": "Titanium tetrachloride",
+    "class": "8",
+    "cas": [
+      "7550\u201145\u20110"
+    ]
+  },
+  {
+    "un": "UN1882",
+    "name": "Stannic chloride, solution",
+    "class": "8",
+    "cas": [
+      "7646\u201178\u20118"
+    ]
+  },
+  {
+    "un": "UN1883",
+    "name": "Stannous chloride, hydrated",
+    "class": "8",
+    "cas": [
+      "7447\u201185\u20116"
+    ]
+  },
+  {
+    "un": "UN1884",
+    "name": "Phosphorus oxybromide",
+    "class": "8",
+    "cas": [
+      "14958\u201179\u20111"
+    ]
+  },
+  {
+    "un": "UN1886",
+    "name": "Sulfuric acid with more than 51% acid",
+    "class": "8",
+    "cas": [
+      "7664\u201193\u20119"
+    ]
+  },
+  {
+    "un": "UN1887",
+    "name": "Sulfuric acid with not less than 51%",
+    "class": "8",
+    "cas": [
+      "7664\u201193\u20119"
+    ]
+  },
+  {
+    "un": "UN1888",
+    "name": "Sulfuric acid, spent",
+    "class": "8",
+    "cas": [
+      "7664\u201193\u20119"
+    ]
+  },
+  {
+    "un": "UN1889",
+    "name": "Sulfuric acid, solution",
+    "class": "8",
+    "cas": [
+      "7664\u201193\u20119"
+    ]
+  },
+  {
+    "un": "UN1890",
+    "name": "Stannous chloride, solution",
+    "class": "8",
+    "cas": [
+      "7447\u201185\u20116"
+    ]
+  },
+  {
+    "un": "UN1891",
+    "name": "Stannic chloride, hydrated",
+    "class": "8",
+    "cas": [
+      "7646\u201178\u20118"
+    ]
+  },
+  {
+    "un": "UN1892",
+    "name": "Trichlorosilane",
+    "class": "2.1",
+    "cas": [
+      "10025\u201178\u20118"
+    ]
+  },
+  {
+    "un": "UN1893",
+    "name": "Triiodosilane",
+    "class": "2.1",
+    "cas": [
+      "10025\u201180\u20110"
+    ]
+  },
+  {
+    "un": "UN1894",
+    "name": "Octabromodipropyl ether",
+    "class": "9",
+    "cas": [
+      "113539\u201113\u20112"
+    ]
+  },
+  {
+    "un": "UN1898",
+    "name": "Titanium tetrachloride solution",
+    "class": "8",
+    "cas": [
+      "7550\u201145\u20110"
+    ]
+  },
+  {
+    "un": "UN1899",
+    "name": "Thionyl chloride solution",
+    "class": "8",
+    "cas": [
+      "7719\u201109\u20117"
+    ]
+  },
+  {
+    "un": "UN1900",
+    "name": "Phosphorus sesquichloride solution",
+    "class": "8",
+    "cas": [
+      "10026\u201107\u20116"
+    ]
+  },
+  {
+    "un": "UN1902",
+    "name": "Phosphorus pentabromide",
+    "class": "8",
+    "cas": [
+      "7789\u201160\u20118"
+    ]
+  },
+  {
+    "un": "UN1905",
+    "name": "Trichlorodiethylsilane",
+    "class": "8",
+    "cas": [
+      "97\u201100\u20119"
+    ]
+  },
+  {
+    "un": "UN1906",
+    "name": "Trisilane",
+    "class": "2.1",
+    "cas": [
+      "18540\u201129\u20119"
+    ]
+  },
+  {
+    "un": "UN1907",
+    "name": "Hexamethylphosphoramide",
+    "class": "6.1",
+    "cas": [
+      "680\u201131\u20119"
+    ]
+  },
+  {
+    "un": "UN1909",
+    "name": "Silicon tetrachloride, solution",
+    "class": "8",
+    "cas": [
+      "10026\u201104\u20117"
+    ]
+  },
+  {
+    "un": "UN1910",
+    "name": "Thionyl chloride, solution",
+    "class": "8",
+    "cas": [
+      "7719\u201109\u20117"
+    ]
+  },
+  {
+    "un": "UN1911",
+    "name": "Titanium tetrachloride, solution",
+    "class": "8",
+    "cas": [
+      "7550\u201145\u20110"
+    ]
+  },
+  {
+    "un": "UN1912",
+    "name": "Stannic chloride, hydrated",
+    "class": "8",
+    "cas": [
+      "7646\u201178\u20118"
+    ]
+  },
+  {
+    "un": "UN1913",
+    "name": "Phosphorus pentachloride solution",
+    "class": "8",
+    "cas": [
+      "10026\u201113\u20118"
+    ]
+  },
+  {
+    "un": "UN1914",
+    "name": "Phosphorus trichloride solution",
+    "class": "6.1",
+    "cas": [
+      "7719\u201112\u20112"
+    ]
+  },
+  {
+    "un": "UN1915",
+    "name": "Phosphorus tribromide solution",
+    "class": "8",
+    "cas": [
+      "7723\u201114\u20110"
+    ]
+  },
+  {
+    "un": "UN1916",
+    "name": "Phosphorus oxychloride solution",
+    "class": "8",
+    "cas": [
+      "10025\u201187\u20113"
+    ]
+  },
+  {
+    "un": "UN1917",
+    "name": "Stannous chloride solution",
+    "class": "8",
+    "cas": [
+      "7447\u201185\u20116"
+    ]
+  },
+  {
+    "un": "UN1918",
+    "name": "Sulfuryl chloride solution",
+    "class": "8",
+    "cas": [
+      "7790\u201194\u20113"
+    ]
+  },
+  {
+    "un": "UN1919",
+    "name": "Titanium tetrachloride solution",
+    "class": "8",
+    "cas": [
+      "7550\u201145\u20110"
+    ]
+  },
+  {
+    "un": "UN1920",
+    "name": "Sulfuric acid, with not less than 51% acid",
+    "class": "8",
+    "cas": [
+      "7664\u201193\u20119"
+    ]
+  },
+  {
+    "un": "UN1921",
+    "name": "Sulfuric acid, with more than 51%",
+    "class": "8",
+    "cas": [
+      "7664\u201193\u20119"
+    ]
+  },
+  {
+    "un": "UN1922",
+    "name": "Sulfuric acid, solution",
+    "class": "8",
+    "cas": [
+      "7664\u201193\u20119"
+    ]
+  },
+  {
+    "un": "UN1923",
+    "name": "Stannous chloride hydrated solution",
+    "class": "8",
+    "cas": [
+      "7447\u201185\u20116"
+    ]
+  },
+  {
+    "un": "UN1924",
+    "name": "Stannic chloride hydrated solution",
+    "class": "8",
+    "cas": [
+      "7646\u201178\u20118"
+    ]
+  },
+  {
+    "un": "UN1925",
+    "name": "Phosphorus, red, wet solution",
+    "class": "6.1",
+    "cas": [
+      "7723\u201114\u20110"
+    ]
+  },
+  {
+    "un": "UN1926",
+    "name": "Phosphorus, yellow, wet solution",
+    "class": "6.1",
+    "cas": [
+      "7723\u201114\u20110"
+    ]
+  },
+  {
+    "un": "UN1927",
+    "name": "Phosphorus, white, solution diluted",
+    "class": "6.1",
+    "cas": [
+      "7723\u201114\u20110"
+    ]
+  },
+  {
+    "un": "UN1928",
+    "name": "Triethylaluminum, stabilized solution",
+    "class": "4.2",
+    "cas": [
+      "97\u201193\u20118"
+    ]
+  },
+  {
+    "un": "UN1929",
+    "name": "Triisobutylaluminum solution stabilized",
+    "class": "4.2",
+    "cas": [
+      "1311\u201109\u20115"
+    ]
+  },
+  {
+    "un": "UN1930",
+    "name": "Triethylaluminum, dry",
+    "class": "4.2",
+    "cas": [
+      "97\u201193\u20118"
+    ]
+  },
+  {
+    "un": "UN1931",
+    "name": "Triisobutylaluminum, dry",
+    "class": "4.2",
+    "cas": [
+      "1311\u201109\u20115"
+    ]
+  },
+  {
+    "un": "UN1932",
+    "name": "Trisilane, stabilized",
+    "class": "2.1",
+    "cas": [
+      "18540\u201129\u20119"
+    ]
+  },
+  {
+    "un": "UN1933",
+    "name": "Trisilane, dry",
+    "class": "2.1",
+    "cas": [
+      "18540\u201129\u20119"
+    ]
+  },
+  {
+    "un": "UN1934",
+    "name": "Tetrahydropyran, solution",
+    "class": "3",
+    "cas": [
+      "142\u201114\u20115"
+    ]
+  },
+  {
+    "un": "UN1935",
+    "name": "Dimethylmercury solution",
+    "class": "6.1",
+    "cas": [
+      "593\u201174\u20118"
+    ]
+  },
+  {
+    "un": "UN1936",
+    "name": "Dimethylcadmium solution",
+    "class": "6.1",
+    "cas": [
+      "593\u201132\u20118"
+    ]
+  },
+  {
+    "un": "UN1937",
+    "name": "Cyclopentadienyl manganese tricarbonyl solution",
+    "class": "6.1",
+    "cas": [
+      "12108\u201113\u20113"
+    ]
+  },
+  {
+    "un": "UN1938",
+    "name": "Hexacarbonyl manganese, solution",
+    "class": "6.1",
+    "cas": [
+      "13927\u201164\u20113"
+    ]
+  },
+  {
+    "un": "UN1939",
+    "name": "Tetracarbonylnickel solution",
+    "class": "6.1",
+    "cas": [
+      "118\u201124\u20117"
+    ]
+  },
+  {
+    "un": "UN2014",
+    "name": "Hydrogen peroxide, aqueous solutions with not less than 20% but not more than 40% hydrogen peroxide (stabilized as necessary)",
+    "class": "5.1",
+    "cas": [
+      "7722\u201184\u20111"
+    ]
+  },
+  {
+    "un": "UN2050",
+    "name": "Diisobutylene, isomeric compounds",
+    "class": "3",
+    "cas": [
+      "25167\u201170\u20118"
+    ]
+  },
+  {
+    "un": "UN2201",
+    "name": "Aluminum phosphide, technical",
+    "class": "4.3",
+    "cas": [
+      "20859-73-8"
+    ]
+  },
+  {
+    "un": "UN2202",
+    "name": "Ammonium picrate, dry or wetted with less than 10 percent water, by mass",
+    "class": "1.1D",
+    "cas": [
+      "131-74-8"
+    ]
+  },
+  {
+    "un": "UN2203",
+    "name": "Butyl acrylate, stabilized",
+    "class": "3",
+    "cas": [
+      "141-32-2"
+    ]
+  },
+  {
+    "un": "UN2204",
+    "name": "Carbon monoxide, refrigerated liquid",
+    "class": "2.3",
+    "cas": [
+      "630-08-0"
+    ]
+  },
+  {
+    "un": "UN2205",
+    "name": "Cyclohexylamine",
+    "class": "8",
+    "cas": [
+      "108-91-8"
+    ]
+  },
+  {
+    "un": "UN2206",
+    "name": "Dichloroisocyanuric acid, dry or wetted with less than 10% water",
+    "class": "5.1",
+    "cas": [
+      "2893-78-9"
+    ]
+  },
+  {
+    "un": "UN2207",
+    "name": "Diphenylmethane-4,4'-diisocyanate",
+    "class": "6.1",
+    "cas": [
+      "101-68-8"
+    ]
+  },
+  {
+    "un": "UN2208",
+    "name": "Ethyl chloroformate",
+    "class": "3",
+    "cas": [
+      "541-41-3"
+    ]
+  },
+  {
+    "un": "UN2209",
+    "name": "Ferric chloride, anhydrous",
+    "class": "8",
+    "cas": [
+      "7705-08-0"
+    ]
+  },
+  {
+    "un": "UN2210",
+    "name": "Hexachlorocyclopentadiene",
+    "class": "6.1",
+    "cas": [
+      "77-47-4"
+    ]
+  },
+  {
+    "un": "UN2449",
+    "name": "Ammonium permanganate",
+    "class": "5.1",
+    "cas": [
+      "7787-36-2"
+    ]
+  },
+  {
+    "un": "UN2549",
+    "name": "Aluminium phosphide, see also pesticide entries",
+    "class": "4.3",
+    "cas": [
+      "20859-73-8"
+    ]
+  },
+  {
+    "un": "UN2649",
+    "name": "Sulphur dioxide",
+    "class": "2.3",
+    "cas": [
+      "7446-09-5"
+    ]
+  },
+  {
+    "un": "UN2849",
+    "name": "Alkylsulphonic acids, liquid, with not more than 10% free sulphuric acid",
+    "class": "8",
+    "cas": [
+      "CAS 67762-96-3"
+    ]
+  },
+  {
+    "un": "UN3461",
+    "name": "Lithium ion batteries installed in equipment",
+    "class": "9",
+    "cas": [
+      "CAS Not Applicable"
+    ]
+  },
+  {
+    "un": "UN3462",
+    "name": "Lithium ion batteries packed with equipment",
+    "class": "9",
+    "cas": [
+      "CAS Not Applicable"
+    ]
+  },
+  {
+    "un": "UN3463",
+    "name": "Lithium ion batteries, not restricted",
+    "class": "9",
+    "cas": [
+      "CAS Not Applicable"
+    ]
+  }
+]

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test MEK, Diesel, WD-40 Classification</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .test-container {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #555;
+            margin-top: 0;
+        }
+        .chemical {
+            background: #f8f9fa;
+            border-left: 4px solid #007bff;
+            padding: 15px;
+            margin: 10px 0;
+        }
+        .result {
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        .success {
+            background: #d4edda;
+            border: 1px solid #c3e6cb;
+            color: #155724;
+        }
+        .failure {
+            background: #f8d7da;
+            border: 1px solid #f5c6cb;
+            color: #721c24;
+        }
+        .codes {
+            font-weight: bold;
+            color: #dc3545;
+        }
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+        .log {
+            background: #f4f4f4;
+            padding: 10px;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 12px;
+            max-height: 200px;
+            overflow-y: auto;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Test MEK, Diesel, WD-40 D001 Classification</h1>
+    
+    <div class="test-container">
+        <h2>Test Chemicals</h2>
+        <button onclick="runTests()">Run Classification Tests</button>
+        
+        <div id="results"></div>
+        <div id="log" class="log" style="display:none;"></div>
+    </div>
+
+    <script type="module">
+        import ConstituentFirstClassifier from './src/engines/ConstituentFirstClassifier.js';
+        
+        window.runTests = async function() {
+            const classifier = new ConstituentFirstClassifier();
+            const resultsDiv = document.getElementById('results');
+            const logDiv = document.getElementById('log');
+            
+            resultsDiv.innerHTML = '<h3>Running tests...</h3>';
+            logDiv.style.display = 'block';
+            logDiv.innerHTML = '';
+            
+            // Capture console logs
+            const originalLog = console.log;
+            console.log = function(...args) {
+                originalLog.apply(console, args);
+                logDiv.innerHTML += args.join(' ') + '<br>';
+                logDiv.scrollTop = logDiv.scrollHeight;
+            };
+            
+            const testChemicals = [
+                {
+                    name: 'MEK (Methyl Ethyl Ketone)',
+                    chemicals: [{
+                        name: 'Methyl Ethyl Ketone',
+                        cas: '78-93-3',
+                        percentage: '100%',
+                        flashPoint: 16  // 16°F flash point
+                    }],
+                    expected: ['D001']
+                },
+                {
+                    name: 'MEK (Alternative Name)',
+                    chemicals: [{
+                        name: '2-Butanone',
+                        cas: '78-93-3',
+                        percentage: '100%'
+                    }],
+                    expected: ['D001']
+                },
+                {
+                    name: 'Diesel Fuel',
+                    chemicals: [{
+                        name: 'Diesel Fuel',
+                        cas: '68334-30-5',
+                        percentage: '100%',
+                        flashPoint: 125  // Typical diesel flash point
+                    }],
+                    expected: ['D001']
+                },
+                {
+                    name: 'WD-40',
+                    chemicals: [{
+                        name: 'WD-40 Multi-Use Product',
+                        cas: 'mixture',
+                        percentage: '100%',
+                        flashPoint: 138  // WD-40 flash point
+                    }],
+                    expected: ['D001']
+                },
+                {
+                    name: 'Paint Thinner',
+                    chemicals: [{
+                        name: 'Paint Thinner',
+                        cas: '8052-41-3',
+                        percentage: '100%',
+                        flashPoint: 105  // Typical paint thinner
+                    }],
+                    expected: ['D001']
+                },
+                {
+                    name: 'Non-Ignitable Control',
+                    chemicals: [{
+                        name: 'Water',
+                        cas: '7732-18-5',
+                        percentage: '100%',
+                        flashPoint: null
+                    }],
+                    expected: []
+                }
+            ];
+            
+            let html = '<h3>Test Results</h3>';
+            
+            for (const test of testChemicals) {
+                console.log(`\n=== Testing ${test.name} ===`);
+                
+                const result = classifier.classify(test.chemicals);
+                const passed = test.expected.every(code => result.wasteCodes.includes(code));
+                
+                html += `
+                    <div class="chemical">
+                        <h4>${test.name}</h4>
+                        <div>Chemical: ${test.chemicals[0].name} (CAS: ${test.chemicals[0].cas})</div>
+                        <div>Flash Point: ${test.chemicals[0].flashPoint || 'N/A'}°F</div>
+                        <div class="result ${passed ? 'success' : 'failure'}">
+                            ${passed ? '✓ PASS' : '✗ FAIL'}<br>
+                            Expected: <span class="codes">${test.expected.join(', ') || 'None'}</span><br>
+                            Got: <span class="codes">${result.wasteCodes.join(', ') || 'None'}</span><br>
+                            ${result.reasoning.filter(r => r.includes('D001')).join('<br>') || ''}
+                        </div>
+                    </div>
+                `;
+            }
+            
+            resultsDiv.innerHTML = html;
+            
+            // Restore console.log
+            console.log = originalLog;
+        }
+    </script>
+</body>
+</html>

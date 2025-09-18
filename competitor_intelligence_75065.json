@@ -1,0 +1,59 @@
+{
+  "zipCode": "75065",
+  "timestamp": "2025-09-11T23:30:55.930Z",
+  "epaGenerators": [
+    {
+      "id": "\"",
+      "name": "ONCOR ELECTRIC DELIVERY",
+      "city": "Dallas",
+      "zip": "75313",
+      "manifestCount": 49575,
+      "totalTons": 821959.66,
+      "lastShipped": "20250602",
+      "destinationFacility": "US ECOLOGY TEXAS, INC."
+    },
+    {
+      "id": "TXCESQG",
+      "name": "VEOLIA ES TECHNICAL SOLUTIONS",
+      "city": "Manor",
+      "zip": "78653",
+      "manifestCount": 31401,
+      "totalTons": 122913.94,
+      "lastShipped": "20250530",
+      "destinationFacility": "ALX INDUSTRIES LLC"
+    },
+    {
+      "id": "30661",
+      "name": "CHAPARRAL STEEL OF MIDLOTHIAN, LP",
+      "city": "MIDLOTHIAN",
+      "zip": "78086",
+      "manifestCount": 354,
+      "totalTons": 3507.75,
+      "lastShipped": "20250528",
+      "destinationFacility": "BFI ITASCA GARDENS"
+    },
+    {
+      "id": "TXR000046938",
+      "name": "WALMART",
+      "city": "HICKORY CREEK/DE",
+      "zip": "75065",
+      "manifestCount": 43,
+      "totalTons": 2.78,
+      "lastShipped": "20250512",
+      "destinationFacility": "CLEAN HARBORS LAPORTE, LLC"
+    },
+    {
+      "id": "TXVSQG",
+      "name": "Sante Laboratories",
+      "city": "Austin",
+      "zip": "78744",
+      "manifestCount": 4370,
+      "totalTons": 40468.09,
+      "lastShipped": "20250602",
+      "destinationFacility": "UNION PROCESSING SYSTEMS"
+    }
+  ],
+  "tceqTransporters": [],
+  "competitorAnalysis": {},
+  "marketShare": []
+}

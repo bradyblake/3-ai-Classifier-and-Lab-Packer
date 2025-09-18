@@ -1,0 +1,101 @@
+[
+  {
+    "code": "D004",
+    "constituent": "Arsenic",
+    "cas": "7440-38-2",
+    "threshold": 5.0,
+    "units": "mg/L",
+    "method": "TCLP",
+    "citation": "40 CFR 261.24"
+  },
+  {
+    "code": "D005",
+    "constituent": "Barium",
+    "cas": "7440-39-3",
+    "threshold": 100.0,
+    "units": "mg/L",
+    "method": "TCLP",
+    "citation": "40 CFR 261.24"
+  },
+  {
+    "code": "D006",
+    "constituent": "Cadmium",
+    "cas": "7440-43-9",
+    "threshold": 1.0,
+    "units": "mg/L",
+    "method": "TCLP",
+    "citation": "40 CFR 261.24"
+  },
+  {
+    "code": "D007",
+    "constituent": "Chromium",
+    "cas": "7440-47-3",
+    "threshold": 5.0,
+    "units": "mg/L",
+    "method": "TCLP",
+    "citation": "40 CFR 261.24"
+  },
+  {
+    "code": "D008",
+    "constituent": "Lead",
+    "cas": "7439-92-1",
+    "threshold": 5.0,
+    "units": "mg/L",
+    "method": "TCLP",
+    "citation": "40 CFR 261.24"
+  },
+  {
+    "code": "D009",
+    "constituent": "Mercury",
+    "cas": "7439-97-6",
+    "threshold": 0.2,
+    "units": "mg/L",
+    "method": "TCLP",
+    "citation": "40 CFR 261.24"
+  },
+  {
+    "code": "D010",
+    "constituent": "Selenium",
+    "cas": "7782-49-2",
+    "threshold": 1.0,
+    "units": "mg/L",
+    "method": "TCLP",
+    "citation": "40 CFR 261.24"
+  },
+  {
+    "code": "D011",
+    "constituent": "Silver",
+    "cas": "7440-22-4",
+    "threshold": 5.0,
+    "units": "mg/L",
+    "method": "TCLP",
+    "citation": "40 CFR 261.24"
+  },
+  {
+    "code": "D018",
+    "constituent": "Benzene",
+    "cas": "71-43-2",
+    "threshold": 0.5,
+    "units": "mg/L",
+    "method": "TCLP",
+    "citation": "40 CFR 261.24"
+  },
+  {
+    "code": "D019",
+    "constituent": "Carbon tetrachloride",
+    "cas": "56-23-5",
+    "threshold": 0.5,
+    "units": "mg/L",
+    "method": "TCLP",
+    "citation": "40 CFR 261.24"
+  },
+  {
+    "code": "D022",
+    "constituent": "Chloroform",
+    "cas": "67-66-3",
+    "threshold": 6.0,
+    "units": "mg/L",
+    "method": "TCLP",
+    "citation": "40 CFR 261.24"
+  }
+]

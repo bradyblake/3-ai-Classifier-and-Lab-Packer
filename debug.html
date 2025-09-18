@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debug Pipeline</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .step { margin: 20px 0; padding: 20px; border: 1px solid #ccc; }
+        button { padding: 10px 20px; margin: 10px; background: #007bff; color: white; border: none; cursor: pointer; }
+        button:disabled { background: #ccc; }
+        .result { background: #f8f9fa; padding: 15px; margin: 10px 0; white-space: pre-wrap; }
+    </style>
+</head>
+<body>
+    <h1>Revolutionary Classifier Debug Pipeline</h1>
+    
+    <div class="step">
+        <h2>Step 1: Upload PDF</h2>
+        <input type="file" id="pdfFile" accept=".pdf">
+        <button onclick="extractText()" id="step1Btn" disabled>Extract Text</button>
+        <div id="step1Result" class="result" style="display:none;"></div>
+    </div>
+    
+    <div class="step">
+        <h2>Step 2: Convert to JSON</h2>
+        <button onclick="convertToJSON()" id="step2Btn" disabled>Convert to JSON</button>
+        <div id="step2Result" class="result" style="display:none;"></div>
+    </div>
+    
+    <div class="step">
+        <h2>Step 3: Classify</h2>
+        <button onclick="classify()" id="step3Btn" disabled>Classify</button>
+        <div id="step3Result" class="result" style="display:none;"></div>
+    </div>
+
+    <script>
+        let currentFile = null;
+        let extractedText = null;
+        let structuredData = null;
+
+        document.getElementById('pdfFile').addEventListener('change', function(e) {
+            currentFile = e.target.files[0];
+            if (currentFile && currentFile.type === 'application/pdf') {
+                document.getElementById('step1Btn').disabled = false;
+                document.getElementById('step2Btn').disabled = true;
+                document.getElementById('step3Btn').disabled = true;
+            }
+        });
+
+        async function extractText() {
+            if (!currentFile) return;
+            
+            const formData = new FormData();
+            formData.append('pdf', currentFile);
+            
+            try {
+                const response = await fetch('/api/extract-pdf', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                const result = await response.json();
+                
+                if (result.success) {
+                    extractedText = result.text;
+                    document.getElementById('step1Result').textContent = `Length: ${result.length} chars\n\nFirst 1000 chars:\n${result.text.substring(0, 1000)}...`;
+                    document.getElementById('step1Result').style.display = 'block';
+                    document.getElementById('step2Btn').disabled = false;
+                } else {
+                    document.getElementById('step1Result').textContent = `Error: ${result.error}`;
+                    document.getElementById('step1Result').style.display = 'block';
+                }
+            } catch (error) {
+                document.getElementById('step1Result').textContent = `Error: ${error.message}`;
+                document.getElementById('step1Result').style.display = 'block';
+            }
+        }
+
+        async function convertToJSON() {
+            if (!extractedText) return;
+            
+            try {
+                const response = await fetch('/api/text-to-json', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ text: extractedText })
+                });
+                
+                const result = await response.json();
+                
+                if (result.success) {
+                    structuredData = result.data;
+                    document.getElementById('step2Result').textContent = JSON.stringify(result.data, null, 2);
+                    document.getElementById('step2Result').style.display = 'block';
+                    document.getElementById('step3Btn').disabled = false;
+                } else {
+                    document.getElementById('step2Result').textContent = `Error: ${result.error}`;
+                    document.getElementById('step2Result').style.display = 'block';
+                }
+            } catch (error) {
+                document.getElementById('step2Result').textContent = `Error: ${error.message}`;
+                document.getElementById('step2Result').style.display = 'block';
+            }
+        }
+
+        async function classify() {
+            if (!extractedText || !structuredData) return;
+            
+            try {
+                const response = await fetch('/api/classify-text', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ 
+                        text: extractedText,
+                        structuredData: structuredData
+                    })
+                });
+                
+                const result = await response.json();
+                
+                document.getElementById('step3Result').textContent = JSON.stringify(result, null, 2);
+                document.getElementById('step3Result').style.display = 'block';
+            } catch (error) {
+                document.getElementById('step3Result').textContent = `Error: ${error.message}`;
+                document.getElementById('step3Result').style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>

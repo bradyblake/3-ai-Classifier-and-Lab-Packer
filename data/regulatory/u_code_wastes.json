@@ -1,0 +1,1822 @@
+[
+  {
+    "code": "U001",
+    "chemical": "Acetaldehyde",
+    "cas": "75-07-0",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U002",
+    "chemical": "Acetone",
+    "cas": "67-64-1",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U003",
+    "chemical": "Acetophenone",
+    "cas": "98-86-2",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U004",
+    "chemical": "2-Acetylaminofluorene",
+    "cas": "53-96-3",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U005",
+    "chemical": "Acrolein",
+    "cas": "107-02-8",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U006",
+    "chemical": "Acrylamide",
+    "cas": "79-06-1",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U007",
+    "chemical": "Acrylic acid",
+    "cas": "79-10-7",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U008",
+    "chemical": "Acrylonitrile",
+    "cas": "107-13-1",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U009",
+    "chemical": "Aldrin",
+    "cas": "309-00-2",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U010",
+    "chemical": "Allyl alcohol",
+    "cas": "107-18-6",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U011",
+    "chemical": "Allyl chloride",
+    "cas": "107-05-1",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U012",
+    "chemical": "p-Aminodiphenyl",
+    "cas": "92-67-1",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U014",
+    "chemical": "Aniline",
+    "cas": "62-53-3",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U015",
+    "chemical": "Aniline, 2,4,6-trimethyl-",
+    "cas": "88-05-1",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U016",
+    "chemical": "Aramite",
+    "cas": "140-57-8",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U017",
+    "chemical": "Arsenic acid",
+    "cas": "7778-39-4",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U018",
+    "chemical": "Arsenic oxide (arsenous oxide)",
+    "cas": "1327-53-3",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U019",
+    "chemical": "Arsenic pentoxide",
+    "cas": "1303-28-2",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U020",
+    "chemical": "Arsenic trioxide",
+    "cas": "1327-53-3",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U021",
+    "chemical": "Atrazine",
+    "cas": "1912-24-9",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U022",
+    "chemical": "Azaserine",
+    "cas": "115-02-6",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U023",
+    "chemical": "Azinphos-ethyl",
+    "cas": "2642-71-9",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U024",
+    "chemical": "Azinphos-methyl",
+    "cas": "86-50-0",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U025",
+    "chemical": "Barbital",
+    "cas": "57-44-3",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U099",
+    "chemical": "Cyclohexanone",
+    "cas": "108-94-1",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U100",
+    "chemical": "Cytarabine",
+    "cas": "147-94-4",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U101",
+    "chemical": "Daminozide",
+    "cas": "1596-84-5",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U102",
+    "chemical": "3,3'-Dichlorobenzidine",
+    "cas": "91-94-1",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U103",
+    "chemical": "3,3'-Dichlorobenzidine dihydrochloride",
+    "cas": "612-83-9",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U105",
+    "chemical": "1,2-Dichloroethane",
+    "cas": "107-06-2",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U106",
+    "chemical": "Dichloromethane (methylene chloride)",
+    "cas": "75-09-2",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U107",
+    "chemical": "1,1-Dichloroethylene",
+    "cas": "75-35-4",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U108",
+    "chemical": "2,4-Dichlorophenol",
+    "cas": "120-83-2",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U109",
+    "chemical": "1,2-Dichloropropane",
+    "cas": "78-87-5",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U110",
+    "chemical": "1,3-Dichloropropene",
+    "cas": "542-75-6",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U111",
+    "chemical": "Dieldrin",
+    "cas": "60-57-1",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U112",
+    "chemical": "Diethylstilbestrol",
+    "cas": "56-53-1",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U113",
+    "chemical": "O,O-Dimethyl O-(p-nitrophenyl) phosphorothioate (Methyl parathion)",
+    "cas": "298-00-0",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U114",
+    "chemical": "4,6-Dinitro-o-cresol, and salts",
+    "cas": "534-52-1",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U115",
+    "chemical": "2,4-Dinitrophenol",
+    "cas": "51-28-5",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U116",
+    "chemical": "2,4-Dinitrotoluene",
+    "cas": "121-14-2",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U117",
+    "chemical": "1,4-Dioxane",
+    "cas": "123-91-1",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U118",
+    "chemical": "2,4-Dinitroanisole",
+    "cas": "119-27-7",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U119",
+    "chemical": "Endrin",
+    "cas": "72-20-8",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U120",
+    "chemical": "Epichlorohydrin",
+    "cas": "106-89-8",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U121",
+    "chemical": "2-Ethoxyethanol",
+    "cas": "110-80-5",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U122",
+    "chemical": "Ethyl acetate",
+    "cas": "141-78-6",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U123",
+    "chemical": "Ethyl benzene",
+    "cas": "100-41-4",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U124",
+    "chemical": "Ethylene oxide",
+    "cas": "75-21-8",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U125",
+    "chemical": "Ethylene thiourea",
+    "cas": "96-45-7",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U126",
+    "chemical": "Fenuron",
+    "cas": "101-42-8",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U127",
+    "chemical": "Fluoranthene",
+    "cas": "206-44-0",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U128",
+    "chemical": "Fluorene",
+    "cas": "86-73-7",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U129",
+    "chemical": "Formaldehyde",
+    "cas": "50-00-0",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U130",
+    "chemical": "Formic acid",
+    "cas": "64-18-6",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U131",
+    "chemical": "Hydrazine",
+    "cas": "302-01-2",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U132",
+    "chemical": "Hydroquinone",
+    "cas": "123-31-9",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U133",
+    "chemical": "Isobutyl alcohol",
+    "cas": "78-83-1",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U134",
+    "chemical": "Isophorone",
+    "cas": "78-59-1",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U135",
+    "chemical": "Kepone",
+    "cas": "143-50-0",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U136",
+    "chemical": "Lead acetate",
+    "cas": "301-04-2",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U137",
+    "chemical": "Lead nitrate",
+    "cas": "10099-74-8",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U138",
+    "chemical": "Maleic anhydride",
+    "cas": "108-31-6",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U139",
+    "chemical": "Mercuric acetate",
+    "cas": "1600-27-7",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U140",
+    "chemical": "Mercuric chloride",
+    "cas": "7487-94-7",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U141",
+    "chemical": "Methanol",
+    "cas": "67-56-1",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U142",
+    "chemical": "Methoxychlor",
+    "cas": "72-43-5",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U143",
+    "chemical": "Methyl ethyl ketone (2-Butanone)",
+    "cas": "78-93-3",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U144",
+    "chemical": "Methyl iodide",
+    "cas": "74-88-4",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U145",
+    "chemical": "Methyl isobutyl ketone",
+    "cas": "108-10-1",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U146",
+    "chemical": "Methyl methacrylate",
+    "cas": "80-62-6",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U147",
+    "chemical": "Mevinphos",
+    "cas": "7786-34-7",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U148",
+    "chemical": "Mitomycin C",
+    "cas": "50-07-7",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U149",
+    "chemical": "Naphthalene",
+    "cas": "91-20-3",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U150",
+    "chemical": "Nickel acetate",
+    "cas": "373-02-4",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U151",
+    "chemical": "Nickel carbonate",
+    "cas": "3333-67-3",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U152",
+    "chemical": "Nitric acid",
+    "cas": "7697-37-2",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U153",
+    "chemical": "Nitrobenzene",
+    "cas": "98-95-3",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U154",
+    "chemical": "4-Nitrophenol",
+    "cas": "100-02-7",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U155",
+    "chemical": "2-Nitropropane",
+    "cas": "79-46-9",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U157",
+    "chemical": "Parathion",
+    "cas": "56-38-2",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U158",
+    "chemical": "Pentachlorophenol",
+    "cas": "87-86-5",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U159",
+    "chemical": "Phenacetin",
+    "cas": "62-44-2",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U160",
+    "chemical": "Phenol",
+    "cas": "108-95-2",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U161",
+    "chemical": "Phenylhydrazine",
+    "cas": "100-63-0",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U162",
+    "chemical": "N-Phenylthiourea",
+    "cas": "103-85-5",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U163",
+    "chemical": "Phosgene",
+    "cas": "75-44-5",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U164",
+    "chemical": "Phosphine",
+    "cas": "7803-51-2",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U165",
+    "chemical": "Phosphoric acid",
+    "cas": "7664-38-2",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U166",
+    "chemical": "Phosphorus (yellow or white)",
+    "cas": "7723-14-0",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U167",
+    "chemical": "Phthalic anhydride",
+    "cas": "85-44-9",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U168",
+    "chemical": "Picric acid",
+    "cas": "88-89-1",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U169",
+    "chemical": "Pyridine",
+    "cas": "110-86-1",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U170",
+    "chemical": "Quinoline",
+    "cas": "91-22-5",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U171",
+    "chemical": "Reserpine",
+    "cas": "50-55-5",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U172",
+    "chemical": "Resorcinol",
+    "cas": "108-46-3",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U173",
+    "chemical": "Selenium dioxide",
+    "cas": "7446-08-4",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U174",
+    "chemical": "Selenium sulfide",
+    "cas": "7446-34-6",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U175",
+    "chemical": "Silver cyanide",
+    "cas": "506-64-9",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U176",
+    "chemical": "Sodium cyanide",
+    "cas": "143-33-9",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U177",
+    "chemical": "Strychnine",
+    "cas": "57-24-9",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U178",
+    "chemical": "Styrene",
+    "cas": "100-42-5",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U179",
+    "chemical": "Sulfur dioxide",
+    "cas": "7446-09-5",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U180",
+    "chemical": "Sulfuric acid",
+    "cas": "7664-93-9",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U181",
+    "chemical": "2,3,7,8-Tetrachlorodibenzo-p-dioxin (TCDD)",
+    "cas": "1746-01-6",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U182",
+    "chemical": "1,1,2,2-Tetrachloroethane",
+    "cas": "79-34-5",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U183",
+    "chemical": "Tetrachloroethylene",
+    "cas": "127-18-4",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U184",
+    "chemical": "Thallium sulfate",
+    "cas": "7446-18-6",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U185",
+    "chemical": "Thioacetamide",
+    "cas": "62-55-5",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U186",
+    "chemical": "Thiourea",
+    "cas": "62-56-6",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U187",
+    "chemical": "Toluene",
+    "cas": "108-88-3",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U188",
+    "chemical": "Toxaphene",
+    "cas": "8001-35-2",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U189",
+    "chemical": "1,1,1-Trichloroethane",
+    "cas": "71-55-6",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U190",
+    "chemical": "1,1,2-Trichloroethane",
+    "cas": "79-00-5",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U191",
+    "chemical": "Trichloroethylene",
+    "cas": "79-01-6",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U192",
+    "chemical": "Triethylamine",
+    "cas": "121-44-8",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U193",
+    "chemical": "Trinitrotoluene (TNT)",
+    "cas": "118-96-7",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U194",
+    "chemical": "Triphenylhydrazine",
+    "cas": "494-19-9",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U195",
+    "chemical": "Uracil mustard",
+    "cas": "66-75-1",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U196",
+    "chemical": "Vinyl chloride",
+    "cas": "75-01-4",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U197",
+    "chemical": "Warfarin",
+    "cas": "81-81-2",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U198",
+    "chemical": "Xylene",
+    "cas": "1330-20-7",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U199",
+    "chemical": "Zinc phosphide",
+    "cas": "1314-84-7",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U200",
+    "chemical": "Zineb",
+    "cas": "12122-67-7",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U201",
+    "chemical": "Acetyl chloride",
+    "cas": "75-36-5",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U202",
+    "chemical": "Aniline hydrochloride",
+    "cas": "142-04-1",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U203",
+    "chemical": "Barium cyanide",
+    "cas": "542-62-1",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U204",
+    "chemical": "Benzyl cyanide",
+    "cas": "140-29-4",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U205",
+    "chemical": "Chlorambucil",
+    "cas": "305-03-3",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U206",
+    "chemical": "Cresol (mixed isomers)",
+    "cas": "1319-77-3",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U207",
+    "chemical": "Crotonaldehyde",
+    "cas": "123-73-9",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U208",
+    "chemical": "Cyclophosphamide",
+    "cas": "50-18-0",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U209",
+    "chemical": "Diethyl ketone",
+    "cas": "96-22-0",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U210",
+    "chemical": "Diglycidyl ether",
+    "cas": "2238-07-5",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U211",
+    "chemical": "Diphenylhydantoin",
+    "cas": "57-41-0",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U212",
+    "chemical": "Disulfoton",
+    "cas": "298-04-4",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U213",
+    "chemical": "Doxorubicin hydrochloride",
+    "cas": "25316-40-9",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U214",
+    "chemical": "Ethion",
+    "cas": "563-12-2",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U215",
+    "chemical": "Ethylene dibromide",
+    "cas": "106-93-4",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U216",
+    "chemical": "Ethylene dichloride",
+    "cas": "107-06-2",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U217",
+    "chemical": "Ethyleneimine",
+    "cas": "151-56-4",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U218",
+    "chemical": "Fluorouracil",
+    "cas": "51-21-8",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U219",
+    "chemical": "Heptachlor",
+    "cas": "76-44-8",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U220",
+    "chemical": "Hexachlorobutadiene",
+    "cas": "87-68-3",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U221",
+    "chemical": "Isosafrole",
+    "cas": "120-58-1",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U222",
+    "chemical": "Lindane",
+    "cas": "58-89-9",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U223",
+    "chemical": "Melphalan",
+    "cas": "148-82-3",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U225",
+    "chemical": "Methyl methacrylate",
+    "cas": "80-62-6",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U226",
+    "chemical": "Mitoxantrone hydrochloride",
+    "cas": "70476-82-3",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U227",
+    "chemical": "Naphthylamine, 1-",
+    "cas": "134-32-7",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U228",
+    "chemical": "Naphthylamine, 2-",
+    "cas": "91-59-8",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U234",
+    "chemical": "Phenol, 2-chloro-",
+    "cas": "95-57-8",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U235",
+    "chemical": "Phenol, 2,4-dichloro-",
+    "cas": "120-83-2",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U236",
+    "chemical": "Phenol, 2,4,6-trichloro-",
+    "cas": "88-06-2",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U237",
+    "chemical": "Phenol, 4,6-dinitro-o-cresol",
+    "cas": "534-52-1",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U238",
+    "chemical": "Phenol, p-nitro-",
+    "cas": "100-02-7",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U239",
+    "chemical": "Phenylhydrazine hydrochloride",
+    "cas": "59-88-1",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U240",
+    "chemical": "Phorate",
+    "cas": "298-02-2",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U243",
+    "chemical": "Propargyl alcohol",
+    "cas": "107-19-7",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U244",
+    "chemical": "Propoxur",
+    "cas": "114-26-1",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U246",
+    "chemical": "Sodium azide",
+    "cas": "26628-22-8",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U247",
+    "chemical": "Sodium nitrite",
+    "cas": "7632-00-0",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U248",
+    "chemical": "Streptozotocin",
+    "cas": "18883-66-4",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U249",
+    "chemical": "Thiosemicarbazide",
+    "cas": "79-19-6",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U250",
+    "chemical": "Thiourea, N,N\u2032-dimethyl-",
+    "cas": "131-73-7",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U201",
+    "chemical": "Acetyl chloride",
+    "cas": "75-36-5",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U202",
+    "chemical": "Aniline hydrochloride",
+    "cas": "142-04-1",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U203",
+    "chemical": "Barium cyanide",
+    "cas": "542-62-1",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U204",
+    "chemical": "Benzyl cyanide",
+    "cas": "140-29-4",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U205",
+    "chemical": "Chlorambucil",
+    "cas": "305-03-3",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U206",
+    "chemical": "Cresol (mixed isomers)",
+    "cas": "1319-77-3",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U207",
+    "chemical": "Crotonaldehyde",
+    "cas": "123-73-9",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U208",
+    "chemical": "Cyclophosphamide",
+    "cas": "50-18-0",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U209",
+    "chemical": "Diethyl ketone",
+    "cas": "96-22-0",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U210",
+    "chemical": "Diglycidyl ether",
+    "cas": "2238-07-5",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U211",
+    "chemical": "Diphenylhydantoin",
+    "cas": "57-41-0",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U212",
+    "chemical": "Disulfoton",
+    "cas": "298-04-4",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U213",
+    "chemical": "Doxorubicin hydrochloride",
+    "cas": "25316-40-9",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U214",
+    "chemical": "Ethion",
+    "cas": "563-12-2",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U215",
+    "chemical": "Ethylene dibromide",
+    "cas": "106-93-4",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U216",
+    "chemical": "Ethylene dichloride",
+    "cas": "107-06-2",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U217",
+    "chemical": "Ethyleneimine",
+    "cas": "151-56-4",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U218",
+    "chemical": "Fluorouracil",
+    "cas": "51-21-8",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U219",
+    "chemical": "Heptachlor",
+    "cas": "76-44-8",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U220",
+    "chemical": "Hexachlorobutadiene",
+    "cas": "87-68-3",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U221",
+    "chemical": "Isosafrole",
+    "cas": "120-58-1",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U222",
+    "chemical": "Lindane",
+    "cas": "58-89-9",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U223",
+    "chemical": "Melphalan",
+    "cas": "148-82-3",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U225",
+    "chemical": "Methyl methacrylate",
+    "cas": "80-62-6",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U226",
+    "chemical": "Mitoxantrone hydrochloride",
+    "cas": "70476-82-3",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U227",
+    "chemical": "Naphthylamine, 1-",
+    "cas": "134-32-7",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U228",
+    "chemical": "Naphthylamine, 2-",
+    "cas": "91-59-8",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U234",
+    "chemical": "Phenol, 2-chloro-",
+    "cas": "95-57-8",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U235",
+    "chemical": "Phenol, 2,4-dichloro-",
+    "cas": "120-83-2",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U236",
+    "chemical": "Phenol, 2,4,6-trichloro-",
+    "cas": "88-06-2",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U237",
+    "chemical": "Phenol, 4,6-dinitro-o-cresol",
+    "cas": "534-52-1",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U238",
+    "chemical": "Phenol, p-nitro-",
+    "cas": "100-02-7",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U239",
+    "chemical": "Phenylhydrazine hydrochloride",
+    "cas": "59-88-1",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U240",
+    "chemical": "Phorate",
+    "cas": "298-02-2",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U243",
+    "chemical": "Propargyl alcohol",
+    "cas": "107-19-7",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U244",
+    "chemical": "Propoxur",
+    "cas": "114-26-1",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U246",
+    "chemical": "Sodium azide",
+    "cas": "26628-22-8",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U247",
+    "chemical": "Sodium nitrite",
+    "cas": "7632-00-0",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U248",
+    "chemical": "Streptozotocin",
+    "cas": "18883-66-4",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U249",
+    "chemical": "Thiosemicarbazide",
+    "cas": "79-19-6",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U250",
+    "chemical": "Thiourea, N,N\u2032-dimethyl-",
+    "cas": "131-73-7",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U251",
+    "chemical": "Thiram",
+    "cas": "137-26-8",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U252",
+    "chemical": "Triamterene",
+    "cas": "396-01-0",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U253",
+    "chemical": "Tributyltin oxide",
+    "cas": "56-35-9",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U254",
+    "chemical": "Trichloronate",
+    "cas": "327-98-0",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U255",
+    "chemical": "Trichlorophenol, 2,4,5-",
+    "cas": "95-95-4",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U256",
+    "chemical": "Trichlorophenol, 2,4,6-",
+    "cas": "88-06-2",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U257",
+    "chemical": "Trichlorophenoxyacetic acid, 2,4,5- (2,4,5-T)",
+    "cas": "93-76-5",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U258",
+    "chemical": "Trichlorophenoxypropionic acid, 2-(2,4,5-) (Silvex)",
+    "cas": "93-72-1",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U260",
+    "chemical": "Uranyl acetate",
+    "cas": "541-09-3",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U261",
+    "chemical": "Uranyl nitrate",
+    "cas": "10102-06-4",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U262",
+    "chemical": "Urea, N-ethyl-N-nitroso-",
+    "cas": "759-73-9",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U263",
+    "chemical": "Verapamil hydrochloride",
+    "cas": "152-11-4",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U264",
+    "chemical": "Vinyl bromide",
+    "cas": "593-60-2",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U265",
+    "chemical": "Warfarin, sodium salt",
+    "cas": "129-06-6",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U266",
+    "chemical": "Xylenol, mixed isomers",
+    "cas": "1300-71-6",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U267",
+    "chemical": "Zineb",
+    "cas": "12122-67-7",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U351",
+    "chemical": "Triethylenemelamine",
+    "cas": "51-18-3",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U352",
+    "chemical": "Trifluralin",
+    "cas": "1582-09-8",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U353",
+    "chemical": "Uracil mustard",
+    "cas": "66-75-1",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U354",
+    "chemical": "Urethane (Ethyl carbamate)",
+    "cas": "51-79-6",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U355",
+    "chemical": "Vinclozolin",
+    "cas": "50471-44-8",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U359",
+    "chemical": "Warfarin",
+    "cas": "81-81-2",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U360",
+    "chemical": "Xylene (mixed isomers)",
+    "cas": "1330-20-7",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U361",
+    "chemical": "Zinc phosphide",
+    "cas": "1314-84-7",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U362",
+    "chemical": "Bromodichloromethane",
+    "cas": "75-27-4",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U363",
+    "chemical": "Bromoform",
+    "cas": "75-25-2",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U364",
+    "chemical": "Chlorodibromomethane",
+    "cas": "124-48-1",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U365",
+    "chemical": "Diethylcarbamazine citrate",
+    "cas": "1642-54-2",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U366",
+    "chemical": "Diisopropyl fluorophosphate",
+    "cas": "55-91-4",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U367",
+    "chemical": "Diquat dibromide",
+    "cas": "85-00-7",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U368",
+    "chemical": "Ethylene thiourea",
+    "cas": "96-45-7",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U369",
+    "chemical": "Fluorescein",
+    "cas": "2321-07-5",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U370",
+    "chemical": "Glycolaldehyde",
+    "cas": "141-46-8",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U371",
+    "chemical": "Isosorbide dinitrate",
+    "cas": "87-33-2",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U372",
+    "chemical": "Mefenamic acid",
+    "cas": "61-68-7",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U373",
+    "chemical": "Methyl carbamate",
+    "cas": "598-55-0",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U374",
+    "chemical": "Nalidixic acid",
+    "cas": "389-08-2",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U375",
+    "chemical": "Naphthoquinone, 2-methyl-",
+    "cas": "58-27-5",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U376",
+    "chemical": "Phenylpropanolamine hydrochloride",
+    "cas": "154-41-6",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U377",
+    "chemical": "Pindolol",
+    "cas": "13523-86-9",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U378",
+    "chemical": "Primidone",
+    "cas": "125-33-7",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U379",
+    "chemical": "Propranolol hydrochloride",
+    "cas": "318-98-9",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U380",
+    "chemical": "Sulfadiazine",
+    "cas": "68-35-9",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U381",
+    "chemical": "Sulfamethazine",
+    "cas": "57-68-1",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U382",
+    "chemical": "Sulfamethoxazole",
+    "cas": "723-46-6",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U383",
+    "chemical": "Sulfanilamide",
+    "cas": "63-74-1",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U384",
+    "chemical": "Sulfasalazine",
+    "cas": "599-79-1",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U385",
+    "chemical": "Theophylline",
+    "cas": "58-55-9",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U386",
+    "chemical": "Triamcinolone acetonide",
+    "cas": "76-25-5",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U387",
+    "chemical": "Trimethoprim",
+    "cas": "738-70-5",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U388",
+    "chemical": "Tromethamine",
+    "cas": "77-86-1",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U389",
+    "chemical": "Verapamil",
+    "cas": "52-53-9",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U390",
+    "chemical": "Warfarin, sodium salt",
+    "cas": "129-06-6",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  },
+  {
+    "code": "U391",
+    "chemical": "Zidovudine (AZT)",
+    "cas": "30516-87-1",
+    "reason": "Toxic",
+    "citation": "40 CFR \u00a7261.33(f)"
+  }
+]

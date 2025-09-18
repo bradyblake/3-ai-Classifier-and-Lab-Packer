@@ -1,0 +1,390 @@
+[
+  {
+    "code": "D001",
+    "constituent": "Ignitability",
+    "threshold": "< 60 °C (140 °F)",
+    "method": "Flash Point",
+    "units": "°C",
+    "citation": "40 CFR §261.21",
+    "description": "Liquid with flash point <60°C or solid that spontaneously ignites"
+  },
+  {
+    "code": "D002",
+    "constituent": "Corrosivity",
+    "threshold": 2,
+    "threshold_max": 12.5,
+    "method": "pH measurement",
+    "units": "pH",
+    "citation": "40 CFR §261.22",
+    "description": "Aqueous waste with pH ≤2 or ≥12.5"
+  },
+  {
+    "code": "D003",
+    "constituent": "Reactivity",
+    "threshold": "Meets any criteria for reactivity",
+    "method": "Qualitative",
+    "units": "N/A",
+    "citation": "40 CFR §261.23",
+    "description": "Unstable, water reactive, or forms toxic gas"
+  },
+  {
+    "code": "D004",
+    "constituent": "Arsenic",
+    "cas": "7440-38-2",
+    "threshold": 5.0,
+    "method": "TCLP",
+    "units": "mg/L",
+    "citation": "40 CFR §261.24"
+  },
+  {
+    "code": "D005",
+    "constituent": "Barium",
+    "cas": "7440-39-3",
+    "threshold": 100.0,
+    "method": "TCLP",
+    "units": "mg/L",
+    "citation": "40 CFR §261.24"
+  },
+  {
+    "code": "D006",
+    "constituent": "Cadmium",
+    "cas": "7440-43-9",
+    "threshold": 1.0,
+    "method": "TCLP",
+    "units": "mg/L",
+    "citation": "40 CFR §261.24"
+  },
+  {
+    "code": "D007",
+    "constituent": "Chromium",
+    "cas": "7440-47-3",
+    "threshold": 5.0,
+    "method": "TCLP",
+    "units": "mg/L",
+    "citation": "40 CFR §261.24"
+  },
+  {
+    "code": "D008",
+    "constituent": "Lead",
+    "cas": "7439-92-1",
+    "threshold": 5.0,
+    "method": "TCLP",
+    "units": "mg/L",
+    "citation": "40 CFR §261.24"
+  },
+  {
+    "code": "D009",
+    "constituent": "Mercury",
+    "cas": "7439-97-6",
+    "threshold": 0.2,
+    "method": "TCLP",
+    "units": "mg/L",
+    "citation": "40 CFR §261.24"
+  },
+  {
+    "code": "D010",
+    "constituent": "Selenium",
+    "cas": "7782-49-2",
+    "threshold": 1.0,
+    "method": "TCLP",
+    "units": "mg/L",
+    "citation": "40 CFR §261.24"
+  },
+  {
+    "code": "D011",
+    "constituent": "Silver",
+    "cas": "7440-22-4",
+    "threshold": 5.0,
+    "method": "TCLP",
+    "units": "mg/L",
+    "citation": "40 CFR §261.24"
+  },
+  {
+    "code": "D012",
+    "constituent": "Endrin",
+    "cas": "72-20-8",
+    "threshold": 0.02,
+    "method": "TCLP",
+    "units": "mg/L",
+    "citation": "40 CFR §261.24"
+  },
+  {
+    "code": "D013",
+    "constituent": "Lindane",
+    "cas": "58-89-9",
+    "threshold": 0.4,
+    "method": "TCLP",
+    "units": "mg/L",
+    "citation": "40 CFR §261.24"
+  },
+  {
+    "code": "D014",
+    "constituent": "Methoxychlor",
+    "cas": "72-43-5",
+    "threshold": 10.0,
+    "method": "TCLP",
+    "units": "mg/L",
+    "citation": "40 CFR §261.24"
+  },
+  {
+    "code": "D015",
+    "constituent": "Toxaphene",
+    "cas": "8001-35-2",
+    "threshold": 0.5,
+    "method": "TCLP",
+    "units": "mg/L",
+    "citation": "40 CFR §261.24"
+  },
+  {
+    "code": "D016",
+    "constituent": "2,4-D",
+    "cas": "94-75-7",
+    "threshold": 10.0,
+    "method": "TCLP",
+    "units": "mg/L",
+    "citation": "40 CFR §261.24"
+  },
+  {
+    "code": "D017",
+    "constituent": "2,4,5-TP (Silvex)",
+    "cas": "93-72-1",
+    "threshold": 1.0,
+    "method": "TCLP",
+    "units": "mg/L",
+    "citation": "40 CFR §261.24"
+  },
+  {
+    "code": "D018",
+    "constituent": "Benzene",
+    "cas": "71-43-2",
+    "threshold": 0.5,
+    "method": "TCLP",
+    "units": "mg/L",
+    "citation": "40 CFR §261.24"
+  },
+  {
+    "code": "D019",
+    "constituent": "Carbon tetrachloride",
+    "cas": "56-23-5",
+    "threshold": 0.5,
+    "method": "TCLP",
+    "units": "mg/L",
+    "citation": "40 CFR §261.24"
+  },
+  {
+    "code": "D020",
+    "constituent": "Chlordane",
+    "cas": "57-74-9",
+    "threshold": 0.03,
+    "method": "TCLP",
+    "units": "mg/L",
+    "citation": "40 CFR §261.24"
+  },
+  {
+    "code": "D021",
+    "constituent": "Chlorobenzene",
+    "cas": "108-90-7",
+    "threshold": 100.0,
+    "method": "TCLP",
+    "units": "mg/L",
+    "citation": "40 CFR §261.24"
+  },
+  {
+    "code": "D022",
+    "constituent": "Chloroform",
+    "cas": "67-66-3",
+    "threshold": 6.0,
+    "method": "TCLP",
+    "units": "mg/L",
+    "citation": "40 CFR §261.24"
+  },
+  {
+    "code": "D023",
+    "constituent": "o-Cresol",
+    "cas": "95-48-7",
+    "threshold": 200.0,
+    "method": "TCLP",
+    "units": "mg/L",
+    "citation": "40 CFR §261.24"
+  },
+  {
+    "code": "D024",
+    "constituent": "m-Cresol",
+    "cas": "108-39-4",
+    "threshold": 200.0,
+    "method": "TCLP",
+    "units": "mg/L",
+    "citation": "40 CFR §261.24"
+  },
+  {
+    "code": "D025",
+    "constituent": "p-Cresol",
+    "cas": "106-44-5",
+    "threshold": 200.0,
+    "method": "TCLP",
+    "units": "mg/L",
+    "citation": "40 CFR §261.24"
+  },
+  {
+    "code": "D026",
+    "constituent": "Cresol",
+    "cas": "1319-77-3",
+    "threshold": 200.0,
+    "method": "TCLP",
+    "units": "mg/L",
+    "citation": "40 CFR §261.24"
+  },
+  {
+    "code": "D027",
+    "constituent": "1,4-Dichlorobenzene",
+    "cas": "106-46-7",
+    "threshold": 7.5,
+    "method": "TCLP",
+    "units": "mg/L",
+    "citation": "40 CFR §261.24"
+  },
+  {
+    "code": "D028",
+    "constituent": "1,2-Dichloroethane",
+    "cas": "107-06-2",
+    "threshold": 0.5,
+    "method": "TCLP",
+    "units": "mg/L",
+    "citation": "40 CFR §261.24"
+  },
+  {
+    "code": "D029",
+    "constituent": "1,1-Dichloroethylene",
+    "cas": "75-35-4",
+    "threshold": 0.7,
+    "method": "TCLP",
+    "units": "mg/L",
+    "citation": "40 CFR §261.24"
+  },
+  {
+    "code": "D030",
+    "constituent": "2,4-Dinitrotoluene",
+    "cas": "121-14-2",
+    "threshold": 0.13,
+    "method": "TCLP",
+    "units": "mg/L",
+    "citation": "40 CFR §261.24"
+  },
+  {
+    "code": "D031",
+    "constituent": "Heptachlor (and its epoxide)",
+    "cas": "76-44-8",
+    "threshold": 0.008,
+    "method": "TCLP",
+    "units": "mg/L",
+    "citation": "40 CFR §261.24"
+  },
+  {
+    "code": "D032",
+    "constituent": "Hexachlorobenzene",
+    "cas": "118-74-1",
+    "threshold": 0.13,
+    "method": "TCLP",
+    "units": "mg/L",
+    "citation": "40 CFR §261.24"
+  },
+  {
+    "code": "D033",
+    "constituent": "Hexachlorobutadiene",
+    "cas": "87-68-3",
+    "threshold": 0.5,
+    "method": "TCLP",
+    "units": "mg/L",
+    "citation": "40 CFR §261.24"
+  },
+  {
+    "code": "D034",
+    "constituent": "Hexachloroethane",
+    "cas": "67-72-1",
+    "threshold": 3.0,
+    "method": "TCLP",
+    "units": "mg/L",
+    "citation": "40 CFR §261.24"
+  },
+  {
+    "code": "D035",
+    "constituent": "Methyl ethyl ketone",
+    "cas": "78-93-3",
+    "threshold": 200.0,
+    "method": "TCLP",
+    "units": "mg/L",
+    "citation": "40 CFR §261.24"
+  },
+  {
+    "code": "D036",
+    "constituent": "Nitrobenzene",
+    "cas": "98-95-3",
+    "threshold": 2.0,
+    "method": "TCLP",
+    "units": "mg/L",
+    "citation": "40 CFR §261.24"
+  },
+  {
+    "code": "D037",
+    "constituent": "Pentachlorophenol",
+    "cas": "87-86-5",
+    "threshold": 100.0,
+    "method": "TCLP",
+    "units": "mg/L",
+    "citation": "40 CFR §261.24"
+  },
+  {
+    "code": "D038",
+    "constituent": "Pyridine",
+    "cas": "110-86-1",
+    "threshold": 5.0,
+    "method": "TCLP",
+    "units": "mg/L",
+    "citation": "40 CFR §261.24"
+  },
+  {
+    "code": "D039",
+    "constituent": "Tetrachloroethylene",
+    "cas": "127-18-4",
+    "threshold": 0.7,
+    "method": "TCLP",
+    "units": "mg/L",
+    "citation": "40 CFR §261.24"
+  },
+  {
+    "code": "D040",
+    "constituent": "Trichloroethylene",
+    "cas": "79-01-6",
+    "threshold": 0.5,
+    "method": "TCLP",
+    "units": "mg/L",
+    "citation": "40 CFR §261.24"
+  },
+  {
+    "code": "D041",
+    "constituent": "2,4,5-Trichlorophenol",
+    "cas": "95-95-4",
+    "threshold": 400.0,
+    "method": "TCLP",
+    "units": "mg/L",
+    "citation": "40 CFR §261.24"
+  },
+  {
+    "code": "D042",
+    "constituent": "2,4,6-Trichlorophenol",
+    "cas": "88-06-2",
+    "threshold": 2.0,
+    "method": "TCLP",
+    "units": "mg/L",
+    "citation": "40 CFR §261.24"
+  },
+  {
+    "code": "D043",
+    "constituent": "Vinyl chloride",
+    "cas": "75-01-4",
+    "threshold": 0.2,
+    "method": "TCLP",
+    "units": "mg/L",
+    "citation": "40 CFR §261.24"
+  }
+]

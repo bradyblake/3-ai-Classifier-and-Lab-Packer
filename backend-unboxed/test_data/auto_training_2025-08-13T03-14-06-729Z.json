@@ -1,0 +1,1306 @@
+{
+  "timestamp": "2025-08-13T03:14:06.729Z",
+  "results": [
+    {
+      "material": "acetone",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D001"
+        ],
+        "texas_form_code": "203",
+        "dot_un": "UN1090",
+        "reasoning": "Flash point -18°C < 60°C = D001. Organic solvent = form code 203."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:03.650Z"
+    },
+    {
+      "material": "methanol",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D001"
+        ],
+        "texas_form_code": "203",
+        "dot_un": "UN1230",
+        "reasoning": "Flash point 11°C < 60°C = D001. Organic solvent = form code 203."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:03.695Z"
+    },
+    {
+      "material": "ethanol",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D001"
+        ],
+        "texas_form_code": "203",
+        "dot_un": "UN1170",
+        "reasoning": "Flash point 13°C < 60°C = D001. Organic solvent = form code 203."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:03.736Z"
+    },
+    {
+      "material": "isopropyl alcohol",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D001"
+        ],
+        "texas_form_code": "203",
+        "dot_un": "UN1219",
+        "reasoning": "Flash point 12°C < 60°C = D001. Organic solvent = form code 203."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:03.755Z"
+    },
+    {
+      "material": "toluene",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D001"
+        ],
+        "texas_form_code": "203",
+        "dot_un": "UN1294",
+        "reasoning": "Flash point 4°C < 60°C = D001. Organic solvent = form code 203."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:03.793Z"
+    },
+    {
+      "material": "xylene",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D001"
+        ],
+        "texas_form_code": "203",
+        "dot_un": "UN1307",
+        "reasoning": "Flash point 27°C < 60°C = D001. Organic solvent = form code 203."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:03.831Z"
+    },
+    {
+      "material": "diesel fuel",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D001"
+        ],
+        "texas_form_code": "202",
+        "dot_un": "UN1202",
+        "reasoning": "Flash point 52°C < 60°C = D001. Petroleum product = form code 202."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:03.865Z"
+    },
+    {
+      "material": "gasoline",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D001"
+        ],
+        "texas_form_code": "202",
+        "dot_un": "UN1203",
+        "reasoning": "Flash point -43°C < 60°C = D001. Petroleum product = form code 202."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:03.906Z"
+    },
+    {
+      "material": "paint thinner",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D001"
+        ],
+        "texas_form_code": "203",
+        "dot_un": "UN1263",
+        "reasoning": "Flash point 38°C < 60°C = D001. Organic solvent = form code 203."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:03.945Z"
+    },
+    {
+      "material": "mek",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D001"
+        ],
+        "texas_form_code": "203",
+        "dot_un": "UN1193",
+        "reasoning": "Flash point -9°C < 60°C = D001. Organic solvent = form code 203."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:03.988Z"
+    },
+    {
+      "material": "muriatic acid",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D002"
+        ],
+        "texas_form_code": "105",
+        "dot_un": "UN1789",
+        "reasoning": "pH < 1 = D002 corrosive. Acid waste = form code 105."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:04.037Z"
+    },
+    {
+      "material": "sodium hydroxide",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D002"
+        ],
+        "texas_form_code": "106",
+        "dot_un": "UN1823",
+        "reasoning": "pH > 12.5 = D002 corrosive. Alkaline waste = form code 106."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:04.091Z"
+    },
+    {
+      "material": "sulfuric acid",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D002"
+        ],
+        "texas_form_code": "105",
+        "dot_un": "UN1830",
+        "reasoning": "pH < 2 = D002 corrosive. Acid waste = form code 105."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:04.149Z"
+    },
+    {
+      "material": "nitric acid",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D002"
+        ],
+        "texas_form_code": "105",
+        "dot_un": "UN2031",
+        "reasoning": "pH < 2 = D002 corrosive. Acid waste = form code 105."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:04.201Z"
+    },
+    {
+      "material": "phosphoric acid",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D002"
+        ],
+        "texas_form_code": "105",
+        "dot_un": "UN1805",
+        "reasoning": "pH 1.5 = D002 corrosive. Acid waste = form code 105."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:04.257Z"
+    },
+    {
+      "material": "acetic acid",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D001",
+          "D002"
+        ],
+        "texas_form_code": "105",
+        "dot_un": "UN2789",
+        "reasoning": "Flash point 39°C = D001, pH 2.4 = D002. Acid waste = form code 105."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:04.305Z"
+    },
+    {
+      "material": "potassium hydroxide",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D002"
+        ],
+        "texas_form_code": "106",
+        "dot_un": "UN1814",
+        "reasoning": "pH > 12.5 = D002 corrosive. Alkaline waste = form code 106."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:04.346Z"
+    },
+    {
+      "material": "ammonia solution",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D002"
+        ],
+        "texas_form_code": "106",
+        "dot_un": "UN2672",
+        "reasoning": "pH 11.6 approaches D002 threshold. Alkaline waste = form code 106."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:04.365Z"
+    },
+    {
+      "material": "sodium hypochlorite",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D002"
+        ],
+        "texas_form_code": "106",
+        "dot_un": "UN1791",
+        "reasoning": "pH 12.5 = D002 corrosive. Alkaline waste = form code 106."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:04.405Z"
+    },
+    {
+      "material": "formic acid",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D002"
+        ],
+        "texas_form_code": "105",
+        "dot_un": "UN1779",
+        "reasoning": "pH 1.8 = D002 corrosive. Acid waste = form code 105."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:04.446Z"
+    },
+    {
+      "material": "lead paint",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D008"
+        ],
+        "texas_form_code": "703",
+        "dot_un": "UN3082",
+        "reasoning": "Contains lead = D008. Paint waste = form code 703."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:04.488Z"
+    },
+    {
+      "material": "mercury",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D009"
+        ],
+        "texas_form_code": "601",
+        "dot_un": "UN2809",
+        "reasoning": "Mercury = D009. Heavy metal waste = form code 601."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:04.524Z"
+    },
+    {
+      "material": "cadmium pigment",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D006"
+        ],
+        "texas_form_code": "601",
+        "dot_un": "UN2570",
+        "reasoning": "Contains cadmium = D006. Heavy metal waste = form code 601."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:04.560Z"
+    },
+    {
+      "material": "chromic acid",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D002",
+          "D007"
+        ],
+        "texas_form_code": "105",
+        "dot_un": "UN1755",
+        "reasoning": "pH 1.0 = D002, contains chromium = D007. Acid waste = form code 105."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:04.593Z"
+    },
+    {
+      "material": "benzene",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D001",
+          "U019"
+        ],
+        "texas_form_code": "203",
+        "dot_un": "UN1114",
+        "reasoning": "Flash point -11°C = D001, listed waste U019. Organic solvent = form code 203."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:04.632Z"
+    },
+    {
+      "material": "motor oil",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [],
+        "texas_form_code": "302",
+        "dot_un": "Non-regulated",
+        "reasoning": "Used petroleum product, flash point > 60°C = form code 302."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:04.660Z"
+    },
+    {
+      "material": "latex paint",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "Non-regulated",
+        "reasoning": "Water-based paint, non-hazardous = form code 101."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:04.698Z"
+    },
+    {
+      "material": "vegetable oil",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "Non-regulated",
+        "reasoning": "Food-grade oil, non-hazardous = form code 101."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:04.734Z"
+    },
+    {
+      "material": "detergent",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [],
+        "texas_form_code": "102",
+        "dot_un": "Non-regulated",
+        "reasoning": "Aqueous cleaning solution, non-hazardous = form code 102."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:04.771Z"
+    },
+    {
+      "material": "antifreeze",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [],
+        "texas_form_code": "203",
+        "dot_un": "Non-regulated",
+        "reasoning": "Ethylene glycol, flash point > 60°C but toxic properties = form code 203."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:04.823Z"
+    },
+    {
+      "material": "butanol",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D001"
+        ],
+        "texas_form_code": "203",
+        "dot_un": "UN1120",
+        "reasoning": "Flash point 37°C < 60°C = D001. Organic solvent = form code 203."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:04.875Z"
+    },
+    {
+      "material": "hexane",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D001"
+        ],
+        "texas_form_code": "203",
+        "dot_un": "UN1208",
+        "reasoning": "Flash point -22°C < 60°C = D001. Organic solvent = form code 203."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:04.925Z"
+    },
+    {
+      "material": "cyclohexane",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D001"
+        ],
+        "texas_form_code": "203",
+        "dot_un": "UN1145",
+        "reasoning": "Flash point -20°C < 60°C = D001. Organic solvent = form code 203."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:04.977Z"
+    },
+    {
+      "material": "pentane",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D001"
+        ],
+        "texas_form_code": "203",
+        "dot_un": "UN1265",
+        "reasoning": "Flash point -40°C < 60°C = D001. Organic solvent = form code 203."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:05.027Z"
+    },
+    {
+      "material": "ethyl acetate",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D001"
+        ],
+        "texas_form_code": "203",
+        "dot_un": "UN1173",
+        "reasoning": "Flash point -4°C < 60°C = D001. Organic solvent = form code 203."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:05.077Z"
+    },
+    {
+      "material": "hydrofluoric acid",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D002"
+        ],
+        "texas_form_code": "105",
+        "dot_un": "UN1790",
+        "reasoning": "pH < 1 = D002 corrosive. Acid waste = form code 105."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:05.132Z"
+    },
+    {
+      "material": "battery acid",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D002"
+        ],
+        "texas_form_code": "105",
+        "dot_un": "UN2796",
+        "reasoning": "pH < 1 = D002 corrosive. Acid waste = form code 105."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:05.194Z"
+    },
+    {
+      "material": "calcium hydroxide",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D002"
+        ],
+        "texas_form_code": "106",
+        "dot_un": "Non-regulated",
+        "reasoning": "pH 12.8 = D002 corrosive. Alkaline waste = form code 106."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:05.259Z"
+    },
+    {
+      "material": "arsenic compound",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D004"
+        ],
+        "texas_form_code": "601",
+        "dot_un": "UN1561",
+        "reasoning": "Contains arsenic = D004. Heavy metal waste = form code 601."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:05.305Z"
+    },
+    {
+      "material": "selenium compound",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D010"
+        ],
+        "texas_form_code": "601",
+        "dot_un": "UN3283",
+        "reasoning": "Contains selenium = D010. Heavy metal waste = form code 601."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:05.344Z"
+    },
+    {
+      "material": "silver compounds",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D011"
+        ],
+        "texas_form_code": "601",
+        "dot_un": "UN1493",
+        "reasoning": "Contains silver = D011. Heavy metal waste = form code 601."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:05.367Z"
+    },
+    {
+      "material": "sodium metal",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D003"
+        ],
+        "texas_form_code": "401",
+        "dot_un": "UN1428",
+        "reasoning": "Water-reactive = D003. Reactive solid = form code 401."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:05.416Z"
+    },
+    {
+      "material": "potassium metal",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D003"
+        ],
+        "texas_form_code": "401",
+        "dot_un": "UN2257",
+        "reasoning": "Water-reactive = D003. Reactive solid = form code 401."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:05.462Z"
+    },
+    {
+      "material": "calcium carbide",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D003"
+        ],
+        "texas_form_code": "401",
+        "dot_un": "UN1402",
+        "reasoning": "Water-reactive = D003. Reactive solid = form code 401."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:05.517Z"
+    },
+    {
+      "material": "glycerin",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "Non-regulated",
+        "reasoning": "Non-hazardous liquid = form code 101."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:05.571Z"
+    },
+    {
+      "material": "mineral oil",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [],
+        "texas_form_code": "302",
+        "dot_un": "Non-regulated",
+        "reasoning": "Petroleum product, flash point > 60°C = form code 302."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:05.625Z"
+    },
+    {
+      "material": "soap solution",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [],
+        "texas_form_code": "102",
+        "dot_un": "Non-regulated",
+        "reasoning": "Aqueous solution, non-hazardous = form code 102."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:05.676Z"
+    },
+    {
+      "material": "turpentine",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D001"
+        ],
+        "texas_form_code": "203",
+        "dot_un": "UN1299",
+        "reasoning": "Flash point 35°C < 60°C = D001. Organic solvent = form code 203."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:05.726Z"
+    },
+    {
+      "material": "formaldehyde",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [],
+        "texas_form_code": "006",
+        "dot_un": "UN2209",
+        "reasoning": "Carcinogenic chemical, should be lab packed as toxic material = form code 006 (Lab Pack: Toxic Materials)."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:05.752Z"
+    },
+    {
+      "material": "epoxy resin",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [],
+        "texas_form_code": "401",
+        "dot_un": "Non-regulated",
+        "reasoning": "Organic solid material (cured polymer) = form code 401 (Organic Solids)."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:05.788Z"
+    },
+    {
+      "material": "hydraulic fluid",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [],
+        "texas_form_code": "302",
+        "dot_un": "Non-regulated",
+        "reasoning": "Petroleum-based fluid, flash point > 60°C = form code 302."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:05.836Z"
+    },
+    {
+      "material": "phenol",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [],
+        "texas_form_code": "203",
+        "dot_un": "UN1671",
+        "reasoning": "Toxic organic compound = form code 203."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:05.882Z"
+    },
+    {
+      "material": "aniline",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [],
+        "texas_form_code": "203",
+        "dot_un": "UN1547",
+        "reasoning": "Toxic organic compound = form code 203."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:05.916Z"
+    },
+    {
+      "material": "chloroform",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "U044"
+        ],
+        "texas_form_code": "203",
+        "dot_un": "UN1888",
+        "reasoning": "Listed waste U044. Halogenated solvent = form code 203."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:05.963Z"
+    },
+    {
+      "material": "carbon tetrachloride",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "U211"
+        ],
+        "texas_form_code": "203",
+        "dot_un": "UN1846",
+        "reasoning": "Listed waste U211. Halogenated solvent = form code 203."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:06.006Z"
+    },
+    {
+      "material": "fluorescent tubes",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D009"
+        ],
+        "texas_form_code": "108",
+        "dot_un": "UN3506",
+        "reasoning": "Contains mercury = D009. Metal-bearing waste = form code 108 (Metal-bearing Wastes)."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:06.040Z"
+    },
+    {
+      "material": "pcb transformers",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [],
+        "texas_form_code": "805",
+        "dot_un": "UN2315",
+        "reasoning": "PCB-contaminated electrical equipment = form code 805 (PCB Contaminated)."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:06.056Z"
+    },
+    {
+      "material": "laboratory reagent",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [],
+        "texas_form_code": "110",
+        "dot_un": "Non-regulated",
+        "reasoning": "Laboratory chemical reagent = form code 110."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:06.072Z"
+    },
+    {
+      "material": "contaminated rags",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [],
+        "texas_form_code": "109",
+        "dot_un": "Non-regulated",
+        "reasoning": "Contaminated materials (rags, PPE) = form code 109."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:06.115Z"
+    },
+    {
+      "material": "brine solution",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [],
+        "texas_form_code": "104",
+        "dot_un": "Non-regulated",
+        "reasoning": "Inorganic liquid (brine, salt water) = form code 104."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:06.138Z"
+    },
+    {
+      "material": "sand blast media",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [],
+        "texas_form_code": "103",
+        "dot_un": "Non-regulated",
+        "reasoning": "Solid/semi-solid material = form code 103."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:06.168Z"
+    },
+    {
+      "material": "metal shavings",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [],
+        "texas_form_code": "504",
+        "dot_un": "Non-regulated",
+        "reasoning": "Metal shavings from machining operations = form code 504 (Metal Shavings)."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:06.219Z"
+    },
+    {
+      "material": "wastewater sludge",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [],
+        "texas_form_code": "505",
+        "dot_un": "Non-regulated",
+        "reasoning": "Sludge from wastewater treatment = form code 505 (Wastewater Sludge)."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:06.253Z"
+    },
+    {
+      "material": "paint waste",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [],
+        "texas_form_code": "602",
+        "dot_un": "Non-regulated",
+        "reasoning": "Paint waste (liquid/sludge) = form code 602 (Paint Waste)."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:06.308Z"
+    },
+    {
+      "material": "ash residue",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [],
+        "texas_form_code": "603",
+        "dot_un": "Non-regulated",
+        "reasoning": "Ash residue from combustion processes = form code 603 (Ash Residue)."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:06.350Z"
+    },
+    {
+      "material": "oil water emulsion",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [],
+        "texas_form_code": "205",
+        "dot_un": "Non-regulated",
+        "reasoning": "Oil-water emulsion or mixture = form code 205."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:06.369Z"
+    },
+    {
+      "material": "waste cutting oil",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [],
+        "texas_form_code": "206",
+        "dot_un": "Non-regulated",
+        "reasoning": "Waste cutting/machining oil = form code 206."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:06.408Z"
+    },
+    {
+      "material": "used motor oil",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [],
+        "texas_form_code": "219",
+        "dot_un": "Non-regulated",
+        "reasoning": "Used oil and petroleum products = form code 219."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:06.454Z"
+    },
+    {
+      "material": "mixed waste stream",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [],
+        "texas_form_code": "604",
+        "dot_un": "Non-regulated",
+        "reasoning": "Mixed waste streams = form code 604 (Mixed Waste Streams)."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:06.503Z"
+    },
+    {
+      "material": "used organic solvent",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D001"
+        ],
+        "texas_form_code": "303",
+        "dot_un": "UN1993",
+        "reasoning": "Used organic solvent, likely still flammable = form code 303."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:06.543Z"
+    },
+    {
+      "material": "batteries",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D002",
+          "D008"
+        ],
+        "texas_form_code": "502",
+        "dot_un": "UN2794",
+        "reasoning": "Lead-acid batteries = form code 502 (Batteries)."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:06.566Z"
+    },
+    {
+      "material": "contaminated soil",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [],
+        "texas_form_code": "605",
+        "dot_un": "Non-regulated",
+        "reasoning": "Petroleum contaminated soil = form code 605."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:06.611Z"
+    },
+    {
+      "material": "lab pack chemicals",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D001"
+        ],
+        "texas_form_code": "001",
+        "dot_un": "UN3509",
+        "reasoning": "Lab pack containing mixed chemicals = form code 001 (Lab Pack: Mixed Chemicals)."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:06.659Z"
+    },
+    {
+      "material": "asbestos material",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [],
+        "texas_form_code": "803",
+        "dot_un": "UN2590",
+        "reasoning": "Asbestos-containing material = form code 803 (Asbestos Material)."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:06.684Z"
+    },
+    {
+      "material": "medical waste",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [],
+        "texas_form_code": "802",
+        "dot_un": "UN3291",
+        "reasoning": "Regulated medical/biohazard waste = form code 802."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T03:14:06.729Z"
+    }
+  ],
+  "summary": {
+    "total": 75,
+    "correct": 0,
+    "errors": 0
+  }
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "code": "U001",
+    "cas": "75-07-0",
+    "chemical": "Acetaldehyde",
+    "reason": "Ignitability",
+    "citation": "40 CFR 261.33"
+  },
+  {
+    "code": "U002",
+    "cas": "67-64-1",
+    "chemical": "Acetone",
+    "reason": "Ignitability",
+    "citation": "40 CFR 261.33"
+  },
+  {
+    "code": "U019",
+    "cas": "71-43-2",
+    "chemical": "Benzene",
+    "reason": "Toxicity",
+    "citation": "40 CFR 261.33"
+  },
+  {
+    "code": "U044",
+    "cas": "67-66-3",
+    "chemical": "Chloroform",
+    "reason": "Toxicity",
+    "citation": "40 CFR 261.33"
+  },
+  {
+    "code": "U122",
+    "cas": "50-00-0",
+    "chemical": "Formaldehyde",
+    "reason": "Toxicity",
+    "citation": "40 CFR 261.33"
+  },
+  {
+    "code": "U133",
+    "cas": "302-01-2",
+    "chemical": "Hydrazine",
+    "reason": "Reactivity",
+    "citation": "40 CFR 261.33"
+  },
+  {
+    "code": "U151",
+    "cas": "7439-97-6",
+    "chemical": "Mercury",
+    "reason": "Toxicity",
+    "citation": "40 CFR 261.33"
+  },
+  {
+    "code": "U154",
+    "cas": "67-56-1",
+    "chemical": "Methanol",
+    "reason": "Ignitability",
+    "citation": "40 CFR 261.33"
+  },
+  {
+    "code": "U188",
+    "cas": "108-95-2",
+    "chemical": "Phenol",
+    "reason": "Toxicity",
+    "citation": "40 CFR 261.33"
+  },
+  {
+    "code": "U211",
+    "cas": "56-23-5",
+    "chemical": "Carbon tetrachloride",
+    "reason": "Toxicity",
+    "citation": "40 CFR 261.33"
+  },
+  {
+    "code": "U220",
+    "cas": "108-88-3",
+    "chemical": "Toluene",
+    "reason": "Ignitability",
+    "citation": "40 CFR 261.33"
+  },
+  {
+    "code": "U239",
+    "cas": "1330-20-7",
+    "chemical": "Xylene",
+    "reason": "Ignitability",
+    "citation": "40 CFR 261.33"
+  }
+]

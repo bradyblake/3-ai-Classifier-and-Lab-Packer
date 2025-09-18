@@ -1,0 +1,1179 @@
+[
+  {
+    "waste_code": "P001",
+    "chemical_name": "Aldicarb",
+    "cas_number": "116-06-3",
+    "hazardous_properties": [
+      "Acute toxicity",
+      "Carbamate pesticide",
+      "Cholinesterase inhibitor"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P002",
+    "chemical_name": "Arsenic trioxide",
+    "cas_number": "1327-53-3",
+    "hazardous_properties": [
+      "Carcinogenic",
+      "Acute systemic poison",
+      "Environmental hazard"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P003",
+    "chemical_name": "Phosdrin (Mevinphos)",
+    "cas_number": "7786-34-7",
+    "hazardous_properties": [
+      "Organophosphate",
+      "Acute neurotoxin",
+      "Pesticide"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P004",
+    "chemical_name": "Arsenic acid",
+    "cas_number": "7778-39-4",
+    "hazardous_properties": [
+      "Acute toxicity",
+      "Heavy metal acid",
+      "Corrosive"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P005",
+    "chemical_name": "Barium cyanide",
+    "cas_number": "542-62-1",
+    "hazardous_properties": [
+      "Cyanide compound",
+      "Acute systemic toxin",
+      "Environmental hazard"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P006",
+    "chemical_name": "2-Chloroacetophenone",
+    "cas_number": "532-27-4",
+    "hazardous_properties": [
+      "Lachrymator",
+      "Toxic",
+      "Used in riot control agents"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P007",
+    "chemical_name": "Chlorophenylhydrazine",
+    "cas_number": "100-63-0",
+    "hazardous_properties": [
+      "Mutagenic",
+      "Toxic",
+      "Unstable compound"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P008",
+    "chemical_name": "Chloropicrolin",
+    "cas_number": "4645-39-0",
+    "hazardous_properties": [
+      "Fumigant",
+      "Highly toxic",
+      "Irritant"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P009",
+    "chemical_name": "Ammonium picrate (wet)",
+    "cas_number": "131-74-8",
+    "hazardous_properties": [
+      "Explosive",
+      "Shock-sensitive",
+      "Acute toxicity"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P010",
+    "chemical_name": "Nitric oxide",
+    "cas_number": "10102-43-9",
+    "hazardous_properties": [
+      "Reactive gas",
+      "Pulmonary toxin",
+      "Oxidizer"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P011",
+    "chemical_name": "Nickel cyanide",
+    "cas_number": "3333-67-3",
+    "hazardous_properties": [
+      "Cyanide compound",
+      "Carcinogenic",
+      "Acute toxicity"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P012",
+    "chemical_name": "Chloromethyl ether",
+    "cas_number": "107-30-2",
+    "hazardous_properties": [
+      "Carcinogenic",
+      "Alkylating agent",
+      "Volatile"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P013",
+    "chemical_name": "Diethyl carbamoyl chloride",
+    "cas_number": "5210-61-3",
+    "hazardous_properties": [
+      "Reactive",
+      "Toxic by inhalation",
+      "Corrosive"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P014",
+    "chemical_name": "Cyanogen bromide",
+    "cas_number": "506-68-3",
+    "hazardous_properties": [
+      "Toxic gas",
+      "Lethal inhalant",
+      "Irritant"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P015",
+    "chemical_name": "Cyanogen chloride",
+    "cas_number": "506-77-4",
+    "hazardous_properties": [
+      "Toxic gas",
+      "Pulmonary agent",
+      "Choking agent"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P016",
+    "chemical_name": "Cupric cyanide",
+    "cas_number": "544-92-3",
+    "hazardous_properties": [
+      "Cyanide salt",
+      "Toxic",
+      "Environmental hazard"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P017",
+    "chemical_name": "2,4-Dinitrophenol",
+    "cas_number": "51-28-5",
+    "hazardous_properties": [
+      "Mitochondrial uncoupler",
+      "Toxic",
+      "Heat generation"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P018",
+    "chemical_name": "Potassium silver cyanide",
+    "cas_number": "506-61-6",
+    "hazardous_properties": [
+      "Cyanide complex",
+      "Photosensitive",
+      "Toxic"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P019",
+    "chemical_name": "Azinphos-ethyl",
+    "cas_number": "2642-71-9",
+    "hazardous_properties": [
+      "Organophosphate",
+      "Neurotoxic",
+      "Pesticide"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P020",
+    "chemical_name": "Ethyl carbamate (Urethane)",
+    "cas_number": "51-79-6",
+    "hazardous_properties": [
+      "Carcinogenic",
+      "Mutagenic",
+      "Toxic"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P021",
+    "chemical_name": "Methyl parathion",
+    "cas_number": "298-00-0",
+    "hazardous_properties": [
+      "Organophosphate",
+      "Neurotoxic",
+      "Pesticide"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P022",
+    "chemical_name": "Methyl isocyanate",
+    "cas_number": "624-83-9",
+    "hazardous_properties": [
+      "Volatile",
+      "Respiratory hazard",
+      "Extremely toxic gas"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P023",
+    "chemical_name": "Acrolein",
+    "cas_number": "107-02-8",
+    "hazardous_properties": [
+      "Irritant",
+      "Highly flammable",
+      "Toxic"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P024",
+    "chemical_name": "1-(2-Chloroethyl)-3-cyclohexyl-1-nitrosourea (CCNU)",
+    "cas_number": "13010-47-4",
+    "hazardous_properties": [
+      "Antineoplastic agent",
+      "Mutagenic",
+      "Carcinogenic"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P025",
+    "chemical_name": "1-(2-Chloroethyl)-3-(4-methylcyclohexyl)-1-nitrosourea (Methyl-CCNU)",
+    "cas_number": "13909-09-6",
+    "hazardous_properties": [
+      "Antineoplastic agent",
+      "Toxic",
+      "Carcinogenic"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P026",
+    "chemical_name": "1,1-Dimethylhydrazine",
+    "cas_number": "57-14-7",
+    "hazardous_properties": [
+      "Rocket propellant",
+      "Highly flammable",
+      "Carcinogenic"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P027",
+    "chemical_name": "Nitrosodiethylamine",
+    "cas_number": "55-18-5",
+    "hazardous_properties": [
+      "Carcinogenic",
+      "Mutagenic",
+      "Toxic"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P028",
+    "chemical_name": "Ethyleneimine",
+    "cas_number": "151-56-4",
+    "hazardous_properties": [
+      "Alkylating agent",
+      "Highly reactive",
+      "Toxic"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P029",
+    "chemical_name": "Hexachlorophene",
+    "cas_number": "70-30-4",
+    "hazardous_properties": [
+      "Neurotoxic",
+      "Antiseptic",
+      "Bioaccumulative"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P030",
+    "chemical_name": "Phenylhydrazine hydrochloride",
+    "cas_number": "59-88-1",
+    "hazardous_properties": [
+      "Toxic",
+      "Liver damage",
+      "Mutagenic"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P031",
+    "chemical_name": "Mercury fulminate",
+    "cas_number": "628-86-4",
+    "hazardous_properties": [
+      "Explosive",
+      "Neurotoxic",
+      "Heavy metal compound"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P032",
+    "chemical_name": "2-Nitroso-1-naphthol",
+    "cas_number": "135-19-3",
+    "hazardous_properties": [
+      "Toxic",
+      "Photosensitive",
+      "Carcinogenic potential"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P033",
+    "chemical_name": "Potassium cyanide",
+    "cas_number": "151-50-8",
+    "hazardous_properties": [
+      "Cyanide salt",
+      "Highly toxic",
+      "Respiratory arrest"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P034",
+    "chemical_name": "Sodium cyanide",
+    "cas_number": "143-33-9",
+    "hazardous_properties": [
+      "Cyanide salt",
+      "Highly toxic",
+      "Lethal"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P036",
+    "chemical_name": "Strychnine",
+    "cas_number": "57-24-9",
+    "hazardous_properties": [
+      "Convulsant",
+      "Lethal dose",
+      "Rodenticide"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P037",
+    "chemical_name": "2,3,5-Trichlorophenol",
+    "cas_number": "933-78-8",
+    "hazardous_properties": [
+      "Toxic",
+      "Chlorinated phenol",
+      "Environmental hazard"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P038",
+    "chemical_name": "Toxaphene",
+    "cas_number": "8001-35-2",
+    "hazardous_properties": [
+      "Pesticide",
+      "Persistent organic pollutant",
+      "Neurotoxic"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P039",
+    "chemical_name": "Thallium(I) sulfate",
+    "cas_number": "7446-18-6",
+    "hazardous_properties": [
+      "Heavy metal",
+      "Toxic",
+      "Systemic poison"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P040",
+    "chemical_name": "Warfarin (when present at concentrations \u22650.3%)",
+    "cas_number": "81-81-2",
+    "hazardous_properties": [
+      "Anticoagulant",
+      "Rodenticide",
+      "Bleeding risk"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P041",
+    "chemical_name": "Arsenic trioxide",
+    "cas_number": "1327-53-3",
+    "hazardous_properties": [
+      "Carcinogen",
+      "Heavy metal",
+      "Toxic"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P042",
+    "chemical_name": "Benzidine",
+    "cas_number": "92-87-5",
+    "hazardous_properties": [
+      "Carcinogen",
+      "Mutagen",
+      "Toxic"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P043",
+    "chemical_name": "Bromodifluoroacetyl chloride",
+    "cas_number": "431-03-8",
+    "hazardous_properties": [
+      "Corrosive",
+      "Lung irritant",
+      "Reactive acid chloride"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P044",
+    "chemical_name": "Calcium cyanide",
+    "cas_number": "592-01-8",
+    "hazardous_properties": [
+      "Cyanide compound",
+      "Highly toxic",
+      "Lethal"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P045",
+    "chemical_name": "Carbon disulfide",
+    "cas_number": "75-15-0",
+    "hazardous_properties": [
+      "Volatile",
+      "Neurotoxic",
+      "Flammable"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P046",
+    "chemical_name": "Chlorine dioxide",
+    "cas_number": "10049-04-4",
+    "hazardous_properties": [
+      "Strong oxidizer",
+      "Respiratory hazard",
+      "Explosive in gas phase"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P047",
+    "chemical_name": "Chloromethyl methyl ether",
+    "cas_number": "107-30-2",
+    "hazardous_properties": [
+      "Carcinogen",
+      "Alkylating agent",
+      "Highly reactive"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P048",
+    "chemical_name": "Cresol, all isomers",
+    "cas_number": "1319-77-3",
+    "hazardous_properties": [
+      "Irritant",
+      "Corrosive",
+      "Toxic"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P049",
+    "chemical_name": "Cyanogen bromide",
+    "cas_number": "506-68-3",
+    "hazardous_properties": [
+      "Cyanide release",
+      "Respiratory hazard",
+      "Toxic gas"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P050",
+    "chemical_name": "2,4-Dinitrophenol",
+    "cas_number": "51-28-5",
+    "hazardous_properties": [
+      "Uncoupler of oxidative phosphorylation",
+      "Toxic",
+      "Hyperthermia risk"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P051",
+    "chemical_name": "2,4-Dinitrophenylhydrazine",
+    "cas_number": "119-26-6",
+    "hazardous_properties": [
+      "Explosive when dry",
+      "Irritant",
+      "Toxic"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P052",
+    "chemical_name": "5,5-Diphenylhydantoin",
+    "cas_number": "57-41-0",
+    "hazardous_properties": [
+      "Anticonvulsant",
+      "Toxic at high doses",
+      "Neuroactive"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P054",
+    "chemical_name": "Epichlorohydrin",
+    "cas_number": "106-89-8",
+    "hazardous_properties": [
+      "Carcinogen",
+      "Irritant",
+      "Reactive epoxide"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P056",
+    "chemical_name": "Ethyl cyanide (Propionitrile)",
+    "cas_number": "107-12-0",
+    "hazardous_properties": [
+      "Toxic",
+      "Volatile",
+      "Neurotoxic"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P057",
+    "chemical_name": "Fenamiphos",
+    "cas_number": "22224-92-6",
+    "hazardous_properties": [
+      "Organophosphate",
+      "Cholinesterase inhibitor",
+      "Highly toxic"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P058",
+    "chemical_name": "Fluoroacetic acid",
+    "cas_number": "144-49-0",
+    "hazardous_properties": [
+      "Metabolic toxin",
+      "Lethal",
+      "Used in rodenticides"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P059",
+    "chemical_name": "Hydrazine",
+    "cas_number": "302-01-2",
+    "hazardous_properties": [
+      "Carcinogen",
+      "Corrosive",
+      "Highly reactive"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P060",
+    "chemical_name": "Hydrocyanic acid",
+    "cas_number": "74-90-8",
+    "hazardous_properties": [
+      "Cyanide",
+      "Volatile",
+      "Lethal via inhalation"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P061",
+    "chemical_name": "Isocyanic acid, methyl ester (Methyl isocyanate)",
+    "cas_number": "624-83-9",
+    "hazardous_properties": [
+      "Toxic gas",
+      "Respiratory hazard",
+      "Used in carbamate synthesis"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P062",
+    "chemical_name": "Lead acetate",
+    "cas_number": "301-04-2",
+    "hazardous_properties": [
+      "Heavy metal",
+      "Neurotoxin",
+      "Cumulative toxicant"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P063",
+    "chemical_name": "Mercuric acetate",
+    "cas_number": "1600-27-7",
+    "hazardous_properties": [
+      "Mercury compound",
+      "Neurotoxic",
+      "Bioaccumulative"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P064",
+    "chemical_name": "Methanethiol",
+    "cas_number": "74-93-1",
+    "hazardous_properties": [
+      "Flammable",
+      "Volatile",
+      "Toxic gas"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P065",
+    "chemical_name": "Nicotine",
+    "cas_number": "54-11-5",
+    "hazardous_properties": [
+      "Highly toxic",
+      "Neurotoxin",
+      "Lethal to children"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P066",
+    "chemical_name": "Nitric oxide",
+    "cas_number": "10102-43-9",
+    "hazardous_properties": [
+      "Toxic gas",
+      "Oxidizer",
+      "Respiratory hazard"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P067",
+    "chemical_name": "Nitrobenzene",
+    "cas_number": "98-95-3",
+    "hazardous_properties": [
+      "Methemoglobinemia",
+      "Carcinogenic",
+      "Toxic by inhalation"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P068",
+    "chemical_name": "Parathion",
+    "cas_number": "56-38-2",
+    "hazardous_properties": [
+      "Organophosphate",
+      "Cholinesterase inhibitor",
+      "Extremely toxic"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P069",
+    "chemical_name": "Phenylhydrazine",
+    "cas_number": "100-63-0",
+    "hazardous_properties": [
+      "Mutagen",
+      "Hematotoxic",
+      "Flammable"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+  {
+    "waste_code": "P070",
+    "chemical_name": "Potassium cyanide",
+    "cas_number": "151-50-8",
+    "hazardous_properties": [
+      "Cyanide salt",
+      "Lethal",
+      "Inhibits cellular respiration"
+    ],
+    "regulatory_citation": "40 CFR \u00a7261.33(e)",
+    "epa_acute_hazardous_waste": true
+  },
+    {
+      "code": "P071",
+      "chemical": "Nicotine & salts (excluding used patches/gums)",
+      "cas": "54-11-5",
+      "reason": "Acutely hazardous",
+      "citation": "40 CFR §261.33(e)"
+    },
+    {
+      "code": "P072",
+      "chemical": "4-Nitroaniline",
+      "cas": "100-01-6",
+      "reason": "Acutely hazardous",
+      "citation": "40 CFR §261.33(e)"
+    },
+    {
+      "code": "P073",
+      "chemical": "Nitrobenzene",
+      "cas": "98-95-3",
+      "reason": "Acutely hazardous",
+      "citation": "40 CFR §261.33(e)"
+    },
+    {
+      "code": "P074",
+      "chemical": "Nitroglycerin (if not explosive)",
+      "cas": "55-63-0",
+      "reason": "Acutely hazardous",
+      "citation": "40 CFR §261.33(e)"
+    },
+    {
+      "code": "P075",
+      "chemical": "N-Nitrosodimethylamine",
+      "cas": "62-75-9",
+      "reason": "Acutely hazardous",
+      "citation": "40 CFR §261.33(e)"
+    },
+    {
+      "code": "P076",
+      "chemical": "Parathion",
+      "cas": "56-38-2",
+      "reason": "Acutely hazardous",
+      "citation": "40 CFR §261.33(e)"
+    },
+    {
+      "code": "P077",
+      "chemical": "Pentachlorodinitrobenzene",
+      "cas": "82-68-8",
+      "reason": "Acutely hazardous",
+      "citation": "40 CFR §261.33(e)"
+    },
+    {
+      "code": "P078",
+      "chemical": "Phenylhydrazine",
+      "cas": "100-63-0",
+      "reason": "Acutely hazardous",
+      "citation": "40 CFR §261.33(e)"
+    },
+    {
+      "code": "P079",
+      "chemical": "2-Phenylhydrazine",
+      "cas": "122-66-7",
+      "reason": "Acutely hazardous",
+      "citation": "40 CFR §261.33(e)"
+    },
+    {
+      "code": "P080",
+      "chemical": "Phorate",
+      "cas": "298-02-2",
+      "reason": "Acutely hazardous",
+      "citation": "40 CFR §261.33(e)"
+    },
+    {
+      "code": "P081",
+      "chemical": "Phosgene",
+      "cas": "75-44-5",
+      "reason": "Acutely hazardous",
+      "citation": "40 CFR §261.33(e)"
+    },
+    {
+      "code": "P082",
+      "chemical": "Phosphamidon",
+      "cas": "13171-21-6",
+      "reason": "Acutely hazardous",
+      "citation": "40 CFR §261.33(e)"
+    },
+    {
+      "code": "P083",
+      "chemical": "Phosphine",
+      "cas": "7803-51-2",
+      "reason": "Acutely hazardous",
+      "citation": "40 CFR §261.33(e)"
+    },
+    {
+      "code": "P084",
+      "chemical": "1,2-Phospholidine, 1-oxide",
+      "cas": "696-69-5",
+      "reason": "Acutely hazardous",
+      "citation": "40 CFR §261.33(e)"
+    },
+    {
+      "code": "P085",
+      "chemical": "Potassium silver cyanide",
+      "cas": "506-61-6",
+      "reason": "Acutely hazardous",
+      "citation": "40 CFR §261.33(e)"
+    },
+    {
+      "code": "P086",
+      "chemical": "Potassium cyanide",
+      "cas": "151-50-8",
+      "reason": "Acutely hazardous",
+      "citation": "40 CFR §261.33(e)"
+    },
+    {
+      "code": "P087",
+      "chemical": "Pronamide",
+      "cas": "23950-58-5",
+      "reason": "Acutely hazardous",
+      "citation": "40 CFR §261.33(e)"
+    },
+    {
+      "code": "P088",
+      "chemical": "Propionaldehyde",
+      "cas": "123-38-6",
+      "reason": "Acutely hazardous",
+      "citation": "40 CFR §261.33(e)"
+    },
+    {
+      "code": "P089",
+      "chemical": "Propargyl alcohol",
+      "cas": "107-19-7",
+      "reason": "Acutely hazardous",
+      "citation": "40 CFR §261.33(e)"
+    },
+    {
+      "code": "P090",
+      "chemical": "Propargite",
+      "cas": "2312-35-8",
+      "reason": "Acutely hazardous",
+      "citation": "40 CFR §261.33(e)"
+    },
+    {
+      "code": "P091",
+      "chemical": "Propoxur",
+      "cas": "114-26-1",
+      "reason": "Acutely hazardous",
+      "citation": "40 CFR §261.33(e)"
+    },
+    {
+      "code": "P092",
+      "chemical": "Propylamine",
+      "cas": "107-10-8",
+      "reason": "Acutely hazardous",
+      "citation": "40 CFR §261.33(e)"
+    },
+    {
+      "code": "P093",
+      "chemical": "Pyrazole",
+      "cas": "288-13-1",
+      "reason": "Acutely hazardous",
+      "citation": "40 CFR §261.33(e)"
+    },
+    {
+      "code": "P094",
+      "chemical": "Pyridine",
+      "cas": "110-86-1",
+      "reason": "Acutely hazardous",
+      "citation": "40 CFR §261.33(e)"
+    },
+    {
+      "code": "P095",
+      "chemical": "Reserpine",
+      "cas": "50-55-5",
+      "reason": "Acutely hazardous",
+      "citation": "40 CFR §261.33(e)"
+    },
+      {
+        "code": "P096",
+        "chemical": "Selenious acid",
+        "cas": "7783-00-8",
+        "reason": "Acutely hazardous",
+        "citation": "40 CFR §261.33(e)"
+      },
+      {
+        "code": "P097",
+        "chemical": "Sodium azide",
+        "cas": "26628-22-8",
+        "reason": "Acutely hazardous",
+        "citation": "40 CFR §261.33(e)"
+      },
+      {
+        "code": "P098",
+        "chemical": "Sodium cyanide",
+        "cas": "143-33-9",
+        "reason": "Acutely hazardous",
+        "citation": "40 CFR §261.33(e)"
+      },
+      {
+        "code": "P099",
+        "chemical": "Strychnine",
+        "cas": "57-24-9",
+        "reason": "Acutely hazardous",
+        "citation": "40 CFR §261.33(e)"
+      },
+      {
+        "code": "P100",
+        "chemical": "Sulfuric acid diethyl ester (Diethyl sulfate)",
+        "cas": "64-67-5",
+        "reason": "Acutely hazardous",
+        "citation": "40 CFR §261.33(e)"
+      },
+      {
+        "code": "P101",
+        "chemical": "Tetranitromethane",
+        "cas": "509-14-8",
+        "reason": "Acutely hazardous",
+        "citation": "40 CFR §261.33(e)"
+      },
+      {
+        "code": "P102",
+        "chemical": "Thallium(I) sulfate",
+        "cas": "7446-18-6",
+        "reason": "Acutely hazardous",
+        "citation": "40 CFR §261.33(e)"
+      },
+      {
+        "code": "P103",
+        "chemical": "Thiourea, (2-chlorophenyl)",
+        "cas": "5344-82-1",
+        "reason": "Acutely hazardous",
+        "citation": "40 CFR §261.33(e)"
+      },
+      {
+        "code": "P104",
+        "chemical": "Thiosemicarbazide",
+        "cas": "79-19-6",
+        "reason": "Acutely hazardous",
+        "citation": "40 CFR §261.33(e)"
+      },
+      {
+        "code": "P105",
+        "chemical": "Thiourea",
+        "cas": "62-56-6",
+        "reason": "Acutely hazardous",
+        "citation": "40 CFR §261.33(e)"
+      },
+      {
+        "code": "P106",
+        "chemical": "Titanium tetrachloride",
+        "cas": "7550-45-0",
+        "reason": "Acutely hazardous",
+        "citation": "40 CFR §261.33(e)"
+      },
+      {
+        "code": "P107",
+        "chemical": "Triazine, trimethyl-",
+        "cas": "108-74-7",
+        "reason": "Acutely hazardous",
+        "citation": "40 CFR §261.33(e)"
+      },
+      {
+        "code": "P108",
+        "chemical": "2,4,5-Trichlorophenol",
+        "cas": "95-95-4",
+        "reason": "Acutely hazardous",
+        "citation": "40 CFR §261.33(e)"
+      },
+      {
+        "code": "P109",
+        "chemical": "2,4,6-Trichlorophenol",
+        "cas": "88-06-2",
+        "reason": "Acutely hazardous",
+        "citation": "40 CFR §261.33(e)"
+      },
+      {
+        "code": "P110",
+        "chemical": "1,3,5-Trinitrobenzene",
+        "cas": "99-35-4",
+        "reason": "Acutely hazardous",
+        "citation": "40 CFR §261.33(e)"
+      },
+      {
+        "code": "P111",
+        "chemical": "Toxaphene",
+        "cas": "8001-35-2",
+        "reason": "Acutely hazardous",
+        "citation": "40 CFR §261.33(e)"
+      },
+      {
+        "code": "P112",
+        "chemical": "Urethane (Ethyl carbamate)",
+        "cas": "51-79-6",
+        "reason": "Acutely hazardous",
+        "citation": "40 CFR §261.33(e)"
+      },
+      {
+        "code": "P113",
+        "chemical": "Vanadium pentoxide",
+        "cas": "1314-62-1",
+        "reason": "Acutely hazardous",
+        "citation": "40 CFR §261.33(e)"
+      },
+      {
+        "code": "P114",
+        "chemical": "Warfarin (concentration >0.3%)",
+        "cas": "81-81-2",
+        "reason": "Acutely hazardous",
+        "citation": "40 CFR §261.33(e)"
+      },
+      {
+        "code": "P115",
+        "chemical": "Zinc phosphide (concentration >10%)",
+        "cas": "1314-84-7",
+        "reason": "Acutely hazardous",
+        "citation": "40 CFR §261.33(e)"
+      },
+      {
+        "code": "P116",
+        "chemical": "4-Nitrophenol",
+        "cas": "100-02-7",
+        "reason": "Acutely hazardous",
+        "citation": "40 CFR §261.33(e)"
+      },
+      {
+        "code": "P117",
+        "chemical": "Methyl parathion",
+        "cas": "298-00-0",
+        "reason": "Acutely hazardous",
+        "citation": "40 CFR §261.33(e)"
+      },
+      {
+        "code": "P118",
+        "chemical": "Endrin",
+        "cas": "72-20-8",
+        "reason": "Acutely hazardous",
+        "citation": "40 CFR §261.33(e)"
+      },
+      {
+        "code": "P119",
+        "chemical": "Sodium fluoroacetate",
+        "cas": "62-74-8",
+        "reason": "Acutely hazardous",
+        "citation": "40 CFR §261.33(e)"
+      },
+      {
+        "code": "P120",
+        "chemical": "2-Chloroethyl vinyl ether",
+        "cas": "110-75-8",
+        "reason": "Acutely hazardous",
+        "citation": "40 CFR §261.33(e)"
+      },
+      {
+        "code": "P121",
+        "chemical": "Crotonaldehyde",
+        "cas": "4170-30-3",
+        "reason": "Acutely hazardous",
+        "citation": "40 CFR §261.33(e)"
+      },
+      {
+        "code": "P122",
+        "chemical": "Isosafrole",
+        "cas": "120-58-1",
+        "reason": "Acutely hazardous",
+        "citation": "40 CFR §261.33(e)"
+      },
+      {
+        "code": "P123",
+        "chemical": "Methyl isocyanate",
+        "cas": "624-83-9",
+        "reason": "Acutely hazardous",
+        "citation": "40 CFR §261.33(e)"
+      }
+    ]
+    
+  

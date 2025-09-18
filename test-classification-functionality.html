@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Revolutionary Classifier Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .test { background: #f5f5f5; padding: 15px; margin: 10px 0; border-radius: 5px; }
+        .success { background: #d4edda; border: 1px solid #c3e6cb; }
+        .error { background: #f8d7da; border: 1px solid #f5c6cb; }
+        .result { margin: 10px 0; padding: 10px; border-radius: 3px; }
+        pre { background: #f8f9fa; padding: 10px; border-radius: 3px; overflow-x: auto; }
+    </style>
+</head>
+<body>
+    <h1>Revolutionary Classifier Functionality Test</h1>
+    
+    <div class="test">
+        <h3>Test 1: Direct Engine Test</h3>
+        <button onclick="testEngines()">Test Classification Engines</button>
+        <div id="engine-result"></div>
+    </div>
+    
+    <div class="test">
+        <h3>Test 2: Text-based SDS Analysis</h3>
+        <button onclick="testTextAnalysis()">Test with Sample Text Data</button>
+        <div id="text-result"></div>
+    </div>
+    
+    <div class="test">
+        <h3>Test 3: PDF File Analysis (Client-side)</h3>
+        <input type="file" id="pdf-input" accept=".pdf">
+        <button onclick="testPDFAnalysis()">Test PDF Processing</button>
+        <div id="pdf-result"></div>
+    </div>
+
+    <script type="module">
+        // Import the client-side engines
+        import EnhancedSDSAnalyzer from './src/services/enhancedSDSAnalyzer.js';
+        import BulletproofSDSExtractor from './src/engines/BulletproofSDSExtractor.js';
+        import ConstituentFirstClassifier from './src/engines/ConstituentFirstClassifier.js';
+        
+        // Initialize engines
+        const analyzer = new EnhancedSDSAnalyzer();
+        const extractor = new BulletproofSDSExtractor();
+        const classifier = new ConstituentFirstClassifier();
+        
+        window.testEngines = async function() {
+            const result = document.getElementById('engine-result');
+            result.innerHTML = '<p>Testing engines...</p>';
+            
+            try {
+                // Test sample composition
+                const sampleComposition = [
+                    { cas: '67-64-1', name: 'Acetone', percentage: '85' },
+                    { cas: '108-88-3', name: 'Toluene', percentage: '15' }
+                ];
+                
+                const classificationResult = classifier.classify(sampleComposition);
+                
+                result.innerHTML = `
+                    <div class="success">
+                        <h4>✅ Engine Test Passed!</h4>
+                        <p><strong>Waste Codes:</strong> ${classificationResult.wasteCodes.join(', ')}</p>
+                        <p><strong>Confidence:</strong> ${classificationResult.confidence}%</p>
+                        <p><strong>Reasoning:</strong> ${classificationResult.reasoning}</p>
+                    </div>
+                `;
+            } catch (error) {
+                result.innerHTML = `<div class="error">❌ Engine Test Failed: ${error.message}</div>`;
+            }
+        };
+        
+        window.testTextAnalysis = async function() {
+            const result = document.getElementById('text-result');
+            result.innerHTML = '<p>Testing text-based analysis...</p>';
+            
+            try {
+                const sampleSDSText = `
+                    SAFETY DATA SHEET
+                    Product Name: Industrial Acetone
+                    Manufacturer: Test Chemical Company
+                    
+                    Section 3 - Composition/Information on Ingredients
+                    Chemical Name: Acetone
+                    CAS Number: 67-64-1
+                    Concentration: 99.5%
+                    
+                    Physical State: Liquid
+                    Flash Point: -17°C
+                    pH: Not applicable
+                `;
+                
+                const analysisResult = await analyzer.analyzeSDS(sampleSDSText);
+                
+                if (analysisResult.success) {
+                    const analysis = analysisResult.analysis;
+                    result.innerHTML = `
+                        <div class="success">
+                            <h4>✅ Text Analysis Passed!</h4>
+                            <p><strong>Product:</strong> ${analysis.productName}</p>
+                            <p><strong>Composition Found:</strong> ${analysis.composition.length} chemical(s)</p>
+                            <p><strong>Federal Codes:</strong> ${analysis.federalCodes.join(', ')}</p>
+                            <p><strong>Confidence:</strong> ${analysis.confidence}%</p>
+                            <pre>${JSON.stringify(analysis, null, 2)}</pre>
+                        </div>
+                    `;
+                } else {
+                    result.innerHTML = `<div class="error">❌ Analysis Failed: ${analysisResult.error}</div>`;
+                }
+            } catch (error) {
+                result.innerHTML = `<div class="error">❌ Text Analysis Failed: ${error.message}</div>`;
+            }
+        };
+        
+        window.testPDFAnalysis = async function() {
+            const result = document.getElementById('pdf-result');
+            const fileInput = document.getElementById('pdf-input');
+            
+            if (!fileInput.files[0]) {
+                result.innerHTML = '<div class="error">❌ Please select a PDF file first</div>';
+                return;
+            }
+            
+            result.innerHTML = '<p>Processing PDF file...</p>';
+            
+            try {
+                const file = fileInput.files[0];
+                console.log('🔍 Testing PDF file:', file.name, file.type);
+                
+                // Extract data from PDF using BulletproofSDSExtractor
+                const extractedData = await extractor.extract(file);
+                console.log('📄 Extracted data:', extractedData);
+                
+                // Analyze extracted data
+                const analysisResult = await analyzer.analyzeSDS(extractedData);
+                console.log('🧪 Analysis result:', analysisResult);
+                
+                if (analysisResult.success) {
+                    const analysis = analysisResult.analysis;
+                    result.innerHTML = `
+                        <div class="success">
+                            <h4>✅ PDF Analysis Passed!</h4>
+                            <p><strong>Product:</strong> ${analysis.productName}</p>
+                            <p><strong>Manufacturer:</strong> ${analysis.manufacturer}</p>
+                            <p><strong>Composition:</strong> ${analysis.composition.length} chemical(s) found</p>
+                            <p><strong>Federal Codes:</strong> ${analysis.federalCodes.join(', ') || 'None'}</p>
+                            <p><strong>Physical State:</strong> ${analysis.physicalState}</p>
+                            <p><strong>Confidence:</strong> ${analysis.confidence}%</p>
+                            <p><strong>Pass Rate:</strong> ${analysisResult.passRate.toFixed(1)}%</p>
+                            <details>
+                                <summary>Full Analysis Results</summary>
+                                <pre>${JSON.stringify(analysis, null, 2)}</pre>
+                            </details>
+                        </div>
+                    `;
+                } else {
+                    result.innerHTML = `<div class="error">❌ PDF Analysis Failed: ${analysisResult.error}</div>`;
+                }
+            } catch (error) {
+                console.error('PDF Analysis Error:', error);
+                result.innerHTML = `<div class="error">❌ PDF Processing Failed: ${error.message}</div>`;
+            }
+        };
+    </script>
+</body>
+</html>

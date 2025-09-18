@@ -1,0 +1,33 @@
+// Test example from ChatGPT
+const { classifyCharacteristicHazards } = require('../../src/engines/PhysicalStateClassifier_COMPLETED_');
+
+const sdsText = `
+SECTION 2: HAZARDS
+H225: Highly flammable liquid and vapor
+
+SECTION 9: PHYSICAL AND CHEMICAL PROPERTIES
+Physical state: Liquid
+Appearance: Colorless liquid
+Flash point: -17 °C (CC)
+
+SECTION 14: TRANSPORT INFORMATION
+UN number: UN1090
+Hazard class: 3
+`;
+
+console.log('Testing PhysicalStateClassifier with Acetone SDS:');
+console.log(classifyCharacteristicHazards({ text: sdsText }));
+
+// Expected Output:
+/*
+{
+  characteristicCodes: ['D001'],
+  physicalState: 'liquid',
+  reasoning: [
+    'Physical state detected: liquid (confidence 0.80). Evidence: ...',
+    'D001: Liquid with flash point -17.0 °C (< 60 °C). Evidence: Flash point: -17 °C ...'
+  ],
+  confidence: 0.88,
+  debug: { ... }
+}
+*/

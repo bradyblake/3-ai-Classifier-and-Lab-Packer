@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Debug Test</title>
+</head>
+<body>
+    <h1>Debug Test</h1>
+    <button id="testBtn">Test Extraction</button>
+    <div id="results"></div>
+
+    <script type="module">
+        import BulletproofSDSExtractor from './src/engines/BulletproofSDSExtractor.js';
+        
+        console.log('✅ Module loaded successfully');
+        
+        document.getElementById('testBtn').addEventListener('click', async () => {
+            console.log('🧪 Starting test...');
+            
+            const extractor = new BulletproofSDSExtractor();
+            console.log('✅ Extractor created');
+            
+            // Test with simple text
+            const testText = `
+                SAFETY DATA SHEET
+                Product Name: Acetone
+                CAS Number: 67-64-1
+                Section 3: Composition
+                Acetone 67-64-1 99%
+            `;
+            
+            try {
+                const result = await extractor.extract(testText);
+                console.log('📊 Extraction result:', result);
+                document.getElementById('results').innerHTML = `
+                    <h3>Test Results:</h3>
+                    <p><strong>Product:</strong> ${result.productName}</p>
+                    <p><strong>Composition found:</strong> ${result.composition.length} items</p>
+                    <pre>${JSON.stringify(result, null, 2)}</pre>
+                `;
+            } catch (error) {
+                console.error('❌ Extraction failed:', error);
+                document.getElementById('results').innerHTML = `
+                    <p style="color: red;">Error: ${error.message}</p>
+                `;
+            }
+        });
+    </script>
+</body>
+</html>

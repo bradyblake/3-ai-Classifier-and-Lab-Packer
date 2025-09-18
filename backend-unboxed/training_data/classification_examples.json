@@ -1,0 +1,304 @@
+[
+  {
+    "id": "example_001",
+    "material": "Acetone",
+    "key_properties": {
+      "pH": null,
+      "flashPoint": -20,
+      "physicalState": "liquid",
+      "primaryHazard": "flammable"
+    },
+    "correct_classification": {
+      "federal": [
+        "D001"
+      ],
+      "texas_form_code": "203",
+      "dot_un": "UN1090",
+      "reasoning": "Flash point < 60°C makes it D001 ignitable. Form code 203 for organic solvents."
+    }
+  },
+  {
+    "id": "example_002",
+    "material": "Muriatic Acid (31.45% HCl)",
+    "key_properties": {
+      "pH": 1,
+      "flashPoint": null,
+      "physicalState": "liquid",
+      "primaryHazard": "corrosive"
+    },
+    "correct_classification": {
+      "federal": [
+        "D002"
+      ],
+      "texas_form_code": "105",
+      "dot_un": "UN1789",
+      "reasoning": "pH ≤ 2 makes it D002 corrosive. Form code 105 for acid wastes."
+    }
+  },
+  {
+    "id": "example_003",
+    "material": "Diesel Fuel",
+    "key_properties": {
+      "pH": null,
+      "flashPoint": 52,
+      "physicalState": "liquid",
+      "primaryHazard": "flammable"
+    },
+    "correct_classification": {
+      "federal": [
+        "D001"
+      ],
+      "texas_form_code": "202",
+      "dot_un": "UN1202",
+      "reasoning": "Flash point 52°C < 60°C makes it D001. Form code 202 for petroleum products."
+    }
+  },
+  {
+    "id": "example_004",
+    "material": "Sodium Hydroxide Solution (50%)",
+    "key_properties": {
+      "pH": 14,
+      "flashPoint": null,
+      "physicalState": "liquid",
+      "primaryHazard": "corrosive"
+    },
+    "correct_classification": {
+      "federal": [
+        "D002"
+      ],
+      "texas_form_code": "106",
+      "dot_un": "UN1824",
+      "reasoning": "pH ≥ 12.5 makes it D002 corrosive. Form code 106 for alkaline wastes."
+    }
+  },
+  {
+    "id": "example_005",
+    "material": "Methanol",
+    "key_properties": {
+      "pH": null,
+      "flashPoint": 11,
+      "physicalState": "liquid",
+      "primaryHazard": "flammable/toxic"
+    },
+    "correct_classification": {
+      "federal": [
+        "D001",
+        "D003"
+      ],
+      "texas_form_code": "203",
+      "dot_un": "UN1230",
+      "reasoning": "Flash point 11°C makes it D001. Toxic properties may add D003. Form code 203 for organic solvents."
+    }
+  },
+  {
+    "id": "example_006",
+    "material": "Used Motor Oil",
+    "key_properties": {
+      "pH": null,
+      "flashPoint": 150,
+      "physicalState": "liquid",
+      "primaryHazard": "petroleum",
+      "isUsed": true
+    },
+    "correct_classification": {
+      "federal": [],
+      "texas_form_code": "302",
+      "dot_un": "Non-regulated",
+      "reasoning": "Flash point > 60°C, not RCRA hazardous. Form code 302 for used petroleum products."
+    }
+  },
+  {
+    "id": "example_007",
+    "material": "Lead-Acid Battery",
+    "key_properties": {
+      "pH": 1,
+      "flashPoint": null,
+      "physicalState": "solid/liquid",
+      "primaryHazard": "corrosive/toxic",
+      "contains": [
+        "lead",
+        "sulfuric acid"
+      ]
+    },
+    "correct_classification": {
+      "federal": [
+        "D002",
+        "D008"
+      ],
+      "texas_form_code": "505",
+      "dot_un": "UN2794",
+      "reasoning": "Contains sulfuric acid (pH < 2) = D002. Contains lead = D008. Form code 505 for batteries."
+    }
+  },
+  {
+    "id": "example_008",
+    "material": "Paint Waste (Latex)",
+    "key_properties": {
+      "pH": 8,
+      "flashPoint": null,
+      "physicalState": "liquid",
+      "primaryHazard": "non-hazardous",
+      "isLatex": true
+    },
+    "correct_classification": {
+      "federal": [],
+      "texas_form_code": "101",
+      "dot_un": "Non-regulated",
+      "reasoning": "Latex paint is typically non-hazardous. Form code 101 for non-hazardous liquids."
+    }
+  },
+  {
+    "id": "example_009",
+    "material": "Xylene",
+    "key_properties": {
+      "pH": null,
+      "flashPoint": 27,
+      "physicalState": "liquid",
+      "primaryHazard": "flammable"
+    },
+    "correct_classification": {
+      "federal": [
+        "D001"
+      ],
+      "texas_form_code": "203",
+      "dot_un": "UN1307",
+      "reasoning": "Flash point 27°C < 60°C makes it D001. Form code 203 for organic solvents."
+    }
+  },
+  {
+    "id": "example_010",
+    "material": "Chromic Acid Solution",
+    "key_properties": {
+      "pH": 1,
+      "flashPoint": null,
+      "physicalState": "liquid",
+      "primaryHazard": "corrosive/toxic",
+      "contains": [
+        "chromium"
+      ]
+    },
+    "correct_classification": {
+      "federal": [
+        "D002",
+        "D007"
+      ],
+      "texas_form_code": "105",
+      "dot_un": "UN1755",
+      "reasoning": "pH < 2 = D002. Contains chromium = D007. Form code 105 for acid wastes."
+    }
+  },
+  {
+    "id": "learned_1755056914103",
+    "material": "Other means of identification",
+    "key_properties": {
+      "pH": null,
+      "flashPoint": null,
+      "physicalState": "unknown",
+      "primaryHazard": "unknown"
+    },
+    "correct_classification": {
+      "federal": [],
+      "texas_form_code": "305",
+      "dot_un": "UN1824"
+    },
+    "source": "learned_from_feedback",
+    "feedback_ids": [
+      "feedback_1755048773907",
+      "feedback_1755055159351",
+      "feedback_1755056914100"
+    ]
+  },
+  {
+    "id": "learned_1755057381080",
+    "material": "Other means of identification",
+    "key_properties": {
+      "pH": null,
+      "flashPoint": null,
+      "physicalState": "unknown",
+      "primaryHazard": "unknown"
+    },
+    "correct_classification": {
+      "federal": [],
+      "texas_form_code": "305",
+      "dot_un": "UN1824"
+    },
+    "source": "learned_from_feedback",
+    "feedback_ids": [
+      "feedback_1755048773907",
+      "feedback_1755055159351",
+      "feedback_1755056914100",
+      "feedback_1755057381078"
+    ]
+  },
+  {
+    "id": "learned_1755097424295",
+    "material": "Sodium Hypochlorite,13%",
+    "key_properties": {
+      "pH": null,
+      "flashPoint": null,
+      "physicalState": "unknown",
+      "primaryHazard": "unknown"
+    },
+    "correct_classification": {
+      "federal": [
+        "D002"
+      ],
+      "texas_form_code": "003",
+      "dot_un": ""
+    },
+    "source": "learned_from_feedback",
+    "feedback_ids": [
+      "feedback_1755056914100",
+      "feedback_1755057381078",
+      "feedback_1755097424293"
+    ]
+  },
+  {
+    "id": "learned_1755097674646",
+    "material": "Other means of identification",
+    "key_properties": {
+      "pH": null,
+      "flashPoint": null,
+      "physicalState": "unknown",
+      "primaryHazard": "unknown"
+    },
+    "correct_classification": {
+      "federal": [],
+      "texas_form_code": "301",
+      "dot_un": "UN1824"
+    },
+    "source": "learned_from_feedback",
+    "feedback_ids": [
+      "feedback_1755048773907",
+      "feedback_1755055159351",
+      "feedback_1755056914100",
+      "feedback_1755057381078",
+      "feedback_1755097424293",
+      "feedback_1755097674645"
+    ]
+  },
+  {
+    "id": "learned_1755447120962",
+    "material": "Sodium Hypochlorite,13%",
+    "key_properties": {
+      "pH": null,
+      "flashPoint": null,
+      "physicalState": "unknown",
+      "primaryHazard": "unknown"
+    },
+    "correct_classification": {
+      "federal": [
+        "D002"
+      ],
+      "texas_form_code": "106",
+      "dot_un": "UN0148"
+    },
+    "source": "learned_from_feedback",
+    "feedback_ids": [
+      "feedback_1755056914100",
+      "feedback_1755057381078",
+      "feedback_1755097424293",
+      "feedback_1755447120954"
+    ]
+  }
+]

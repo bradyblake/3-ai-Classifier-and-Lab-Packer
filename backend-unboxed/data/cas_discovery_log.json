@@ -1,0 +1,77 @@
+{
+  "sessions": [
+    {
+      "cas": "64-17-5",
+      "name": "ethanol",
+      "timestamp": "2025-08-25T03:20:17.236Z",
+      "source": "test_mixture.pdf",
+      "status": "added"
+    },
+    {
+      "cas": "123-45-6",
+      "name": "Unknown Chemical 123-45-6",
+      "timestamp": "2025-08-25T03:20:17.415Z",
+      "source": "test_mixture.pdf",
+      "status": "added"
+    },
+    {
+      "cas": "7732-18-5",
+      "name": "oxidane",
+      "timestamp": "2025-08-25T03:20:17.818Z",
+      "source": "test_mixture.pdf",
+      "status": "added"
+    }
+  ],
+  "lastSession": {
+    "timestamp": "2025-08-25T03:20:17.818Z",
+    "sdsFile": "test_mixture.pdf",
+    "results": {
+      "totalCAS": 5,
+      "existingCAS": 2,
+      "newCAS": 3,
+      "discoveredChemicals": [
+        {
+          "name": "ethanol",
+          "molecularFormula": "C2H6O",
+          "molecularWeight": "46.07",
+          "flashPoint": null,
+          "boilingPoint": null,
+          "pH": null,
+          "physicalState": "unknown",
+          "source": "PubChem",
+          "discoveredFrom": "test_mixture.pdf",
+          "discoveredAt": "2025-08-25T03:20:17.228Z"
+        },
+        {
+          "name": "Unknown Chemical 123-45-6",
+          "flashPoint": null,
+          "pH": null,
+          "boilingPoint": null,
+          "physicalState": "liquid",
+          "ignitable": false,
+          "corrosive": false,
+          "unNumber": null,
+          "properShippingName": null,
+          "hazardClass": null,
+          "needsReview": true,
+          "discoveryMethod": "minimal_entry",
+          "discoveredFrom": "test_mixture.pdf",
+          "discoveredAt": "2025-08-25T03:20:17.405Z"
+        },
+        {
+          "name": "oxidane",
+          "molecularFormula": "H2O",
+          "molecularWeight": "18.015",
+          "flashPoint": null,
+          "boilingPoint": null,
+          "pH": null,
+          "physicalState": "unknown",
+          "source": "PubChem",
+          "discoveredFrom": "test_mixture.pdf",
+          "discoveredAt": "2025-08-25T03:20:17.813Z"
+        }
+      ],
+      "errors": []
+    }
+  }
+}

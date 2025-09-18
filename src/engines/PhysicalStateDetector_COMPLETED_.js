@@ -1,0 +1,85 @@
+// PhysicalStateDetector.js
+// v0.1 — state extraction + confidence scoring
+// Exported API:
+//   detectPhysicalState({ text, tempC }) -> { state, confidence, evidence, raw: {...} }
+
+const STATE_KEYWORDS = {
+  liquid: [
+    /\bphysical\s*state\s*[:\-]\s*liquid\b/i,
+    /\bform\s*[:\-]\s*(?:clear|opaque)?\s*liquid\b/i,
+    /\bliquid\b/i,
+    /\bslurry\b/i,
+    /\bsolution\b/i,
+  ],
+  solid: [
+    /\bphysical\s*state\s*[:\-]\s*solid\b/i,
+    /\bform\s*[:\-]\s*(?:powder|granules?|flakes?|pellets?|solid)\b/i,
+    /\bsolid\b/i,
+    /\bpaste\b/i,
+    /\bwax\b/i,
+  ],
+  gas: [
+    /\bphysical\s*state\s*[:\-]\s*gas\b/i,
+    /\bcompressed\s*gas\b/i,
+    /\bvapou?r\b/i,
+    /\baerosol\b/i,
+  ],
+};
+
+function scoreMatches(text, patterns) {
+  let score = 0;
+  const hits = [];
+  for (const rx of patterns) {
+    const m = text.match(rx);
+    if (m) {
+      score += 0.4; // strong direct mentions
+      hits.push(m[0]);
+    }
+  }
+  return { score: Math.min(score, 1), hits };
+}
+
+function detectPhysicalState({ text, tempC = 20 } = {}) {
+  if (!text || typeof text !== 'string') {
+    return { state: 'unknown', confidence: 0, evidence: [], raw: {} };
+  }
+  // Focus on Section 9 if present; otherwise whole text
+  const sec9Match = text.match(/(?:section\s*9[^]*?)(?=section\s*\d+|$)/i);
+  const focus = sec9Match ? sec9Match[0] : text;
+
+  const liq = scoreMatches(focus, STATE_KEYWORDS.liquid);
+  const sol = scoreMatches(focus, STATE_KEYWORDS.solid);
+  const gas = scoreMatches(focus, STATE_KEYWORDS.gas);
+
+  // Temperature hints (e.g., "melting point", "boiling point") — soft nudges
+  let tempHints = 0;
+  if (/\bboiling point\b/i.test(focus)) tempHints += 0.05;
+  if (/\bmelting point\b/i.test(focus)) tempHints += 0.05;
+
+  const scores = {
+    liquid: liq.score,
+    solid: sol.score,
+    gas: gas.score,
+  };
+
+  // If aerosol is explicitly present, bias to gas
+  if (/\baerosol\b/i.test(focus)) scores.gas = Math.max(scores.gas, 0.6);
+
+  // Pick top score
+  const entries = Object.entries(scores).sort((a, b) => b[1] - a[1]);
+  const [topState, topScore] = entries[0];
+
+  const confidence = Math.min(topScore + tempHints, 1);
+  const evidence = [...liq.hits, ...sol.hits, ...gas.hits].slice(0, 6);
+
+  return {
+    state: topScore > 0 ? topState : 'unknown',
+    confidence,
+    evidence,
+    raw: { scores, tempC, focusUsed: sec9Match ? 'section9' : 'full' },
+  };
+}
+
+export {
+  detectPhysicalState,
+};

@@ -1,0 +1,49 @@
+/* Revolutionary Classifier - Integrated UI Styles */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Font */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--background, #f9f9f9);
+  color: var(--neutral, #121212);
+}
+
+/* Global Color Themes */
+body.theme-vibrant {
+  --primary: #e63946;
+  --secondary: #f1faee;
+  --accent: #a8dadc;
+  --neutral: #457b9d;
+  --background: #ffffff;
+}
+
+body.theme-pastel {
+  --primary: #FFB3BA;
+  --secondary: #FFDFBA;
+  --accent: #FFFFBA;
+  --neutral: #BAFFC9;
+  --background: #ffffff;
+}
+
+body.theme-dark {
+  --primary: #2C3E50;
+  --secondary: #34495E;
+  --accent: #3498DB;
+  --neutral: #ECF0F1;
+  --background: #1A1A1A;
+}
+
+/* Utility Classes */
+.theme-text-primary { color: var(--primary); }
+.theme-text-secondary { color: var(--secondary); }
+.theme-text-accent { color: var(--accent); }
+.theme-text-neutral { color: var(--neutral); }
+
+.theme-bg-primary { background-color: var(--primary); }
+.theme-bg-secondary { background-color: var(--secondary); }
+.theme-bg-accent { background-color: var(--accent); }
+.theme-bg-neutral { background-color: var(--neutral); }
+.theme-bg-background { background-color: var(--background); }

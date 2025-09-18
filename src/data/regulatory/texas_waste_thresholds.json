@@ -1,0 +1,65 @@
+// classificationEngine.js
+
+import texasThresholds from '../data/regulatory/texas_waste_thresholds.json';
+
+/**
+ * Performs Texas-specific classification based on RG-22 thresholds.
+ * @param {Object[]} constituents - Array of chemical objects with { name, cas, concentration (mg/L or mg/kg) }
+ * @returns {Object[]} Array of classification results with hazard level, matched limits, and logic applied
+ */
+export function classifyTexasWaste(constituents) {
+  return constituents.map((substance) => {
+    const cas = substance.cas?.trim();
+    const name = substance.name?.toLowerCase().trim();
+    const concentration = parseFloat(substance.concentration || 0);
+
+    // Match by CAS first, fallback to name if not found
+    const match = texasThresholds.find(entry => 
+      entry.cas?.trim() === cas || 
+      entry.name?.toLowerCase().trim() === name
+    );
+
+    if (!match) {
+      return {
+        ...substance,
+        classification: 'Unknown',
+        reason: 'No matching threshold found in Texas RG-22 dataset'
+      };
+    }
+
+    const hazard = match.hazardous_limit || 0;
+    const class1 = match.class1_limit || 0;
+    const class3 = match.class3_limit ?? 0; // can be 0 explicitly
+
+    let classification = 'Class 3';
+    let reason = '';
+
+    if (concentration >= hazard) {
+      classification = 'Hazardous';
+      reason = `Concentration ≥ hazardous limit (${concentration} ≥ ${hazard})`;
+    } else if (concentration >= class1) {
+      classification = 'Class 1';
+      reason = `Concentration ≥ Class 1 limit (${concentration} ≥ ${class1})`;
+    } else if (class3 > 0 && concentration > class3) {
+      classification = 'Class 2';
+      reason = `Concentration > Class 3 limit (${concentration} > ${class3})`;
+    } else if (class3 === 0 && concentration < class1) {
+      classification = 'Class 2';
+      reason = `No Class 3 threshold. Concentration < Class 1 limit and assumed Class 2`;
+    } else {
+      classification = 'Class 3';
+      reason = `Concentration ≤ Class 3 threshold (${concentration} ≤ ${class3})`;
+    }
+
+    return {
+      ...substance,
+      classification,
+      matchedThresholds: {
+        hazardous_limit: hazard,
+        class1_limit: class1,
+        class3_limit: class3
+      },
+      reason
+    };
+  });
+}

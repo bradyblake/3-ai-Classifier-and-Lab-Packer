@@ -1,0 +1,469 @@
+{
+  "zipCode": "79765",
+  "timestamp": "2025-09-12T04:10:04.514Z",
+  "epaGenerators": [
+    {
+      "id": "TXCESQG",
+      "name": "VEOLIA ES TECHNICAL SOLUTIONS",
+      "city": "Manor",
+      "zip": "78653",
+      "manifestCount": 31401,
+      "totalTons": 122913.94,
+      "lastShipped": "20250530",
+      "destinationFacility": "ALX INDUSTRIES LLC"
+    },
+    {
+      "id": "TXD095217766",
+      "name": "NALCO ENERGY SERVICES ODESSA PLANT",
+      "city": "SUGAR LAND",
+      "zip": "77478-2121",
+      "manifestCount": 137,
+      "totalTons": 1166.45,
+      "lastShipped": "20250516",
+      "destinationFacility": "ABILENE ENVIRONMENTAL LANDFILL"
+    },
+    {
+      "id": "TXR000083736",
+      "name": "LIBERTY OILFIELD SERVICES ODESSA",
+      "city": "DENVER",
+      "zip": "80202-2822",
+      "manifestCount": 234,
+      "totalTons": 5069.88,
+      "lastShipped": "20250123",
+      "destinationFacility": "ABILENE ENVIRONMENTAL LANDFILL"
+    },
+    {
+      "id": "TXR00008376",
+      "name": "LIBERTY OILFIELD SERVICES",
+      "city": "Odessa",
+      "zip": "79765",
+      "manifestCount": 1,
+      "totalTons": 2.5,
+      "lastShipped": "20200121",
+      "destinationFacility": "HERITAGE CRYSTAL CLEAN LLC"
+    },
+    {
+      "id": "CESQG",
+      "name": "BB&B # 0777",
+      "city": "HOUSTON",
+      "zip": "77056",
+      "manifestCount": 82806,
+      "totalTons": 123449.67,
+      "lastShipped": "20250529",
+      "destinationFacility": "BFI GOLDEN TRIANGLE LANDFILL"
+    },
+    {
+      "id": "CESQG.......",
+      "name": "CAMERON",
+      "city": "ODESSA",
+      "zip": "79761-5620",
+      "manifestCount": 15,
+      "totalTons": 14,
+      "lastShipped": "20211001",
+      "destinationFacility": "RINECO CHEMICAL INDUSTRIES, LLC"
+    },
+    {
+      "id": "\"",
+      "name": "ONCOR ELECTRIC DELIVERY",
+      "city": "Dallas",
+      "zip": "75313",
+      "manifestCount": 49575,
+      "totalTons": 821959.66,
+      "lastShipped": "20250602",
+      "destinationFacility": "US ECOLOGY TEXAS, INC."
+    },
+    {
+      "id": "TXR000079488",
+      "name": "XPO Logistics Freight, Inc.",
+      "city": "Odessa",
+      "zip": "79765",
+      "manifestCount": 8,
+      "totalTons": 2.6,
+      "lastShipped": "20220330",
+      "destinationFacility": "Chemical Reclamation Services LLC"
+    },
+    {
+      "id": "TXVSQG",
+      "name": "Sante Laboratories",
+      "city": "Austin",
+      "zip": "78744",
+      "manifestCount": 4370,
+      "totalTons": 40468.09,
+      "lastShipped": "20250602",
+      "destinationFacility": "UNION PROCESSING SYSTEMS"
+    },
+    {
+      "id": "975.60",
+      "name": "SNF",
+      "city": "Odessa",
+      "zip": "79765",
+      "manifestCount": 11,
+      "totalTons": 49.54,
+      "lastShipped": "20240426",
+      "destinationFacility": "CHARTER WASTE INC"
+    },
+    {
+      "id": "NOSITEID",
+      "name": "NO NAME",
+      "city": "PORT ARTHUR",
+      "zip": "00000",
+      "manifestCount": 1596,
+      "totalTons": 161040.26,
+      "lastShipped": "20250602",
+      "destinationFacility": "BFI GOLDEN TRIANGLE LANDFILL"
+    },
+    {
+      "id": "97560",
+      "name": "SNF",
+      "city": "ODESSA",
+      "zip": "79765",
+      "manifestCount": 80,
+      "totalTons": 419.23,
+      "lastShipped": "20250527",
+      "destinationFacility": "CHARTER WASTE INC"
+    },
+    {
+      "id": "TXR000084889",
+      "name": "CHAMPIONX BIG SPRING",
+      "city": "BIG SPRING",
+      "zip": "79720",
+      "manifestCount": 70,
+      "totalTons": 381.74,
+      "lastShipped": "20250423",
+      "destinationFacility": "SYSTECH ENVIRONMENTAL CORPORATION"
+    },
+    {
+      "id": "TXR000085868",
+      "name": "CHAMPIONX LLC",
+      "city": "ODESSA",
+      "zip": "79765",
+      "manifestCount": 54,
+      "totalTons": 400.01,
+      "lastShipped": "20250508",
+      "destinationFacility": "ABILENE ENVIRONMENTAL LANDFILL"
+    },
+    {
+      "id": "TXD000803106",
+      "name": "CHAMPION X",
+      "city": "ODESSA",
+      "zip": "79762",
+      "manifestCount": 798,
+      "totalTons": 8279.25,
+      "lastShipped": "20250521",
+      "destinationFacility": "ABILENE ENVIRONMENTAL LANDFILL"
+    },
+    {
+      "id": "TXR000085249",
+      "name": "CHAMPIONX BIG LAKE",
+      "city": "BIG LAKE",
+      "zip": "76932",
+      "manifestCount": 17,
+      "totalTons": 61.11,
+      "lastShipped": "20250324",
+      "destinationFacility": "ABILENE ENVIRONMENTAL LANDFILL"
+    },
+    {
+      "id": "97383",
+      "name": "CHAMPIONX LLC",
+      "city": "Odessa",
+      "zip": "79765",
+      "manifestCount": 2,
+      "totalTons": 5.15,
+      "lastShipped": "20240508",
+      "destinationFacility": "VLS HOUSTON"
+    },
+    {
+      "id": "TXR000081378",
+      "name": "CHAMPION X",
+      "city": "MONAHANS",
+      "zip": "79756",
+      "manifestCount": 74,
+      "totalTons": 246.06,
+      "lastShipped": "20250507",
+      "destinationFacility": "SYSTECH ENVIRONMENTAL CORPORATION"
+    },
+    {
+      "id": "98655",
+      "name": "COASTAL CHEMICAL CO",
+      "city": "Odessa",
+      "zip": "79765",
+      "manifestCount": 12,
+      "totalTons": 133.74,
+      "lastShipped": "20240409",
+      "destinationFacility": "ABILENE ENVIRONMENTAL LANDFILL"
+    },
+    {
+      "id": "TXP490354144",
+      "name": "COASTAL CHEMICAL CO.",
+      "city": "ODESSA",
+      "zip": "79765",
+      "manifestCount": 3,
+      "totalTons": 19.87,
+      "lastShipped": "20241010",
+      "destinationFacility": "ABILENE ENVIRONMENTAL LANDFILL"
+    },
+    {
+      "id": "VSQG",
+      "name": "Kadlec Clinic Neuroscience Cen",
+      "city": "Richland",
+      "zip": "99352",
+      "manifestCount": 7450,
+      "totalTons": 19909.85,
+      "lastShipped": "20250529",
+      "destinationFacility": "ARCWOOD ENVIRONMENTAL - BENTON, LLC"
+    },
+    {
+      "id": "TX96339",
+      "name": "LIBERTY OILFIELD SERVICES, LLC",
+      "city": "Odessa",
+      "zip": "79765",
+      "manifestCount": 2,
+      "totalTons": 25.55,
+      "lastShipped": "20240325",
+      "destinationFacility": "ABILENE ENVIRONMENTAL LANDFILL"
+    },
+    {
+      "id": "30588",
+      "name": "CHAMPIONX LLC",
+      "city": "ODESSA",
+      "zip": "79762",
+      "manifestCount": 38,
+      "totalTons": 556.21,
+      "lastShipped": "20250527",
+      "destinationFacility": "VLS HOUSTON"
+    },
+    {
+      "id": "N/A",
+      "name": "SFPP LP PHOENIX TERMINAL",
+      "city": "HOUSTON",
+      "zip": "77002",
+      "manifestCount": 1444,
+      "totalTons": 37002.95,
+      "lastShipped": "20250602",
+      "destinationFacility": "WESTERN WASTE OF TEXAS LLC - NEWTON COUNTY REGIONAL SOLID WASTE COMPLEX"
+    },
+    {
+      "id": "975-60",
+      "name": "SNF",
+      "city": "Odessa",
+      "zip": "79765",
+      "manifestCount": 3,
+      "totalTons": 9.86,
+      "lastShipped": "20240403",
+      "destinationFacility": "CHARTER WASTE INC"
+    },
+    {
+      "id": "TX97560",
+      "name": "SNF INC.",
+      "city": "ODESSA",
+      "zip": "79765",
+      "manifestCount": 1,
+      "totalTons": 3.67,
+      "lastShipped": "20240606",
+      "destinationFacility": "CHARTER WASTE INC"
+    },
+    {
+      "id": "97650",
+      "name": "SNF",
+      "city": "ODESSA",
+      "zip": "79765",
+      "manifestCount": 2,
+      "totalTons": 6.26,
+      "lastShipped": "20241029",
+      "destinationFacility": "CHARTER WASTE INC"
+    },
+    {
+      "id": "90955",
+      "name": "WESTERN FALCON",
+      "city": "ODESSA",
+      "zip": "79765",
+      "manifestCount": 3,
+      "totalTons": 4.97,
+      "lastShipped": "20250224",
+      "destinationFacility": "ABILENE ENVIRONMENTAL LANDFILL"
+    },
+    {
+      "id": "TXR000085558",
+      "name": "QUALAWASH HOLDINGS",
+      "city": "TAMPA",
+      "zip": "33609-5005",
+      "manifestCount": 102,
+      "totalTons": 1389.85,
+      "lastShipped": "20250425",
+      "destinationFacility": "ABILENE ENVIRONMENTAL LANDFILL"
+    },
+    {
+      "id": "TXR000082135",
+      "name": "Schlumberger Technology Corp USA",
+      "city": "Odessa",
+      "zip": "79765",
+      "manifestCount": 55,
+      "totalTons": 469.96,
+      "lastShipped": "20210402",
+      "destinationFacility": "AES ASSET ACQUISITION CORP, DBA CLEAN EARTH OF CALVERT CITY"
+    },
+    {
+      "id": "TXR000085476",
+      "name": "Team Industrial Svcs",
+      "city": "Odessa",
+      "zip": "79765",
+      "manifestCount": 6,
+      "totalTons": 10,
+      "lastShipped": "20220303",
+      "destinationFacility": "Clean Harbors Deer Park, LLC"
+    },
+    {
+      "id": "TXD073186389",
+      "name": "BAKER PETROLITE MIDLAND",
+      "city": "ODESSA",
+      "zip": "79765-9407",
+      "manifestCount": 33,
+      "totalTons": 253.42,
+      "lastShipped": "20241205",
+      "destinationFacility": "CLEAN HARBORS LONE MOUNTAIN LLC"
+    },
+    {
+      "id": "TXP490354645",
+      "name": "SCHLUMBERGER",
+      "city": "Odessa",
+      "zip": "79765",
+      "manifestCount": 14,
+      "totalTons": 174.52,
+      "lastShipped": "20200427",
+      "destinationFacility": "AES ASSET ACQUISITION CORP. DBA CLEAN EARTH OF CALVERT CITY"
+    },
+    {
+      "id": "87092",
+      "name": "HERITAGE CRYSTAL CLEAN",
+      "city": "Odessa",
+      "zip": "00000",
+      "manifestCount": 83,
+      "totalTons": 2395.18,
+      "lastShipped": "20190701",
+      "destinationFacility": "CHARTER WASTE INC"
+    },
+    {
+      "id": "TXR000081940",
+      "name": "Tractor Supply",
+      "city": "BRENTWOOD",
+      "zip": "37027-7536",
+      "manifestCount": 8,
+      "totalTons": 0.2,
+      "lastShipped": "20240326",
+      "destinationFacility": "US ECOLOGY TULSA, INC."
+    },
+    {
+      "id": "EXE",
+      "name": "INCLINE VILLAGE GENERAL",
+      "city": "INCLINE VILLAGE",
+      "zip": "89451",
+      "manifestCount": 480,
+      "totalTons": 1807.48,
+      "lastShipped": "20250513",
+      "destinationFacility": "CHEMICAL RECLAMATION SERVICES - AVALON (ESOL)"
+    },
+    {
+      "id": "TXR000085456",
+      "name": "Ultra Premium Services",
+      "city": "Odessa",
+      "zip": "79765",
+      "manifestCount": 2,
+      "totalTons": 1.91,
+      "lastShipped": "20210203",
+      "destinationFacility": "Chemical Reclamation Services LLC"
+    },
+    {
+      "id": "31479",
+      "name": "CHAMPIONX LLC",
+      "city": "ODESSA",
+      "zip": "79765",
+      "manifestCount": 3,
+      "totalTons": 42,
+      "lastShipped": "20220913",
+      "destinationFacility": "CHARTER WASTE INC"
+    },
+    {
+      "id": "TXCESQG00000",
+      "name": "CITY OF WACO STREET DEPARTMENT",
+      "city": "Waco",
+      "zip": "76708",
+      "manifestCount": 11,
+      "totalTons": 43.19,
+      "lastShipped": "20240723",
+      "destinationFacility": "CHEMICAL RECLAMATION SERVICES - AVALON (ESOL)"
+    },
+    {
+      "id": "TXR000086361",
+      "name": "AST SPACE MOBILE SERVICE",
+      "city": "ODESSA",
+      "zip": "79765-9691",
+      "manifestCount": 13,
+      "totalTons": 23.35,
+      "lastShipped": "20250509",
+      "destinationFacility": "ABILENE ENVIRONMENTAL LANDFILL"
+    },
+    {
+      "id": "96339",
+      "name": "LIBERTY OILFIELD SERVICES",
+      "city": "Odessa",
+      "zip": "79765",
+      "manifestCount": 1,
+      "totalTons": 13.15,
+      "lastShipped": "20240117",
+      "destinationFacility": "ABILENE ENVIRONMENTAL LANDFILL"
+    },
+    {
+      "id": "95793",
+      "name": "SCHLUMBERGER TECHNOLOGY CORPORATION",
+      "city": "ODESSA",
+      "zip": "79765",
+      "manifestCount": 1,
+      "totalTons": 1.38,
+      "lastShipped": "20190717",
+      "destinationFacility": "IESI TURKEY CREEK LANDFILL"
+    },
+    {
+      "id": "TXR000036764",
+      "name": "LATHAM POOLS",
+      "city": "ODESSA",
+      "zip": "79765",
+      "manifestCount": 3,
+      "totalTons": 19.93,
+      "lastShipped": "20210810",
+      "destinationFacility": "US ECOLOGY TEXAS, INC."
+    },
+    {
+      "id": "NA 97560",
+      "name": "SNE",
+      "city": "ODESSA",
+      "zip": "79765",
+      "manifestCount": 1,
+      "totalTons": 8.34,
+      "lastShipped": "20200621",
+      "destinationFacility": "CHARTER WASTE INC"
+    },
+    {
+      "id": "NA97560",
+      "name": "SNF",
+      "city": "Riceboro",
+      "zip": "31323",
+      "manifestCount": 3,
+      "totalTons": 7.09,
+      "lastShipped": "20220607",
+      "destinationFacility": "CHARTER WASTE INC"
+    },
+    {
+      "id": "975 60",
+      "name": "SNF INC.",
+      "city": "Odessa",
+      "zip": "79765",
+      "manifestCount": 33,
+      "totalTons": 182.38,
+      "lastShipped": "20231110",
+      "destinationFacility": "CHARTER WASTE INC"
+    }
+  ],
+  "tceqTransporters": [],
+  "competitorAnalysis": {},
+  "marketShare": []
+}

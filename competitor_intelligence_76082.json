@@ -1,0 +1,239 @@
+{
+  "zipCode": "76082",
+  "timestamp": "2025-09-14T07:11:41.331Z",
+  "epaGenerators": [
+    {
+      "id": "TXD988036026",
+      "name": "HERITAGE CRYSTAL CLEAN",
+      "city": "SPRINGTOWN",
+      "zip": "76082",
+      "manifestCount": 802,
+      "totalTons": 24285.61,
+      "lastShipped": "20250602",
+      "destinationFacility": "ABILENE ENVIRONMENTAL LANDFILL"
+    },
+    {
+      "id": "41814",
+      "name": "HERITAGE-CRYSTAL CLEAN, LLC",
+      "city": "Springtown",
+      "zip": "76082",
+      "manifestCount": 22,
+      "totalTons": 554.64,
+      "lastShipped": "20200131",
+      "destinationFacility": "IESI TURKEY CREEK LANDFILL"
+    },
+    {
+      "id": "CESQG",
+      "name": "BB&B # 0777",
+      "city": "HOUSTON",
+      "zip": "77056",
+      "manifestCount": 82806,
+      "totalTons": 123449.67,
+      "lastShipped": "20250529",
+      "destinationFacility": "BFI GOLDEN TRIANGLE LANDFILL"
+    },
+    {
+      "id": "\"",
+      "name": "ONCOR ELECTRIC DELIVERY",
+      "city": "Dallas",
+      "zip": "75313",
+      "manifestCount": 49575,
+      "totalTons": 821959.66,
+      "lastShipped": "20250602",
+      "destinationFacility": "US ECOLOGY TEXAS, INC."
+    },
+    {
+      "id": "CAL000432889",
+      "name": "ANDREWS LOGISTICS TEXAS LP",
+      "city": "SOUTHLAKE",
+      "zip": "76082",
+      "manifestCount": 1,
+      "totalTons": 16.8,
+      "lastShipped": "20250305",
+      "destinationFacility": "US ECOLOGY NEVADA, INC."
+    },
+    {
+      "id": "TXR000084175",
+      "name": "Eagle Remediation and Demolition Services, LLC",
+      "city": "Springtown",
+      "zip": "76082",
+      "manifestCount": 1,
+      "totalTons": 0.47,
+      "lastShipped": "20221206",
+      "destinationFacility": "Chemical Reclamation Services LLC"
+    },
+    {
+      "id": "TXD988035025",
+      "name": "HERITAGE CRYSTAL CLEAN",
+      "city": "SPRINGTOWN",
+      "zip": "76082",
+      "manifestCount": 5,
+      "totalTons": 45,
+      "lastShipped": "20190719",
+      "destinationFacility": "IESI TURKEY CREEK LANDFILL"
+    },
+    {
+      "id": "TXD088035028",
+      "name": "HERITAGE CRYSTAL CLEAN",
+      "city": "SPRINGTOWN",
+      "zip": "76082",
+      "manifestCount": 1,
+      "totalTons": 9,
+      "lastShipped": "20190515",
+      "destinationFacility": "IESI TURKEY CREEK LANDFILL"
+    },
+    {
+      "id": "TXD9883028",
+      "name": "HERITAGE CRYSTAL CLEAN",
+      "city": "SPRINGTOWN",
+      "zip": "76082",
+      "manifestCount": 1,
+      "totalTons": 8,
+      "lastShipped": "20190517",
+      "destinationFacility": "IESI TURKEY CREEK LANDFILL"
+    },
+    {
+      "id": "TXD988020028",
+      "name": "HERITAGE CRYSTAL CLEAN",
+      "city": "SPRINGTOWN",
+      "zip": "76082",
+      "manifestCount": 1,
+      "totalTons": 12,
+      "lastShipped": "20190515",
+      "destinationFacility": "IESI TURKEY CREEK LANDFILL"
+    },
+    {
+      "id": "TXD988036025",
+      "name": "HERITAGE CRYSTAL CLEAN",
+      "city": "SPRINGTOWN",
+      "zip": "76082",
+      "manifestCount": 9,
+      "totalTons": 201,
+      "lastShipped": "20201113",
+      "destinationFacility": "IESI TURKEY CREEK LANDFILL"
+    },
+    {
+      "id": "TXD988036028",
+      "name": "HERITAGE CRYSTAL CLEAN",
+      "city": "SPRINGTOWN",
+      "zip": "76082",
+      "manifestCount": 3,
+      "totalTons": 30,
+      "lastShipped": "20190624",
+      "destinationFacility": "IESI TURKEY CREEK LANDFILL"
+    },
+    {
+      "id": "TXD088038028",
+      "name": "HERITAGE CRYSTAL CLEAN",
+      "city": "SPRINGTOWN",
+      "zip": "76082",
+      "manifestCount": 1,
+      "totalTons": 8,
+      "lastShipped": "20190716",
+      "destinationFacility": "IESI TURKEY CREEK LANDFILL"
+    },
+    {
+      "id": "TXD988038025",
+      "name": "HERITAGE CHRYSTAL CLEAN",
+      "city": "SPRING TOWN",
+      "zip": "76082",
+      "manifestCount": 2,
+      "totalTons": 22,
+      "lastShipped": "20190312",
+      "destinationFacility": "IESI TURKEY CREEK LANDFILL"
+    },
+    {
+      "id": "TXD088035025",
+      "name": "HERITAGE CRYSTAL CLEAN",
+      "city": "SPRINGTOWN",
+      "zip": "76082",
+      "manifestCount": 1,
+      "totalTons": 10,
+      "lastShipped": "20190304",
+      "destinationFacility": "IESI TURKEY CREEK LANDFILL"
+    },
+    {
+      "id": "TXD988038028",
+      "name": "HERITAGE CRYSTAL CLEAN",
+      "city": "SPRINGTOWN",
+      "zip": "76082",
+      "manifestCount": 1,
+      "totalTons": 10,
+      "lastShipped": "20190618",
+      "destinationFacility": "IESI TURKEY CREEK LANDFILL"
+    },
+    {
+      "id": "N/A",
+      "name": "SFPP LP PHOENIX TERMINAL",
+      "city": "HOUSTON",
+      "zip": "77002",
+      "manifestCount": 1444,
+      "totalTons": 37002.95,
+      "lastShipped": "20250602",
+      "destinationFacility": "WESTERN WASTE OF TEXAS LLC - NEWTON COUNTY REGIONAL SOLID WASTE COMPLEX"
+    },
+    {
+      "id": "TXD966036026",
+      "name": "HERITAGE CRYSTAL CLEAN",
+      "city": "SPRINGTOWN",
+      "zip": "76082",
+      "manifestCount": 4,
+      "totalTons": 46.08,
+      "lastShipped": "20200414",
+      "destinationFacility": "IESI TURKEY CREEK LANDFILL"
+    },
+    {
+      "id": "TXD955036026",
+      "name": "Heritage Crystal Clean",
+      "city": "Springtown",
+      "zip": "76082",
+      "manifestCount": 1,
+      "totalTons": 12,
+      "lastShipped": "20200402",
+      "destinationFacility": "IESI TURKEY CREEK LANDFILL"
+    },
+    {
+      "id": "TXD965036026",
+      "name": "HERITAGE CRYSTAL CLEAN",
+      "city": "SPRINGTOWN",
+      "zip": "76082",
+      "manifestCount": 1,
+      "totalTons": 12,
+      "lastShipped": "20191105",
+      "destinationFacility": "IESI TURKEY CREEK LANDFILL"
+    },
+    {
+      "id": "TXD988036026/41",
+      "name": "HERITAGE CRYSTAL CLEAN",
+      "city": "SPRINGTOWN",
+      "zip": "76082",
+      "manifestCount": 1,
+      "totalTons": 14,
+      "lastShipped": "20191029",
+      "destinationFacility": "IESI TURKEY CREEK LANDFILL"
+    },
+    {
+      "id": "TXD968036026",
+      "name": "HERITAGE CRYSTAL CLEAN",
+      "city": "SPRINGTOWN",
+      "zip": "76082",
+      "manifestCount": 1,
+      "totalTons": 33.6,
+      "lastShipped": "20201005",
+      "destinationFacility": "IESI TURKEY CREEK LANDFILL"
+    },
+    {
+      "id": "TXD988036020",
+      "name": "Heritage Crystal Clean",
+      "city": "Springtown",
+      "zip": "76062",
+      "manifestCount": 8,
+      "totalTons": 191.26,
+      "lastShipped": "20211008",
+      "destinationFacility": "IESI TURKEY CREEK LANDFILL"
+    }
+  ],
+  "tceqTransporters": [],
+  "competitorAnalysis": {},
+  "marketShare": []
+}

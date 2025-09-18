@@ -1,0 +1,192 @@
+[
+  {
+    "id": "feedback_1755048659640",
+    "timestamp": "2025-08-13T01:30:59.640Z",
+    "material": "Diesel Fuel",
+    "ai_result": {
+      "federal": [],
+      "texas_form_code": "105",
+      "dot_un": "UN0194"
+    },
+    "correct_result": {
+      "federal": [
+        "D001"
+      ],
+      "texas_form_code": "202",
+      "dot_un": "UN1202"
+    },
+    "reason": "Flash point 52°C < 60°C makes it D001. Form code 202 for petroleum products.",
+    "applied": false
+  },
+  {
+    "id": "feedback_1755048773907",
+    "timestamp": "2025-08-13T01:32:53.907Z",
+    "material": "Bleach Solution",
+    "ai_result": {
+      "federal": [],
+      "texas_form_code": "102",
+      "dot_un": "UN0148"
+    },
+    "correct_result": {
+      "federal": [
+        "D002"
+      ],
+      "texas_form_code": "106",
+      "dot_un": "UN1791"
+    },
+    "reason": "pH > 12.5 makes it D002 corrosive. Form code 106 for alkaline/basic wastes.",
+    "applied": true
+  },
+  {
+    "id": "feedback_1755055159351",
+    "timestamp": "2025-08-13T03:19:19.351Z",
+    "material": "Other means of identification",
+    "ai_result": {
+      "federal": [
+        "D002"
+      ],
+      "texas_form_code": "305",
+      "dot_un": "UN1824"
+    },
+    "correct_result": {
+      "federal": [],
+      "texas_form_code": "305",
+      "dot_un": "UN1823"
+    },
+    "reason": "Per RCRA regulations, a solid cannot have a PH, therefore a solid cannot be a D002.  It will not be tracked as D002.",
+    "applied": true
+  },
+  {
+    "id": "feedback_1755055267612",
+    "timestamp": "2025-08-13T03:21:07.612Z",
+    "material": "Other means of identification",
+    "ai_result": {
+      "federal": [
+        "D002"
+      ],
+      "texas_form_code": "305",
+      "dot_un": "UN1824"
+    },
+    "correct_result": {
+      "federal": [],
+      "texas_form_code": "305",
+      "dot_un": "UN1823"
+    },
+    "reason": "Per RCRA, a solid is not hazardous for PH because PH requires water.  The SDS shows the physical state is Solid therefor it cannot have a >13 PH as stated.  ",
+    "applied": false
+  },
+  {
+    "id": "feedback_1755056914100",
+    "timestamp": "2025-08-13T03:48:34.100Z",
+    "material": "Other means of identification",
+    "ai_result": {
+      "federal": [
+        "D002"
+      ],
+      "texas_form_code": "305",
+      "dot_un": "UN1824"
+    },
+    "correct_result": {
+      "federal": [],
+      "texas_form_code": "305",
+      "dot_un": "UN1824"
+    },
+    "reason": "D002 does not apply because this is a solid.  To be hazardous for PH the material must be liquid.",
+    "applied": true
+  },
+  {
+    "id": "feedback_1755057314573",
+    "timestamp": "2025-08-13T03:55:14.573Z",
+    "material": "Diesel Fuel",
+    "ai_result": {
+      "federal": [],
+      "texas_form_code": "105",
+      "dot_un": "UN0194"
+    },
+    "correct_result": {
+      "federal": [
+        "D001"
+      ],
+      "texas_form_code": "219",
+      "dot_un": "UN1202"
+    },
+    "reason": "Diesel fuel has a flash point of >125.6 F.  Because it does not have a top end, it has to be assumed that the material does not exceed the 140 F threshold to be non-hazardous",
+    "applied": false
+  },
+  {
+    "id": "feedback_1755057381078",
+    "timestamp": "2025-08-13T03:56:21.078Z",
+    "material": "Other means of identification",
+    "ai_result": {
+      "federal": [
+        "D002"
+      ],
+      "texas_form_code": "305",
+      "dot_un": "UN1824"
+    },
+    "correct_result": {
+      "federal": [],
+      "texas_form_code": "305",
+      "dot_un": "UN1824"
+    },
+    "reason": "D002 is not applicable because this material is a solid.",
+    "applied": true
+  },
+  {
+    "id": "feedback_1755097424293",
+    "timestamp": "2025-08-13T15:03:44.293Z",
+    "material": "Sodium Hypochlorite,13%",
+    "ai_result": {
+      "federal": [],
+      "texas_form_code": "102",
+      "dot_un": "UN0148"
+    },
+    "correct_result": {
+      "federal": [
+        "D002"
+      ],
+      "texas_form_code": "003",
+      "dot_un": ""
+    },
+    "reason": "This is a D002 caustic based on PH.",
+    "applied": true
+  },
+  {
+    "id": "feedback_1755097674645",
+    "timestamp": "2025-08-13T15:07:54.645Z",
+    "material": "Other means of identification",
+    "ai_result": {
+      "federal": [
+        "D002"
+      ],
+      "texas_form_code": "305",
+      "dot_un": "UN1824"
+    },
+    "correct_result": {
+      "federal": [],
+      "texas_form_code": "301",
+      "dot_un": "UN1824"
+    },
+    "reason": "D002 does not apply to solids.  You must check the State line of the SDS.  D002 only applies when the material is liquid.\n",
+    "applied": true
+  },
+  {
+    "id": "feedback_1755447120954",
+    "timestamp": "2025-08-17T16:12:00.954Z",
+    "material": "Sodium Hypochlorite,13%",
+    "ai_result": {
+      "federal": [],
+      "texas_form_code": "102",
+      "dot_un": "UN0148"
+    },
+    "correct_result": {
+      "federal": [
+        "D002"
+      ],
+      "texas_form_code": "106",
+      "dot_un": "UN0148"
+    },
+    "reason": "This is a caustic waste.  PH is above 12.5",
+    "applied": true
+  }
+]

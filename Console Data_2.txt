@@ -1,0 +1,674 @@
+ ✅ Pattern 0 matched on line 0: "Sodium Hypochlorite,13% Manufacturer/Supplier Trade name : Manufacturer/Supplier Article number : S25552 Recommended uses of the product and uses restrictions on use : Manufacturer Details : AquaPhoenix Scientific 9 Barnhart Drive, Hanover, PA 17331 Supplier Details : Fisher Science Education 15 Jet View Drive, Rochester, NY 14624 Emergency telephone number : Fisher Science Education Emergency Telephone No.: 800-535-5053 SECTION 2 : Hazards identification Classification of the substance or mixture : Corrosive Corrosive to metals, category 1 Serious eye damage, category 1 Irritant Skin irritation, category 2 Eye corr. 1 Skin Irrit. 2 Aquatic Acute 2 Aquatic Chronic 3 Metal Corr. 1 Signal word :Danger Hazard statements : May be corrosive to metals Causes serious eye damage Causes skin irritation Toxic to aquatic life with long lasting effects Precautionary statements : If medical advice is needed, have product container or label at hand Keep out of reach of children Read label before use Wear protective gloves/protective clothing/eye protection/face protection Wash skin thoroughly after handling Wear protective gloves/protective clothing/eye protection/face protection IF IN EYES: Rinse cautiously with water for several minutes. Remove contact lenses if present and easy to do. Continue rinsing Safety Data Sheet according to 29CFR1910/1200 and GHS Rev. 3 Effective date : 12.14.2014 Page 2 of 7 Sodium Hypochlorite,13% Created by Global Safety Management, Inc. -Tel: 1-813-435-5161 - www.gsmsds.com Immediately call a POISON CENTER or doctor/physician IF ON SKIN: Wash with soap and water Specific treatment (see supplemental first aid instructions on this label) If skin irritation occurs: Get medical advice/attention Take off contaminated clothing and wash before reuse Collect spillage Absorb spillage to prevent material damage Store locked up Store in corrosive resistant stainless steel container with a resistant inner liner Dispose of contents and container to an approved waste disposal plant Other Non-GHS Classification : WHMIS E D2B NFPA/HMIS NFPA SCALE (0-4) HMIS RATINGS (0-4) SECTION 3 : Composition/information on ingredients Ingredients:"
+ ❌ Product name rejected: "Sodium Hypochlorite,13% Manufacturer/Supplier Trade name : Manufacturer/Supplier Article number : S25552 Recommended uses of the product and uses restrictions on use : Manufacturer Details : AquaPhoenix Scientific 9 Barnhart Drive, Hanover, PA 17331 Supplier Details : Fisher Science Education 15 Jet View Drive, Rochester, NY 14624 Emergency telephone number : Fisher Science Education Emergency Telephone No.: 800-535-5053 SECTION 2 : Hazards identification Classification of the substance or mixture : Corrosive Corrosive to metals, category 1 Serious eye damage, category 1 Irritant Skin irritation, category 2 Eye corr. 1 Skin Irrit. 2 Aquatic Acute 2 Aquatic Chronic 3 Metal Corr. 1 Signal word :Danger Hazard statements : May be corrosive to metals Causes serious eye damage Causes skin irritation Toxic to aquatic life with long lasting effects Precautionary statements : If medical advice is needed, have product container or label at hand Keep out of reach of children Read label before use Wear protective gloves/protective clothing/eye protection/face protection Wash skin thoroughly after handling Wear protective gloves/protective clothing/eye protection/face protection IF IN EYES: Rinse cautiously with water for several minutes. Remove contact lenses if present and easy to do. Continue rinsing Safety Data Sheet according to 29CFR1910/1200 and GHS Rev. 3 Effective date : 12.14.2014 Page 2 of 7 Sodium Hypochlorite,13% Created by Global Safety Management, Inc. -Tel: 1-813-435-5161 - www.gsmsds.com Immediately call a POISON CENTER or doctor/physician IF ON SKIN: Wash with soap and water Specific treatment (see supplemental first aid instructions on this label) If skin irritation occurs: Get medical advice/attention Take off contaminated clothing and wash before reuse Collect spillage Absorb spillage to prevent material damage Store locked up Store in corrosive resistant stainless steel container with a resistant inner liner Dispose of contents and container to an approved waste disposal plant Other Non-GHS Classification : WHMIS E D2B NFPA/HMIS NFPA SCALE (0-4) HMIS RATINGS (0-4) SECTION 3 : Composition/information on ingredients Ingredients:" (failed validation)
+ ✅ Pattern 1 matched on line 0: "Sodium Hypochlorite,13% Manufacturer/Supplier Trade name : Manufacturer/Supplier Article number : S25552 Recommended uses of the product and uses restrictions on use : Manufacturer Details : AquaPhoenix Scientific 9 Barnhart Drive, Hanover, PA 17331 Supplier Details : Fisher Science Education 15 Jet View Drive, Rochester, NY 14624 Emergency telephone number : Fisher Science Education Emergency Telephone No.: 800-535-5053 SECTION 2 : Hazards identification Classification of the substance or mixture : Corrosive Corrosive to metals, category 1 Serious eye damage, category 1 Irritant Skin irritation, category 2 Eye corr. 1 Skin Irrit. 2 Aquatic Acute 2 Aquatic Chronic 3 Metal Corr. 1 Signal word :Danger Hazard statements : May be corrosive to metals Causes serious eye damage Causes skin irritation Toxic to aquatic life with long lasting effects Precautionary statements : If medical advice is needed, have product container or label at hand Keep out of reach of children Read label before use Wear protective gloves/protective clothing/eye protection/face protection Wash skin thoroughly after handling Wear protective gloves/protective clothing/eye protection/face protection IF IN EYES: Rinse cautiously with water for several minutes. Remove contact lenses if present and easy to do. Continue rinsing Safety Data Sheet according to 29CFR1910/1200 and GHS Rev. 3 Effective date : 12.14.2014 Page 2 of 7 Sodium Hypochlorite,13% Created by Global Safety Management, Inc. -Tel: 1-813-435-5161 - www.gsmsds.com Immediately call a POISON CENTER or doctor/physician IF ON SKIN: Wash with soap and water Specific treatment (see supplemental first aid instructions on this label) If skin irritation occurs: Get medical advice/attention Take off contaminated clothing and wash before reuse Collect spillage Absorb spillage to prevent material damage Store locked up Store in corrosive resistant stainless steel container with a resistant inner liner Dispose of contents and container to an approved waste disposal plant Other Non-GHS Classification : WHMIS E D2B NFPA/HMIS NFPA SCALE (0-4) HMIS RATINGS (0-4) SECTION 3 : Composition/information on ingredients Ingredients:"
+ ❌ Product name rejected: "Sodium Hypochlorite,13% Manufacturer/Supplier Trade name : Manufacturer/Supplier Article number : S25552 Recommended uses of the product and uses restrictions on use : Manufacturer Details : AquaPhoenix Scientific 9 Barnhart Drive, Hanover, PA 17331 Supplier Details : Fisher Science Education 15 Jet View Drive, Rochester, NY 14624 Emergency telephone number : Fisher Science Education Emergency Telephone No.: 800-535-5053 SECTION 2 : Hazards identification Classification of the substance or mixture : Corrosive Corrosive to metals, category 1 Serious eye damage, category 1 Irritant Skin irritation, category 2 Eye corr. 1 Skin Irrit. 2 Aquatic Acute 2 Aquatic Chronic 3 Metal Corr. 1 Signal word :Danger Hazard statements : May be corrosive to metals Causes serious eye damage Causes skin irritation Toxic to aquatic life with long lasting effects Precautionary statements : If medical advice is needed, have product container or label at hand Keep out of reach of children Read label before use Wear protective gloves/protective clothing/eye protection/face protection Wash skin thoroughly after handling Wear protective gloves/protective clothing/eye protection/face protection IF IN EYES: Rinse cautiously with water for several minutes. Remove contact lenses if present and easy to do. Continue rinsing Safety Data Sheet according to 29CFR1910/1200 and GHS Rev. 3 Effective date : 12.14.2014 Page 2 of 7 Sodium Hypochlorite,13% Created by Global Safety Management, Inc. -Tel: 1-813-435-5161 - www.gsmsds.com Immediately call a POISON CENTER or doctor/physician IF ON SKIN: Wash with soap and water Specific treatment (see supplemental first aid instructions on this label) If skin irritation occurs: Get medical advice/attention Take off contaminated clothing and wash before reuse Collect spillage Absorb spillage to prevent material damage Store locked up Store in corrosive resistant stainless steel container with a resistant inner liner Dispose of contents and container to an approved waste disposal plant Other Non-GHS Classification : WHMIS E D2B NFPA/HMIS NFPA SCALE (0-4) HMIS RATINGS (0-4) SECTION 3 : Composition/information on ingredients Ingredients:" (failed validation)
+ ✅ Pattern 2 matched on line 0: "Sodium Hypochlorite,13% Manufacturer/Supplier Trade name : Manufacturer/Supplier Article number : S25552 Recommended uses of the product and uses restrictions on use : Manufacturer Details : AquaPhoenix Scientific 9 Barnhart Drive, Hanover, PA 17331 Supplier Details : Fisher Science Education 15 Jet View Drive, Rochester, NY 14624 Emergency telephone number : Fisher Science Education Emergency Telephone No.: 800-535-5053 SECTION 2 : Hazards identification Classification of the substance or mixture : Corrosive Corrosive to metals, category 1 Serious eye damage, category 1 Irritant Skin irritation, category 2 Eye corr. 1 Skin Irrit. 2 Aquatic Acute 2 Aquatic Chronic 3 Metal Corr. 1 Signal word :Danger Hazard statements : May be corrosive to metals Causes serious eye damage Causes skin irritation Toxic to aquatic life with long lasting effects Precautionary statements : If medical advice is needed, have product container or label at hand Keep out of reach of children Read label before use Wear protective gloves/protective clothing/eye protection/face protection Wash skin thoroughly after handling Wear protective gloves/protective clothing/eye protection/face protection IF IN EYES: Rinse cautiously with water for several minutes. Remove contact lenses if present and easy to do. Continue rinsing Safety Data Sheet according to 29CFR1910/1200 and GHS Rev. 3 Effective date : 12.14.2014 Page 2 of 7 Sodium Hypochlorite,13% Created by Global Safety Management, Inc. -Tel: 1-813-435-5161 - www.gsmsds.com Immediately call a POISON CENTER or doctor/physician IF ON SKIN: Wash with soap and water Specific treatment (see supplemental first aid instructions on this label) If skin irritation occurs: Get medical advice/attention Take off contaminated clothing and wash before reuse Collect spillage Absorb spillage to prevent material damage Store locked up Store in corrosive resistant stainless steel container with a resistant inner liner Dispose of contents and container to an approved waste disposal plant Other Non-GHS Classification : WHMIS E D2B NFPA/HMIS NFPA SCALE (0-4) HMIS RATINGS (0-4) SECTION 3 : Composition/information on ingredients Ingredients:"
+ ❌ Product name rejected: "Sodium Hypochlorite,13% Manufacturer/Supplier Trade name : Manufacturer/Supplier Article number : S25552 Recommended uses of the product and uses restrictions on use : Manufacturer Details : AquaPhoenix Scientific 9 Barnhart Drive, Hanover, PA 17331 Supplier Details : Fisher Science Education 15 Jet View Drive, Rochester, NY 14624 Emergency telephone number : Fisher Science Education Emergency Telephone No.: 800-535-5053 SECTION 2 : Hazards identification Classification of the substance or mixture : Corrosive Corrosive to metals, category 1 Serious eye damage, category 1 Irritant Skin irritation, category 2 Eye corr. 1 Skin Irrit. 2 Aquatic Acute 2 Aquatic Chronic 3 Metal Corr. 1 Signal word :Danger Hazard statements : May be corrosive to metals Causes serious eye damage Causes skin irritation Toxic to aquatic life with long lasting effects Precautionary statements : If medical advice is needed, have product container or label at hand Keep out of reach of children Read label before use Wear protective gloves/protective clothing/eye protection/face protection Wash skin thoroughly after handling Wear protective gloves/protective clothing/eye protection/face protection IF IN EYES: Rinse cautiously with water for several minutes. Remove contact lenses if present and easy to do. Continue rinsing Safety Data Sheet according to 29CFR1910/1200 and GHS Rev. 3 Effective date : 12.14.2014 Page 2 of 7 Sodium Hypochlorite,13% Created by Global Safety Management, Inc. -Tel: 1-813-435-5161 - www.gsmsds.com Immediately call a POISON CENTER or doctor/physician IF ON SKIN: Wash with soap and water Specific treatment (see supplemental first aid instructions on this label) If skin irritation occurs: Get medical advice/attention Take off contaminated clothing and wash before reuse Collect spillage Absorb spillage to prevent material damage Store locked up Store in corrosive resistant stainless steel container with a resistant inner liner Dispose of contents and container to an approved waste disposal plant Other Non-GHS Classification : WHMIS E D2B NFPA/HMIS NFPA SCALE (0-4) HMIS RATINGS (0-4) SECTION 3 : Composition/information on ingredients Ingredients:" (failed validation)
+ ✅ Pattern 5 matched on line 0: "Manufacturer/Supplier Article number : S25552 Recommended uses of the product and uses restrictions on use : Manufacturer Details : AquaPhoenix Scientific 9 Barnhart Drive, Hanover, PA 17331 Supplier Details : Fisher Science Education 15 Jet View Drive, Rochester, NY 14624 Emergency telephone number : Fisher Science Education Emergency Telephone No.: 800-535-5053 SECTION 2 : Hazards identification Classification of the substance or mixture : Corrosive Corrosive to metals, category 1 Serious eye damage, category 1 Irritant Skin irritation, category 2 Eye corr. 1 Skin Irrit. 2 Aquatic Acute 2 Aquatic Chronic 3 Metal Corr. 1 Signal word :Danger Hazard statements : May be corrosive to metals Causes serious eye damage Causes skin irritation Toxic to aquatic life with long lasting effects Precautionary statements : If medical advice is needed, have product container or label at hand Keep out of reach of children Read label before use Wear protective gloves/protective clothing/eye protection/face protection Wash skin thoroughly after handling Wear protective gloves/protective clothing/eye protection/face protection IF IN EYES: Rinse cautiously with water for several minutes. Remove contact lenses if present and easy to do. Continue rinsing Safety Data Sheet according to 29CFR1910/1200 and GHS Rev. 3 Effective date : 12.14.2014 Page 2 of 7 Sodium Hypochlorite,13% Created by Global Safety Management, Inc. -Tel: 1-813-435-5161 - www.gsmsds.com Immediately call a POISON CENTER or doctor/physician IF ON SKIN: Wash with soap and water Specific treatment (see supplemental first aid instructions on this label) If skin irritation occurs: Get medical advice/attention Take off contaminated clothing and wash before reuse Collect spillage Absorb spillage to prevent material damage Store locked up Store in corrosive resistant stainless steel container with a resistant inner liner Dispose of contents and container to an approved waste disposal plant Other Non-GHS Classification : WHMIS E D2B NFPA/HMIS NFPA SCALE (0-4) HMIS RATINGS (0-4) SECTION 3 : Composition/information on ingredients Ingredients:"
+ ❌ Product name rejected: "Manufacturer/Supplier Article number : S25552 Recommended uses of the product and uses restrictions on use : Manufacturer Details : AquaPhoenix Scientific 9 Barnhart Drive, Hanover, PA 17331 Supplier Details : Fisher Science Education 15 Jet View Drive, Rochester, NY 14624 Emergency telephone number : Fisher Science Education Emergency Telephone No.: 800-535-5053 SECTION 2 : Hazards identification Classification of the substance or mixture : Corrosive Corrosive to metals, category 1 Serious eye damage, category 1 Irritant Skin irritation, category 2 Eye corr. 1 Skin Irrit. 2 Aquatic Acute 2 Aquatic Chronic 3 Metal Corr. 1 Signal word :Danger Hazard statements : May be corrosive to metals Causes serious eye damage Causes skin irritation Toxic to aquatic life with long lasting effects Precautionary statements : If medical advice is needed, have product container or label at hand Keep out of reach of children Read label before use Wear protective gloves/protective clothing/eye protection/face protection Wash skin thoroughly after handling Wear protective gloves/protective clothing/eye protection/face protection IF IN EYES: Rinse cautiously with water for several minutes. Remove contact lenses if present and easy to do. Continue rinsing Safety Data Sheet according to 29CFR1910/1200 and GHS Rev. 3 Effective date : 12.14.2014 Page 2 of 7 Sodium Hypochlorite,13% Created by Global Safety Management, Inc. -Tel: 1-813-435-5161 - www.gsmsds.com Immediately call a POISON CENTER or doctor/physician IF ON SKIN: Wash with soap and water Specific treatment (see supplemental first aid instructions on this label) If skin irritation occurs: Get medical advice/attention Take off contaminated clothing and wash before reuse Collect spillage Absorb spillage to prevent material damage Store locked up Store in corrosive resistant stainless steel container with a resistant inner liner Dispose of contents and container to an approved waste disposal plant Other Non-GHS Classification : WHMIS E D2B NFPA/HMIS NFPA SCALE (0-4) HMIS RATINGS (0-4) SECTION 3 : Composition/information on ingredients Ingredients:" (failed validation)
+ 📋 Product name extraction result: "NOT FOUND"
+ 🔥 Starting flash point extraction...
+ 🔥 No flash point found
+ 🔍 Trying broader search for product name...
+ 🔍 Final fallback search for product name in first 20 lines...
+ 🧪 Found CAS in Section 1 fallback: 7681-52-9
+ 🏷️  Using chemical name: "Unknown Chemical"
+ 📊 BulletproofSDSExtractor Summary:
+    - Product Name: "NOT FOUND"
+    - Composition Count: 1
+    - CAS Numbers Found: 7681-52-9
+    - Text Length: 14578 characters
+ 🔍 BulletproofSDSExtractor - Final Results: Object
+ 🔬 EnhancedSDSAnalyzer - Normalized composition for classification: Array(1)
+ ⚗️ ConstituentFirstClassifier - Received composition: Array(1)
+ 🧪 Classifying chemical: Unknown Chemical (CAS: 7681-52-9)
+ ❌ No P-code found for 7681-52-9
+ ❌ No U-code found for 7681-52-9
+ 📊 Classification result: Object
+ 🚨 ANALYSIS SUCCESS for sodium hypochlorite.pdf
+ 🔍 RAW API RESPONSE for sodium hypochlorite.pdf: Object
+ 🔍 data.success: true
+ 🔍 data.classification: Object
+ 🔍 Response structure: Array(3)
+ 🔍 Classification structure: Array(21)
+ 🔍 Classification.composition: Array(1)
+ 🔍 Classification.chemicals: undefined
+ 📝 DEBUG [3:21:02 AM]: ✅ API response received for sodium hypochlorite.pdf: SUCCESS
+ 📝 DEBUG [3:21:02 AM]: 📊 Response has classification: true
+ 📝 DEBUG [3:21:02 AM]: 📊 Classification success: undefined
+ 🚨 VALIDATION TEST: data.success=true, data.classification=true
+ 🚨 VALIDATION TEST: typeof data.success=boolean, typeof data.classification=object
+ 🔍 FINAL BATCH RESULT for sodium hypochlorite.pdf: Object
+ 📝 DEBUG [3:21:02 AM]: 🔍 Final batch result - composition: 1 components, rawText: 0 chars
+ 📝 DEBUG [3:21:02 AM]: ✅ File 10 processed successfully: undefined
+ 📝 DEBUG [3:21:02 AM]: 📄 Processing file 11/12: TRIETHYLENE-GLYCOL-LAB-4L.pdf
+ 🚨 JAVASCRIPT WORKING - Processing TRIETHYLENE-GLYCOL-LAB-4L.pdf
+ 🔍 File object: File
+ 🔍 File name: TRIETHYLENE-GLYCOL-LAB-4L.pdf
+ 🔍 File size: 45774
+ 🔍 File type: application/pdf
+ 🔍 File instanceof File: true
+ 🔍 FormData entries:
+   pdf: File
+   mode: comprehensive
+   state: TX
+   aiProvider: deterministic
+ 🟢🟢🟢 SDSAnalyzerWORKING component mounted
+ 🟢🟢🟢 SDSAnalyzerWORKING component mounted
+ [vite] connecting...
+ [vite] connected.
+ 📋 Starting product name extraction from 1 lines
+ ✅ Pattern 0 matched on line 0: "Triethylene glycol Cat No. : T346-4"
+ 🎯 Product name successfully set: "Triethylene glycol Cat No. : T346-4"
+ 📋 Product name extraction result: "Triethylene glycol Cat No. : T346-4"
+ 🔥 Starting flash point extraction...
+ 🔥 Flash point found: 165°C (329°F)
+ 🧪 Found CAS in Section 1 fallback: 112-27-6
+ 🏷️  Using chemical name: "Triethylene glycol Cat No. : T346-4"
+ 📊 BulletproofSDSExtractor Summary:
+    - Product Name: "Triethylene glycol Cat No. : T346-4"
+    - Composition Count: 1
+    - CAS Numbers Found: 112-27-6
+    - Text Length: 12048 characters
+ 🔍 BulletproofSDSExtractor - Final Results: Object
+ 🔬 EnhancedSDSAnalyzer - Normalized composition for classification: Array(1)
+ ⚗️ ConstituentFirstClassifier - Received composition: Array(1)
+ 🧪 Classifying chemical: Triethylene glycol Cat No. : T346-4 (CAS: 112-27-6)
+ ❌ No P-code found for 112-27-6
+ ❌ No U-code found for 112-27-6
+ 📊 Classification result: Object
+ 🚨 ANALYSIS SUCCESS for TRIETHYLENE-GLYCOL-LAB-4L.pdf
+ 🔍 RAW API RESPONSE for TRIETHYLENE-GLYCOL-LAB-4L.pdf: Object
+ 🔍 data.success: true
+ 🔍 data.classification: Object
+ 🔍 Response structure: Array(3)
+ 🔍 Classification structure: Array(21)
+ 🔍 Classification.composition: Array(1)
+ 🔍 Classification.chemicals: undefined
+ 📝 DEBUG [3:21:03 AM]: ✅ API response received for TRIETHYLENE-GLYCOL-LAB-4L.pdf: SUCCESS
+ 📝 DEBUG [3:21:03 AM]: 📊 Response has classification: true
+ 📝 DEBUG [3:21:03 AM]: 📊 Classification success: undefined
+ 🚨 VALIDATION TEST: data.success=true, data.classification=true
+ 🚨 VALIDATION TEST: typeof data.success=boolean, typeof data.classification=object
+ 🔍 FINAL BATCH RESULT for TRIETHYLENE-GLYCOL-LAB-4L.pdf: Object
+ 📝 DEBUG [3:21:03 AM]: 🔍 Final batch result - composition: 1 components, rawText: 0 chars
+ 📝 DEBUG [3:21:03 AM]: ✅ File 11 processed successfully: undefined
+ 📝 DEBUG [3:21:03 AM]: 📄 Processing file 12/12: wd-40-multi-use-product-aerosol-low-voc-sds-us-ghs.pdf
+ 🚨 JAVASCRIPT WORKING - Processing wd-40-multi-use-product-aerosol-low-voc-sds-us-ghs.pdf
+ 🔍 File object: File
+ 🔍 File name: wd-40-multi-use-product-aerosol-low-voc-sds-us-ghs.pdf
+ 🔍 File size: 230616
+ 🔍 File type: application/pdf
+ 🔍 File instanceof File: true
+ 🔍 FormData entries:
+   pdf: File
+   mode: comprehensive
+   state: TX
+   aiProvider: deterministic
+ 🟢🟢🟢 SDSAnalyzerWORKING component mounted
+ 🟢🟢🟢 SDSAnalyzerWORKING component mounted
+ [vite] connecting...
+ [vite] connected.
+ 📋 Starting product name extraction from 1 lines
+ ✅ Pattern 0 matched on line 0: "WD - 40 Multi - Use Product Aerosol Product Use: Lubricant, Penetrant, Drives Out Moisture and Protects Surfaces from Corrosion Restrictions on Use: None identified SDS Date of Preparation: November 13 , 2024 Manufacturer: WD - 40 Company Address: 9715 Businesspark Avenue San Diego, California, USA 92131 Telephone: Emergency: 1 - 888 - 324 - 7596 Information: 1 - 888 - 324 - 7596 Chemical Spills: 1 - 800 - 424 - 9300 (Chemtrec) 1 - 703 - 527 - 3887 (International Calls) 2 – Hazards Identification H CS 2024 / GHS Classification: Aerosol Category 1 Aspiration Toxicity Category 1 Specific Target Organ Toxicity Single Exposure Category 3 (nervous system effects) Note: This product is a consumer product and is labeled in accordance with the US Consumer Product Safety Commission regulations which take precedence over OSHA Hazard Communication labeling. The actual container label will not include the label elements b elow. The labeling below applies to industrial/professional products. Label Elements: DANGER ! Extremely Flammable Aerosol. Pressurized container: may burst if heated. May be fatal if swallowed and enters airways. May cause drowsiness or dizziness. Prevention Keep away from heat, hot surfaces, sparks, open flames, and other ignition sources . – No smoking. Do not spray on an open flame or other ignition source. Do not pierce or burn, even after use. Avoid breathing vapors or mists. Use only outdoors or in a well - ventilated area. Response IF SWALLOWED: Immediately call a POISON CENTER or physician. Do NOT induce vomiting. IF INHALED: Remove person to fresh air and keep comfortable for breathing. Call a POISON CENTER or physician if you feel unwell. Storage Store locked up. P rotect from sunlight. Do not expose to temperatures exceeding 122 ° F (50 °C) . Store in a well - ventilated place. Disposal Di spose of contents and container in accordance with local and national regulations. Page 2 of 5 3 - Composition/Information on Ingredients Ingredient"
+ ❌ Product name rejected: "WD - 40 Multi - Use Product Aerosol Product Use: Lubricant, Penetrant, Drives Out Moisture and Protects Surfaces from Corrosion Restrictions on Use: None identified SDS Date of Preparation: November 13 , 2024 Manufacturer: WD - 40 Company Address: 9715 Businesspark Avenue San Diego, California, USA 92131 Telephone: Emergency: 1 - 888 - 324 - 7596 Information: 1 - 888 - 324 - 7596 Chemical Spills: 1 - 800 - 424 - 9300 (Chemtrec) 1 - 703 - 527 - 3887 (International Calls) 2 – Hazards Identification H CS 2024 / GHS Classification: Aerosol Category 1 Aspiration Toxicity Category 1 Specific Target Organ Toxicity Single Exposure Category 3 (nervous system effects) Note: This product is a consumer product and is labeled in accordance with the US Consumer Product Safety Commission regulations which take precedence over OSHA Hazard Communication labeling. The actual container label will not include the label elements b elow. The labeling below applies to industrial/professional products. Label Elements: DANGER ! Extremely Flammable Aerosol. Pressurized container: may burst if heated. May be fatal if swallowed and enters airways. May cause drowsiness or dizziness. Prevention Keep away from heat, hot surfaces, sparks, open flames, and other ignition sources . – No smoking. Do not spray on an open flame or other ignition source. Do not pierce or burn, even after use. Avoid breathing vapors or mists. Use only outdoors or in a well - ventilated area. Response IF SWALLOWED: Immediately call a POISON CENTER or physician. Do NOT induce vomiting. IF INHALED: Remove person to fresh air and keep comfortable for breathing. Call a POISON CENTER or physician if you feel unwell. Storage Store locked up. P rotect from sunlight. Do not expose to temperatures exceeding 122 ° F (50 °C) . Store in a well - ventilated place. Disposal Di spose of contents and container in accordance with local and national regulations. Page 2 of 5 3 - Composition/Information on Ingredients Ingredient" (failed validation)
+ ✅ Pattern 1 matched on line 0: "WD - 40 Multi - Use Product Aerosol Product Use: Lubricant, Penetrant, Drives Out Moisture and Protects Surfaces from Corrosion Restrictions on Use: None identified SDS Date of Preparation: November 13 , 2024 Manufacturer: WD - 40 Company Address: 9715 Businesspark Avenue San Diego, California, USA 92131 Telephone: Emergency: 1 - 888 - 324 - 7596 Information: 1 - 888 - 324 - 7596 Chemical Spills: 1 - 800 - 424 - 9300 (Chemtrec) 1 - 703 - 527 - 3887 (International Calls) 2 – Hazards Identification H CS 2024 / GHS Classification: Aerosol Category 1 Aspiration Toxicity Category 1 Specific Target Organ Toxicity Single Exposure Category 3 (nervous system effects) Note: This product is a consumer product and is labeled in accordance with the US Consumer Product Safety Commission regulations which take precedence over OSHA Hazard Communication labeling. The actual container label will not include the label elements b elow. The labeling below applies to industrial/professional products. Label Elements: DANGER ! Extremely Flammable Aerosol. Pressurized container: may burst if heated. May be fatal if swallowed and enters airways. May cause drowsiness or dizziness. Prevention Keep away from heat, hot surfaces, sparks, open flames, and other ignition sources . – No smoking. Do not spray on an open flame or other ignition source. Do not pierce or burn, even after use. Avoid breathing vapors or mists. Use only outdoors or in a well - ventilated area. Response IF SWALLOWED: Immediately call a POISON CENTER or physician. Do NOT induce vomiting. IF INHALED: Remove person to fresh air and keep comfortable for breathing. Call a POISON CENTER or physician if you feel unwell. Storage Store locked up. P rotect from sunlight. Do not expose to temperatures exceeding 122 ° F (50 °C) . Store in a well - ventilated place. Disposal Di spose of contents and container in accordance with local and national regulations. Page 2 of 5 3 - Composition/Information on Ingredients Ingredient"
+ ❌ Product name rejected: "WD - 40 Multi - Use Product Aerosol Product Use: Lubricant, Penetrant, Drives Out Moisture and Protects Surfaces from Corrosion Restrictions on Use: None identified SDS Date of Preparation: November 13 , 2024 Manufacturer: WD - 40 Company Address: 9715 Businesspark Avenue San Diego, California, USA 92131 Telephone: Emergency: 1 - 888 - 324 - 7596 Information: 1 - 888 - 324 - 7596 Chemical Spills: 1 - 800 - 424 - 9300 (Chemtrec) 1 - 703 - 527 - 3887 (International Calls) 2 – Hazards Identification H CS 2024 / GHS Classification: Aerosol Category 1 Aspiration Toxicity Category 1 Specific Target Organ Toxicity Single Exposure Category 3 (nervous system effects) Note: This product is a consumer product and is labeled in accordance with the US Consumer Product Safety Commission regulations which take precedence over OSHA Hazard Communication labeling. The actual container label will not include the label elements b elow. The labeling below applies to industrial/professional products. Label Elements: DANGER ! Extremely Flammable Aerosol. Pressurized container: may burst if heated. May be fatal if swallowed and enters airways. May cause drowsiness or dizziness. Prevention Keep away from heat, hot surfaces, sparks, open flames, and other ignition sources . – No smoking. Do not spray on an open flame or other ignition source. Do not pierce or burn, even after use. Avoid breathing vapors or mists. Use only outdoors or in a well - ventilated area. Response IF SWALLOWED: Immediately call a POISON CENTER or physician. Do NOT induce vomiting. IF INHALED: Remove person to fresh air and keep comfortable for breathing. Call a POISON CENTER or physician if you feel unwell. Storage Store locked up. P rotect from sunlight. Do not expose to temperatures exceeding 122 ° F (50 °C) . Store in a well - ventilated place. Disposal Di spose of contents and container in accordance with local and national regulations. Page 2 of 5 3 - Composition/Information on Ingredients Ingredient" (failed validation)
+ ✅ Pattern 2 matched on line 0: "WD - 40 Multi - Use Product Aerosol Product Use: Lubricant, Penetrant, Drives Out Moisture and Protects Surfaces from Corrosion Restrictions on Use: None identified SDS Date of Preparation: November 13 , 2024 Manufacturer: WD - 40 Company Address: 9715 Businesspark Avenue San Diego, California, USA 92131 Telephone: Emergency: 1 - 888 - 324 - 7596 Information: 1 - 888 - 324 - 7596 Chemical Spills: 1 - 800 - 424 - 9300 (Chemtrec) 1 - 703 - 527 - 3887 (International Calls) 2 – Hazards Identification H CS 2024 / GHS Classification: Aerosol Category 1 Aspiration Toxicity Category 1 Specific Target Organ Toxicity Single Exposure Category 3 (nervous system effects) Note: This product is a consumer product and is labeled in accordance with the US Consumer Product Safety Commission regulations which take precedence over OSHA Hazard Communication labeling. The actual container label will not include the label elements b elow. The labeling below applies to industrial/professional products. Label Elements: DANGER ! Extremely Flammable Aerosol. Pressurized container: may burst if heated. May be fatal if swallowed and enters airways. May cause drowsiness or dizziness. Prevention Keep away from heat, hot surfaces, sparks, open flames, and other ignition sources . – No smoking. Do not spray on an open flame or other ignition source. Do not pierce or burn, even after use. Avoid breathing vapors or mists. Use only outdoors or in a well - ventilated area. Response IF SWALLOWED: Immediately call a POISON CENTER or physician. Do NOT induce vomiting. IF INHALED: Remove person to fresh air and keep comfortable for breathing. Call a POISON CENTER or physician if you feel unwell. Storage Store locked up. P rotect from sunlight. Do not expose to temperatures exceeding 122 ° F (50 °C) . Store in a well - ventilated place. Disposal Di spose of contents and container in accordance with local and national regulations. Page 2 of 5 3 - Composition/Information on Ingredients Ingredient"
+ ❌ Product name rejected: "WD - 40 Multi - Use Product Aerosol Product Use: Lubricant, Penetrant, Drives Out Moisture and Protects Surfaces from Corrosion Restrictions on Use: None identified SDS Date of Preparation: November 13 , 2024 Manufacturer: WD - 40 Company Address: 9715 Businesspark Avenue San Diego, California, USA 92131 Telephone: Emergency: 1 - 888 - 324 - 7596 Information: 1 - 888 - 324 - 7596 Chemical Spills: 1 - 800 - 424 - 9300 (Chemtrec) 1 - 703 - 527 - 3887 (International Calls) 2 – Hazards Identification H CS 2024 / GHS Classification: Aerosol Category 1 Aspiration Toxicity Category 1 Specific Target Organ Toxicity Single Exposure Category 3 (nervous system effects) Note: This product is a consumer product and is labeled in accordance with the US Consumer Product Safety Commission regulations which take precedence over OSHA Hazard Communication labeling. The actual container label will not include the label elements b elow. The labeling below applies to industrial/professional products. Label Elements: DANGER ! Extremely Flammable Aerosol. Pressurized container: may burst if heated. May be fatal if swallowed and enters airways. May cause drowsiness or dizziness. Prevention Keep away from heat, hot surfaces, sparks, open flames, and other ignition sources . – No smoking. Do not spray on an open flame or other ignition source. Do not pierce or burn, even after use. Avoid breathing vapors or mists. Use only outdoors or in a well - ventilated area. Response IF SWALLOWED: Immediately call a POISON CENTER or physician. Do NOT induce vomiting. IF INHALED: Remove person to fresh air and keep comfortable for breathing. Call a POISON CENTER or physician if you feel unwell. Storage Store locked up. P rotect from sunlight. Do not expose to temperatures exceeding 122 ° F (50 °C) . Store in a well - ventilated place. Disposal Di spose of contents and container in accordance with local and national regulations. Page 2 of 5 3 - Composition/Information on Ingredients Ingredient" (failed validation)
+ 📋 Product name extraction result: "NOT FOUND"
+ 🔥 Starting flash point extraction...
+ 🔥 No flash point found
+ 🔍 Trying broader search for product name...
+ 🔍 Final fallback search for product name in first 20 lines...
+ 🧪 Found CAS in Section 1 fallback: 64742-47-8
+ 🏷️  Using chemical name: "Unknown Chemical"
+ 📊 BulletproofSDSExtractor Summary:
+    - Product Name: "NOT FOUND"
+    - Composition Count: 1
+    - CAS Numbers Found: 64742-47-8
+    - Text Length: 13374 characters
+ 🔍 BulletproofSDSExtractor - Final Results: Object
+ 🔬 EnhancedSDSAnalyzer - Normalized composition for classification: Array(1)
+ ⚗️ ConstituentFirstClassifier - Received composition: Array(1)
+ 🧪 Classifying chemical: Unknown Chemical (CAS: 64742-47-8)
+ ❌ No P-code found for 64742-47-8
+ ❌ No U-code found for 64742-47-8
+ 📊 Classification result: Object
+ 🚨 ANALYSIS SUCCESS for wd-40-multi-use-product-aerosol-low-voc-sds-us-ghs.pdf
+ 🔍 RAW API RESPONSE for wd-40-multi-use-product-aerosol-low-voc-sds-us-ghs.pdf: Object
+ 🔍 data.success: true
+ 🔍 data.classification: Object
+ 🔍 Response structure: Array(3)
+ 🔍 Classification structure: Array(21)
+ 🔍 Classification.composition: Array(1)
+ 🔍 Classification.chemicals: undefined
+ 📝 DEBUG [3:21:03 AM]: ✅ API response received for wd-40-multi-use-product-aerosol-low-voc-sds-us-ghs.pdf: SUCCESS
+ 📝 DEBUG [3:21:03 AM]: 📊 Response has classification: true
+ 📝 DEBUG [3:21:03 AM]: 📊 Classification success: undefined
+ 🚨 VALIDATION TEST: data.success=true, data.classification=true
+ 🚨 VALIDATION TEST: typeof data.success=boolean, typeof data.classification=object
+ 🔍 FINAL BATCH RESULT for wd-40-multi-use-product-aerosol-low-voc-sds-us-ghs.pdf: Object
+ 📝 DEBUG [3:21:03 AM]: 🔍 Final batch result - composition: 1 components, rawText: 0 chars
+ 📝 DEBUG [3:21:03 AM]: ✅ File 12 processed successfully: undefined
+ 📝 DEBUG [3:21:03 AM]: 📊 Batch analysis complete: 12/12 files successful
+ 🟢🟢🟢 SDSAnalyzerWORKING component mounted
+ 🟢🟢🟢 SDSAnalyzerWORKING component mounted
+ 🟢🟢🟢 SDSAnalyzerWORKING component mounted
+ 🟢🟢🟢 SDSAnalyzerWORKING component mounted
+ 🟢🟢🟢 SDSAnalyzerWORKING component mounted
+ 🟢🟢🟢 SDSAnalyzerWORKING component mounted
+ 🔍 SDS Analyzer - Adding to Lab Pack: Object
+ 🔍 SDS Analyzer - Added successfully, count: 1
+ 🔍 SDS Analyzer - Adding to Lab Pack: Object
+ 🔍 SDS Analyzer - Added successfully, count: 2
+ 🔍 SDS Analyzer - Adding to Lab Pack: Object
+ 🔍 SDS Analyzer - Added successfully, count: 3
+ 🔍 SDS Analyzer - Adding to Lab Pack: Object
+ 🔍 SDS Analyzer - Added successfully, count: 4
+ 🔍 SDS Analyzer - Adding to Lab Pack: Object
+ 🔍 SDS Analyzer - Added successfully, count: 5
+ 🔍 SDS Analyzer - Adding to Lab Pack: Object
+ 🔍 SDS Analyzer - Added successfully, count: 6
+ 🔍 SDS Analyzer - Adding to Lab Pack: Object
+ 🔍 SDS Analyzer - Added successfully, count: 7
+ 🔍 SDS Analyzer - Adding to Lab Pack: Object
+ 🔍 SDS Analyzer - Added successfully, count: 8
+ 🔍 SDS Analyzer - Adding to Lab Pack: Object
+ 🔍 SDS Analyzer - Added successfully, count: 9
+ 🔍 SDS Analyzer - Adding to Lab Pack: Object
+ 🔍 SDS Analyzer - Added successfully, count: 10
+ 🔍 SDS Analyzer - Adding to Lab Pack: Object
+ 🔍 SDS Analyzer - Added successfully, count: 11
+ 🔍 SDS Analyzer - Adding to Lab Pack: Object
+ 🔍 SDS Analyzer - Added successfully, count: 12
+ 🟢🟢🟢 SDSAnalyzerWORKING component mounted
+ 🟢🟢🟢 SDSAnalyzerWORKING component mounted
+ 🧪 Opening Lab Pack Planner from SDS Analyzer (batch mode)
+ 🚀 LabPackPlanner component mounted/re-rendered
+ 🚀 LabPackPlanner component mounted/re-rendered
+ 🔥 LabPackPlanner loadMaterials function called
+ 🔍 LabPackPlanner - Loading materials...
+ 🔍 New queue system (all): Array(12)
+ 🔍 Legacy queue: Array(0)
+ 🧪 LabPackPlanner loaded 12 materials
+ 🔍 Final materials array: Array(12)
+ 🔥 LabPackPlanner loadMaterials function called
+ 🔍 LabPackPlanner - Loading materials...
+ 🔍 New queue system (all): Array(12)
+ 🔍 Legacy queue: Array(0)
+ 🧪 LabPackPlanner loaded 12 materials
+ 🔍 Final materials array: Array(12)
+ 🚀 LabPackPlanner component mounted/re-rendered
+ 🚀 LabPackPlanner component mounted/re-rendered
+ 🧪 Generating lab packs for materials: Array(12)
+ 🔍 Grouping 12 materials by compatibility
+ 🆕 Created new group 1 for Trimethylamine
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ ✅ Can add Tetrachloroethylene to group of 1 materials
+ ✅ Added Tetrachloroethylene to group 1 (now has 2 materials)
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ ✅ Can add Acetone to group of 2 materials
+ ✅ Added Acetone to group 1 (now has 3 materials)
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ ✅ Can add Unknown Product to group of 3 materials
+ ✅ Added Unknown Product to group 1 (now has 4 materials)
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ ✅ Can add Unknown Product to group of 4 materials
+ ✅ Added Unknown Product to group 1 (now has 5 materials)
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ ✅ Can add Unknown Product to group of 5 materials
+ ✅ Added Unknown Product to group 1 (now has 6 materials)
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ ✅ Can add Unknown Product to group of 6 materials
+ ✅ Added Unknown Product to group 1 (now has 7 materials)
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ ✅ Can add Diesel Fuel to group of 7 materials
+ ✅ Added Diesel Fuel to group 1 (now has 8 materials)
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ ✅ Can add Unknown Product to group of 8 materials
+ ✅ Added Unknown Product to group 1 (now has 9 materials)
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ ✅ Can add Unknown Product to group of 9 materials
+ ✅ Added Unknown Product to group 1 (now has 10 materials)
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ ✅ Can add Triethylene glycol Cat No. : T346-4 to group of 10 materials
+ ✅ Added Triethylene glycol Cat No. : T346-4 to group 1 (now has 11 materials)
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+ 🔍 OIL/WATER CHECK: Object
+ 🔍 HAZARD CLASS CHECK: Object
+ ✅ COMPATIBLE: All checks passed
+ 🔍 COMPATIBILITY CHECK: Object
+ 🔍 NON-HAZ CHECK: Object
+ 🔍 AEROSOL CHECK: Object
+EnhancedLabPackEngine.js:342 🔍 OIL/WATER CHECK: Object
+EnhancedLabPackEngine.js:380 🔍 HAZARD CLASS CHECK: Object
+EnhancedLabPackEngine.js:397 ✅ COMPATIBLE: All checks passed
+EnhancedLabPackEngine.js:271 🔍 COMPATIBILITY CHECK: Object
+EnhancedLabPackEngine.js:302 🔍 NON-HAZ CHECK: Object
+EnhancedLabPackEngine.js:321 🔍 AEROSOL CHECK: Object
+EnhancedLabPackEngine.js:342 🔍 OIL/WATER CHECK: Object
+EnhancedLabPackEngine.js:380 🔍 HAZARD CLASS CHECK: Object
+EnhancedLabPackEngine.js:397 ✅ COMPATIBLE: All checks passed
+EnhancedLabPackEngine.js:271 🔍 COMPATIBILITY CHECK: Object
+EnhancedLabPackEngine.js:302 🔍 NON-HAZ CHECK: Object
+EnhancedLabPackEngine.js:321 🔍 AEROSOL CHECK: Object
+EnhancedLabPackEngine.js:342 🔍 OIL/WATER CHECK: Object
+EnhancedLabPackEngine.js:380 🔍 HAZARD CLASS CHECK: Object
+EnhancedLabPackEngine.js:397 ✅ COMPATIBLE: All checks passed
+EnhancedLabPackEngine.js:271 🔍 COMPATIBILITY CHECK: Object
+EnhancedLabPackEngine.js:302 🔍 NON-HAZ CHECK: Object
+EnhancedLabPackEngine.js:321 🔍 AEROSOL CHECK: Object
+EnhancedLabPackEngine.js:342 🔍 OIL/WATER CHECK: Object
+EnhancedLabPackEngine.js:380 🔍 HAZARD CLASS CHECK: Object
+EnhancedLabPackEngine.js:397 ✅ COMPATIBLE: All checks passed
+EnhancedLabPackEngine.js:271 🔍 COMPATIBILITY CHECK: Object
+EnhancedLabPackEngine.js:302 🔍 NON-HAZ CHECK: Object
+EnhancedLabPackEngine.js:321 🔍 AEROSOL CHECK: Object
+EnhancedLabPackEngine.js:342 🔍 OIL/WATER CHECK: Object
+EnhancedLabPackEngine.js:380 🔍 HAZARD CLASS CHECK: Object
+EnhancedLabPackEngine.js:397 ✅ COMPATIBLE: All checks passed
+EnhancedLabPackEngine.js:556 ✅ Can add Unknown Product to group of 11 materials
+EnhancedLabPackEngine.js:524 ✅ Added Unknown Product to group 1 (now has 12 materials)
+EnhancedLabPackEngine.js:536 📦 Final grouping: 1 groups with materials: 12
+EnhancedLabPackEngine.js:561 📦 Packing group of 12 materials
+EnhancedLabPackEngine.js:571 🆕 Creating new pack for Trimethylamine
+EnhancedLabPackEngine.js:770 🔍 Can fit check: Tetrachloroethylene in 30 gallon?
+EnhancedLabPackEngine.js:771    Current: 500ml, Adding: 500ml, New Total: 1000ml
+EnhancedLabPackEngine.js:772    Limit: 96602.5ml, Weight: 10/600lbs, Result: true
+EnhancedLabPackEngine.js:576 ➕ Adding Tetrachloroethylene to existing pack
+EnhancedLabPackEngine.js:770 🔍 Can fit check: Acetone in 30 gallon?
+EnhancedLabPackEngine.js:771    Current: 1000ml, Adding: 500ml, New Total: 1500ml
+EnhancedLabPackEngine.js:772    Limit: 96602.5ml, Weight: 15/600lbs, Result: true
+EnhancedLabPackEngine.js:576 ➕ Adding Acetone to existing pack
+EnhancedLabPackEngine.js:770 🔍 Can fit check: Unknown Product in 30 gallon?
+EnhancedLabPackEngine.js:771    Current: 1500ml, Adding: 500ml, New Total: 2000ml
+EnhancedLabPackEngine.js:772    Limit: 96602.5ml, Weight: 20/600lbs, Result: true
+EnhancedLabPackEngine.js:576 ➕ Adding Unknown Product to existing pack
+EnhancedLabPackEngine.js:770 🔍 Can fit check: Unknown Product in 30 gallon?
+EnhancedLabPackEngine.js:771    Current: 2000ml, Adding: 500ml, New Total: 2500ml
+EnhancedLabPackEngine.js:772    Limit: 96602.5ml, Weight: 25/600lbs, Result: true
+EnhancedLabPackEngine.js:576 ➕ Adding Unknown Product to existing pack
+EnhancedLabPackEngine.js:770 🔍 Can fit check: Unknown Product in 30 gallon?
+EnhancedLabPackEngine.js:771    Current: 2500ml, Adding: 500ml, New Total: 3000ml
+EnhancedLabPackEngine.js:772    Limit: 96602.5ml, Weight: 30/600lbs, Result: true
+EnhancedLabPackEngine.js:576 ➕ Adding Unknown Product to existing pack
+EnhancedLabPackEngine.js:770 🔍 Can fit check: Unknown Product in 30 gallon?
+EnhancedLabPackEngine.js:771    Current: 3000ml, Adding: 500ml, New Total: 3500ml
+EnhancedLabPackEngine.js:772    Limit: 96602.5ml, Weight: 35/600lbs, Result: true
+EnhancedLabPackEngine.js:576 ➕ Adding Unknown Product to existing pack
+EnhancedLabPackEngine.js:770 🔍 Can fit check: Diesel Fuel in 30 gallon?
+EnhancedLabPackEngine.js:771    Current: 3500ml, Adding: 500ml, New Total: 4000ml
+EnhancedLabPackEngine.js:772    Limit: 96602.5ml, Weight: 40/600lbs, Result: true
+EnhancedLabPackEngine.js:576 ➕ Adding Diesel Fuel to existing pack
+EnhancedLabPackEngine.js:770 🔍 Can fit check: Unknown Product in 30 gallon?
+EnhancedLabPackEngine.js:771    Current: 4000ml, Adding: 500ml, New Total: 4500ml
+EnhancedLabPackEngine.js:772    Limit: 96602.5ml, Weight: 45/600lbs, Result: true
+EnhancedLabPackEngine.js:576 ➕ Adding Unknown Product to existing pack
+EnhancedLabPackEngine.js:770 🔍 Can fit check: Unknown Product in 30 gallon?
+EnhancedLabPackEngine.js:771    Current: 4500ml, Adding: 500ml, New Total: 5000ml
+EnhancedLabPackEngine.js:772    Limit: 96602.5ml, Weight: 50/600lbs, Result: true
+EnhancedLabPackEngine.js:576 ➕ Adding Unknown Product to existing pack
+EnhancedLabPackEngine.js:770 🔍 Can fit check: Triethylene glycol Cat No. : T346-4 in 30 gallon?
+EnhancedLabPackEngine.js:771    Current: 5000ml, Adding: 500ml, New Total: 5500ml
+EnhancedLabPackEngine.js:772    Limit: 96602.5ml, Weight: 55/600lbs, Result: true
+EnhancedLabPackEngine.js:576 ➕ Adding Triethylene glycol Cat No. : T346-4 to existing pack
+EnhancedLabPackEngine.js:770 🔍 Can fit check: Unknown Product in 30 gallon?
+EnhancedLabPackEngine.js:771    Current: 5500ml, Adding: 500ml, New Total: 6000ml
+EnhancedLabPackEngine.js:772    Limit: 96602.5ml, Weight: 60/600lbs, Result: true
+EnhancedLabPackEngine.js:576 ➕ Adding Unknown Product to existing pack
+EnhancedLabPackEngine.js:581 📊 Group of 12 materials packed into 1 containers
+LabPackPlanner.jsx:16 🚀 LabPackPlanner component mounted/re-rendered
+hook.js:377 🚀 LabPackPlanner component mounted/re-rendered

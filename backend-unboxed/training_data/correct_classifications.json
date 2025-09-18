@@ -1,0 +1,96 @@
+[
+  {
+    "id": "acetone_correct",
+    "material": "Acetone, 99%",
+    "description": "Acetone at 99% concentration with flash point -17°C",
+    "properties": {
+      "flashPoint": -17,
+      "pH": 7,
+      "physicalState": "liquid",
+      "concentration": "99%"
+    },
+    "correct_classification": {
+      "federal_codes": ["D001"],
+      "texas_form_code": "203",
+      "dot_classification": {
+        "unNumber": "UN1090",
+        "properShippingName": "Acetone",
+        "hazardClass": "3",
+        "packingGroup": "II"
+      },
+      "reasoning": "D001: Flash point -17°C is well below 60°C threshold for ignitable liquids. Form 203: Organic solvent per TCEQ RG-22. UN1090: Standard DOT classification for acetone as flammable liquid."
+    },
+    "common_errors": [
+      "W901 does not exist - no W-codes in EPA system",
+      "Acetone is NOT acidic - pH is neutral (~7)",
+      "NOT Class 2.1 - that's for flammable gases",
+      "NEVER 'Not Regulated' - acetone is heavily regulated"
+    ]
+  },
+  {
+    "id": "methanol_correct",
+    "material": "Methanol",
+    "description": "Pure methanol with flash point 11°C",
+    "properties": {
+      "flashPoint": 11,
+      "pH": 7,
+      "physicalState": "liquid",
+      "concentration": "100%"
+    },
+    "correct_classification": {
+      "federal_codes": ["D001", "F003"],
+      "texas_form_code": "203",
+      "dot_classification": {
+        "unNumber": "UN1230",
+        "properShippingName": "Methanol",
+        "hazardClass": "3",
+        "packingGroup": "II"
+      },
+      "reasoning": "D001: Flash point 11°C < 60°C. F003: Spent methanol is listed waste. Form 203: Organic solvent. UN1230: DOT flammable liquid."
+    }
+  },
+  {
+    "id": "hcl_correct",
+    "material": "Hydrochloric Acid, 10%",
+    "description": "10% HCl solution with pH 1",
+    "properties": {
+      "flashPoint": null,
+      "pH": 1,
+      "physicalState": "liquid",
+      "concentration": "10%"
+    },
+    "correct_classification": {
+      "federal_codes": ["D002"],
+      "texas_form_code": "106",
+      "dot_classification": {
+        "unNumber": "UN1789",
+        "properShippingName": "Hydrochloric acid",
+        "hazardClass": "8",
+        "packingGroup": "II"
+      },
+      "reasoning": "D002: pH 1 is below 2.0 threshold for corrosive. Form 106: Inorganic acids. UN1789: DOT corrosive liquid."
+    }
+  },
+  {
+    "id": "sodium_hydroxide_correct",
+    "material": "Sodium Hydroxide, 25%",
+    "description": "25% NaOH solution with pH 13.5",
+    "properties": {
+      "flashPoint": null,
+      "pH": 13.5,
+      "physicalState": "liquid",
+      "concentration": "25%"
+    },
+    "correct_classification": {
+      "federal_codes": ["D002"],
+      "texas_form_code": "106",
+      "dot_classification": {
+        "unNumber": "UN1824",
+        "properShippingName": "Sodium hydroxide solution",
+        "hazardClass": "8",
+        "packingGroup": "II"
+      },
+      "reasoning": "D002: pH 13.5 exceeds 12.5 threshold for corrosive. Form 106: Inorganic bases. UN1824: DOT corrosive liquid."
+    }
+  }
+]

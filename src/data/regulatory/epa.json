@@ -1,0 +1,3592 @@
+{
+  "D_Codes": {
+    "D001": {
+      "description": "Ignitable waste - liquids with flash point <60°C (140°F), non-liquid capable of causing fire through friction/absorption of moisture, ignitable compressed gas, or oxidizer",
+      "triggers": [
+        "flash_point_low",
+        "ignitable_solid",
+        "compressed_gas",
+        "oxidizer"
+      ],
+      "criteria": "Ignitability characteristic",
+      "threshold": "Flash point <60°C (140°F) for liquids",
+      "regulation": "40 CFR 261.21",
+      "examples": ["Solvents", "Paint thinners", "Alcohols", "Acetone"]
+    },
+    "D002": {
+      "description": "Corrosive waste - aqueous solution with pH ≤2 or ≥12.5, or liquid that corrodes steel at rate >6.35mm/year at 55°C",
+      "triggers": [
+        "ph_low",
+        "ph_high",
+        "steel_corrosion"
+      ],
+      "criteria": "Corrosivity characteristic",
+      "threshold": "pH ≤2 or ≥12.5 (liquids only)",
+      "regulation": "40 CFR 261.22",
+      "examples": ["Battery acid", "Caustic solutions", "Rust removers"]
+    },
+    "D003": {
+      "description": "Reactive waste - unstable, reacts violently with water, forms explosive mixtures, generates toxic gases, or is capable of detonation",
+      "triggers": [
+        "water_reactive",
+        "unstable",
+        "explosive_mixture",
+        "toxic_gas_generation",
+        "detonation_capable"
+      ],
+      "criteria": "Reactivity characteristic",
+      "threshold": "Meets any reactivity criteria",
+      "regulation": "40 CFR 261.23",
+      "examples": ["Sodium metal", "Picric acid", "Peroxides", "Unstable explosives"]
+    },
+    "D004": {
+      "description": "Toxicity characteristic for Arsenic - TCLP extract ≥5.0 mg/L",
+      "triggers": [
+        "arsenic_content",
+        "tclp_arsenic"
+      ],
+      "criteria": "Toxicity characteristic",
+      "threshold": "≥5.0 mg/L TCLP",
+      "regulation": "40 CFR 261.24",
+      "examples": ["Arsenic pesticides", "Glass manufacturing waste", "Metal finishing waste"]
+    },
+    "D005": {
+      "description": "Toxicity characteristic for Barium - TCLP extract ≥100.0 mg/L",
+      "triggers": [
+        "barium_content",
+        "tclp_barium"
+      ],
+      "criteria": "Toxicity characteristic",
+      "threshold": "≥100.0 mg/L TCLP",
+      "regulation": "40 CFR 261.24",
+      "examples": ["Barium compounds", "Drilling muds", "Paint pigments"]
+    },
+    "D006": {
+      "description": "Toxicity characteristic for Cadmium - TCLP extract ≥1.0 mg/L",
+      "triggers": [
+        "cadmium_content",
+        "tclp_cadmium"
+      ],
+      "criteria": "Toxicity characteristic",
+      "threshold": "≥1.0 mg/L TCLP",
+      "regulation": "40 CFR 261.24",
+      "examples": ["Cadmium batteries", "Electroplating waste", "Pigments"]
+    },
+    "D007": {
+      "description": "Toxicity characteristic for Chromium - TCLP extract ≥5.0 mg/L",
+      "triggers": [
+        "chromium_content",
+        "tclp_chromium"
+      ],
+      "criteria": "Toxicity characteristic",
+      "threshold": "≥5.0 mg/L TCLP",
+      "regulation": "40 CFR 261.24",
+      "examples": ["Chrome plating waste", "Leather tanning", "Wood preservatives"]
+    },
+    "D008": {
+      "description": "Toxicity characteristic for Lead - TCLP extract ≥5.0 mg/L",
+      "triggers": [
+        "lead_content",
+        "tclp_lead"
+      ],
+      "criteria": "Toxicity characteristic",
+      "threshold": "≥5.0 mg/L TCLP",
+      "regulation": "40 CFR 261.24",
+      "examples": ["Lead-acid batteries", "Lead paint", "Ammunition manufacturing"]
+    },
+    "D009": {
+      "description": "Toxicity characteristic for Mercury - TCLP extract ≥0.2 mg/L",
+      "triggers": [
+        "mercury_content",
+        "tclp_mercury"
+      ],
+      "criteria": "Toxicity characteristic",
+      "threshold": "≥0.2 mg/L TCLP",
+      "regulation": "40 CFR 261.24",
+      "examples": ["Mercury thermometers", "Fluorescent lamps", "Dental amalgam waste"]
+    },
+    "D010": {
+      "description": "Toxicity characteristic for Selenium - TCLP extract ≥1.0 mg/L",
+      "triggers": [
+        "selenium_content",
+        "tclp_selenium"
+      ],
+      "criteria": "Toxicity characteristic",
+      "threshold": "≥1.0 mg/L TCLP",
+      "regulation": "40 CFR 261.24",
+      "examples": ["Electronics manufacturing", "Photocopier drums", "Glass decolorizers"]
+    },
+    "D011": {
+      "description": "Toxicity characteristic for Silver - TCLP extract ≥5.0 mg/L",
+      "triggers": [
+        "silver_content",
+        "tclp_silver"
+      ],
+      "criteria": "Toxicity characteristic",
+      "threshold": "≥5.0 mg/L TCLP",
+      "regulation": "40 CFR 261.24",
+      "examples": ["Photographic waste", "Silver recovery", "Electronics waste"]
+    },
+    "D012": {
+      "description": "Placeholder description for D012",
+      "triggers": [
+        "trigger_d012"
+      ],
+      "criteria": "Toxicity characteristic",
+      "threshold": "Varies by code"
+    },
+    "D013": {
+      "description": "Placeholder description for D013",
+      "triggers": [
+        "trigger_d013"
+      ],
+      "criteria": "Toxicity characteristic",
+      "threshold": "Varies by code"
+    },
+    "D014": {
+      "description": "Placeholder description for D014",
+      "triggers": [
+        "trigger_d014"
+      ],
+      "criteria": "Toxicity characteristic",
+      "threshold": "Varies by code"
+    },
+    "D015": {
+      "description": "Placeholder description for D015",
+      "triggers": [
+        "trigger_d015"
+      ],
+      "criteria": "Toxicity characteristic",
+      "threshold": "Varies by code"
+    },
+    "D016": {
+      "description": "Placeholder description for D016",
+      "triggers": [
+        "trigger_d016"
+      ],
+      "criteria": "Toxicity characteristic",
+      "threshold": "Varies by code"
+    },
+    "D017": {
+      "description": "Placeholder description for D017",
+      "triggers": [
+        "trigger_d017"
+      ],
+      "criteria": "Toxicity characteristic",
+      "threshold": "Varies by code"
+    },
+    "D018": {
+      "description": "Toxicity characteristic for Benzene - TCLP extract ≥0.5 mg/L",
+      "triggers": [
+        "benzene_content",
+        "tclp_benzene"
+      ],
+      "criteria": "Toxicity characteristic",
+      "threshold": "≥0.5 mg/L TCLP",
+      "regulation": "40 CFR 261.24",
+      "examples": ["Petroleum products", "Paint strippers", "Solvent waste"]
+    },
+    "D019": {
+      "description": "Toxicity characteristic for Carbon tetrachloride - TCLP extract ≥0.5 mg/L",
+      "triggers": [
+        "carbon_tetrachloride_content",
+        "tclp_carbon_tetrachloride"
+      ],
+      "criteria": "Toxicity characteristic",
+      "threshold": "≥0.5 mg/L TCLP",
+      "regulation": "40 CFR 261.24",
+      "examples": ["Degreasing solvents", "Dry cleaning chemicals", "Old pesticides"]
+    },
+    "D020": {
+      "description": "Placeholder description for D020",
+      "triggers": [
+        "trigger_d020"
+      ],
+      "criteria": "Toxicity characteristic",
+      "threshold": "Varies by code"
+    },
+    "D021": {
+      "description": "Placeholder description for D021",
+      "triggers": [
+        "trigger_d021"
+      ],
+      "criteria": "Toxicity characteristic",
+      "threshold": "Varies by code"
+    },
+    "D022": {
+      "description": "Toxicity characteristic for Chloroform - TCLP extract ≥6.0 mg/L",
+      "triggers": [
+        "chloroform_content",
+        "tclp_chloroform"
+      ],
+      "criteria": "Toxicity characteristic",
+      "threshold": "≥6.0 mg/L TCLP",
+      "regulation": "40 CFR 261.24",
+      "examples": ["Laboratory chemicals", "Pharmaceutical waste", "Solvent mixtures"]
+    },
+    "D023": {
+      "description": "Placeholder description for D023",
+      "triggers": [
+        "trigger_d023"
+      ],
+      "criteria": "Toxicity characteristic",
+      "threshold": "Varies by code"
+    },
+    "D024": {
+      "description": "Placeholder description for D024",
+      "triggers": [
+        "trigger_d024"
+      ],
+      "criteria": "Toxicity characteristic",
+      "threshold": "Varies by code"
+    },
+    "D025": {
+      "description": "Placeholder description for D025",
+      "triggers": [
+        "trigger_d025"
+      ],
+      "criteria": "Toxicity characteristic",
+      "threshold": "Varies by code"
+    },
+    "D026": {
+      "description": "Placeholder description for D026",
+      "triggers": [
+        "trigger_d026"
+      ],
+      "criteria": "Toxicity characteristic",
+      "threshold": "Varies by code"
+    },
+    "D027": {
+      "description": "Placeholder description for D027",
+      "triggers": [
+        "trigger_d027"
+      ],
+      "criteria": "Toxicity characteristic",
+      "threshold": "Varies by code"
+    },
+    "D028": {
+      "description": "Placeholder description for D028",
+      "triggers": [
+        "trigger_d028"
+      ],
+      "criteria": "Toxicity characteristic",
+      "threshold": "Varies by code"
+    },
+    "D029": {
+      "description": "Placeholder description for D029",
+      "triggers": [
+        "trigger_d029"
+      ],
+      "criteria": "Toxicity characteristic",
+      "threshold": "Varies by code"
+    },
+    "D030": {
+      "description": "Placeholder description for D030",
+      "triggers": [
+        "trigger_d030"
+      ],
+      "criteria": "Toxicity characteristic",
+      "threshold": "Varies by code"
+    },
+    "D031": {
+      "description": "Placeholder description for D031",
+      "triggers": [
+        "trigger_d031"
+      ],
+      "criteria": "Toxicity characteristic",
+      "threshold": "Varies by code"
+    },
+    "D032": {
+      "description": "Placeholder description for D032",
+      "triggers": [
+        "trigger_d032"
+      ],
+      "criteria": "Toxicity characteristic",
+      "threshold": "Varies by code"
+    },
+    "D033": {
+      "description": "Placeholder description for D033",
+      "triggers": [
+        "trigger_d033"
+      ],
+      "criteria": "Toxicity characteristic",
+      "threshold": "Varies by code"
+    },
+    "D034": {
+      "description": "Placeholder description for D034",
+      "triggers": [
+        "trigger_d034"
+      ],
+      "criteria": "Toxicity characteristic",
+      "threshold": "Varies by code"
+    },
+    "D035": {
+      "description": "Placeholder description for D035",
+      "triggers": [
+        "trigger_d035"
+      ],
+      "criteria": "Toxicity characteristic",
+      "threshold": "Varies by code"
+    },
+    "D036": {
+      "description": "Placeholder description for D036",
+      "triggers": [
+        "trigger_d036"
+      ],
+      "criteria": "Toxicity characteristic",
+      "threshold": "Varies by code"
+    },
+    "D037": {
+      "description": "Placeholder description for D037",
+      "triggers": [
+        "trigger_d037"
+      ],
+      "criteria": "Toxicity characteristic",
+      "threshold": "Varies by code"
+    },
+    "D038": {
+      "description": "Placeholder description for D038",
+      "triggers": [
+        "trigger_d038"
+      ],
+      "criteria": "Toxicity characteristic",
+      "threshold": "Varies by code"
+    },
+    "D039": {
+      "description": "Placeholder description for D039",
+      "triggers": [
+        "trigger_d039"
+      ],
+      "criteria": "Toxicity characteristic",
+      "threshold": "Varies by code"
+    },
+    "D040": {
+      "description": "Placeholder description for D040",
+      "triggers": [
+        "trigger_d040"
+      ],
+      "criteria": "Toxicity characteristic",
+      "threshold": "Varies by code"
+    },
+    "D041": {
+      "description": "Placeholder description for D041",
+      "triggers": [
+        "trigger_d041"
+      ],
+      "criteria": "Toxicity characteristic",
+      "threshold": "Varies by code"
+    },
+    "D042": {
+      "description": "Placeholder description for D042",
+      "triggers": [
+        "trigger_d042"
+      ],
+      "criteria": "Toxicity characteristic",
+      "threshold": "Varies by code"
+    },
+    "D043": {
+      "description": "Placeholder description for D043",
+      "triggers": [
+        "trigger_d043"
+      ],
+      "criteria": "Toxicity characteristic",
+      "threshold": "Varies by code"
+    }
+  },
+  "P_Codes": {
+    "P001": {
+      "description": "Warfarin (3-(alpha-acetonylbenzyl)-4-hydroxycoumarin) and salts - Rodenticide",
+      "triggers": [
+        "warfarin",
+        "rodenticide",
+        "anticoagulant"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade",
+      "regulation": "40 CFR 261.33(e)",
+      "cas": "81-81-2"
+    },
+    "P002": {
+      "description": "1-Acetyl-2-thiourea - Laboratory chemical",
+      "triggers": [
+        "acetyl_thiourea",
+        "laboratory_chemical"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade",
+      "regulation": "40 CFR 261.33(e)",
+      "cas": "591-08-2"
+    },
+    "P003": {
+      "description": "Placeholder P-code chemical 3",
+      "triggers": [
+        "chemical_p003"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P004": {
+      "description": "Placeholder P-code chemical 4",
+      "triggers": [
+        "chemical_p004"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P005": {
+      "description": "Placeholder P-code chemical 5",
+      "triggers": [
+        "chemical_p005"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P006": {
+      "description": "Placeholder P-code chemical 6",
+      "triggers": [
+        "chemical_p006"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P007": {
+      "description": "Placeholder P-code chemical 7",
+      "triggers": [
+        "chemical_p007"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P008": {
+      "description": "Placeholder P-code chemical 8",
+      "triggers": [
+        "chemical_p008"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P009": {
+      "description": "Placeholder P-code chemical 9",
+      "triggers": [
+        "chemical_p009"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P010": {
+      "description": "Placeholder P-code chemical 10",
+      "triggers": [
+        "chemical_p010"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P011": {
+      "description": "Placeholder P-code chemical 11",
+      "triggers": [
+        "chemical_p011"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P012": {
+      "description": "Placeholder P-code chemical 12",
+      "triggers": [
+        "chemical_p012"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P013": {
+      "description": "Placeholder P-code chemical 13",
+      "triggers": [
+        "chemical_p013"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P014": {
+      "description": "Placeholder P-code chemical 14",
+      "triggers": [
+        "chemical_p014"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P015": {
+      "description": "Placeholder P-code chemical 15",
+      "triggers": [
+        "chemical_p015"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P016": {
+      "description": "Placeholder P-code chemical 16",
+      "triggers": [
+        "chemical_p016"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P017": {
+      "description": "Placeholder P-code chemical 17",
+      "triggers": [
+        "chemical_p017"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P018": {
+      "description": "Placeholder P-code chemical 18",
+      "triggers": [
+        "chemical_p018"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P019": {
+      "description": "Placeholder P-code chemical 19",
+      "triggers": [
+        "chemical_p019"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P020": {
+      "description": "Placeholder P-code chemical 20",
+      "triggers": [
+        "chemical_p020"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P021": {
+      "description": "Placeholder P-code chemical 21",
+      "triggers": [
+        "chemical_p021"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P022": {
+      "description": "Placeholder P-code chemical 22",
+      "triggers": [
+        "chemical_p022"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P023": {
+      "description": "Placeholder P-code chemical 23",
+      "triggers": [
+        "chemical_p023"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P024": {
+      "description": "Placeholder P-code chemical 24",
+      "triggers": [
+        "chemical_p024"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P025": {
+      "description": "Placeholder P-code chemical 25",
+      "triggers": [
+        "chemical_p025"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P026": {
+      "description": "Placeholder P-code chemical 26",
+      "triggers": [
+        "chemical_p026"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P027": {
+      "description": "Placeholder P-code chemical 27",
+      "triggers": [
+        "chemical_p027"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P028": {
+      "description": "Placeholder P-code chemical 28",
+      "triggers": [
+        "chemical_p028"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P029": {
+      "description": "Placeholder P-code chemical 29",
+      "triggers": [
+        "chemical_p029"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P030": {
+      "description": "Placeholder P-code chemical 30",
+      "triggers": [
+        "chemical_p030"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P031": {
+      "description": "Placeholder P-code chemical 31",
+      "triggers": [
+        "chemical_p031"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P032": {
+      "description": "Placeholder P-code chemical 32",
+      "triggers": [
+        "chemical_p032"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P033": {
+      "description": "Placeholder P-code chemical 33",
+      "triggers": [
+        "chemical_p033"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P034": {
+      "description": "Placeholder P-code chemical 34",
+      "triggers": [
+        "chemical_p034"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P035": {
+      "description": "Placeholder P-code chemical 35",
+      "triggers": [
+        "chemical_p035"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P036": {
+      "description": "Placeholder P-code chemical 36",
+      "triggers": [
+        "chemical_p036"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P037": {
+      "description": "Placeholder P-code chemical 37",
+      "triggers": [
+        "chemical_p037"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P038": {
+      "description": "Placeholder P-code chemical 38",
+      "triggers": [
+        "chemical_p038"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P039": {
+      "description": "Placeholder P-code chemical 39",
+      "triggers": [
+        "chemical_p039"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P040": {
+      "description": "Placeholder P-code chemical 40",
+      "triggers": [
+        "chemical_p040"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P041": {
+      "description": "Placeholder P-code chemical 41",
+      "triggers": [
+        "chemical_p041"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P042": {
+      "description": "Placeholder P-code chemical 42",
+      "triggers": [
+        "chemical_p042"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P043": {
+      "description": "Placeholder P-code chemical 43",
+      "triggers": [
+        "chemical_p043"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P044": {
+      "description": "Placeholder P-code chemical 44",
+      "triggers": [
+        "chemical_p044"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P045": {
+      "description": "Placeholder P-code chemical 45",
+      "triggers": [
+        "chemical_p045"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P046": {
+      "description": "Placeholder P-code chemical 46",
+      "triggers": [
+        "chemical_p046"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P047": {
+      "description": "Placeholder P-code chemical 47",
+      "triggers": [
+        "chemical_p047"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P048": {
+      "description": "Placeholder P-code chemical 48",
+      "triggers": [
+        "chemical_p048"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P049": {
+      "description": "Placeholder P-code chemical 49",
+      "triggers": [
+        "chemical_p049"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P050": {
+      "description": "Placeholder P-code chemical 50",
+      "triggers": [
+        "chemical_p050"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P051": {
+      "description": "Placeholder P-code chemical 51",
+      "triggers": [
+        "chemical_p051"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P052": {
+      "description": "Placeholder P-code chemical 52",
+      "triggers": [
+        "chemical_p052"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P053": {
+      "description": "Placeholder P-code chemical 53",
+      "triggers": [
+        "chemical_p053"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P054": {
+      "description": "Placeholder P-code chemical 54",
+      "triggers": [
+        "chemical_p054"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P055": {
+      "description": "Placeholder P-code chemical 55",
+      "triggers": [
+        "chemical_p055"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P056": {
+      "description": "Placeholder P-code chemical 56",
+      "triggers": [
+        "chemical_p056"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P057": {
+      "description": "Placeholder P-code chemical 57",
+      "triggers": [
+        "chemical_p057"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P058": {
+      "description": "Placeholder P-code chemical 58",
+      "triggers": [
+        "chemical_p058"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P059": {
+      "description": "Placeholder P-code chemical 59",
+      "triggers": [
+        "chemical_p059"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P060": {
+      "description": "Placeholder P-code chemical 60",
+      "triggers": [
+        "chemical_p060"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P061": {
+      "description": "Placeholder P-code chemical 61",
+      "triggers": [
+        "chemical_p061"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P062": {
+      "description": "Placeholder P-code chemical 62",
+      "triggers": [
+        "chemical_p062"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P063": {
+      "description": "Placeholder P-code chemical 63",
+      "triggers": [
+        "chemical_p063"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P064": {
+      "description": "Placeholder P-code chemical 64",
+      "triggers": [
+        "chemical_p064"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P065": {
+      "description": "Placeholder P-code chemical 65",
+      "triggers": [
+        "chemical_p065"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P066": {
+      "description": "Placeholder P-code chemical 66",
+      "triggers": [
+        "chemical_p066"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P067": {
+      "description": "Placeholder P-code chemical 67",
+      "triggers": [
+        "chemical_p067"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P068": {
+      "description": "Placeholder P-code chemical 68",
+      "triggers": [
+        "chemical_p068"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P069": {
+      "description": "Placeholder P-code chemical 69",
+      "triggers": [
+        "chemical_p069"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P070": {
+      "description": "Placeholder P-code chemical 70",
+      "triggers": [
+        "chemical_p070"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P071": {
+      "description": "Placeholder P-code chemical 71",
+      "triggers": [
+        "chemical_p071"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P072": {
+      "description": "Placeholder P-code chemical 72",
+      "triggers": [
+        "chemical_p072"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P073": {
+      "description": "Placeholder P-code chemical 73",
+      "triggers": [
+        "chemical_p073"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P074": {
+      "description": "Placeholder P-code chemical 74",
+      "triggers": [
+        "chemical_p074"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P075": {
+      "description": "Placeholder P-code chemical 75",
+      "triggers": [
+        "chemical_p075"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P076": {
+      "description": "Placeholder P-code chemical 76",
+      "triggers": [
+        "chemical_p076"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P077": {
+      "description": "Placeholder P-code chemical 77",
+      "triggers": [
+        "chemical_p077"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P078": {
+      "description": "Placeholder P-code chemical 78",
+      "triggers": [
+        "chemical_p078"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P079": {
+      "description": "Placeholder P-code chemical 79",
+      "triggers": [
+        "chemical_p079"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P080": {
+      "description": "Placeholder P-code chemical 80",
+      "triggers": [
+        "chemical_p080"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P081": {
+      "description": "Placeholder P-code chemical 81",
+      "triggers": [
+        "chemical_p081"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P082": {
+      "description": "Placeholder P-code chemical 82",
+      "triggers": [
+        "chemical_p082"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P083": {
+      "description": "Placeholder P-code chemical 83",
+      "triggers": [
+        "chemical_p083"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P084": {
+      "description": "Placeholder P-code chemical 84",
+      "triggers": [
+        "chemical_p084"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P085": {
+      "description": "Placeholder P-code chemical 85",
+      "triggers": [
+        "chemical_p085"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P086": {
+      "description": "Placeholder P-code chemical 86",
+      "triggers": [
+        "chemical_p086"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P087": {
+      "description": "Placeholder P-code chemical 87",
+      "triggers": [
+        "chemical_p087"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P088": {
+      "description": "Placeholder P-code chemical 88",
+      "triggers": [
+        "chemical_p088"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P089": {
+      "description": "Placeholder P-code chemical 89",
+      "triggers": [
+        "chemical_p089"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P090": {
+      "description": "Placeholder P-code chemical 90",
+      "triggers": [
+        "chemical_p090"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P091": {
+      "description": "Placeholder P-code chemical 91",
+      "triggers": [
+        "chemical_p091"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P092": {
+      "description": "Placeholder P-code chemical 92",
+      "triggers": [
+        "chemical_p092"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P093": {
+      "description": "Placeholder P-code chemical 93",
+      "triggers": [
+        "chemical_p093"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P094": {
+      "description": "Placeholder P-code chemical 94",
+      "triggers": [
+        "chemical_p094"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P095": {
+      "description": "Placeholder P-code chemical 95",
+      "triggers": [
+        "chemical_p095"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P096": {
+      "description": "Placeholder P-code chemical 96",
+      "triggers": [
+        "chemical_p096"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P097": {
+      "description": "Placeholder P-code chemical 97",
+      "triggers": [
+        "chemical_p097"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P098": {
+      "description": "Placeholder P-code chemical 98",
+      "triggers": [
+        "chemical_p098"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    },
+    "P099": {
+      "description": "Placeholder P-code chemical 99",
+      "triggers": [
+        "chemical_p099"
+      ],
+      "criteria": "Acutely hazardous",
+      "threshold": "Pure or technical grade"
+    }
+  },
+  "U_Codes": {
+    "U001": {
+      "description": "Placeholder U-code chemical 1",
+      "triggers": [
+        "chemical_u001"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U002": {
+      "description": "Placeholder U-code chemical 2",
+      "triggers": [
+        "chemical_u002"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U003": {
+      "description": "Placeholder U-code chemical 3",
+      "triggers": [
+        "chemical_u003"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U004": {
+      "description": "Placeholder U-code chemical 4",
+      "triggers": [
+        "chemical_u004"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U005": {
+      "description": "Placeholder U-code chemical 5",
+      "triggers": [
+        "chemical_u005"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U006": {
+      "description": "Placeholder U-code chemical 6",
+      "triggers": [
+        "chemical_u006"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U007": {
+      "description": "Placeholder U-code chemical 7",
+      "triggers": [
+        "chemical_u007"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U008": {
+      "description": "Placeholder U-code chemical 8",
+      "triggers": [
+        "chemical_u008"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U009": {
+      "description": "Placeholder U-code chemical 9",
+      "triggers": [
+        "chemical_u009"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U010": {
+      "description": "Placeholder U-code chemical 10",
+      "triggers": [
+        "chemical_u010"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U011": {
+      "description": "Placeholder U-code chemical 11",
+      "triggers": [
+        "chemical_u011"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U012": {
+      "description": "Placeholder U-code chemical 12",
+      "triggers": [
+        "chemical_u012"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U013": {
+      "description": "Placeholder U-code chemical 13",
+      "triggers": [
+        "chemical_u013"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U014": {
+      "description": "Placeholder U-code chemical 14",
+      "triggers": [
+        "chemical_u014"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U015": {
+      "description": "Placeholder U-code chemical 15",
+      "triggers": [
+        "chemical_u015"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U016": {
+      "description": "Placeholder U-code chemical 16",
+      "triggers": [
+        "chemical_u016"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U017": {
+      "description": "Placeholder U-code chemical 17",
+      "triggers": [
+        "chemical_u017"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U018": {
+      "description": "Placeholder U-code chemical 18",
+      "triggers": [
+        "chemical_u018"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U019": {
+      "description": "Placeholder U-code chemical 19",
+      "triggers": [
+        "chemical_u019"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U020": {
+      "description": "Placeholder U-code chemical 20",
+      "triggers": [
+        "chemical_u020"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U021": {
+      "description": "Placeholder U-code chemical 21",
+      "triggers": [
+        "chemical_u021"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U022": {
+      "description": "Placeholder U-code chemical 22",
+      "triggers": [
+        "chemical_u022"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U023": {
+      "description": "Placeholder U-code chemical 23",
+      "triggers": [
+        "chemical_u023"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U024": {
+      "description": "Placeholder U-code chemical 24",
+      "triggers": [
+        "chemical_u024"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U025": {
+      "description": "Placeholder U-code chemical 25",
+      "triggers": [
+        "chemical_u025"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U026": {
+      "description": "Placeholder U-code chemical 26",
+      "triggers": [
+        "chemical_u026"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U027": {
+      "description": "Placeholder U-code chemical 27",
+      "triggers": [
+        "chemical_u027"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U028": {
+      "description": "Placeholder U-code chemical 28",
+      "triggers": [
+        "chemical_u028"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U029": {
+      "description": "Placeholder U-code chemical 29",
+      "triggers": [
+        "chemical_u029"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U030": {
+      "description": "Placeholder U-code chemical 30",
+      "triggers": [
+        "chemical_u030"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U031": {
+      "description": "Placeholder U-code chemical 31",
+      "triggers": [
+        "chemical_u031"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U032": {
+      "description": "Placeholder U-code chemical 32",
+      "triggers": [
+        "chemical_u032"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U033": {
+      "description": "Placeholder U-code chemical 33",
+      "triggers": [
+        "chemical_u033"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U034": {
+      "description": "Placeholder U-code chemical 34",
+      "triggers": [
+        "chemical_u034"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U035": {
+      "description": "Placeholder U-code chemical 35",
+      "triggers": [
+        "chemical_u035"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U036": {
+      "description": "Placeholder U-code chemical 36",
+      "triggers": [
+        "chemical_u036"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U037": {
+      "description": "Placeholder U-code chemical 37",
+      "triggers": [
+        "chemical_u037"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U038": {
+      "description": "Placeholder U-code chemical 38",
+      "triggers": [
+        "chemical_u038"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U039": {
+      "description": "Placeholder U-code chemical 39",
+      "triggers": [
+        "chemical_u039"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U040": {
+      "description": "Placeholder U-code chemical 40",
+      "triggers": [
+        "chemical_u040"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U041": {
+      "description": "Placeholder U-code chemical 41",
+      "triggers": [
+        "chemical_u041"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U042": {
+      "description": "Placeholder U-code chemical 42",
+      "triggers": [
+        "chemical_u042"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U043": {
+      "description": "Placeholder U-code chemical 43",
+      "triggers": [
+        "chemical_u043"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U044": {
+      "description": "Placeholder U-code chemical 44",
+      "triggers": [
+        "chemical_u044"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U045": {
+      "description": "Placeholder U-code chemical 45",
+      "triggers": [
+        "chemical_u045"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U046": {
+      "description": "Placeholder U-code chemical 46",
+      "triggers": [
+        "chemical_u046"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U047": {
+      "description": "Placeholder U-code chemical 47",
+      "triggers": [
+        "chemical_u047"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U048": {
+      "description": "Placeholder U-code chemical 48",
+      "triggers": [
+        "chemical_u048"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U049": {
+      "description": "Placeholder U-code chemical 49",
+      "triggers": [
+        "chemical_u049"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U050": {
+      "description": "Placeholder U-code chemical 50",
+      "triggers": [
+        "chemical_u050"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U051": {
+      "description": "Placeholder U-code chemical 51",
+      "triggers": [
+        "chemical_u051"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U052": {
+      "description": "Placeholder U-code chemical 52",
+      "triggers": [
+        "chemical_u052"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U053": {
+      "description": "Placeholder U-code chemical 53",
+      "triggers": [
+        "chemical_u053"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U054": {
+      "description": "Placeholder U-code chemical 54",
+      "triggers": [
+        "chemical_u054"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U055": {
+      "description": "Placeholder U-code chemical 55",
+      "triggers": [
+        "chemical_u055"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U056": {
+      "description": "Placeholder U-code chemical 56",
+      "triggers": [
+        "chemical_u056"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U057": {
+      "description": "Placeholder U-code chemical 57",
+      "triggers": [
+        "chemical_u057"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U058": {
+      "description": "Placeholder U-code chemical 58",
+      "triggers": [
+        "chemical_u058"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U059": {
+      "description": "Placeholder U-code chemical 59",
+      "triggers": [
+        "chemical_u059"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U060": {
+      "description": "Placeholder U-code chemical 60",
+      "triggers": [
+        "chemical_u060"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U061": {
+      "description": "Placeholder U-code chemical 61",
+      "triggers": [
+        "chemical_u061"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U062": {
+      "description": "Placeholder U-code chemical 62",
+      "triggers": [
+        "chemical_u062"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U063": {
+      "description": "Placeholder U-code chemical 63",
+      "triggers": [
+        "chemical_u063"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U064": {
+      "description": "Placeholder U-code chemical 64",
+      "triggers": [
+        "chemical_u064"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U065": {
+      "description": "Placeholder U-code chemical 65",
+      "triggers": [
+        "chemical_u065"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U066": {
+      "description": "Placeholder U-code chemical 66",
+      "triggers": [
+        "chemical_u066"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U067": {
+      "description": "Placeholder U-code chemical 67",
+      "triggers": [
+        "chemical_u067"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U068": {
+      "description": "Placeholder U-code chemical 68",
+      "triggers": [
+        "chemical_u068"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U069": {
+      "description": "Placeholder U-code chemical 69",
+      "triggers": [
+        "chemical_u069"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U070": {
+      "description": "Placeholder U-code chemical 70",
+      "triggers": [
+        "chemical_u070"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U071": {
+      "description": "Placeholder U-code chemical 71",
+      "triggers": [
+        "chemical_u071"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U072": {
+      "description": "Placeholder U-code chemical 72",
+      "triggers": [
+        "chemical_u072"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U073": {
+      "description": "Placeholder U-code chemical 73",
+      "triggers": [
+        "chemical_u073"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U074": {
+      "description": "Placeholder U-code chemical 74",
+      "triggers": [
+        "chemical_u074"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U075": {
+      "description": "Placeholder U-code chemical 75",
+      "triggers": [
+        "chemical_u075"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U076": {
+      "description": "Placeholder U-code chemical 76",
+      "triggers": [
+        "chemical_u076"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U077": {
+      "description": "Placeholder U-code chemical 77",
+      "triggers": [
+        "chemical_u077"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U078": {
+      "description": "Placeholder U-code chemical 78",
+      "triggers": [
+        "chemical_u078"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U079": {
+      "description": "Placeholder U-code chemical 79",
+      "triggers": [
+        "chemical_u079"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U080": {
+      "description": "Placeholder U-code chemical 80",
+      "triggers": [
+        "chemical_u080"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U081": {
+      "description": "Placeholder U-code chemical 81",
+      "triggers": [
+        "chemical_u081"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U082": {
+      "description": "Placeholder U-code chemical 82",
+      "triggers": [
+        "chemical_u082"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U083": {
+      "description": "Placeholder U-code chemical 83",
+      "triggers": [
+        "chemical_u083"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U084": {
+      "description": "Placeholder U-code chemical 84",
+      "triggers": [
+        "chemical_u084"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U085": {
+      "description": "Placeholder U-code chemical 85",
+      "triggers": [
+        "chemical_u085"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U086": {
+      "description": "Placeholder U-code chemical 86",
+      "triggers": [
+        "chemical_u086"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U087": {
+      "description": "Placeholder U-code chemical 87",
+      "triggers": [
+        "chemical_u087"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U088": {
+      "description": "Placeholder U-code chemical 88",
+      "triggers": [
+        "chemical_u088"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U089": {
+      "description": "Placeholder U-code chemical 89",
+      "triggers": [
+        "chemical_u089"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U090": {
+      "description": "Placeholder U-code chemical 90",
+      "triggers": [
+        "chemical_u090"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U091": {
+      "description": "Placeholder U-code chemical 91",
+      "triggers": [
+        "chemical_u091"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U092": {
+      "description": "Placeholder U-code chemical 92",
+      "triggers": [
+        "chemical_u092"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U093": {
+      "description": "Placeholder U-code chemical 93",
+      "triggers": [
+        "chemical_u093"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U094": {
+      "description": "Placeholder U-code chemical 94",
+      "triggers": [
+        "chemical_u094"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U095": {
+      "description": "Placeholder U-code chemical 95",
+      "triggers": [
+        "chemical_u095"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U096": {
+      "description": "Placeholder U-code chemical 96",
+      "triggers": [
+        "chemical_u096"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U097": {
+      "description": "Placeholder U-code chemical 97",
+      "triggers": [
+        "chemical_u097"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U098": {
+      "description": "Placeholder U-code chemical 98",
+      "triggers": [
+        "chemical_u098"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U099": {
+      "description": "Placeholder U-code chemical 99",
+      "triggers": [
+        "chemical_u099"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U100": {
+      "description": "Placeholder U-code chemical 100",
+      "triggers": [
+        "chemical_u100"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U101": {
+      "description": "Placeholder U-code chemical 101",
+      "triggers": [
+        "chemical_u101"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U102": {
+      "description": "Placeholder U-code chemical 102",
+      "triggers": [
+        "chemical_u102"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U103": {
+      "description": "Placeholder U-code chemical 103",
+      "triggers": [
+        "chemical_u103"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U104": {
+      "description": "Placeholder U-code chemical 104",
+      "triggers": [
+        "chemical_u104"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U105": {
+      "description": "Placeholder U-code chemical 105",
+      "triggers": [
+        "chemical_u105"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U106": {
+      "description": "Placeholder U-code chemical 106",
+      "triggers": [
+        "chemical_u106"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U107": {
+      "description": "Placeholder U-code chemical 107",
+      "triggers": [
+        "chemical_u107"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U108": {
+      "description": "Placeholder U-code chemical 108",
+      "triggers": [
+        "chemical_u108"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U109": {
+      "description": "Placeholder U-code chemical 109",
+      "triggers": [
+        "chemical_u109"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U110": {
+      "description": "Placeholder U-code chemical 110",
+      "triggers": [
+        "chemical_u110"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U111": {
+      "description": "Placeholder U-code chemical 111",
+      "triggers": [
+        "chemical_u111"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U112": {
+      "description": "Placeholder U-code chemical 112",
+      "triggers": [
+        "chemical_u112"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U113": {
+      "description": "Placeholder U-code chemical 113",
+      "triggers": [
+        "chemical_u113"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U114": {
+      "description": "Placeholder U-code chemical 114",
+      "triggers": [
+        "chemical_u114"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U115": {
+      "description": "Placeholder U-code chemical 115",
+      "triggers": [
+        "chemical_u115"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U116": {
+      "description": "Placeholder U-code chemical 116",
+      "triggers": [
+        "chemical_u116"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U117": {
+      "description": "Placeholder U-code chemical 117",
+      "triggers": [
+        "chemical_u117"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U118": {
+      "description": "Placeholder U-code chemical 118",
+      "triggers": [
+        "chemical_u118"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U119": {
+      "description": "Placeholder U-code chemical 119",
+      "triggers": [
+        "chemical_u119"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U120": {
+      "description": "Placeholder U-code chemical 120",
+      "triggers": [
+        "chemical_u120"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U121": {
+      "description": "Placeholder U-code chemical 121",
+      "triggers": [
+        "chemical_u121"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U122": {
+      "description": "Placeholder U-code chemical 122",
+      "triggers": [
+        "chemical_u122"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U123": {
+      "description": "Placeholder U-code chemical 123",
+      "triggers": [
+        "chemical_u123"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U124": {
+      "description": "Placeholder U-code chemical 124",
+      "triggers": [
+        "chemical_u124"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U125": {
+      "description": "Placeholder U-code chemical 125",
+      "triggers": [
+        "chemical_u125"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U126": {
+      "description": "Placeholder U-code chemical 126",
+      "triggers": [
+        "chemical_u126"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U127": {
+      "description": "Placeholder U-code chemical 127",
+      "triggers": [
+        "chemical_u127"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U128": {
+      "description": "Placeholder U-code chemical 128",
+      "triggers": [
+        "chemical_u128"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U129": {
+      "description": "Placeholder U-code chemical 129",
+      "triggers": [
+        "chemical_u129"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U130": {
+      "description": "Placeholder U-code chemical 130",
+      "triggers": [
+        "chemical_u130"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U131": {
+      "description": "Placeholder U-code chemical 131",
+      "triggers": [
+        "chemical_u131"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U132": {
+      "description": "Placeholder U-code chemical 132",
+      "triggers": [
+        "chemical_u132"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U133": {
+      "description": "Placeholder U-code chemical 133",
+      "triggers": [
+        "chemical_u133"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U134": {
+      "description": "Placeholder U-code chemical 134",
+      "triggers": [
+        "chemical_u134"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U135": {
+      "description": "Placeholder U-code chemical 135",
+      "triggers": [
+        "chemical_u135"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U136": {
+      "description": "Placeholder U-code chemical 136",
+      "triggers": [
+        "chemical_u136"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U137": {
+      "description": "Placeholder U-code chemical 137",
+      "triggers": [
+        "chemical_u137"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U138": {
+      "description": "Placeholder U-code chemical 138",
+      "triggers": [
+        "chemical_u138"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U139": {
+      "description": "Placeholder U-code chemical 139",
+      "triggers": [
+        "chemical_u139"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U140": {
+      "description": "Placeholder U-code chemical 140",
+      "triggers": [
+        "chemical_u140"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U141": {
+      "description": "Placeholder U-code chemical 141",
+      "triggers": [
+        "chemical_u141"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U142": {
+      "description": "Placeholder U-code chemical 142",
+      "triggers": [
+        "chemical_u142"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U143": {
+      "description": "Placeholder U-code chemical 143",
+      "triggers": [
+        "chemical_u143"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U144": {
+      "description": "Placeholder U-code chemical 144",
+      "triggers": [
+        "chemical_u144"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U145": {
+      "description": "Placeholder U-code chemical 145",
+      "triggers": [
+        "chemical_u145"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U146": {
+      "description": "Placeholder U-code chemical 146",
+      "triggers": [
+        "chemical_u146"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U147": {
+      "description": "Placeholder U-code chemical 147",
+      "triggers": [
+        "chemical_u147"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U148": {
+      "description": "Placeholder U-code chemical 148",
+      "triggers": [
+        "chemical_u148"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U149": {
+      "description": "Placeholder U-code chemical 149",
+      "triggers": [
+        "chemical_u149"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U150": {
+      "description": "Placeholder U-code chemical 150",
+      "triggers": [
+        "chemical_u150"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U151": {
+      "description": "Placeholder U-code chemical 151",
+      "triggers": [
+        "chemical_u151"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U152": {
+      "description": "Placeholder U-code chemical 152",
+      "triggers": [
+        "chemical_u152"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U153": {
+      "description": "Placeholder U-code chemical 153",
+      "triggers": [
+        "chemical_u153"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U154": {
+      "description": "Placeholder U-code chemical 154",
+      "triggers": [
+        "chemical_u154"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U155": {
+      "description": "Placeholder U-code chemical 155",
+      "triggers": [
+        "chemical_u155"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U156": {
+      "description": "Placeholder U-code chemical 156",
+      "triggers": [
+        "chemical_u156"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U157": {
+      "description": "Placeholder U-code chemical 157",
+      "triggers": [
+        "chemical_u157"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U158": {
+      "description": "Placeholder U-code chemical 158",
+      "triggers": [
+        "chemical_u158"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U159": {
+      "description": "Placeholder U-code chemical 159",
+      "triggers": [
+        "chemical_u159"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U160": {
+      "description": "Placeholder U-code chemical 160",
+      "triggers": [
+        "chemical_u160"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U161": {
+      "description": "Placeholder U-code chemical 161",
+      "triggers": [
+        "chemical_u161"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U162": {
+      "description": "Placeholder U-code chemical 162",
+      "triggers": [
+        "chemical_u162"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U163": {
+      "description": "Placeholder U-code chemical 163",
+      "triggers": [
+        "chemical_u163"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U164": {
+      "description": "Placeholder U-code chemical 164",
+      "triggers": [
+        "chemical_u164"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U165": {
+      "description": "Placeholder U-code chemical 165",
+      "triggers": [
+        "chemical_u165"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U166": {
+      "description": "Placeholder U-code chemical 166",
+      "triggers": [
+        "chemical_u166"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U167": {
+      "description": "Placeholder U-code chemical 167",
+      "triggers": [
+        "chemical_u167"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U168": {
+      "description": "Placeholder U-code chemical 168",
+      "triggers": [
+        "chemical_u168"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U169": {
+      "description": "Placeholder U-code chemical 169",
+      "triggers": [
+        "chemical_u169"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U170": {
+      "description": "Placeholder U-code chemical 170",
+      "triggers": [
+        "chemical_u170"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U171": {
+      "description": "Placeholder U-code chemical 171",
+      "triggers": [
+        "chemical_u171"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U172": {
+      "description": "Placeholder U-code chemical 172",
+      "triggers": [
+        "chemical_u172"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U173": {
+      "description": "Placeholder U-code chemical 173",
+      "triggers": [
+        "chemical_u173"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U174": {
+      "description": "Placeholder U-code chemical 174",
+      "triggers": [
+        "chemical_u174"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U175": {
+      "description": "Placeholder U-code chemical 175",
+      "triggers": [
+        "chemical_u175"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U176": {
+      "description": "Placeholder U-code chemical 176",
+      "triggers": [
+        "chemical_u176"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U177": {
+      "description": "Placeholder U-code chemical 177",
+      "triggers": [
+        "chemical_u177"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U178": {
+      "description": "Placeholder U-code chemical 178",
+      "triggers": [
+        "chemical_u178"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U179": {
+      "description": "Placeholder U-code chemical 179",
+      "triggers": [
+        "chemical_u179"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U180": {
+      "description": "Placeholder U-code chemical 180",
+      "triggers": [
+        "chemical_u180"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U181": {
+      "description": "Placeholder U-code chemical 181",
+      "triggers": [
+        "chemical_u181"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U182": {
+      "description": "Placeholder U-code chemical 182",
+      "triggers": [
+        "chemical_u182"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U183": {
+      "description": "Placeholder U-code chemical 183",
+      "triggers": [
+        "chemical_u183"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U184": {
+      "description": "Placeholder U-code chemical 184",
+      "triggers": [
+        "chemical_u184"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U185": {
+      "description": "Placeholder U-code chemical 185",
+      "triggers": [
+        "chemical_u185"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U186": {
+      "description": "Placeholder U-code chemical 186",
+      "triggers": [
+        "chemical_u186"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U187": {
+      "description": "Placeholder U-code chemical 187",
+      "triggers": [
+        "chemical_u187"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U188": {
+      "description": "Placeholder U-code chemical 188",
+      "triggers": [
+        "chemical_u188"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U189": {
+      "description": "Placeholder U-code chemical 189",
+      "triggers": [
+        "chemical_u189"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U190": {
+      "description": "Placeholder U-code chemical 190",
+      "triggers": [
+        "chemical_u190"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U191": {
+      "description": "Placeholder U-code chemical 191",
+      "triggers": [
+        "chemical_u191"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U192": {
+      "description": "Placeholder U-code chemical 192",
+      "triggers": [
+        "chemical_u192"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U193": {
+      "description": "Placeholder U-code chemical 193",
+      "triggers": [
+        "chemical_u193"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U194": {
+      "description": "Placeholder U-code chemical 194",
+      "triggers": [
+        "chemical_u194"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U195": {
+      "description": "Placeholder U-code chemical 195",
+      "triggers": [
+        "chemical_u195"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U196": {
+      "description": "Placeholder U-code chemical 196",
+      "triggers": [
+        "chemical_u196"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U197": {
+      "description": "Placeholder U-code chemical 197",
+      "triggers": [
+        "chemical_u197"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U198": {
+      "description": "Placeholder U-code chemical 198",
+      "triggers": [
+        "chemical_u198"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U199": {
+      "description": "Placeholder U-code chemical 199",
+      "triggers": [
+        "chemical_u199"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U200": {
+      "description": "Placeholder U-code chemical 200",
+      "triggers": [
+        "chemical_u200"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U201": {
+      "description": "Placeholder U-code chemical 201",
+      "triggers": [
+        "chemical_u201"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U202": {
+      "description": "Placeholder U-code chemical 202",
+      "triggers": [
+        "chemical_u202"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U203": {
+      "description": "Placeholder U-code chemical 203",
+      "triggers": [
+        "chemical_u203"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U204": {
+      "description": "Placeholder U-code chemical 204",
+      "triggers": [
+        "chemical_u204"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U205": {
+      "description": "Placeholder U-code chemical 205",
+      "triggers": [
+        "chemical_u205"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U206": {
+      "description": "Placeholder U-code chemical 206",
+      "triggers": [
+        "chemical_u206"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U207": {
+      "description": "Placeholder U-code chemical 207",
+      "triggers": [
+        "chemical_u207"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U208": {
+      "description": "Placeholder U-code chemical 208",
+      "triggers": [
+        "chemical_u208"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U209": {
+      "description": "Placeholder U-code chemical 209",
+      "triggers": [
+        "chemical_u209"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U210": {
+      "description": "Placeholder U-code chemical 210",
+      "triggers": [
+        "chemical_u210"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U211": {
+      "description": "Placeholder U-code chemical 211",
+      "triggers": [
+        "chemical_u211"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U212": {
+      "description": "Placeholder U-code chemical 212",
+      "triggers": [
+        "chemical_u212"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U213": {
+      "description": "Placeholder U-code chemical 213",
+      "triggers": [
+        "chemical_u213"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U214": {
+      "description": "Placeholder U-code chemical 214",
+      "triggers": [
+        "chemical_u214"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U215": {
+      "description": "Placeholder U-code chemical 215",
+      "triggers": [
+        "chemical_u215"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U216": {
+      "description": "Placeholder U-code chemical 216",
+      "triggers": [
+        "chemical_u216"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U217": {
+      "description": "Placeholder U-code chemical 217",
+      "triggers": [
+        "chemical_u217"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U218": {
+      "description": "Placeholder U-code chemical 218",
+      "triggers": [
+        "chemical_u218"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U219": {
+      "description": "Placeholder U-code chemical 219",
+      "triggers": [
+        "chemical_u219"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U220": {
+      "description": "Placeholder U-code chemical 220",
+      "triggers": [
+        "chemical_u220"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U221": {
+      "description": "Placeholder U-code chemical 221",
+      "triggers": [
+        "chemical_u221"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U222": {
+      "description": "Placeholder U-code chemical 222",
+      "triggers": [
+        "chemical_u222"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U223": {
+      "description": "Placeholder U-code chemical 223",
+      "triggers": [
+        "chemical_u223"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U224": {
+      "description": "Placeholder U-code chemical 224",
+      "triggers": [
+        "chemical_u224"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U225": {
+      "description": "Placeholder U-code chemical 225",
+      "triggers": [
+        "chemical_u225"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U226": {
+      "description": "Placeholder U-code chemical 226",
+      "triggers": [
+        "chemical_u226"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U227": {
+      "description": "Placeholder U-code chemical 227",
+      "triggers": [
+        "chemical_u227"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U228": {
+      "description": "Placeholder U-code chemical 228",
+      "triggers": [
+        "chemical_u228"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U229": {
+      "description": "Placeholder U-code chemical 229",
+      "triggers": [
+        "chemical_u229"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U230": {
+      "description": "Placeholder U-code chemical 230",
+      "triggers": [
+        "chemical_u230"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U231": {
+      "description": "Placeholder U-code chemical 231",
+      "triggers": [
+        "chemical_u231"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U232": {
+      "description": "Placeholder U-code chemical 232",
+      "triggers": [
+        "chemical_u232"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U233": {
+      "description": "Placeholder U-code chemical 233",
+      "triggers": [
+        "chemical_u233"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U234": {
+      "description": "Placeholder U-code chemical 234",
+      "triggers": [
+        "chemical_u234"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U235": {
+      "description": "Placeholder U-code chemical 235",
+      "triggers": [
+        "chemical_u235"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U236": {
+      "description": "Placeholder U-code chemical 236",
+      "triggers": [
+        "chemical_u236"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U237": {
+      "description": "Placeholder U-code chemical 237",
+      "triggers": [
+        "chemical_u237"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U238": {
+      "description": "Placeholder U-code chemical 238",
+      "triggers": [
+        "chemical_u238"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U239": {
+      "description": "Placeholder U-code chemical 239",
+      "triggers": [
+        "chemical_u239"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U240": {
+      "description": "Placeholder U-code chemical 240",
+      "triggers": [
+        "chemical_u240"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U241": {
+      "description": "Placeholder U-code chemical 241",
+      "triggers": [
+        "chemical_u241"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U242": {
+      "description": "Placeholder U-code chemical 242",
+      "triggers": [
+        "chemical_u242"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U243": {
+      "description": "Placeholder U-code chemical 243",
+      "triggers": [
+        "chemical_u243"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U244": {
+      "description": "Placeholder U-code chemical 244",
+      "triggers": [
+        "chemical_u244"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U245": {
+      "description": "Placeholder U-code chemical 245",
+      "triggers": [
+        "chemical_u245"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U246": {
+      "description": "Placeholder U-code chemical 246",
+      "triggers": [
+        "chemical_u246"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U247": {
+      "description": "Placeholder U-code chemical 247",
+      "triggers": [
+        "chemical_u247"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U248": {
+      "description": "Placeholder U-code chemical 248",
+      "triggers": [
+        "chemical_u248"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U249": {
+      "description": "Placeholder U-code chemical 249",
+      "triggers": [
+        "chemical_u249"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U250": {
+      "description": "Placeholder U-code chemical 250",
+      "triggers": [
+        "chemical_u250"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U251": {
+      "description": "Placeholder U-code chemical 251",
+      "triggers": [
+        "chemical_u251"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U252": {
+      "description": "Placeholder U-code chemical 252",
+      "triggers": [
+        "chemical_u252"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U253": {
+      "description": "Placeholder U-code chemical 253",
+      "triggers": [
+        "chemical_u253"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U254": {
+      "description": "Placeholder U-code chemical 254",
+      "triggers": [
+        "chemical_u254"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U255": {
+      "description": "Placeholder U-code chemical 255",
+      "triggers": [
+        "chemical_u255"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U256": {
+      "description": "Placeholder U-code chemical 256",
+      "triggers": [
+        "chemical_u256"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U257": {
+      "description": "Placeholder U-code chemical 257",
+      "triggers": [
+        "chemical_u257"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U258": {
+      "description": "Placeholder U-code chemical 258",
+      "triggers": [
+        "chemical_u258"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U259": {
+      "description": "Placeholder U-code chemical 259",
+      "triggers": [
+        "chemical_u259"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U260": {
+      "description": "Placeholder U-code chemical 260",
+      "triggers": [
+        "chemical_u260"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U261": {
+      "description": "Placeholder U-code chemical 261",
+      "triggers": [
+        "chemical_u261"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U262": {
+      "description": "Placeholder U-code chemical 262",
+      "triggers": [
+        "chemical_u262"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U263": {
+      "description": "Placeholder U-code chemical 263",
+      "triggers": [
+        "chemical_u263"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U264": {
+      "description": "Placeholder U-code chemical 264",
+      "triggers": [
+        "chemical_u264"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U265": {
+      "description": "Placeholder U-code chemical 265",
+      "triggers": [
+        "chemical_u265"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U266": {
+      "description": "Placeholder U-code chemical 266",
+      "triggers": [
+        "chemical_u266"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U267": {
+      "description": "Placeholder U-code chemical 267",
+      "triggers": [
+        "chemical_u267"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U268": {
+      "description": "Placeholder U-code chemical 268",
+      "triggers": [
+        "chemical_u268"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U269": {
+      "description": "Placeholder U-code chemical 269",
+      "triggers": [
+        "chemical_u269"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U270": {
+      "description": "Placeholder U-code chemical 270",
+      "triggers": [
+        "chemical_u270"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U271": {
+      "description": "Placeholder U-code chemical 271",
+      "triggers": [
+        "chemical_u271"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U272": {
+      "description": "Placeholder U-code chemical 272",
+      "triggers": [
+        "chemical_u272"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U273": {
+      "description": "Placeholder U-code chemical 273",
+      "triggers": [
+        "chemical_u273"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U274": {
+      "description": "Placeholder U-code chemical 274",
+      "triggers": [
+        "chemical_u274"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U275": {
+      "description": "Placeholder U-code chemical 275",
+      "triggers": [
+        "chemical_u275"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U276": {
+      "description": "Placeholder U-code chemical 276",
+      "triggers": [
+        "chemical_u276"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U277": {
+      "description": "Placeholder U-code chemical 277",
+      "triggers": [
+        "chemical_u277"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U278": {
+      "description": "Placeholder U-code chemical 278",
+      "triggers": [
+        "chemical_u278"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U279": {
+      "description": "Placeholder U-code chemical 279",
+      "triggers": [
+        "chemical_u279"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U280": {
+      "description": "Placeholder U-code chemical 280",
+      "triggers": [
+        "chemical_u280"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U281": {
+      "description": "Placeholder U-code chemical 281",
+      "triggers": [
+        "chemical_u281"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U282": {
+      "description": "Placeholder U-code chemical 282",
+      "triggers": [
+        "chemical_u282"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U283": {
+      "description": "Placeholder U-code chemical 283",
+      "triggers": [
+        "chemical_u283"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U284": {
+      "description": "Placeholder U-code chemical 284",
+      "triggers": [
+        "chemical_u284"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U285": {
+      "description": "Placeholder U-code chemical 285",
+      "triggers": [
+        "chemical_u285"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U286": {
+      "description": "Placeholder U-code chemical 286",
+      "triggers": [
+        "chemical_u286"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U287": {
+      "description": "Placeholder U-code chemical 287",
+      "triggers": [
+        "chemical_u287"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U288": {
+      "description": "Placeholder U-code chemical 288",
+      "triggers": [
+        "chemical_u288"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U289": {
+      "description": "Placeholder U-code chemical 289",
+      "triggers": [
+        "chemical_u289"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U290": {
+      "description": "Placeholder U-code chemical 290",
+      "triggers": [
+        "chemical_u290"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U291": {
+      "description": "Placeholder U-code chemical 291",
+      "triggers": [
+        "chemical_u291"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U292": {
+      "description": "Placeholder U-code chemical 292",
+      "triggers": [
+        "chemical_u292"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U293": {
+      "description": "Placeholder U-code chemical 293",
+      "triggers": [
+        "chemical_u293"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U294": {
+      "description": "Placeholder U-code chemical 294",
+      "triggers": [
+        "chemical_u294"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U295": {
+      "description": "Placeholder U-code chemical 295",
+      "triggers": [
+        "chemical_u295"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U296": {
+      "description": "Placeholder U-code chemical 296",
+      "triggers": [
+        "chemical_u296"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U297": {
+      "description": "Placeholder U-code chemical 297",
+      "triggers": [
+        "chemical_u297"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U298": {
+      "description": "Placeholder U-code chemical 298",
+      "triggers": [
+        "chemical_u298"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    },
+    "U299": {
+      "description": "Placeholder U-code chemical 299",
+      "triggers": [
+        "chemical_u299"
+      ],
+      "criteria": "Toxic discarded chemical product",
+      "threshold": "Pure or technical grade"
+    }
+  },
+  "_disclaimer": "Only D, P, and U wastes can be determined based on characteristics or constituent presence. F and K codes require generator process knowledge."
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test PDF Upload</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .result { margin: 20px 0; padding: 10px; background: #f0f0f0; border-radius: 5px; }
+        .success { background: #d4edda; }
+        .error { background: #f8d7da; }
+    </style>
+</head>
+<body>
+    <h1>Test PDF Upload - Extract PDF Endpoint</h1>
+    
+    <input type="file" id="pdfFile" accept=".pdf">
+    <button onclick="testUpload()">Test Upload</button>
+    
+    <div id="result" class="result"></div>
+    
+    <script>
+        async function testUpload() {
+            const fileInput = document.getElementById('pdfFile');
+            const result = document.getElementById('result');
+            
+            if (!fileInput.files[0]) {
+                result.innerHTML = '<div class="error">Please select a PDF file</div>';
+                return;
+            }
+            
+            const formData = new FormData();
+            formData.append('file', fileInput.files[0]);
+            
+            try {
+                result.innerHTML = '<div>Uploading...</div>';
+                
+                const response = await fetch('/api/extract-pdf', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                const data = await response.json();
+                
+                if (response.ok) {
+                    result.innerHTML = `
+                        <div class="success">
+                            <h3>✅ Success!</h3>
+                            <p><strong>Product Name:</strong> ${data.productName || 'Not found'}</p>
+                            <p><strong>Physical State:</strong> ${data.physicalState || 'Not found'}</p>
+                            <p><strong>Chemicals Found:</strong> ${data.composition?.length || 0}</p>
+                            <p><strong>Text Length:</strong> ${data.extractedText?.length || 0} characters</p>
+                        </div>
+                    `;
+                } else {
+                    result.innerHTML = `<div class="error">❌ Error: ${data.error}</div>`;
+                }
+            } catch (error) {
+                result.innerHTML = `<div class="error">❌ Network Error: ${error.message}</div>`;
+            }
+        }
+    </script>
+</body>
+</html>

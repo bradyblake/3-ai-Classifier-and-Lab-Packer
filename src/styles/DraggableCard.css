@@ -1,0 +1,228 @@
+/* Enhanced DraggableCard Styles - Environmental Services Theme */
+@import url('./DesignSystem.css');
+
+.draggable-card {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(248, 250, 252, 0.9));
+  border: 1px solid rgba(229, 231, 235, 0.6);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  margin-bottom: var(--space-md);
+  cursor: grab;
+  transition: all var(--transition-base);
+  box-shadow: var(--shadow-sm);
+  position: relative;
+  overflow: hidden;
+  backdrop-filter: blur(5px);
+}
+
+.draggable-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--env-primary-400), var(--env-ocean-400));
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--transition-base);
+}
+
+.draggable-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--env-primary-300);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 1), rgba(248, 250, 252, 0.95));
+}
+
+.draggable-card:hover::before {
+  transform: scaleX(1);
+}
+
+.draggable-card:active {
+  cursor: grabbing;
+  transform: translateY(-1px) rotate(2deg);
+}
+
+.draggable-card.dragging {
+  opacity: 0.7;
+  transform: translateY(-5px) rotate(3deg);
+  box-shadow: var(--shadow-xl);
+  z-index: 1000;
+}
+
+/* Card Header */
+.card-header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: var(--space-md);
+}
+
+.card-title {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--env-primary-800);
+  line-height: 1.3;
+  margin: 0;
+  flex: 1;
+  margin-right: var(--space-sm);
+}
+
+.card-job-number {
+  font-size: 0.75rem;
+  color: var(--env-earth-600);
+  font-weight: 500;
+  background: var(--env-earth-50);
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
+}
+
+/* Card Metadata */
+.card-metadata {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  margin-bottom: var(--space-md);
+}
+
+.card-metadata-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  font-size: 0.75rem;
+  color: #6b7280;
+}
+
+.card-metadata-icon {
+  width: 0.75rem;
+  height: 0.75rem;
+  color: var(--env-ocean-500);
+  flex-shrink: 0;
+}
+
+.card-metadata-text {
+  truncate: true;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Revenue Display */
+.card-revenue {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--status-success);
+  background: rgba(34, 197, 94, 0.1);
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: var(--radius-sm);
+  margin-bottom: var(--space-sm);
+  width: fit-content;
+}
+
+/* Card Description */
+.card-description {
+  font-size: 0.75rem;
+  color: #6b7280;
+  line-height: 1.4;
+  margin-top: var(--space-sm);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Status-based Card Colors */
+.draggable-card[data-status="Quote Submitted"] {
+  border-left: 4px solid #f59e0b;
+}
+
+.draggable-card[data-status="Quote Submitted"]::before {
+  background: linear-gradient(90deg, #f59e0b, #fbbf24);
+}
+
+.draggable-card[data-status="Job Scheduled"] {
+  border-left: 4px solid #8b5cf6;
+}
+
+.draggable-card[data-status="Job Scheduled"]::before {
+  background: linear-gradient(90deg, #8b5cf6, #a78bfa);
+}
+
+.draggable-card[data-status="Job Complete"] {
+  border-left: 4px solid var(--status-success);
+}
+
+.draggable-card[data-status="Job Complete"]::before {
+  background: linear-gradient(90deg, var(--status-success), var(--env-primary-400));
+}
+
+.draggable-card[data-status="Job In Progress"] {
+  border-left: 4px solid #3b82f6;
+}
+
+.draggable-card[data-status="Job In Progress"]::before {
+  background: linear-gradient(90deg, #3b82f6, #60a5fa);
+}
+
+/* Priority Indicators */
+.card-priority-high {
+  border-left-color: var(--status-danger) !important;
+}
+
+.card-priority-high::after {
+  content: '🔥';
+  position: absolute;
+  top: var(--space-sm);
+  right: var(--space-sm);
+  font-size: 0.875rem;
+}
+
+.card-priority-medium {
+  border-left-color: var(--status-warning) !important;
+}
+
+.card-priority-low {
+  border-left-color: #6b7280 !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .draggable-card {
+    padding: var(--space-md);
+  }
+  
+  .card-title {
+    font-size: 0.8125rem;
+  }
+  
+  .card-metadata-item {
+    font-size: 0.6875rem;
+  }
+}
+
+/* Animation Classes */
+.card-fade-in {
+  animation: cardFadeIn 0.4s ease-out;
+}
+
+@keyframes cardFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Focus States for Accessibility */
+.draggable-card:focus-visible {
+  outline: 2px solid var(--env-primary-600);
+  outline-offset: 2px;
+}

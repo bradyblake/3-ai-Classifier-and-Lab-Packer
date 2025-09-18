@@ -1,0 +1,571 @@
+/* Workflow Panel Styles - Professional Integration */
+@import url('./DesignSystem.css');
+
+.workflow-panel {
+  background: var(--surface-primary);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--border-secondary);
+  max-height: 600px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.workflow-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--space-lg);
+  padding-bottom: var(--space-md);
+  border-bottom: 1px solid var(--border-secondary);
+}
+
+.workflow-title {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-weight: 600;
+  color: var(--env-primary-800);
+  font-size: 1.125rem;
+}
+
+.workflow-title svg {
+  width: 20px;
+  height: 20px;
+  color: var(--env-primary-500);
+}
+
+.create-workflow-btn {
+  background: var(--env-primary-500);
+  color: white;
+  border: none;
+  border-radius: var(--radius-md);
+  padding: var(--space-sm);
+  cursor: pointer;
+  transition: all var(--transition-base);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.create-workflow-btn:hover {
+  background: var(--env-primary-600);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.create-workflow-btn svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* Empty State */
+.workflow-empty-state {
+  text-align: center;
+  padding: var(--space-2xl);
+  color: var(--text-secondary);
+}
+
+.empty-icon {
+  width: 48px;
+  height: 48px;
+  margin: 0 auto var(--space-lg);
+  color: var(--text-tertiary);
+}
+
+.create-workflow-empty {
+  background: linear-gradient(135deg, var(--env-primary-500), var(--env-ocean-500));
+  color: white;
+  border: none;
+  border-radius: var(--radius-md);
+  padding: var(--space-md) var(--space-lg);
+  font-weight: 500;
+  cursor: pointer;
+  transition: all var(--transition-base);
+  margin-top: var(--space-md);
+}
+
+.create-workflow-empty:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Workflow List */
+.workflow-list {
+  flex: 1;
+  overflow-y: auto;
+  margin: calc(var(--space-sm) * -1);
+  padding: var(--space-sm);
+}
+
+.workflow-item {
+  background: var(--surface-secondary);
+  border: 1px solid var(--border-secondary);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--space-md);
+  overflow: hidden;
+  transition: all var(--transition-base);
+}
+
+.workflow-item:hover {
+  box-shadow: var(--shadow-sm);
+  border-color: var(--env-primary-300);
+}
+
+/* Workflow Summary */
+.workflow-summary {
+  display: flex;
+  align-items: center;
+  padding: var(--space-md);
+  cursor: pointer;
+}
+
+.workflow-expand-btn {
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  cursor: pointer;
+  padding: var(--space-xs);
+  border-radius: var(--radius-sm);
+  transition: all var(--transition-base);
+  margin-right: var(--space-sm);
+}
+
+.workflow-expand-btn:hover {
+  color: var(--env-primary-500);
+  background: var(--env-primary-50);
+}
+
+.workflow-expand-btn svg {
+  width: 16px;
+  height: 16px;
+}
+
+.workflow-info {
+  flex: 1;
+  margin-right: var(--space-md);
+}
+
+.workflow-name {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0 0 var(--space-xs) 0;
+}
+
+.workflow-meta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.workflow-progress {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+}
+
+.workflow-progress-bar {
+  flex: 1;
+  height: 4px;
+  background: var(--surface-tertiary);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+}
+
+.workflow-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--env-primary-500), var(--env-ocean-500));
+  transition: width var(--transition-base);
+}
+
+.current-step-indicator {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  background: var(--status-warning-light);
+  color: var(--status-warning);
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: var(--radius-sm);
+  font-size: 0.75rem;
+  font-weight: 500;
+  margin-right: var(--space-sm);
+}
+
+.current-step-indicator svg {
+  width: 12px;
+  height: 12px;
+}
+
+.workflow-delete-btn {
+  background: none;
+  border: none;
+  color: var(--text-tertiary);
+  cursor: pointer;
+  padding: var(--space-xs);
+  border-radius: var(--radius-sm);
+  transition: all var(--transition-base);
+}
+
+.workflow-delete-btn:hover {
+  color: var(--status-danger);
+  background: var(--status-danger-light);
+}
+
+.workflow-delete-btn svg {
+  width: 14px;
+  height: 14px;
+}
+
+/* Workflow Details */
+.workflow-details {
+  border-top: 1px solid var(--border-secondary);
+  padding: var(--space-lg);
+  background: var(--surface-primary);
+}
+
+.workflow-steps {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.workflow-step {
+  display: flex;
+  gap: var(--space-md);
+  align-items: flex-start;
+}
+
+.step-indicator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.step-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-full);
+  background: var(--surface-secondary);
+  border: 2px solid currentColor;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.step-icon svg {
+  width: 14px;
+  height: 14px;
+}
+
+.step-connector {
+  width: 2px;
+  height: 24px;
+  background: var(--border-secondary);
+  margin-top: var(--space-xs);
+}
+
+.step-content {
+  flex: 1;
+  padding-top: var(--space-xs);
+}
+
+.step-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--space-xs);
+}
+
+.step-tool {
+  font-weight: 600;
+  color: var(--env-primary-800);
+  font-size: 0.875rem;
+}
+
+.step-status {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  text-transform: capitalize;
+  background: var(--surface-tertiary);
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: var(--radius-sm);
+}
+
+.step-data {
+  background: var(--surface-tertiary);
+  padding: var(--space-sm);
+  border-radius: var(--radius-sm);
+  margin-bottom: var(--space-sm);
+}
+
+.step-data small {
+  color: var(--text-secondary);
+  font-family: monospace;
+  font-size: 0.75rem;
+  line-height: 1.4;
+}
+
+.step-actions {
+  display: flex;
+  gap: var(--space-sm);
+  margin-top: var(--space-sm);
+}
+
+.navigate-to-tool-btn,
+.complete-step-btn {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  padding: var(--space-xs) var(--space-sm);
+  border: 1px solid transparent;
+  border-radius: var(--radius-sm);
+  font-size: 0.75rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all var(--transition-base);
+}
+
+.navigate-to-tool-btn {
+  background: var(--surface-tertiary);
+  color: var(--env-primary-700);
+  border-color: var(--border-secondary);
+}
+
+.navigate-to-tool-btn:hover {
+  background: var(--env-primary-50);
+  border-color: var(--env-primary-300);
+}
+
+.complete-step-btn {
+  background: var(--status-success);
+  color: white;
+}
+
+.complete-step-btn:hover {
+  background: var(--status-success-dark);
+  transform: translateY(-1px);
+}
+
+.navigate-to-tool-btn svg,
+.complete-step-btn svg {
+  width: 12px;
+  height: 12px;
+}
+
+/* Step Status Colors */
+.step-completed .step-icon {
+  background: var(--status-success-light);
+  color: var(--status-success);
+  border-color: var(--status-success);
+}
+
+.step-active .step-icon {
+  background: var(--env-primary-50);
+  color: var(--env-primary-500);
+  border-color: var(--env-primary-500);
+}
+
+.step-pending .step-icon {
+  background: var(--surface-secondary);
+  color: var(--text-tertiary);
+  border-color: var(--border-secondary);
+}
+
+/* Modal Styles */
+.workflow-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  backdrop-filter: blur(4px);
+}
+
+.workflow-modal {
+  background: var(--surface-primary);
+  border-radius: var(--radius-lg);
+  width: 90%;
+  max-width: 600px;
+  max-height: 80vh;
+  overflow: hidden;
+  box-shadow: var(--shadow-xl);
+  border: 1px solid var(--border-secondary);
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-lg);
+  border-bottom: 1px solid var(--border-secondary);
+  background: var(--surface-secondary);
+}
+
+.modal-header h3 {
+  margin: 0;
+  color: var(--env-primary-800);
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.modal-close-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--text-secondary);
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--transition-base);
+}
+
+.modal-close-btn:hover {
+  background: var(--surface-tertiary);
+  color: var(--text-primary);
+}
+
+.modal-content {
+  padding: var(--space-lg);
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.template-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  margin-top: var(--space-md);
+}
+
+.template-item {
+  background: var(--surface-secondary);
+  border: 2px solid var(--border-secondary);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+  cursor: pointer;
+  transition: all var(--transition-base);
+}
+
+.template-item:hover {
+  border-color: var(--env-primary-300);
+  box-shadow: var(--shadow-sm);
+}
+
+.template-item.selected {
+  border-color: var(--env-primary-500);
+  background: var(--env-primary-50);
+}
+
+.template-item h4 {
+  margin: 0 0 var(--space-sm) 0;
+  color: var(--env-primary-800);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.template-item p {
+  margin: 0 0 var(--space-md) 0;
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+
+.template-steps {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  flex-wrap: wrap;
+}
+
+.template-step {
+  background: var(--surface-tertiary);
+  color: var(--env-primary-700);
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: var(--radius-sm);
+  font-size: 0.75rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+}
+
+.template-step svg {
+  width: 12px;
+  height: 12px;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--space-md);
+  padding: var(--space-lg);
+  border-top: 1px solid var(--border-secondary);
+  background: var(--surface-secondary);
+}
+
+.modal-cancel-btn,
+.modal-create-btn {
+  padding: var(--space-md) var(--space-lg);
+  border-radius: var(--radius-md);
+  font-weight: 500;
+  cursor: pointer;
+  transition: all var(--transition-base);
+}
+
+.modal-cancel-btn {
+  background: none;
+  border: 1px solid var(--border-secondary);
+  color: var(--text-secondary);
+}
+
+.modal-cancel-btn:hover {
+  background: var(--surface-tertiary);
+  color: var(--text-primary);
+}
+
+.modal-create-btn {
+  background: linear-gradient(135deg, var(--env-primary-500), var(--env-ocean-500));
+  color: white;
+  border: none;
+}
+
+.modal-create-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.modal-create-btn:not(:disabled):hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .workflow-panel {
+    padding: var(--space-md);
+  }
+  
+  .workflow-modal {
+    width: 95%;
+    margin: var(--space-md);
+  }
+  
+  .template-steps {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

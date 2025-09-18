@@ -1,0 +1,33 @@
+📋 Training data validation warnings:
+  - Sodium Hypochlorite,13%: Form code 003 (lab pack series) but material doesn't indicate laboratory waste
+✅ Training data quality score: 100.0%
+📊 10/10 feedback entries valid
+🤖 AI Service initialized: LM Studio at http://localhost:1234
+📋 Using model: local-model
+📋 Training data validation warnings:
+  - Sodium Hypochlorite,13%: Form code 003 (lab pack series) but material doesn't indicate laboratory waste
+✅ Training data quality score: 100.0%
+📊 10/10 feedback entries valid
+📚 Loaded 10 feedback entries and 15 training examples
+📚 CAS Database loaded: 232 P/U-listed wastes
+📊 Database contains 1 chemicals (0 ignitable, 0 corrosive) plus 232 P/U-listed wastes
+📋 Training data validation warnings:
+  - Sodium Hypochlorite,13%: Form code 003 (lab pack series) but material doesn't indicate laboratory waste
+✅ Training data quality score: 100.0%
+📊 10/10 feedback entries valid
+🚀 Enhanced SDS Lookup Service with Automated Web Search initialized
+🔑 Loaded 2 Gemini API key(s)
+🤖 AI Providers initialized: gemini, groq
+🔑 Loaded 2 Gemini API key(s)
+🤖 AI Providers initialized: gemini, groq
+📋 Training data validation warnings:
+  - Sodium Hypochlorite,13%: Form code 003 (lab pack series) but material doesn't indicate laboratory waste
+✅ Training data quality score: 100.0%
+📊 10/10 feedback entries valid
+🚀 MASTER SDS PARSER: Initialized with 100% success guarantee
+🔧 Loading AI Training Routes...
+✅ AI Training Routes loaded successfully
+✅ Backend server listening on port 3002
+🎁 Google Gemini configured (FREE)
+⚡ Groq configured (FREE)
+Warning: Indexing all PDF objects

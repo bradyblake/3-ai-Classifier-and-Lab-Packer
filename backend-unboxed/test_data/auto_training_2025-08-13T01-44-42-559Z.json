@@ -1,0 +1,100 @@
+{
+  "timestamp": "2025-08-13T01:44:42.559Z",
+  "results": [
+    {
+      "material": "acetone",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D001"
+        ],
+        "texas_form_code": "203",
+        "dot_un": "UN1090",
+        "reasoning": "Flash point -18°C < 60°C = D001. Organic solvent = form code 203."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T01:44:42.485Z"
+    },
+    {
+      "material": "diesel fuel",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D001"
+        ],
+        "texas_form_code": "202",
+        "dot_un": "UN1202",
+        "reasoning": "Flash point 52°C < 60°C = D001. Petroleum product = form code 202."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T01:44:42.515Z"
+    },
+    {
+      "material": "muriatic acid",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D002"
+        ],
+        "texas_form_code": "105",
+        "dot_un": "UN1789",
+        "reasoning": "pH < 1 = D002 corrosive. Acid waste = form code 105."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T01:44:42.517Z"
+    },
+    {
+      "material": "methanol",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D001"
+        ],
+        "texas_form_code": "203",
+        "dot_un": "UN1230",
+        "reasoning": "Flash point 11°C < 60°C = D001. Organic solvent = form code 203."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T01:44:42.535Z"
+    },
+    {
+      "material": "sodium hydroxide",
+      "ai_classification": {
+        "federal": [],
+        "texas_form_code": "101",
+        "dot_un": "UN1234"
+      },
+      "expected_classification": {
+        "federal": [
+          "D002"
+        ],
+        "texas_form_code": "106",
+        "dot_un": "UN1823",
+        "reasoning": "pH > 12.5 = D002 corrosive. Alkaline waste = form code 106."
+      },
+      "correct": false,
+      "timestamp": "2025-08-13T01:44:42.559Z"
+    }
+  ],
+  "summary": {
+    "total": 5,
+    "correct": 0,
+    "errors": 0
+  }
+}

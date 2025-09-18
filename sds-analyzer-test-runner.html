@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDS Analyzer Test Runner - 100 Run Validation</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 25px 80px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .controls {
+            padding: 30px;
+            background: #f8f9fa;
+            border-bottom: 2px solid #dee2e6;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            padding: 12px 30px;
+            font-size: 1.1em;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: 600;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.4);
+        }
+        
+        .btn-secondary {
+            background: #6c757d;
+            color: white;
+        }
+        
+        .btn-danger {
+            background: #dc3545;
+            color: white;
+        }
+        
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        
+        .main-content {
+            padding: 30px;
+        }
+        
+        .status-panel {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 30px;
+            border: 2px solid #dee2e6;
+        }
+        
+        .status-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #dee2e6;
+            text-align: center;
+        }
+        
+        .stat-value {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #667eea;
+            margin: 10px 0;
+        }
+        
+        .stat-label {
+            color: #6c757d;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .progress-bar {
+            width: 100%;
+            height: 30px;
+            background: #e9ecef;
+            border-radius: 15px;
+            overflow: hidden;
+            margin: 20px 0;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            transition: width 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+        }
+        
+        .test-log {
+            background: #1e1e1e;
+            color: #00ff00;
+            font-family: 'Courier New', monospace;
+            padding: 20px;
+            border-radius: 8px;
+            height: 400px;
+            overflow-y: auto;
+            font-size: 0.9em;
+            line-height: 1.5;
+        }
+        
+        .log-entry {
+            margin: 5px 0;
+            padding: 5px;
+        }
+        
+        .log-pass {
+            color: #00ff00;
+        }
+        
+        .log-fail {
+            color: #ff0000;
+        }
+        
+        .log-info {
+            color: #00ffff;
+        }
+        
+        .log-warning {
+            color: #ffff00;
+        }
+        
+        .results-panel {
+            margin-top: 30px;
+            display: none;
+        }
+        
+        .results-panel.show {
+            display: block;
+        }
+        
+        .result-summary {
+            background: white;
+            border: 2px solid #dee2e6;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 20px;
+        }
+        
+        .pass-indicator {
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        
+        .pass-indicator.success {
+            background: #d4edda;
+            color: #155724;
+            border: 2px solid #c3e6cb;
+        }
+        
+        .pass-indicator.failure {
+            background: #f8d7da;
+            color: #721c24;
+            border: 2px solid #f5c6cb;
+        }
+        
+        .chart-container {
+            height: 300px;
+            margin: 20px 0;
+        }
+        
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+        
+        .running {
+            animation: pulse 1.5s infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🧪 SDS Analyzer Test Suite</h1>
+            <p>100 Run Validation - Revolutionary Classifier Integration</p>
+        </div>
+        
+        <div class="controls">
+            <button id="runTestBtn" class="btn btn-primary" onclick="runTests()">
+                Run 100 Tests
+            </button>
+            <button id="runContinuousBtn" class="btn btn-secondary" onclick="runContinuous()">
+                Run Continuous (10x)
+            </button>
+            <button id="stopBtn" class="btn btn-danger" onclick="stopTests()" disabled>
+                Stop
+            </button>
+            <button class="btn btn-secondary" onclick="clearResults()">
+                Clear Results
+            </button>
+            <button id="exportBtn" class="btn btn-success" onclick="exportResults()" disabled>
+                Export Results
+            </button>
+        </div>
+        
+        <div class="main-content">
+            <div class="status-panel">
+                <h2>Current Status</h2>
+                <div class="progress-bar">
+                    <div id="progressBar" class="progress-fill" style="width: 0%">0%</div>
+                </div>
+                
+                <div class="status-grid">
+                    <div class="stat-card">
+                        <div class="stat-label">Tests Run</div>
+                        <div id="testsRun" class="stat-value">0</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Passed</div>
+                        <div id="testsPassed" class="stat-value">0</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Failed</div>
+                        <div id="testsFailed" class="stat-value">0</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Pass Rate</div>
+                        <div id="passRate" class="stat-value">0%</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Avg Confidence</div>
+                        <div id="avgConfidence" class="stat-value">0%</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Target</div>
+                        <div id="target" class="stat-value">>95%</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="test-log" id="testLog">
+                <div class="log-entry log-info">Test suite ready. Click "Run 100 Tests" to begin validation.</div>
+            </div>
+            
+            <div id="resultsPanel" class="results-panel">
+                <div class="result-summary">
+                    <h2>Test Results</h2>
+                    <div id="resultContent"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script type="module">
+        import EnhancedSDSAnalyzer from './src/services/enhancedSDSAnalyzer.js';
+        import SDSAnalyzerTestSuite from './src/tests/sdsAnalyzerTestSuite.js';
+        
+        let testSuite = null;
+        let isRunning = false;
+        let stopRequested = false;
+        let lastTestResults = null;
+        
+        // Make functions globally available
+        async function runTests() {
+            if (isRunning) return;
+            
+            isRunning = true;
+            stopRequested = false;
+            
+            document.getElementById('runTestBtn').disabled = true;
+            document.getElementById('runContinuousBtn').disabled = true;
+            document.getElementById('stopBtn').disabled = false;
+            
+            clearResults();
+            addLog('Starting SDS Analyzer Test Suite (100 runs)...', 'info');
+            
+            testSuite = new SDSAnalyzerTestSuite();
+            
+            try {
+                const result = await runTestsWithProgress();
+                lastTestResults = result;
+                displayResults(result);
+                document.getElementById('exportBtn').disabled = false;
+            } catch (error) {
+                addLog(`Error: ${error.message}`, 'fail');
+            }
+            
+            isRunning = false;
+            document.getElementById('runTestBtn').disabled = false;
+            document.getElementById('runContinuousBtn').disabled = false;
+            document.getElementById('stopBtn').disabled = true;
+        };
+        
+        async function runContinuous() {
+            if (isRunning) return;
+            
+            isRunning = true;
+            stopRequested = false;
+            
+            document.getElementById('runTestBtn').disabled = true;
+            document.getElementById('runContinuousBtn').disabled = true;
+            document.getElementById('stopBtn').disabled = false;
+            
+            clearResults();
+            addLog('Starting continuous testing (10 iterations)...', 'info');
+            
+            testSuite = new SDSAnalyzerTestSuite();
+            
+            try {
+                for (let i = 0; i < 10 && !stopRequested; i++) {
+                    addLog(`\\n=== ITERATION ${i + 1}/10 ===`, 'info');
+                    const result = await runTestsWithProgress();
+                    
+                    if (result.summary.passRate >= 95) {
+                        addLog(`✅ Iteration ${i + 1} achieved target! Pass rate: ${result.summary.passRate.toFixed(2)}%`, 'pass');
+                    } else {
+                        addLog(`❌ Iteration ${i + 1} below target. Pass rate: ${result.summary.passRate.toFixed(2)}%`, 'fail');
+                    }
+                    
+                    if (i < 9 && !stopRequested) {
+                        addLog('Waiting before next iteration...', 'info');
+                        await delay(2000);
+                    }
+                }
+            } catch (error) {
+                addLog(`Error: ${error.message}`, 'fail');
+            }
+            
+            isRunning = false;
+            document.getElementById('runTestBtn').disabled = false;
+            document.getElementById('runContinuousBtn').disabled = false;
+            document.getElementById('stopBtn').disabled = true;
+        };
+        
+        function stopTests() {
+            stopRequested = true;
+            addLog('Stop requested...', 'warning');
+        };
+        
+        function clearResults() {
+            document.getElementById('testLog').innerHTML = '<div class="log-entry log-info">Test log cleared. Ready for new test run.</div>';
+            document.getElementById('resultsPanel').classList.remove('show');
+            updateStats(0, 0, 0, 0, 0);
+            document.getElementById('exportBtn').disabled = true;
+            lastTestResults = null;
+        };
+
+        function exportResults() {
+            if (!lastTestResults) {
+                alert('No test results to export');
+                return;
+            }
+
+            const exportData = {
+                testSuite: 'SDS Analyzer Revolutionary Classifier',
+                timestamp: new Date().toISOString(),
+                summary: lastTestResults.summary,
+                systemInfo: {
+                    userAgent: navigator.userAgent,
+                    platform: navigator.platform,
+                    language: navigator.language,
+                    timestamp: new Date().toISOString()
+                },
+                testConfiguration: {
+                    totalTests: 100,
+                    targetPassRate: 95,
+                    classifierType: 'ConstituentFirstClassifier',
+                    accuracyTarget: '>95%'
+                },
+                results: lastTestResults.results,
+                detailedMetrics: {
+                    averageExecutionTime: lastTestResults.results.reduce((sum, r) => sum + (r.executionTime || 0), 0) / lastTestResults.results.length,
+                    averageConfidence: lastTestResults.results.reduce((sum, r) => sum + (r.confidence || 0), 0) / lastTestResults.results.length,
+                    passedTests: lastTestResults.results.filter(r => r.passed).length,
+                    failedTests: lastTestResults.results.filter(r => !r.passed).length,
+                    errorTests: lastTestResults.results.filter(r => r.error).length
+                }
+            };
+
+            // Create downloadable file
+            const jsonBlob = new Blob([JSON.stringify(exportData, null, 2)], { type: 'application/json' });
+            const csvData = convertToCSV(lastTestResults.results);
+            const csvBlob = new Blob([csvData], { type: 'text/csv' });
+
+            // Create download links
+            const timestamp = new Date().toISOString().split('T')[0];
+            
+            // JSON Export
+            const jsonUrl = URL.createObjectURL(jsonBlob);
+            const jsonLink = document.createElement('a');
+            jsonLink.href = jsonUrl;
+            jsonLink.download = `sds_analyzer_test_results_${timestamp}.json`;
+            jsonLink.click();
+            setTimeout(() => URL.revokeObjectURL(jsonUrl), 1000);
+
+            // CSV Export
+            const csvUrl = URL.createObjectURL(csvBlob);
+            const csvLink = document.createElement('a');
+            csvLink.href = csvUrl;
+            csvLink.download = `sds_analyzer_test_results_${timestamp}.csv`;
+            csvLink.click();
+            setTimeout(() => URL.revokeObjectURL(csvUrl), 1000);
+
+            alert('✅ Test results exported successfully!\n\n📄 JSON: Detailed results with full metadata\n📊 CSV: Tabular data for analysis');
+        }
+
+        function convertToCSV(results) {
+            if (!results || results.length === 0) return '';
+
+            const headers = [
+                'Test Name',
+                'Passed',
+                'Confidence (%)',
+                'Execution Time (ms)',
+                'Expected Codes',
+                'Actual Codes',
+                'Expected Class',
+                'Actual Class',
+                'Codes Match',
+                'Class Match',
+                'Error Message'
+            ];
+
+            const rows = results.map(result => [
+                result.name || '',
+                result.passed ? 'TRUE' : 'FALSE',
+                result.confidence ? result.confidence.toFixed(2) : '',
+                result.executionTime || '',
+                result.expected ? result.expected.codes.join(';') : '',
+                result.actual ? result.actual.codes.join(';') : '',
+                result.expected ? result.expected.class : '',
+                result.actual ? result.actual.class : '',
+                result.codesMatch ? 'TRUE' : 'FALSE',
+                result.classMatch ? 'TRUE' : 'FALSE',
+                result.error || ''
+            ]);
+
+            const csvContent = [headers, ...rows]
+                .map(row => row.map(cell => {
+                    const cellStr = String(cell || '');
+                    return cellStr.includes(',') || cellStr.includes('"') || cellStr.includes('\n') 
+                        ? `"${cellStr.replace(/"/g, '""')}"` 
+                        : cellStr;
+                }).join(','))
+                .join('\n');
+
+            return csvContent;
+        }
+        
+        async function runTestsWithProgress() {
+            const allTestCases = [
+                ...testSuite.testCases,
+                ...testSuite.generateRandomTestCases(90)
+            ];
+            
+            const results = [];
+            let passedCount = 0;
+            let totalConfidence = 0;
+            
+            for (let i = 0; i < allTestCases.length && !stopRequested; i++) {
+                const testCase = allTestCases[i];
+                
+                addLog(`Test ${i + 1}/100: ${testCase.name}...`, 'info');
+                
+                const result = await testSuite.runTest(testCase);
+                results.push(result);
+                
+                if (result.passed) {
+                    passedCount++;
+                    addLog(`  ✅ PASSED (Confidence: ${result.confidence?.toFixed(1)}%)`, 'pass');
+                } else {
+                    addLog(`  ❌ FAILED (Confidence: ${result.confidence?.toFixed(1) || 'N/A'}%)`, 'fail');
+                }
+                
+                if (result.confidence) {
+                    totalConfidence += result.confidence;
+                }
+                
+                updateStats(
+                    i + 1,
+                    passedCount,
+                    i + 1 - passedCount,
+                    (passedCount / (i + 1)) * 100,
+                    totalConfidence / (i + 1)
+                );
+                
+                await delay(50);
+            }
+            
+            const passRate = (passedCount / results.length) * 100;
+            const avgConfidence = totalConfidence / results.length;
+            
+            return {
+                results,
+                summary: {
+                    totalTests: results.length,
+                    passed: passedCount,
+                    failed: results.length - passedCount,
+                    passRate,
+                    avgConfidence,
+                    targetMet: passRate >= 95
+                }
+            };
+        }
+        
+        function updateStats(run, passed, failed, passRate, avgConfidence) {
+            document.getElementById('testsRun').textContent = run;
+            document.getElementById('testsPassed').textContent = passed;
+            document.getElementById('testsFailed').textContent = failed;
+            document.getElementById('passRate').textContent = passRate.toFixed(1) + '%';
+            document.getElementById('avgConfidence').textContent = avgConfidence.toFixed(1) + '%';
+            
+            const progress = (run / 100) * 100;
+            const progressBar = document.getElementById('progressBar');
+            progressBar.style.width = progress + '%';
+            progressBar.textContent = Math.round(progress) + '%';
+            
+            if (passRate >= 95) {
+                document.getElementById('passRate').style.color = '#28a745';
+            } else {
+                document.getElementById('passRate').style.color = '#dc3545';
+            }
+        }
+        
+        function displayResults(result) {
+            const resultsPanel = document.getElementById('resultsPanel');
+            const resultContent = document.getElementById('resultContent');
+            
+            const targetMet = result.summary.passRate >= 95;
+            
+            resultContent.innerHTML = `
+                <div class="pass-indicator ${targetMet ? 'success' : 'failure'}">
+                    ${targetMet ? '✅ TARGET MET!' : '❌ Below Target'}
+                </div>
+                <p><strong>Total Tests:</strong> ${result.summary.totalTests}</p>
+                <p><strong>Passed:</strong> ${result.summary.passed}</p>
+                <p><strong>Failed:</strong> ${result.summary.failed}</p>
+                <p><strong>Pass Rate:</strong> ${result.summary.passRate.toFixed(2)}%</p>
+                <p><strong>Average Confidence:</strong> ${result.summary.avgConfidence.toFixed(2)}%</p>
+                <p><strong>Target:</strong> >95% pass rate</p>
+            `;
+            
+            resultsPanel.classList.add('show');
+            
+            addLog('\\n' + '='.repeat(60), 'info');
+            addLog('TEST SUITE COMPLETED', 'info');
+            addLog(`Pass Rate: ${result.summary.passRate.toFixed(2)}%`, targetMet ? 'pass' : 'fail');
+            addLog(`Status: ${targetMet ? '✅ TARGET MET!' : '❌ Below target'}`, targetMet ? 'pass' : 'fail');
+        }
+        
+        function addLog(message, type = 'info') {
+            const log = document.getElementById('testLog');
+            const entry = document.createElement('div');
+            entry.className = `log-entry log-${type}`;
+            entry.textContent = message;
+            log.appendChild(entry);
+            log.scrollTop = log.scrollHeight;
+        }
+        
+        function delay(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
+        }
+        
+        // Make functions globally available
+        window.runTests = runTests;
+        window.runContinuous = runContinuous;
+        window.stopTests = stopTests;
+        window.clearResults = clearResults;
+        window.exportResults = exportResults;
+        
+        // Initialize
+        addLog('SDS Analyzer Test Suite initialized', 'info');
+        addLog('Ready to run 100 test validation', 'info');
+    </script>
+</body>
+</html>
