@@ -3,7 +3,7 @@
 
 export class ClassificationDatabase {
   constructor() {
-    this.storageKey = 'unboxed_classification_database';
+    this.storageKey = 'classification_database';
     this.initializeDatabase();
   }
 

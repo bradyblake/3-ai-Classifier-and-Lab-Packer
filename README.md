@@ -1,154 +1,149 @@
-# Revolutionary Hazardous Waste Classifier
+# Revolutionary Classifier
 
-## 🚀 ConstituentFirstClassifier Engine
+> Advanced Project Management & Waste Classification System
 
-This is a **revolutionary** hazardous waste classifier that uses **constituent-first logic** to achieve 98%+ accuracy in waste code determination.
+## 📋 Overview
 
-### The Problem with Traditional Classifiers
+Revolutionary Classifier is a comprehensive web application designed for hazardous waste management, environmental compliance, and project tracking. It integrates AI-powered SDS (Safety Data Sheet) analysis with project management capabilities to streamline waste classification and regulatory compliance workflows.
 
-Existing hazardous waste classifiers have **0% accuracy** because they use backwards logic:
-1. ❌ Analyze characteristics first
-2. ❌ Then check for constituents
-3. ❌ Miss critical waste codes
+## ✨ Features
 
-### Our Revolutionary Solution
+### 🧪 AI-Powered Classification
+- **SDS Analysis**: Automated extraction and analysis of Safety Data Sheets
+- **Chemical Classification**: AI-driven waste code assignment and hazard identification
+- **Regulatory Compliance**: EPA, RCRA, and DOT classification support
 
-**ConstituentFirstClassifier** does it RIGHT:
-1. ✅ **Constituents first** - Check every chemical constituent
-2. ✅ **Characteristics second** - Apply characteristic codes based on constituents
-3. ✅ **98%+ accuracy** - Never miss a waste code
+### 📊 Project Management
+- **Kanban Board**: Visual project tracking with customizable workflows
+- **Smart Calendar**: Integrated scheduling with sales period annotations
+- **Lab Pack Planning**: Waste containerization and compatibility analysis
+- **Manifest Generation**: Automated regulatory document creation
 
-## Core Algorithm
+### 🔐 Security & Authentication
+- **Firebase Integration**: Secure user authentication and data storage
+- **Real-time Sync**: Cross-device data synchronization
+- **Session Management**: Persistent user sessions with secure storage
 
-```javascript
-for each chemical in composition {
-  cas = chemical.cas_number
-  if (pCodeList.contains(cas)) → add P-code 
-  if (uCodeList.contains(cas)) → add U-code
-  if (dCodeTCLP.contains(cas)) → add D-code
-}
-return all_waste_codes_found
-```
+### 📱 User Experience
+- **Responsive Design**: Works on desktop, tablet, and mobile devices
+- **Theme Support**: Light and dark mode options
+- **File Upload**: Drag-and-drop PDF processing
+- **Progress Tracking**: Workflow progress monitoring and resume functionality
 
-## Quick Start
+## 🚀 Quick Start
 
-```javascript
-import ConstituentFirstClassifier from './src/engines/ConstituentFirstClassifier.js';
+### Prerequisites
+- Node.js 16+
+- npm or yarn
+- Firebase account (optional, for authentication)
 
-const classifier = new ConstituentFirstClassifier();
+### Installation
 
-const result = classifier.classify([
-  { name: "Acetone", cas: "67-64-1", percentage: "85%" },
-  { name: "Methanol", cas: "67-56-1", percentage: "15%" }
-]);
+1. **Clone or download the project**
+   ```bash
+   cd revolutionary-classifier
+   ```
 
-console.log(result.wasteCodes); // ["U002", "U154", "D001"]
-```
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-## Input Format
+3. **Configure environment variables**
+   - Copy `.env.example` to `.env`
+   - Update API keys and configuration
 
-```javascript
-const composition = [
-  { name: "Acetone", cas: "67-64-1", percentage: "85%" },
-  { name: "Methanol", cas: "67-56-1", percentage: "15%" }
-];
-```
+4. **Start development server**
+   ```bash
+   npm run dev
+   ```
 
-## Output Format
+5. **Access the application**
+   - Open http://localhost:3000
+   - Create an account or sign in
 
-```javascript
-{
-  wasteCodes: ["U002", "D001", "U154"],
-  reasoning: [
-    "67-64-1 (Acetone) → U002 (U-listed waste)",
-    "67-64-1 (Acetone) → D001 (Flash point -17°C < 60°C)",  
-    "67-56-1 (Methanol) → U154 (U-listed waste)"
-  ],
-  confidence: 0.95,
-  chemicals: [
-    { cas: "67-64-1", name: "Acetone", codes: ["U002", "D001"] },
-    { cas: "67-56-1", name: "Methanol", codes: ["U154"] }
-  ]
-}
-```
+## 🛠️ Configuration
 
-## Features
+### API Keys Setup
 
-### ✅ Efficient Lookup Maps
-- O(1) lookup performance
-- Pre-built maps for P/U/D codes
-- 2000+ chemical database
+The application supports multiple AI services:
 
-### ✅ CAS Number Normalization
-- Handles various CAS formats
-- Validates CAS number structure
-- Robust error handling
+- **Groq API**: Fast LLM inference (14,400 requests/day free)
+- **Google Gemini**: Advanced language understanding (1,500 requests/day free)
+- **OpenAI**: Optional ChatGPT integration (paid)
 
-### ✅ Confidence Scoring
-- Known CAS: 95% confidence
-- Unknown CAS: 30% confidence (flag for review)
-- Multiple codes: averaged confidence
+### Firebase Setup (Optional)
 
-### ✅ Performance Optimized
-- < 100ms per classification
-- Memory efficient
-- Real-time performance tracking
+For authentication and data sync:
+1. Create a Firebase project
+2. Enable Authentication and Firestore
+3. Update `.env` with your Firebase config
 
-## Waste Code Types
+## 📚 Usage
 
-### P-Codes (Acutely Hazardous)
-- **Priority**: Highest (most dangerous)
-- **Trigger**: ANY percentage
-- **Examples**: P001 (Aldrin), P013 (Endrin)
+### 1. SDS Analysis Workflow
+1. Upload PDF files using drag-and-drop
+2. AI automatically extracts chemical information
+3. Review and validate classifications
+4. Export results to lab packs or projects
 
-### U-Codes (Toxic Commercial)
-- **Priority**: High
-- **Trigger**: Commercial chemical products
-- **Examples**: U002 (Acetone), U154 (Methanol)
+### 2. Project Management
+1. Create new projects in the Kanban board
+2. Add materials and assign waste codes
+3. Schedule activities using the calendar
+4. Generate regulatory manifests
 
-### D-Codes (Characteristics)
-- **Priority**: Medium
-- **Trigger**: TCLP limits or properties
-- **Examples**: D001 (Ignitability), D008 (Lead)
+### 3. Lab Pack Planning
+1. Load materials from SDS analysis
+2. Plan compatible groupings
+3. Generate waste profiles
+4. Create shipping documentation
 
-## Testing
+## 🏗️ Architecture
 
-```bash
-# Run basic tests
-npm test
+- **Frontend**: React with Vite build system
+- **Backend**: Node.js/Express API server
+- **Database**: Firebase Firestore + localStorage
+- **AI Services**: Groq, Gemini, OpenAI APIs
+- **Styling**: CSS modules with responsive design
 
-# Run performance tests
-node test-runner.js
-```
+## 📄 License
 
-## Performance Requirements
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-- ⚡ **Speed**: < 100ms per classification
-- 🧠 **Memory**: Efficient lookup tables
-- 🎯 **Accuracy**: 98%+ on known CAS numbers
+## 🤝 Contributing
 
-## Database Statistics
+This software is provided for internal use. If you have suggestions or improvements:
 
-- **P-codes**: 120+ acutely hazardous wastes
-- **U-codes**: 380+ toxic commercial wastes  
-- **D-codes**: 40+ characteristic wastes
-- **Chemicals**: 2000+ with physical properties
+1. Document the enhancement request
+2. Test thoroughly in development environment
+3. Ensure all existing functionality remains intact
+4. Follow existing code style and patterns
 
-## Integration
+## 📞 Support
 
-Ready for integration with:
-- PDF extractors (Phase 2)
-- SDS parsers
-- Waste management systems
-- Regulatory compliance tools
+For questions or issues:
+- Check the application's built-in help documentation
+- Review the console for debugging information
+- Contact your system administrator
 
-## Success Criteria
+## ⚖️ Compliance Notice
 
-- ✅ All test cases pass
-- ✅ Performance benchmarks met
-- ✅ Clean code with comprehensive error handling
-- ✅ Ready for PDF parser integration
+This software is designed to assist with regulatory compliance but does not guarantee regulatory approval. Users are responsible for:
+- Verifying all AI-generated classifications
+- Ensuring compliance with local, state, and federal regulations
+- Maintaining proper documentation and records
+- Regular backup of critical data
+
+## 🔒 Security
+
+- All API keys should be kept confidential
+- Regular security updates are recommended
+- User authentication is handled through Firebase
+- Local data is encrypted in browser storage
 
 ---
 
-**Ready to revolutionize hazardous waste classification! 🚀**
+**Revolutionary Classifier** - Streamlining environmental compliance through intelligent automation.
+
+*Licensed under MIT License - Copyright (c) 2025 Revolutionary Classifier Team*

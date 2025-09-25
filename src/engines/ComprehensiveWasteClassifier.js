@@ -4,6 +4,9 @@
  * with detailed yes/no decision trees
  */
 
+import fs from 'fs';
+import path from 'path';
+
 export class ComprehensiveWasteClassifier {
 
   constructor() {
@@ -14,11 +17,10 @@ export class ComprehensiveWasteClassifier {
 
   async loadData() {
     try {
-      const fResponse = await fetch('/data/regulatory/f_code_wastes.json');
-      this.fCodes = await fResponse.json();
+      const dataDir = path.resolve('data/regulatory');
 
-      const kResponse = await fetch('/data/regulatory/k_code_wastes.json');
-      this.kCodes = await kResponse.json();
+      this.fCodes = JSON.parse(fs.readFileSync(path.join(dataDir, 'f_code_wastes.json'), 'utf8'));
+      this.kCodes = JSON.parse(fs.readFileSync(path.join(dataDir, 'k_code_wastes.json'), 'utf8'));
     } catch (error) {
       console.error('Failed to load F/K code data:', error);
     }

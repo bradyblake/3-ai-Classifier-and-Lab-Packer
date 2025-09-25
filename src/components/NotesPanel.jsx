@@ -8,7 +8,7 @@ export default function NotesPanel() {
 
   // Load notes from localStorage on mount
   useEffect(() => {
-    const savedNotes = localStorage.getItem('unboxed-dashboard-notes');
+    const savedNotes = localStorage.getItem('classifier-dashboard-notes');
     if (savedNotes) {
       setNotes(savedNotes);
     }
@@ -17,7 +17,7 @@ export default function NotesPanel() {
   // Save notes to localStorage when they change
   useEffect(() => {
     const timeoutId = setTimeout(() => {
-      localStorage.setItem('unboxed-dashboard-notes', notes);
+      localStorage.setItem('classifier-dashboard-notes', notes);
     }, 1000); // Debounce saves by 1 second
 
     return () => clearTimeout(timeoutId);

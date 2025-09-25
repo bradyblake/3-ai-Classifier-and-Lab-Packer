@@ -11,6 +11,8 @@
  */
 
 import { detectPhysicalState } from './PhysicalStateDetector_COMPLETED_.js';
+import fs from 'fs';
+import path from 'path';
 
 export class WasteCategoryTree {
   constructor() {
@@ -25,15 +27,12 @@ export class WasteCategoryTree {
 
   async loadRegulatoryData() {
     try {
-      // Load RCRA codes
-      const dCodesResponse = await fetch('/data/regulatory/d_code_limits.json');
-      this.dCodes = await dCodesResponse.json();
+      // Load RCRA codes using filesystem
+      const dataDir = path.resolve('data/regulatory');
 
-      const pCodesResponse = await fetch('/data/regulatory/p_code_wastes.json');
-      this.pCodes = await pCodesResponse.json();
-
-      const uCodesResponse = await fetch('/data/regulatory/u_code_wastes.json');
-      this.uCodes = await uCodesResponse.json();
+      this.dCodes = JSON.parse(fs.readFileSync(path.join(dataDir, 'd_code_limits.json'), 'utf8'));
+      this.pCodes = JSON.parse(fs.readFileSync(path.join(dataDir, 'p_code_wastes.json'), 'utf8'));
+      this.uCodes = JSON.parse(fs.readFileSync(path.join(dataDir, 'u_code_wastes.json'), 'utf8'));
 
       // TODO: Load F and K codes when available
       // TODO: Load state-specific regulations

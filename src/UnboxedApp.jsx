@@ -1,4 +1,4 @@
-// unboXed Dashboard Main Application
+// Revolutionary Classifier Dashboard Main Application
 // Complete dashboard with 3-pane layout
 
 import React, { useState, useEffect } from "react";
@@ -9,14 +9,14 @@ import NotesPanel from "./components/NotesPanel";
 import "./styles/Dashboard.css";
 import { ThemeProvider } from "./context/ThemeContext.jsx";
 
-export default function UnboxedApp() {
+export default function RevolutionaryApp() {
   const [activeTool, setActiveTool] = useState("TileDock");
   const [calendarEvents, setCalendarEvents] = useState([]);
   const [rightTab, setRightTab] = useState("notes");
 
   useEffect(() => {
     // Load saved calendar events from localStorage
-    const savedEvents = localStorage.getItem('unboxed-calendar-events');
+    const savedEvents = localStorage.getItem('classifier-calendar-events');
     if (savedEvents) {
       try {
         setCalendarEvents(JSON.parse(savedEvents));
@@ -28,13 +28,13 @@ export default function UnboxedApp() {
 
   useEffect(() => {
     // Save calendar events to localStorage
-    localStorage.setItem('unboxed-calendar-events', JSON.stringify(calendarEvents));
+    localStorage.setItem('classifier-calendar-events', JSON.stringify(calendarEvents));
   }, [calendarEvents]);
 
   useEffect(() => {
     // Expose global tool setter
     window.setActiveTool = setActiveTool;
-    window.unboxedAPI = {
+    window.classifierAPI = {
       setActiveTool,
       getActiveTool: () => activeTool,
       addCalendarEvent: (event) => addEvent(event),

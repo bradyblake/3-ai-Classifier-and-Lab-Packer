@@ -1,5 +1,5 @@
-// Revolutionary Classifier main.jsx - Integrated with unboXed UI framework
-console.log('🚀 Revolutionary Classifier with unboXed UI - Loading at', new Date().toLocaleTimeString());
+// Revolutionary Classifier - Advanced Project Management System
+console.log('🚀 Revolutionary Classifier - Loading at', new Date().toLocaleTimeString());
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';

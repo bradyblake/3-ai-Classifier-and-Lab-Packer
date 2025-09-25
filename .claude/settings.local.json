@@ -86,7 +86,9 @@
       "Bash(npx eslint:*)",
       "Bash(timeout 10 npm start)",
       "Bash(timeout 10 npm run dev)",
-      "Bash(move:*)"
+      "Bash(move:*)",
+      "Bash(npm run:*)",
+      "Bash(robocopy:*)"
     ],
     "deny": [],
     "ask": []

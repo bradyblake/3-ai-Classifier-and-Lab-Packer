@@ -10,14 +10,16 @@ import { ComprehensiveWasteClassifier } from './ComprehensiveWasteClassifier.js'
 import { StateSpecificRegulations } from './StateSpecificRegulations.js';
 import { FormGenerationSystem } from './FormGenerationSystem.js';
 import { detectPhysicalState } from './PhysicalStateDetector_COMPLETED_.js';
+import { SDSExtractionService } from '../services/SDSExtractionService.js';
 
 export class MasterWasteClassifier {
-  constructor() {
+  constructor(apiKeys = {}) {
     this.wasteCategoryTree = new WasteCategoryTree();
     this.detailedLogic = new DetailedClassificationLogic();
     this.comprehensiveClassifier = new ComprehensiveWasteClassifier();
     this.stateRegulations = new StateSpecificRegulations();
     this.formGenerator = new FormGenerationSystem();
+    this.sdsExtractor = new SDSExtractionService(apiKeys);
 
     this.trainingData = [];
     this.classificationHistory = [];
@@ -471,6 +473,114 @@ export class MasterWasteClassifier {
 
     // In production, this would be sent to a training data database
     console.log('Training data recorded:', trainingRecord.id);
+  }
+
+  /**
+   * Extract SDS data from file using API services
+   * @param {string} sdsFilePath - Path to SDS file
+   * @param {Object} options - Extraction and classification options
+   * @returns {Object} Complete extraction and classification results
+   */
+  async extractAndClassifyFromFile(sdsFilePath, options = {}) {
+    const startTime = Date.now();
+
+    try {
+      // Step 1: Extract structured data from SDS using APIs
+      console.log('🔍 Extracting SDS data with AI APIs...');
+      const sdsData = await this.sdsExtractor.extractFromFile(sdsFilePath, {
+        ...options,
+        includeRawText: true
+      });
+
+      // Step 2: Classify the extracted data
+      console.log('⚖️ Classifying waste using extracted data...');
+      const classificationResults = await this.classifyWaste(sdsData, options);
+
+      // Combine extraction and classification results
+      return {
+        extractionMeta: sdsData.extractionMeta,
+        classificationResults,
+        totalProcessingTime: Date.now() - startTime,
+        pipeline: 'SDS → API → JSON → Classification'
+      };
+
+    } catch (error) {
+      console.error('Pipeline error:', error.message);
+      throw new Error(`End-to-end processing failed: ${error.message}`);
+    }
+  }
+
+  /**
+   * Extract SDS data from raw text using API services
+   * @param {string} sdsText - Raw SDS text content
+   * @param {Object} options - Extraction and classification options
+   * @returns {Object} Complete extraction and classification results
+   */
+  async extractAndClassifyFromText(sdsText, options = {}) {
+    const startTime = Date.now();
+
+    try {
+      // Step 1: Extract structured data from SDS text using APIs
+      console.log('🔍 Extracting SDS data with AI APIs...');
+      const sdsData = await this.sdsExtractor.extractSDSData(sdsText, {
+        ...options,
+        includeRawText: true
+      });
+
+      // Step 2: Classify the extracted data
+      console.log('⚖️ Classifying waste using extracted data...');
+      const classificationResults = await this.classifyWaste(sdsData, options);
+
+      // Combine extraction and classification results
+      return {
+        extractionMeta: sdsData.extractionMeta,
+        classificationResults,
+        totalProcessingTime: Date.now() - startTime,
+        pipeline: 'SDS Text → API → JSON → Classification'
+      };
+
+    } catch (error) {
+      console.error('Pipeline error:', error.message);
+      throw new Error(`End-to-end processing failed: ${error.message}`);
+    }
+  }
+
+  /**
+   * Batch process multiple SDS files
+   * @param {Array<string>} filePaths - Array of SDS file paths
+   * @param {Object} options - Processing options
+   * @returns {Array} Array of processing results
+   */
+  async batchProcessSDS(filePaths, options = {}) {
+    console.log(`🔄 Starting batch processing of ${filePaths.length} SDS files...`);
+    const results = [];
+
+    for (let i = 0; i < filePaths.length; i++) {
+      const filePath = filePaths[i];
+      console.log(`Processing ${i + 1}/${filePaths.length}: ${filePath}`);
+
+      try {
+        const result = await this.extractAndClassifyFromFile(filePath, options);
+        results.push({
+          filePath,
+          success: true,
+          result
+        });
+        console.log(`✅ Successfully processed: ${filePath}`);
+      } catch (error) {
+        console.error(`❌ Failed to process ${filePath}:`, error.message);
+        results.push({
+          filePath,
+          success: false,
+          error: error.message
+        });
+      }
+    }
+
+    const successCount = results.filter(r => r.success).length;
+    console.log(`🎯 Batch processing complete: ${successCount}/${filePaths.length} successful`);
+
+    return results;
   }
 
   /**

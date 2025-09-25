@@ -1,7 +1,7 @@
 // Project Manager - Handles project creation and lab pack linking
 export class ProjectManager {
   constructor() {
-    this.storageKey = 'unboxed_projects';
+    this.storageKey = 'app_projects';
   }
 
   // Get all projects

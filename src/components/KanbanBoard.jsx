@@ -613,7 +613,7 @@ const KanbanBoard = () => {
   const handleGenerateManifest = (card) => {
     try {
       const manifest = manifestGenerator.generateFromProjectCard(card, {
-        generatorName: 'unboXed Environmental Services',
+        generatorName: 'Revolutionary Classifier Environmental Services',
         generatorAddress: '123 Industrial Blvd, Houston, TX 77001',
         generatorContact: 'Environmental Manager',
         generatorPhone: '(713) 555-0123',

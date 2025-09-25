@@ -22,7 +22,7 @@ export default function App() {
 
   const { validated, syncInfo } = useSecuritySync({
     syncData,
-    masterSecret: import.meta.env.VITE_UNBOXED_MASTER_SECRET,
+    masterSecret: import.meta.env.VITE_MASTER_SECRET,
   });
 
   useEffect(() => {

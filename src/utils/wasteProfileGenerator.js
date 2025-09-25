@@ -1,7 +1,7 @@
 // Waste Profile Generator - Creates EPA-compliant waste profiles from lab pack data
 export class WasteProfileGenerator {
   constructor() {
-    this.storageKey = 'unboxed_waste_profiles';
+    this.storageKey = 'app_waste_profiles';
   }
 
   // Get all saved waste profiles

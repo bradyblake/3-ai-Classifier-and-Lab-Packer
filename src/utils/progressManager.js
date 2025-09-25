@@ -1,8 +1,8 @@
 // Progress Manager - Tracks and manages user progress across all components
 export class ProgressManager {
   constructor() {
-    this.storageKey = 'unboxed_user_progress';
-    this.sessionKey = 'unboxed_active_session';
+    this.storageKey = 'app_user_progress';
+    this.sessionKey = 'app_active_session';
   }
 
   // Get all saved progress

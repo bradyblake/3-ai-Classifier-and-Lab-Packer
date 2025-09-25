@@ -1,5 +1,5 @@
 // Revolutionary Classifier React Component
-// Integrates the 100% accuracy ConstituentFirstClassifier with unboXed Dashboard UI
+// Integrates the 100% accuracy ConstituentFirstClassifier with Revolutionary Classifier UI
 
 import React, { useState, useCallback, useRef } from 'react';
 import { Upload, FileText, AlertCircle, CheckCircle, Loader, Trash2 } from 'lucide-react';

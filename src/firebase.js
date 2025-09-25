@@ -4,17 +4,38 @@ import { getAuth } from 'firebase/auth';
 import { getStorage, ref, uploadBytes, getDownloadURL } from 'firebase/storage';
 import { getFirestore, collection, addDoc, getDocs, doc, updateDoc, deleteDoc, setDoc } from 'firebase/firestore';
 
-// Firebase config from your existing project
+// Firebase config from environment variables
 const firebaseConfig = {
-  apiKey: "AIzaSyDr33OsWMmwc8JEqmTaJ3CLpG_Wxa8TTAA",
-  authDomain: "unboxed-kanban.firebaseapp.com",
-  projectId: "unboxed-kanban",
-  storageBucket: "unboxed-kanban.firebasestorage.app",
-  messagingSenderId: "1002789338824",
-  appId: "1:1002789338824:web:fc15f89301edcaf594affd"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID
 };
 
+// Validate Firebase configuration
+if (!firebaseConfig.apiKey || !firebaseConfig.authDomain || !firebaseConfig.projectId) {
+  console.error('❌ Firebase configuration missing. Please check your .env file.');
+  console.log('Required environment variables:');
+  console.log('- VITE_FIREBASE_API_KEY');
+  console.log('- VITE_FIREBASE_AUTH_DOMAIN');
+  console.log('- VITE_FIREBASE_PROJECT_ID');
+  console.log('- VITE_FIREBASE_STORAGE_BUCKET');
+  console.log('- VITE_FIREBASE_MESSAGING_SENDER_ID');
+  console.log('- VITE_FIREBASE_APP_ID');
+}
+
 // Initialize Firebase
+console.log('🔥 Initializing Firebase with config:', {
+  apiKey: firebaseConfig.apiKey ? '✅ Set' : '❌ Missing',
+  authDomain: firebaseConfig.authDomain ? '✅ Set' : '❌ Missing',
+  projectId: firebaseConfig.projectId || '❌ Missing',
+  storageBucket: firebaseConfig.storageBucket ? '✅ Set' : '❌ Missing',
+  messagingSenderId: firebaseConfig.messagingSenderId ? '✅ Set' : '❌ Missing',
+  appId: firebaseConfig.appId ? '✅ Set' : '❌ Missing'
+});
+
 const firebaseApp = initializeApp(firebaseConfig);
 
 // Initialize Firebase services

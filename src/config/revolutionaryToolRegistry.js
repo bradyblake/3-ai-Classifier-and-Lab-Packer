@@ -1,5 +1,5 @@
 // Revolutionary Classifier Tool Registry
-// Adapted from unboXed Dashboard - Core UI infrastructure for integrated system
+// Revolutionary Classifier Tool Registry - Core UI infrastructure for integrated system
 
 // Optimized Lazy-Loaded Components for Performance
 import {

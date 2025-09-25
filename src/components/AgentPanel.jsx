@@ -9,7 +9,7 @@ export default function AgentPanel({ calendarEvents, addEventToCalendar, activeT
     {
       id: 1,
       type: 'assistant',
-      text: '🤖 Hello! I\'m your unboXed Dashboard assistant. I can help you navigate tools, manage calendar events, and answer questions about your workflow.',
+      text: '🤖 Hello! I\'m your Revolutionary Classifier assistant. I can help you navigate tools, manage calendar events, and answer questions about your workflow.',
       timestamp: new Date()
     }
   ]);
