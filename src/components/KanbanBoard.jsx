@@ -1435,6 +1435,21 @@ ${Object.entries(locationWorkload).map(([location, count]) => {
     alert(`🎉 Sales period closed successfully!\n\nActive jobs (${remainingCards.length}) moved to new period.\nCompleted jobs archived with EOP report.\n\nNext period: ${nextPeriodData.year}`);
   };
 
+  // Handle EOP completion callback
+  const handleEopComplete = (archivedData) => {
+    console.log('📋 EOP archival completed:', archivedData);
+
+    // Refresh the cards to reflect any changes
+    const storedCards = JSON.parse(localStorage.getItem('kanbanCards') || '[]');
+    setCards(storedCards);
+
+    // Close the EOP modal
+    setEopModalOpen(false);
+
+    // Show success message
+    alert(`✅ End of Period archival completed!\n\nArchived: ${archivedData?.archivedCount || 0} completed jobs\nRemaining: ${storedCards.length} active jobs`);
+  };
+
   // Handle recurring job settings
   const handleSaveRecurring = (cardId, recurringData) => {
     const updatedCards = updateRecurringJob(cards, cardId, recurringData, saveCards);

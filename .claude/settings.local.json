@@ -80,7 +80,9 @@
       "Bash(PORT=3000 npm start)",
       "Bash(npm start)",
       "Bash(start http://localhost:5174/debug-reset.html)",
-      "Bash(npm run build:*)"
+      "Bash(npm run build:*)",
+      "Bash(findstr:*)",
+      "Bash(npm run preview:*)"
     ],
     "deny": [],
     "ask": []
