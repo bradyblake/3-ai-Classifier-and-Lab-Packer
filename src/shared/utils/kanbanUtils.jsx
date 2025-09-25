@@ -254,20 +254,30 @@ export function getLeadSourcesByType() {
 }
 
 // Revenue Category Management
-export function getStatusRevenueCategory(statusName, card = null) {
-  const normalizedStatus = statusName.toLowerCase();
-  
-  // Override: Completed jobs are always Projected, regardless of scheduling
-  if (normalizedStatus.includes('complete') || normalizedStatus === 'completed' || normalizedStatus === 'job complete') {
-    return 'Projected';
+export function getStatusRevenueCategory(statusName, card = null, statuses = []) {
+  // First, try to get the category from the configured statuses
+  const status = statuses.find(s => s.name === statusName);
+  if (status && status.revenueCategory) {
+    console.log(`📋 Using configured category for "${statusName}": ${status.revenueCategory}`);
+    return status.revenueCategory;
   }
-  
+
+  // If not found in configuration, fall back to intelligent defaults
+  const normalizedStatus = statusName.toLowerCase();
+
+  console.log(`⚠️ No configuration found for status "${statusName}", using fallback logic`);
+
+  // Override: Completed jobs are always Actual revenue
+  if (normalizedStatus.includes('complete') || normalizedStatus === 'completed' || normalizedStatus === 'job complete') {
+    return 'Actual';
+  }
+
   // Special handling for scheduled jobs - check if completion falls within sales period
   if ((normalizedStatus.includes('scheduled') || normalizedStatus === 'job scheduled') && card) {
     return getScheduledJobRevenueCategory(card);
   }
-  
-  // Default revenue categories for common status names
+
+  // Default revenue categories for common status names (fallback only)
   const categoryMap = {
     // Pipeline statuses (potential revenue)
     'quote submitted': 'Pipeline',
@@ -275,38 +285,44 @@ export function getStatusRevenueCategory(statusName, card = null) {
     'quote pending': 'Pipeline',
     'awaiting approval': 'Pipeline',
     'under review': 'Pipeline',
-    
+    'lead': 'Pipeline',
+    'quoted': 'Pipeline',
+
     // Projected statuses (likely revenue)
     'quote approved': 'Projected',
-    'job scheduled': 'Projected', // Will be overridden by scheduling logic above
+    'job scheduled': 'Projected',
     'job in progress': 'Projected',
     'work in progress': 'Projected',
-    'job complete': 'Projected', // Will be overridden by completion logic above
-    'completed': 'Projected',    // Will be overridden by completion logic above
-    
+    'in progress': 'Projected',
+    'scheduled': 'Projected',
+
     // Actual revenue (confirmed revenue)
+    'job complete': 'Actual',
+    'completed': 'Actual',
     'invoiced': 'Actual',
     'billed': 'Actual',
     'paid': 'Actual',
-    'closed': 'Actual'
+    'closed': 'Actual',
+    'finished': 'Actual',
+    'done': 'Actual'
   };
-  
+
   // Check exact match first
   if (categoryMap[normalizedStatus]) {
     return categoryMap[normalizedStatus];
   }
-  
+
   // Check for partial matches
-  if (normalizedStatus.includes('quote') || normalizedStatus.includes('pending')) {
+  if (normalizedStatus.includes('quote') || normalizedStatus.includes('pending') || normalizedStatus.includes('lead')) {
     return 'Pipeline';
+  }
+  if (normalizedStatus.includes('complete') || normalizedStatus.includes('done') || normalizedStatus.includes('finish') || normalizedStatus.includes('paid') || normalizedStatus.includes('billed') || normalizedStatus.includes('invoice')) {
+    return 'Actual';
   }
   if (normalizedStatus.includes('approved') || normalizedStatus.includes('scheduled') || normalizedStatus.includes('progress')) {
     return 'Projected';
   }
-  if (normalizedStatus.includes('paid') || normalizedStatus.includes('billed') || normalizedStatus.includes('invoice')) {
-    return 'Actual';
-  }
-  
+
   // Default fallback
   return 'Pipeline';
 }

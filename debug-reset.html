@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Debug LocalStorage Reset</title>
+</head>
+<body>
+    <h1>Debug LocalStorage Reset</h1>
+
+    <h2>Current LocalStorage Data:</h2>
+    <div id="current-data"></div>
+
+    <br>
+    <button onclick="clearData()">Clear All Data</button>
+    <button onclick="initializeData()">Initialize Fresh Data</button>
+    <button onclick="showData()">Refresh Display</button>
+
+    <script>
+        function showData() {
+            const data = {
+                platformSetup: localStorage.getItem('platformSetup'),
+                kanbanCards: localStorage.getItem('kanbanCards')
+            };
+
+            document.getElementById('current-data').innerHTML = '<pre>' + JSON.stringify(data, null, 2) + '</pre>';
+        }
+
+        function clearData() {
+            localStorage.removeItem('platformSetup');
+            localStorage.removeItem('kanbanCards');
+            localStorage.removeItem('laneAbbreviations');
+            console.log('✅ Cleared all localStorage data');
+            showData();
+        }
+
+        function initializeData() {
+            const platformSetup = {
+                lanes: [
+                    { id: 'houston', name: 'Houston', color: '#16a34a', abbreviation: 'HOU' },
+                    { id: 'dallas', name: 'Dallas', color: '#0284c7', abbreviation: 'DAL' }
+                ],
+                statuses: [
+                    { id: 'lead', name: 'Lead', color: '#6b7280', revenueCategory: 'Pipeline' },
+                    { id: 'quoted', name: 'Quoted', color: '#f59e0b', revenueCategory: 'Pipeline' },
+                    { id: 'contracted', name: 'Contracted', color: '#0ea5e9', revenueCategory: 'Projected' },
+                    { id: 'active', name: 'Active', color: '#8b5cf6', revenueCategory: 'Projected' },
+                    { id: 'completed', name: 'Completed', color: '#22c55e', revenueCategory: 'Actual' }
+                ]
+            };
+
+            localStorage.setItem('platformSetup', JSON.stringify(platformSetup));
+            localStorage.setItem('kanbanCards', JSON.stringify([]));
+
+            console.log('✅ Initialized fresh data:', platformSetup);
+            showData();
+        }
+
+        // Show data on load
+        showData();
+    </script>
+</body>
+</html>

@@ -41,6 +41,20 @@ export default function TileDock({ openTool }) {
     return { activeSteps, hasActiveWorkflow };
   };
   const toolCategories = {
+    "Project Management": [
+      {
+        name: "ProjectKanban",
+        title: "Project Kanban Board",
+        description: "Visual project tracking and workflow management",
+        icon: <Kanban />,
+        color: "var(--env-earth-500)",
+        bgColor: "var(--env-earth-50)"
+      }
+    ]
+  };
+
+  // Original full categories (commented out)
+  const originalToolCategories = {
     "Analysis & Classification": [
       {
         name: "SDSAnalyzer",

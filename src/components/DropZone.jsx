@@ -7,14 +7,27 @@ const DropZone = ({ onDrop, children, className = '', lane, status }) => {
   const [{ isOver, canDrop }, drop] = useDrop({
     accept: ItemType,
     drop: (item, monitor) => {
+      // Only process if we're the deepest drop target
+      if (!monitor.isOver({ shallow: true })) return;
+
+      console.log('📦 Drop event triggered:', { item, lane, status, onDrop: !!onDrop });
       if (onDrop) {
         onDrop(item, lane, status);
       }
+      return { lane, status }; // Return drop result for drag end handler
+    },
+    hover: (item, monitor) => {
+      if (!monitor.isOver({ shallow: true })) return;
+      console.log('🌊 Hover over drop zone:', { lane, status, itemId: item.id });
     },
     collect: (monitor) => ({
-      isOver: monitor.isOver(),
+      isOver: monitor.isOver({ shallow: true }),
       canDrop: monitor.canDrop(),
     }),
+    canDrop: (item) => {
+      console.log('🎯 Can drop check:', { itemId: item.id, lane, status });
+      return true;
+    },
   });
 
   const isActive = isOver && canDrop;

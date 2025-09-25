@@ -1,0 +1,1959 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Management Kanban Board</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Minimal custom overrides */
+
+        .error-message {
+            color: var(--status-danger);
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .success-message {
+            color: var(--status-success);
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .default-credentials {
+            background: var(--env-primary-50);
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 0.875rem;
+            color: var(--env-primary-700);
+            border: 1px solid var(--env-primary-200);
+        }
+
+        /* These styles are now in styles.css */
+
+        /* Config styles moved to styles.css */
+        .config-item-content {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .color-indicator {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            border: 2px solid #dee2e6;
+        }
+
+        .config-actions {
+            display: flex;
+            gap: 5px;
+        }
+
+        /* Forms */
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .form-row.single {
+            grid-template-columns: 1fr;
+        }
+
+        /* Projects List */
+        .project-card {
+            background: white;
+            border: 1px solid #e9ecef;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        .project-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .project-title {
+            font-size: 1.4em;
+            font-weight: bold;
+            color: #2c5aa0;
+        }
+
+        .project-number {
+            background: #667eea;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 15px;
+            font-size: 0.9em;
+        }
+
+        .project-details {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+
+        .project-detail {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .project-detail-label {
+            font-size: 0.8em;
+            color: #6c757d;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 2px;
+        }
+
+        .project-detail-value {
+            font-weight: 600;
+            color: #333;
+        }
+
+        /* Kanban styles in styles.css */
+
+        /* Modal styles in styles.css */
+        .modal-content {
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+
+        .loading {
+            opacity: 0.6;
+            pointer-events: none;
+        }
+
+        /* Section styles in styles.css */
+
+        /* Smart Automation Styles */
+        .smart-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 20px;
+        }
+
+        .smart-section h3 {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .file-drop-zone {
+            border: 3px dashed rgba(255,255,255,0.3);
+            border-radius: 15px;
+            padding: 40px;
+            text-align: center;
+            background: rgba(255,255,255,0.1);
+            transition: all 0.3s;
+            cursor: pointer;
+            margin: 20px 0;
+        }
+
+        .file-drop-zone:hover,
+        .file-drop-zone.dragover {
+            border-color: rgba(255,255,255,0.8);
+            background: rgba(255,255,255,0.2);
+            transform: translateY(-2px);
+        }
+
+        .file-drop-zone.processing {
+            border-color: #28a745;
+            background: rgba(40,167,69,0.2);
+        }
+
+        .drop-icon {
+            font-size: 3em;
+            margin-bottom: 15px;
+            opacity: 0.8;
+        }
+
+        .smart-features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .smart-feature {
+            background: rgba(255,255,255,0.1);
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .automation-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .automation-stat {
+            background: rgba(255,255,255,0.1);
+            border-radius: 8px;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .automation-stat-value {
+            font-size: 1.8em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .automation-stat-label {
+            font-size: 0.8em;
+            opacity: 0.8;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .upload-status {
+            background: rgba(255,255,255,0.1);
+            border-radius: 8px;
+            padding: 15px;
+            margin: 15px 0;
+            display: none;
+        }
+
+        .upload-status.show {
+            display: block;
+        }
+
+        .calendar-automation {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .calendar-event {
+            background: white;
+            border-left: 4px solid #667eea;
+            border-radius: 6px;
+            padding: 12px;
+            margin: 8px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .calendar-event-title {
+            font-weight: bold;
+            color: #2c5aa0;
+            margin-bottom: 5px;
+        }
+
+        .calendar-event-details {
+            font-size: 0.9em;
+            color: #6c757d;
+        }
+
+        .smart-toggle {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin: 10px 0;
+        }
+
+        .toggle-switch {
+            position: relative;
+            width: 50px;
+            height: 24px;
+        }
+
+        .toggle-switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            transition: 0.4s;
+            border-radius: 24px;
+        }
+
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 18px;
+            width: 18px;
+            left: 3px;
+            bottom: 3px;
+            background-color: white;
+            transition: 0.4s;
+            border-radius: 50%;
+        }
+
+        input:checked + .slider {
+            background-color: #28a745;
+        }
+
+        input:checked + .slider:before {
+            transform: translateX(26px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Login Screen -->
+        <div id="loginScreen">
+            <div class="header">
+                <h1>📌 Project Management Kanban Board</h1>
+                <p>Streamlined Task Management and Workflow Visualization</p>
+            </div>
+
+            <div class="login-container">
+                <form id="loginForm" class="login-form">
+                    <h2>Login to Platform</h2>
+
+                    <div class="default-credentials">
+                        <strong>Default Login:</strong><br>
+                        Username: admin<br>
+                        Password: admin123
+                    </div>
+
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" name="username" value="admin" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" value="admin123" required>
+                    </div>
+
+                    <button type="submit" class="btn" id="loginBtn">Login</button>
+
+                    <div id="loginError" class="error-message"></div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Main Dashboard -->
+        <div id="dashboard" class="dashboard">
+            <div class="nav-bar">
+                <div class="nav-tabs">
+                    <button class="nav-tab active" onclick="showTab('overview')">📊 Overview</button>
+                    <button class="nav-tab" onclick="showTab('setup')">⚙️ Setup</button>
+                    <!-- <button class="nav-tab" onclick="showTab('projects')">📋 Projects</button> -->
+                    <button class="nav-tab" onclick="showTab('kanban')">📌 Kanban</button>
+                    <!-- <button class="nav-tab" onclick="showTab('calendar')">📅 Smart Calendar</button> -->
+                    <!-- <button class="nav-tab" onclick="showTab('automation')">🤖 Automation</button> -->
+                    <!-- <button class="nav-tab" onclick="showTab('personnel')">👥 Personnel</button> -->
+                    <!-- <button class="nav-tab" onclick="showTab('vendors')">🏢 Vendors</button> -->
+                    <!-- <button class="nav-tab" onclick="showTab('reports')">📈 Reports</button> -->
+                    <!-- <button class="nav-tab" onclick="showTab('quotes')">💰 Quotes</button> -->
+                </div>
+
+                <div class="user-info">
+                    <span id="welcomeUser">Welcome, Admin</span>
+                    <button class="logout-btn" onclick="logout()">Logout</button>
+                </div>
+            </div>
+
+            <!-- Overview Tab -->
+            <div id="overview" class="tab-content active">
+                <h2>Dashboard Overview</h2>
+
+                <div class="stats-grid" id="statsGrid">
+                    <div class="stat-card">
+                        <div class="stat-value" id="totalTasks">0</div>
+                        <div class="stat-label">Total Tasks</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="todoTasks">0</div>
+                        <div class="stat-label">To Do</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="inProgressTasks">0</div>
+                        <div class="stat-label">In Progress</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="completedTasks">0</div>
+                        <div class="stat-label">Completed</div>
+                    </div>
+                </div>
+
+                <div class="quick-actions">
+                    <div class="action-card" onclick="showTab('kanban')">
+                        <span class="action-icon">📌</span>
+                        <h3>Kanban Board</h3>
+                        <p>View and manage your project tasks</p>
+                    </div>
+
+                    <div class="action-card" onclick="showTab('setup')">
+                        <span class="action-icon">⚙️</span>
+                        <h3>Setup</h3>
+                        <p>Configure Kanban columns and settings</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Setup Tab -->
+            <div id="setup" class="tab-content">
+                <h2>Platform Setup & Configuration</h2>
+                <p>Configure your workflow, locations, and project settings.</p>
+
+                <!-- Kanban Columns Setup -->
+                <div class="section-header">
+                    <h3>Kanban Board Columns</h3>
+                    <button class="btn btn-small" onclick="openAddColumnModal()">+ Add Column</button>
+                </div>
+                <div id="kanbanColumnsConfig" class="config-list"></div>
+
+                <!-- Locations Setup -->
+                <div class="section-header">
+                    <h3>Project Locations</h3>
+                    <button class="btn btn-small" onclick="openAddLocationModal()">+ Add Location</button>
+                </div>
+                <div id="locationsConfig" class="config-list"></div>
+
+                <!-- Project Statuses Setup -->
+                <!-- <div class="section-header">
+                    <h3>Project Statuses (Kanban Columns)</h3>
+                    <button class="btn btn-small" onclick="openAddStatusModal()">+ Add Status</button>
+                </div>
+                <div id="statusesConfig" class="config-list"></div> -->
+
+                <!-- Positions Setup -->
+                <!-- <div class="section-header">
+                    <h3>Staff Positions</h3>
+                    <button class="btn btn-small" onclick="openAddPositionModal()">+ Add Position</button>
+                </div>
+                <div id="positionsConfig" class="config-list"></div> -->
+            </div>
+
+            <!-- Projects Tab -->
+            <!-- <div id="projects" class="tab-content">
+                <div class="section-header">
+                    <h2>Project Management</h2>
+                    <button class="btn btn-small" onclick="openCreateProjectModal()">+ Create Project</button>
+                </div>
+                <div id="projectsList"></div>
+            </div> -->
+
+            <!-- Kanban Tab -->
+            <div id="kanban" class="tab-content">
+                <div class="section-header">
+                    <h2>Kanban Board</h2>
+                    <button class="btn btn-small" onclick="openCreateTaskModal()">+ Add Task</button>
+                </div>
+                <div id="kanbanBoard" class="kanban-board"></div>
+            </div>
+
+            <!-- Smart Automation Tab -->
+            <!-- <div id="automation" class="tab-content">
+                <div class="smart-section">
+                    <h3>🤖 Smart File Processing</h3>
+                    <p>Drop files here for automatic project association and task creation</p>
+
+                    <div class="file-drop-zone" id="fileDropZone" onclick="document.getElementById('fileInput').click()">
+                        <div class="drop-icon">📁</div>
+                        <h4>Drop Files Here or Click to Upload</h4>
+                        <p>Supports PDF, DOC, TXT, and image files</p>
+                        <p>AI will automatically detect project type and create relevant tasks</p>
+                        <input type="file" id="fileInput" style="display: none" multiple accept=".pdf,.doc,.docx,.txt,.jpg,.jpeg,.png">
+                    </div>
+
+                    <div class="upload-status" id="uploadStatus"></div>
+
+                    <div class="smart-features">
+                        <div class="smart-feature">
+                            <div style="font-size: 2em; margin-bottom: 10px;">🔍</div>
+                            <h4>Keyword Detection</h4>
+                            <p>Automatically identifies project types from document content</p>
+                        </div>
+                        <div class="smart-feature">
+                            <div style="font-size: 2em; margin-bottom: 10px;">📋</div>
+                            <h4>Task Generation</h4>
+                            <p>Creates relevant tasks and milestones based on project type</p>
+                        </div>
+                        <div class="smart-feature">
+                            <div style="font-size: 2em; margin-bottom: 10px;">📅</div>
+                            <h4>Calendar Events</h4>
+                            <p>Auto-schedules deadlines and review meetings</p>
+                        </div>
+                        <div class="smart-feature">
+                            <div style="font-size: 2em; margin-bottom: 10px;">💰</div>
+                            <h4>Budget Estimation</h4>
+                            <p>Suggests budget ranges based on project scope</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="automation-stats">
+                    <div class="automation-stat">
+                        <div class="automation-stat-value" id="automationProcessed">0</div>
+                        <div class="automation-stat-label">Files Processed</div>
+                    </div>
+                    <div class="automation-stat">
+                        <div class="automation-stat-value" id="automationProjects">0</div>
+                        <div class="automation-stat-label">Smart Projects</div>
+                    </div>
+                    <div class="automation-stat">
+                        <div class="automation-stat-value" id="automationTasks">0</div>
+                        <div class="automation-stat-label">Auto Tasks</div>
+                    </div>
+                    <div class="automation-stat">
+                        <div class="automation-stat-value" id="automationEvents">0</div>
+                        <div class="automation-stat-label">Auto Events</div>
+                    </div>
+                </div>
+
+                <div class="section-header">
+                    <h2>Automation Settings</h2>
+                </div>
+
+                <div class="smart-toggle">
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="autoProjectCreation" checked>
+                        <span class="slider"></span>
+                    </label>
+                    <span>Automatic project creation from files</span>
+                </div>
+
+                <div class="smart-toggle">
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="autoTaskGeneration" checked>
+                        <span class="slider"></span>
+                    </label>
+                    <span>Generate tasks and milestones automatically</span>
+                </div>
+
+                <div class="smart-toggle">
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="autoCalendarEvents" checked>
+                        <span class="slider"></span>
+                    </label>
+                    <span>Create calendar events for deadlines</span>
+                </div>
+
+                <div class="smart-toggle">
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="autoBudgetEstimation" checked>
+                        <span class="slider"></span>
+                    </label>
+                    <span>Suggest budget estimates for projects</span>
+                </div>
+            </div> -->
+
+            <!-- Calendar Tab -->
+            <!-- <div id="calendar" class="tab-content">
+                <div class="section-header">
+                    <h2>Smart Calendar & Events</h2>
+                    <button class="btn btn-small" onclick="openCreateEventModal()">+ Create Event</button>
+                </div>
+
+                <div class="calendar-automation">
+                    <h3>🤖 Auto-Generated Events</h3>
+                    <div id="autoEvents">
+                        <div class="calendar-event">
+                            <div class="calendar-event-title">📋 Environmental Consulting - Initial Site Assessment</div>
+                            <div class="calendar-event-details">Tomorrow at 9:00 AM • Auto-generated from project milestone</div>
+                        </div>
+                        <div class="calendar-event">
+                            <div class="calendar-event-title">🔬 Lab Pack Service - Sample Collection Deadline</div>
+                            <div class="calendar-event-details">Friday at 2:00 PM • Generated from uploaded documents</div>
+                        </div>
+                        <div class="calendar-event">
+                            <div class="calendar-event-title">📊 Compliance Audit - Documentation Review</div>
+                            <div class="calendar-event-details">Next Monday at 10:00 AM • Smart milestone</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="calendarView">
+                    <div class="empty-state">
+                        <div class="empty-state-icon">📅</div>
+                        <p>Smart calendar events will appear here as you upload files and create projects.</p>
+                        <p>The system automatically generates relevant deadlines and meetings.</p>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- Reports Tab -->
+            <!-- <div id="reports" class="tab-content">
+                <div class="section-header">
+                    <h2>Financial Reports</h2>
+                    <button class="btn btn-small" onclick="loadReports()">🔄 Refresh Reports</button>
+                </div>
+                <div id="reportsView"></div>
+            </div> -->
+
+            <!-- Personnel Tab -->
+            <!-- <div id="personnel" class="tab-content">
+                <div class="section-header">
+                    <h2>Personnel Management</h2>
+                    <button class="btn btn-small" onclick="openAddPersonnelModal()">+ Add Personnel</button>
+                </div>
+                <div id="personnelList"></div>
+            </div> -->
+
+            <!-- Vendors Tab -->
+            <!-- <div id="vendors" class="tab-content">
+                <div class="section-header">
+                    <h2>Vendor Management</h2>
+                    <button class="btn btn-small" onclick="openAddVendorModal()">+ Add Vendor</button>
+                </div>
+                <div id="vendorsList"></div>
+            </div> -->
+
+            <!-- Quotes Tab -->
+            <!-- <div id="quotes" class="tab-content">
+                <div class="section-header">
+                    <h2>Quote Builder</h2>
+                    <button class="btn btn-small" onclick="openCreateQuoteModal()">+ Create Quote</button>
+                </div>
+                <div id="quotesView"></div>
+            </div> -->
+        </div>
+    </div>
+
+    <!-- Add Column Modal -->
+    <div id="addColumnModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('addColumnModal')">&times;</span>
+            <h2>Add Kanban Column</h2>
+            <form id="addColumnForm">
+                <div class="form-group">
+                    <label for="columnName">Column Name</label>
+                    <input type="text" id="columnName" required>
+                </div>
+                <div class="form-group">
+                    <label for="columnColor">Color</label>
+                    <input type="color" id="columnColor" value="#667eea" required>
+                </div>
+                <button type="submit" class="btn">Add Column</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Add Location Modal -->
+    <div id="addLocationModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('addLocationModal')">&times;</span>
+            <h2>Add Location</h2>
+            <form id="addLocationForm">
+                <div class="form-group">
+                    <label for="locationName">Location Name</label>
+                    <input type="text" id="locationName" placeholder="e.g., Dallas, TX" required>
+                </div>
+                <button type="submit" class="btn">Add Location</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Add Status Modal -->
+    <!-- <div id="addStatusModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('addStatusModal')">&times;</span>
+            <h2>Add Project Status</h2>
+            <form id="addStatusForm">
+                <div class="form-group">
+                    <label for="statusName">Status Name</label>
+                    <input type="text" id="statusName" placeholder="e.g., In Progress" required>
+                </div>
+                <button type="submit" class="btn">Add Status</button>
+            </form>
+        </div>
+    </div> -->
+
+    <!-- Add Position Modal -->
+    <!-- <div id="addPositionModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('addPositionModal')">&times;</span>
+            <h2>Add Staff Position</h2>
+            <form id="addPositionForm">
+                <div class="form-group">
+                    <label for="positionName">Position Name</label>
+                    <input type="text" id="positionName" placeholder="e.g., Environmental Scientist" required>
+                </div>
+                <button type="submit" class="btn">Add Position</button>
+            </form>
+        </div>
+    </div> -->
+
+    <!-- Create Project Modal -->
+    <!-- <div id="createProjectModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('createProjectModal')">&times;</span>
+            <h2>Create New Project</h2>
+
+            <div class="smart-toggle">
+                <label class="toggle-switch">
+                    <input type="checkbox" id="enableSmartCreation" checked>
+                    <span class="slider"></span>
+                </label>
+                <span>🤖 Enable Smart Project Creation</span>
+            </div>
+
+            <form id="createProjectForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="projectName">Project Name</label>
+                        <input type="text" id="projectName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="projectType">Project Type</label>
+                        <select id="projectType">
+                            <option value="">Select Type for Smart Features</option>
+                            <option value="environmental_consulting">Environmental Consulting</option>
+                            <option value="lab_pack">Lab Pack Service</option>
+                            <option value="compliance_audit">Compliance Audit</option>
+                            <option value="waste_management">Waste Management</option>
+                            <option value="air_quality">Air Quality Assessment</option>
+                            <option value="water_testing">Water Testing</option>
+                            <option value="site_remediation">Site Remediation</option>
+                            <option value="custom">Custom Project</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="projectLocation">Location</label>
+                        <select id="projectLocation" required></select>
+                    </div>
+                    <div class="form-group">
+                        <label for="projectStatus">Status</label>
+                        <select id="projectStatus" required></select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="projectBudget">Budget Amount ($)</label>
+                        <input type="number" id="projectBudget" min="0" step="0.01">
+                        <small id="budgetSuggestion" style="color: #28a745; display: none;"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="projectPriority">Priority Level</label>
+                        <select id="projectPriority">
+                            <option value="low">Low</option>
+                            <option value="medium" selected>Medium</option>
+                            <option value="high">High</option>
+                            <option value="urgent">Urgent</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="projectDescription">Description</label>
+                    <textarea id="projectDescription" rows="3"></textarea>
+                </div>
+
+                <div id="smartPreview" style="background: #f8f9fa; padding: 15px; border-radius: 8px; margin: 15px 0; display: none;">
+                    <h4>🤖 Smart Features Preview:</h4>
+                    <div id="smartMilestones"></div>
+                    <div id="smartEvents"></div>
+                </div>
+
+                <button type="submit" class="btn">Create Project</button>
+            </form>
+        </div>
+    </div> -->
+
+    <!-- Add Personnel Modal -->
+    <!-- <div id="addPersonnelModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('addPersonnelModal')">&times;</span>
+            <h2>Add Personnel</h2>
+            <form id="addPersonnelForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="personnelName">Full Name</label>
+                        <input type="text" id="personnelName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="personnelEmail">Email</label>
+                        <input type="email" id="personnelEmail" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="personnelPhone">Phone</label>
+                        <input type="tel" id="personnelPhone">
+                    </div>
+                    <div class="form-group">
+                        <label for="personnelPosition">Position</label>
+                        <select id="personnelPosition" required></select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="personnelLocation">Location</label>
+                        <select id="personnelLocation" required></select>
+                    </div>
+                    <div class="form-group">
+                        <label for="personnelHourlyRate">Hourly Rate ($)</label>
+                        <input type="number" id="personnelHourlyRate" min="0" step="0.01">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="personnelSkills">Skills (comma separated)</label>
+                    <input type="text" id="personnelSkills" placeholder="e.g., Environmental Testing, Lab Analysis">
+                </div>
+                <div class="form-group">
+                    <label for="personnelAvailability">Availability</label>
+                    <select id="personnelAvailability">
+                        <option value="Available">Available</option>
+                        <option value="Busy">Busy</option>
+                        <option value="On Leave">On Leave</option>
+                        <option value="Part Time">Part Time</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn">Add Personnel</button>
+            </form>
+        </div>
+    </div> -->
+
+    <!-- Add Vendor Modal -->
+    <!-- <div id="addVendorModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('addVendorModal')">&times;</span>
+            <h2>Add Vendor</h2>
+            <form id="addVendorForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="vendorName">Company Name</label>
+                        <input type="text" id="vendorName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="vendorContactName">Contact Name</label>
+                        <input type="text" id="vendorContactName" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="vendorEmail">Email</label>
+                        <input type="email" id="vendorEmail" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="vendorPhone">Phone</label>
+                        <input type="tel" id="vendorPhone">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="vendorAddress">Address</label>
+                    <textarea id="vendorAddress" rows="2"></textarea>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="vendorServices">Services Provided</label>
+                        <input type="text" id="vendorServices" placeholder="e.g., Waste Disposal, Laboratory Testing">
+                    </div>
+                    <div class="form-group">
+                        <label for="vendorRating">Rating (1-5)</label>
+                        <select id="vendorRating">
+                            <option value="0">Not Rated</option>
+                            <option value="1">1 Star</option>
+                            <option value="2">2 Stars</option>
+                            <option value="3">3 Stars</option>
+                            <option value="4">4 Stars</option>
+                            <option value="5" selected>5 Stars</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="vendorCertifications">Certifications</label>
+                        <input type="text" id="vendorCertifications" placeholder="e.g., EPA Certified, ISO 14001">
+                    </div>
+                    <div class="form-group">
+                        <label for="vendorStatus">Status</label>
+                        <select id="vendorStatus">
+                            <option value="Active" selected>Active</option>
+                            <option value="Preferred">Preferred</option>
+                            <option value="On Hold">On Hold</option>
+                            <option value="Inactive">Inactive</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="vendorNotes">Notes</label>
+                    <textarea id="vendorNotes" rows="3" placeholder="Additional notes about this vendor..."></textarea>
+                </div>
+                <button type="submit" class="btn">Add Vendor</button>
+            </form>
+        </div>
+    </div> -->
+
+    <script>
+        let authToken = localStorage.getItem('authToken');
+        let currentUser = null;
+        let workflowConfig = {};
+
+        // Initialize app
+        document.addEventListener('DOMContentLoaded', function() {
+            if (authToken) {
+                showDashboard();
+                loadDashboardData();
+            } else {
+                showLogin();
+            }
+        });
+
+        // Authentication
+        document.getElementById('loginForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            const loginBtn = document.getElementById('loginBtn');
+            const errorDiv = document.getElementById('loginError');
+
+            loginBtn.disabled = true;
+            loginBtn.textContent = 'Logging in...';
+            errorDiv.textContent = '';
+
+            try {
+                const response = await fetch('/auth/login', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ username, password })
+                });
+
+                const data = await response.json();
+
+                if (response.ok) {
+                    authToken = data.token;
+                    currentUser = data.user;
+                    localStorage.setItem('authToken', authToken);
+
+                    showDashboard();
+                    loadDashboardData();
+                } else {
+                    errorDiv.textContent = data.error || 'Login failed';
+                }
+            } catch (error) {
+                errorDiv.textContent = 'Network error. Please try again.';
+                console.error('Login error:', error);
+            } finally {
+                loginBtn.disabled = false;
+                loginBtn.textContent = 'Login';
+            }
+        });
+
+        function logout() {
+            authToken = null;
+            currentUser = null;
+            localStorage.removeItem('authToken');
+            showLogin();
+        }
+
+        function showLogin() {
+            document.getElementById('loginScreen').style.display = 'block';
+            document.getElementById('dashboard').classList.remove('active');
+        }
+
+        function showDashboard() {
+            document.getElementById('loginScreen').style.display = 'none';
+            document.getElementById('dashboard').classList.add('active');
+
+            if (currentUser) {
+                document.getElementById('welcomeUser').textContent = `Welcome, ${currentUser.username}`;
+            }
+        }
+
+        // Tab Management
+        function showTab(tabName) {
+            // Update nav tabs
+            document.querySelectorAll('.nav-tab').forEach(tab => tab.classList.remove('active'));
+            event.target.classList.add('active');
+
+            // Update tab content
+            document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+            document.getElementById(tabName).classList.add('active');
+
+            // Load specific tab data
+            if (tabName === 'setup') {
+                loadSetupData();
+            } else if (tabName === 'projects') {
+                loadProjects();
+            } else if (tabName === 'kanban') {
+                loadKanbanBoard();
+            } else if (tabName === 'automation') {
+                loadAutomationData();
+            } else if (tabName === 'calendar') {
+                loadSmartCalendar();
+            } else if (tabName === 'personnel') {
+                loadPersonnel();
+            } else if (tabName === 'vendors') {
+                loadVendors();
+            }
+        }
+
+        // API Helper
+        async function apiCall(endpoint, options = {}) {
+            const defaultOptions = {
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${authToken}`
+                }
+            };
+
+            // Merge headers properly
+            const mergedOptions = {
+                ...defaultOptions,
+                ...options,
+                headers: {
+                    ...defaultOptions.headers,
+                    ...(options.headers || {})
+                }
+            };
+
+            const response = await fetch(endpoint, mergedOptions);
+
+            if (response.status === 401) {
+                logout();
+                return null;
+            }
+
+            if (!response.ok) {
+                const errorText = await response.text();
+                throw new Error(`HTTP ${response.status}: ${errorText}`);
+            }
+
+            return response.json();
+        }
+
+        // Dashboard Data Loading
+        async function loadDashboardData() {
+            try {
+                const reports = await apiCall('/reports/dashboard');
+                if (reports) {
+                    document.getElementById('totalProjects').textContent = reports.totalProjects || 0;
+                    document.getElementById('activeProjects').textContent = reports.activeProjects || 0;
+                    document.getElementById('totalTasks').textContent = reports.totalTasks || 0;
+                    document.getElementById('totalRevenue').textContent = `$${(reports.totalRevenue || 0).toLocaleString()}`;
+                }
+            } catch (error) {
+                console.error('Error loading dashboard data:', error);
+            }
+        }
+
+        // Setup Functions
+        async function loadSetupData() {
+            try {
+                const config = await apiCall('/config/workflow');
+                if (config) {
+                    workflowConfig = config;
+                    renderKanbanColumnsConfig();
+                    renderLocationsConfig();
+                    renderStatusesConfig();
+                    renderPositionsConfig();
+                }
+            } catch (error) {
+                console.error('Error loading setup data:', error);
+            }
+        }
+
+        function renderKanbanColumnsConfig() {
+            const container = document.getElementById('kanbanColumnsConfig');
+            if (!workflowConfig.kanbanColumns || workflowConfig.kanbanColumns.length === 0) {
+                container.innerHTML = '<div class="empty-state"><div class="empty-state-icon">📌</div><p>No Kanban columns configured yet.</p></div>';
+                return;
+            }
+
+            container.innerHTML = workflowConfig.kanbanColumns.map(column => `
+                <div class="config-item">
+                    <div class="config-item-content">
+                        <div class="color-indicator" style="background-color: ${column.color}"></div>
+                        <span>${column.name}</span>
+                    </div>
+                    <div class="config-actions">
+                        <button class="btn btn-small btn-danger" onclick="deleteKanbanColumn('${column.id}')">Delete</button>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function renderLocationsConfig() {
+            const container = document.getElementById('locationsConfig');
+            if (!workflowConfig.locations || workflowConfig.locations.length === 0) {
+                container.innerHTML = '<div class="empty-state"><div class="empty-state-icon">📍</div><p>No locations configured yet.</p></div>';
+                return;
+            }
+
+            container.innerHTML = workflowConfig.locations.map(location => `
+                <div class="config-item">
+                    <div class="config-item-content">
+                        <span>📍 ${location}</span>
+                    </div>
+                    <div class="config-actions">
+                        <button class="btn btn-small btn-danger" onclick="deleteLocation('${location}')">Delete</button>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function renderStatusesConfig() {
+            const container = document.getElementById('statusesConfig');
+            if (!workflowConfig.projectStatuses || workflowConfig.projectStatuses.length === 0) {
+                container.innerHTML = '<div class="empty-state"><div class="empty-state-icon">📊</div><p>No project statuses configured yet.</p></div>';
+                return;
+            }
+
+            container.innerHTML = workflowConfig.projectStatuses.map(status => `
+                <div class="config-item">
+                    <div class="config-item-content">
+                        <span>📊 ${status}</span>
+                    </div>
+                    <div class="config-actions">
+                        <button class="btn btn-small btn-danger" onclick="deleteProjectStatus('${status}')">Delete</button>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function renderPositionsConfig() {
+            const container = document.getElementById('positionsConfig');
+            if (!workflowConfig.positions || workflowConfig.positions.length === 0) {
+                container.innerHTML = '<div class="empty-state"><div class="empty-state-icon">👤</div><p>No positions configured yet.</p></div>';
+                return;
+            }
+
+            container.innerHTML = workflowConfig.positions.map(position => `
+                <div class="config-item">
+                    <div class="config-item-content">
+                        <span>👤 ${position}</span>
+                    </div>
+                    <div class="config-actions">
+                        <button class="btn btn-small btn-danger" onclick="deletePosition('${position}')">Delete</button>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // Modal Functions
+        function openModal(modalId) {
+            document.getElementById(modalId).style.display = 'block';
+        }
+
+        function closeModal(modalId) {
+            document.getElementById(modalId).style.display = 'none';
+        }
+
+        function openAddColumnModal() {
+            openModal('addColumnModal');
+        }
+
+        function openAddLocationModal() {
+            openModal('addLocationModal');
+        }
+
+        function openAddStatusModal() {
+            openModal('addStatusModal');
+        }
+
+        function openAddPositionModal() {
+            openModal('addPositionModal');
+        }
+
+        function openCreateProjectModal() {
+            // Populate select options
+            populateProjectForm();
+            openModal('createProjectModal');
+        }
+
+        function populateProjectForm() {
+            const locationSelect = document.getElementById('projectLocation');
+            const statusSelect = document.getElementById('projectStatus');
+
+            locationSelect.innerHTML = (workflowConfig.locations || []).map(location =>
+                `<option value="${location}">${location}</option>`
+            ).join('');
+
+            statusSelect.innerHTML = (workflowConfig.projectStatuses || []).map(status =>
+                `<option value="${status}">${status}</option>`
+            ).join('');
+        }
+
+        // Form Handlers
+        document.getElementById('addColumnForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            console.log('Adding column...');
+
+            const name = document.getElementById('columnName').value;
+            const color = document.getElementById('columnColor').value;
+            const id = name.toLowerCase().replace(/\s+/g, '_');
+
+            console.log('Column data:', { name, color, id });
+
+            const newColumn = { id, name, color };
+            workflowConfig.kanbanColumns = workflowConfig.kanbanColumns || [];
+            workflowConfig.kanbanColumns.push(newColumn);
+
+            console.log('Updated config:', workflowConfig);
+
+            try {
+                const result = await apiCall('/config/workflow', {
+                    method: 'PUT',
+                    body: JSON.stringify(workflowConfig)
+                });
+
+                console.log('API response:', result);
+                renderKanbanColumnsConfig();
+                closeModal('addColumnModal');
+                document.getElementById('addColumnForm').reset();
+            } catch (error) {
+                console.error('API error:', error);
+                alert('Error adding column: ' + error.message);
+            }
+        });
+
+        document.getElementById('addLocationForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            console.log('Adding location...');
+
+            const location = document.getElementById('locationName').value;
+            console.log('Location data:', location);
+
+            workflowConfig.locations = workflowConfig.locations || [];
+            workflowConfig.locations.push(location);
+
+            console.log('Updated config:', workflowConfig);
+
+            try {
+                const result = await apiCall('/config/workflow', {
+                    method: 'PUT',
+                    body: JSON.stringify(workflowConfig)
+                });
+
+                console.log('API response:', result);
+                renderLocationsConfig();
+                closeModal('addLocationModal');
+                document.getElementById('addLocationForm').reset();
+            } catch (error) {
+                console.error('API error:', error);
+                alert('Error adding location: ' + error.message);
+            }
+        });
+
+        document.getElementById('addStatusForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            const status = document.getElementById('statusName').value;
+
+            workflowConfig.projectStatuses = workflowConfig.projectStatuses || [];
+            workflowConfig.projectStatuses.push(status);
+
+            try {
+                await apiCall('/config/workflow', {
+                    method: 'PUT',
+                    body: JSON.stringify(workflowConfig)
+                });
+
+                renderStatusesConfig();
+                closeModal('addStatusModal');
+                document.getElementById('addStatusForm').reset();
+            } catch (error) {
+                alert('Error adding status: ' + error.message);
+            }
+        });
+
+        document.getElementById('addPositionForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            const position = document.getElementById('positionName').value;
+
+            workflowConfig.positions = workflowConfig.positions || [];
+            workflowConfig.positions.push(position);
+
+            try {
+                await apiCall('/config/workflow', {
+                    method: 'PUT',
+                    body: JSON.stringify(workflowConfig)
+                });
+
+                renderPositionsConfig();
+                closeModal('addPositionModal');
+                document.getElementById('addPositionForm').reset();
+            } catch (error) {
+                alert('Error adding position: ' + error.message);
+            }
+        });
+
+        document.getElementById('createProjectForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+
+            const projectData = {
+                name: document.getElementById('projectName').value,
+                location: document.getElementById('projectLocation').value,
+                budgetAmount: parseFloat(document.getElementById('projectBudget').value) || 0,
+                status: document.getElementById('projectStatus').value,
+                description: document.getElementById('projectDescription').value
+            };
+
+            try {
+                const project = await apiCall('/projects', {
+                    method: 'POST',
+                    body: JSON.stringify(projectData)
+                });
+
+                if (project) {
+                    alert('✅ Project created successfully!');
+                    loadDashboardData();
+                    loadProjects();
+                    closeModal('createProjectModal');
+                    document.getElementById('createProjectForm').reset();
+                }
+            } catch (error) {
+                alert('Error creating project: ' + error.message);
+            }
+        });
+
+        // Delete Functions
+        async function deleteKanbanColumn(columnId) {
+            if (!confirm('Are you sure you want to delete this column?')) return;
+
+            workflowConfig.kanbanColumns = workflowConfig.kanbanColumns.filter(col => col.id !== columnId);
+
+            try {
+                await apiCall('/config/workflow', {
+                    method: 'PUT',
+                    body: JSON.stringify(workflowConfig)
+                });
+                renderKanbanColumnsConfig();
+            } catch (error) {
+                alert('Error deleting column: ' + error.message);
+            }
+        }
+
+        async function deleteLocation(location) {
+            if (!confirm('Are you sure you want to delete this location?')) return;
+
+            workflowConfig.locations = workflowConfig.locations.filter(loc => loc !== location);
+
+            try {
+                await apiCall('/config/workflow', {
+                    method: 'PUT',
+                    body: JSON.stringify(workflowConfig)
+                });
+                renderLocationsConfig();
+            } catch (error) {
+                alert('Error deleting location: ' + error.message);
+            }
+        }
+
+        async function deleteProjectStatus(status) {
+            if (!confirm('Are you sure you want to delete this status?')) return;
+
+            workflowConfig.projectStatuses = workflowConfig.projectStatuses.filter(s => s !== status);
+
+            try {
+                await apiCall('/config/workflow', {
+                    method: 'PUT',
+                    body: JSON.stringify(workflowConfig)
+                });
+                renderStatusesConfig();
+            } catch (error) {
+                alert('Error deleting status: ' + error.message);
+            }
+        }
+
+        async function deletePosition(position) {
+            if (!confirm('Are you sure you want to delete this position?')) return;
+
+            workflowConfig.positions = workflowConfig.positions.filter(p => p !== position);
+
+            try {
+                await apiCall('/config/workflow', {
+                    method: 'PUT',
+                    body: JSON.stringify(workflowConfig)
+                });
+                renderPositionsConfig();
+            } catch (error) {
+                alert('Error deleting position: ' + error.message);
+            }
+        }
+
+        // Load Projects
+        async function loadProjects() {
+            try {
+                const projects = await apiCall('/projects');
+                const container = document.getElementById('projectsList');
+
+                if (!projects || projects.length === 0) {
+                    container.innerHTML = '<div class="empty-state"><div class="empty-state-icon">📋</div><p>No projects created yet. Create your first project!</p></div>';
+                    return;
+                }
+
+                container.innerHTML = projects.map(project => `
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-title">${project.name}</div>
+                            <div class="project-number">${project.projectNumber}</div>
+                        </div>
+                        <div class="project-details">
+                            <div class="project-detail">
+                                <div class="project-detail-label">Status</div>
+                                <div class="project-detail-value">${project.status}</div>
+                            </div>
+                            <div class="project-detail">
+                                <div class="project-detail-label">Location</div>
+                                <div class="project-detail-value">${project.location || 'Not specified'}</div>
+                            </div>
+                            <div class="project-detail">
+                                <div class="project-detail-label">Budget</div>
+                                <div class="project-detail-value">$${(project.budgetAmount || 0).toLocaleString()}</div>
+                            </div>
+                            <div class="project-detail">
+                                <div class="project-detail-label">Created</div>
+                                <div class="project-detail-value">${new Date(project.createdAt).toLocaleDateString()}</div>
+                            </div>
+                        </div>
+                        ${project.description ? `<p style="margin-top: 10px; color: #6c757d;">${project.description}</p>` : ''}
+                    </div>
+                `).join('');
+            } catch (error) {
+                console.error('Error loading projects:', error);
+            }
+        }
+
+        // Load Kanban Board
+        async function loadKanbanBoard() {
+            try {
+                const container = document.getElementById('kanbanBoard');
+
+                if (!workflowConfig.kanbanColumns || workflowConfig.kanbanColumns.length === 0) {
+                    container.innerHTML = '<div class="empty-state"><div class="empty-state-icon">📌</div><p>No Kanban columns configured. Go to Setup to add columns.</p></div>';
+                    return;
+                }
+
+                container.innerHTML = workflowConfig.kanbanColumns.map(column => `
+                    <div class="kanban-column">
+                        <div class="kanban-header" style="background-color: ${column.color}">
+                            <span>${column.name}</span>
+                            <span>0</span>
+                        </div>
+                        <div class="kanban-task" onclick="alert('Task management coming soon!')">
+                            <strong>Sample Task</strong>
+                            <p>Click to edit task details</p>
+                        </div>
+                    </div>
+                `).join('');
+            } catch (error) {
+                console.error('Error loading Kanban board:', error);
+            }
+        }
+
+        // Load Reports
+        async function loadReports() {
+            try {
+                const financial = await apiCall('/reports/financial');
+                const dashboard = await apiCall('/reports/dashboard');
+
+                const reportsView = document.getElementById('reportsView');
+                reportsView.innerHTML = `
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-value">$${(financial?.totalRevenue || 0).toLocaleString()}</div>
+                            <div class="stat-label">Total Revenue</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value">$${(financial?.totalCosts || 0).toLocaleString()}</div>
+                            <div class="stat-label">Total Costs</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value">${financial?.profitMargin || 0}%</div>
+                            <div class="stat-label">Profit Margin</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value">${dashboard?.totalHours || 0}</div>
+                            <div class="stat-label">Hours Tracked</div>
+                        </div>
+                    </div>
+                    <p style="margin-top: 20px; color: #28a745;">✅ Financial reports loaded successfully!</p>
+                `;
+            } catch (error) {
+                document.getElementById('reportsView').innerHTML = '<p style="color: #dc3545;">Error loading reports: ' + error.message + '</p>';
+            }
+        }
+
+        // Smart Automation Functions
+        async function loadAutomationData() {
+            try {
+                const stats = await apiCall('/automation/stats');
+                if (stats) {
+                    document.getElementById('automationProcessed').textContent = stats.filesProcessed || 0;
+                    document.getElementById('automationProjects').textContent = stats.smartProjects || 0;
+                    document.getElementById('automationTasks').textContent = stats.autoTasks || 0;
+                    document.getElementById('automationEvents').textContent = stats.autoEvents || 0;
+                }
+            } catch (error) {
+                console.error('Error loading automation data:', error);
+            }
+        }
+
+        // File Upload Handler
+        document.addEventListener('DOMContentLoaded', function() {
+            const fileInput = document.getElementById('fileInput');
+            const dropZone = document.getElementById('fileDropZone');
+            const uploadStatus = document.getElementById('uploadStatus');
+
+            if (fileInput && dropZone) {
+                fileInput.addEventListener('change', handleFileUpload);
+
+                dropZone.addEventListener('dragover', function(e) {
+                    e.preventDefault();
+                    dropZone.classList.add('dragover');
+                });
+
+                dropZone.addEventListener('dragleave', function(e) {
+                    e.preventDefault();
+                    dropZone.classList.remove('dragover');
+                });
+
+                dropZone.addEventListener('drop', function(e) {
+                    e.preventDefault();
+                    dropZone.classList.remove('dragover');
+                    const files = e.dataTransfer.files;
+                    handleFileUpload({ target: { files } });
+                });
+            }
+        });
+
+        async function handleFileUpload(event) {
+            const files = event.target.files;
+            if (!files || files.length === 0) return;
+
+            const dropZone = document.getElementById('fileDropZone');
+            const uploadStatus = document.getElementById('uploadStatus');
+
+            dropZone.classList.add('processing');
+            uploadStatus.innerHTML = '<h4>🤖 Processing files...</h4><p>Analyzing content for project detection</p>';
+            uploadStatus.classList.add('show');
+
+            for (const file of files) {
+                try {
+                    const formData = new FormData();
+                    formData.append('file', file);
+
+                    const autoProjectCreation = document.getElementById('autoProjectCreation')?.checked;
+                    const autoTaskGeneration = document.getElementById('autoTaskGeneration')?.checked;
+                    const autoCalendarEvents = document.getElementById('autoCalendarEvents')?.checked;
+
+                    formData.append('autoProject', autoProjectCreation);
+                    formData.append('autoTasks', autoTaskGeneration);
+                    formData.append('autoEvents', autoCalendarEvents);
+
+                    const response = await fetch('/api/smart-upload', {
+                        method: 'POST',
+                        headers: {
+                            'Authorization': `Bearer ${authToken}`
+                        },
+                        body: formData
+                    });
+
+                    const result = await response.json();
+
+                    if (response.ok) {
+                        uploadStatus.innerHTML += `
+                            <div style="margin: 10px 0; padding: 10px; background: rgba(40,167,69,0.2); border-radius: 6px;">
+                                <strong>✅ ${file.name}</strong><br>
+                                📋 Project Type: ${result.projectType}<br>
+                                🎯 Tasks Generated: ${result.tasksGenerated || 0}<br>
+                                📅 Events Created: ${result.eventsCreated || 0}
+                            </div>
+                        `;
+                    } else {
+                        uploadStatus.innerHTML += `
+                            <div style="margin: 10px 0; padding: 10px; background: rgba(220,53,69,0.2); border-radius: 6px;">
+                                <strong>❌ ${file.name}</strong><br>
+                                Error: ${result.error}
+                            </div>
+                        `;
+                    }
+                } catch (error) {
+                    uploadStatus.innerHTML += `
+                        <div style="margin: 10px 0; padding: 10px; background: rgba(220,53,69,0.2); border-radius: 6px;">
+                            <strong>❌ ${file.name}</strong><br>
+                            Error: ${error.message}
+                        </div>
+                    `;
+                }
+            }
+
+            dropZone.classList.remove('processing');
+            loadAutomationData();
+            loadDashboardData();
+        }
+
+        // Smart Calendar Functions
+        async function loadSmartCalendar() {
+            try {
+                const events = await apiCall('/calendar/smart-events');
+                const autoEventsContainer = document.getElementById('autoEvents');
+
+                if (events && events.length > 0) {
+                    autoEventsContainer.innerHTML = events.map(event => `
+                        <div class="calendar-event">
+                            <div class="calendar-event-title">${event.title}</div>
+                            <div class="calendar-event-details">
+                                ${new Date(event.date).toLocaleDateString()} at ${event.time || 'All Day'} •
+                                ${event.source || 'Auto-generated'}
+                            </div>
+                        </div>
+                    `).join('');
+                } else {
+                    autoEventsContainer.innerHTML = `
+                        <div class="empty-state">
+                            <div class="empty-state-icon">📅</div>
+                            <p>No smart events yet. Upload files or create projects to generate automatic calendar events.</p>
+                        </div>
+                    `;
+                }
+            } catch (error) {
+                console.error('Error loading smart calendar:', error);
+            }
+        }
+
+        // Enhanced Project Creation with Smart Features
+        document.getElementById('projectType').addEventListener('change', function() {
+            const projectType = this.value;
+            const enableSmart = document.getElementById('enableSmartCreation').checked;
+            const smartPreview = document.getElementById('smartPreview');
+            const budgetSuggestion = document.getElementById('budgetSuggestion');
+
+            if (enableSmart && projectType && projectType !== 'custom') {
+                smartPreview.style.display = 'block';
+
+                // Show budget suggestion
+                const budgetRanges = {
+                    'environmental_consulting': '$15,000 - $50,000',
+                    'lab_pack': '$5,000 - $20,000',
+                    'compliance_audit': '$10,000 - $35,000',
+                    'waste_management': '$8,000 - $25,000',
+                    'air_quality': '$12,000 - $40,000',
+                    'water_testing': '$3,000 - $15,000',
+                    'site_remediation': '$25,000 - $100,000+'
+                };
+
+                budgetSuggestion.textContent = `💡 Suggested range: ${budgetRanges[projectType] || 'Contact for estimate'}`;
+                budgetSuggestion.style.display = 'block';
+
+                // Show smart preview
+                const milestones = {
+                    'environmental_consulting': ['Initial Site Assessment', 'Environmental Analysis', 'Compliance Review', 'Final Report'],
+                    'lab_pack': ['Chemical Inventory', 'Packaging & Labeling', 'Transportation', 'Disposal Documentation'],
+                    'compliance_audit': ['Document Review', 'Site Inspection', 'Compliance Assessment', 'Recommendations Report']
+                };
+
+                const projectMilestones = milestones[projectType] || ['Project Initiation', 'Progress Review', 'Final Delivery'];
+
+                document.getElementById('smartMilestones').innerHTML = `
+                    <strong>📋 Auto-Generated Milestones:</strong><br>
+                    ${projectMilestones.map(m => `• ${m}`).join('<br>')}
+                `;
+
+                document.getElementById('smartEvents').innerHTML = `
+                    <strong>📅 Calendar Events:</strong><br>
+                    • Project Kickoff Meeting<br>
+                    • Mid-project Review<br>
+                    • Final Deliverable Due Date
+                `;
+            } else {
+                smartPreview.style.display = 'none';
+                budgetSuggestion.style.display = 'none';
+            }
+        });
+
+        // Enhanced Project Form Submission
+        document.getElementById('createProjectForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+
+            const enableSmart = document.getElementById('enableSmartCreation').checked;
+            const projectType = document.getElementById('projectType').value;
+
+            const projectData = {
+                name: document.getElementById('projectName').value,
+                type: projectType,
+                location: document.getElementById('projectLocation').value,
+                budgetAmount: parseFloat(document.getElementById('projectBudget').value) || 0,
+                status: document.getElementById('projectStatus').value,
+                priority: document.getElementById('projectPriority').value,
+                description: document.getElementById('projectDescription').value,
+                enableSmartFeatures: enableSmart
+            };
+
+            try {
+                const endpoint = enableSmart && projectType ? '/api/projects/smart-create' : '/projects';
+                const project = await apiCall(endpoint, {
+                    method: 'POST',
+                    body: JSON.stringify(projectData)
+                });
+
+                if (project) {
+                    let message = '✅ Project created successfully!';
+                    if (enableSmart && project.smartFeatures) {
+                        message += `\n🤖 Smart features activated:\n• ${project.smartFeatures.milestonesCreated || 0} milestones generated\n• ${project.smartFeatures.eventsCreated || 0} calendar events created`;
+                    }
+                    alert(message);
+
+                    loadDashboardData();
+                    loadProjects();
+                    loadAutomationData();
+                    closeModal('createProjectModal');
+                    document.getElementById('createProjectForm').reset();
+                    document.getElementById('smartPreview').style.display = 'none';
+                    document.getElementById('budgetSuggestion').style.display = 'none';
+                }
+            } catch (error) {
+                alert('Error creating project: ' + error.message);
+            }
+        });
+
+        // PERSONNEL MANAGEMENT FUNCTIONS
+        async function loadPersonnel() {
+            try {
+                const personnel = await apiCall('/personnel');
+                const container = document.getElementById('personnelList');
+
+                if (!personnel || personnel.length === 0) {
+                    container.innerHTML = '<div class="empty-state"><div class="empty-state-icon">👥</div><p>No personnel added yet. Add your first team member!</p></div>';
+                    return;
+                }
+
+                container.innerHTML = personnel.map(person => `
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-title">${person.name}</div>
+                            <div class="project-number" style="background-color: ${getAvailabilityColor(person.availability)}">${person.availability}</div>
+                        </div>
+                        <div class="project-details">
+                            <div class="project-detail">
+                                <div class="project-detail-label">Position</div>
+                                <div class="project-detail-value">${person.position}</div>
+                            </div>
+                            <div class="project-detail">
+                                <div class="project-detail-label">Location</div>
+                                <div class="project-detail-value">${person.location}</div>
+                            </div>
+                            <div class="project-detail">
+                                <div class="project-detail-label">Email</div>
+                                <div class="project-detail-value">${person.email}</div>
+                            </div>
+                            <div class="project-detail">
+                                <div class="project-detail-label">Hourly Rate</div>
+                                <div class="project-detail-value">$${person.hourlyRate || 0}/hr</div>
+                            </div>
+                        </div>
+                        ${person.skills && person.skills.length > 0 ? `<p style="margin-top: 10px; color: #6c757d;"><strong>Skills:</strong> ${person.skills.join(', ')}</p>` : ''}
+                        <div style="margin-top: 15px;">
+                            <button class="btn btn-small btn-secondary" onclick="editPersonnel('${person.id}')">Edit</button>
+                            <button class="btn btn-small btn-danger" onclick="deletePersonnel('${person.id}')">Delete</button>
+                        </div>
+                    </div>
+                `).join('');
+            } catch (error) {
+                console.error('Error loading personnel:', error);
+            }
+        }
+
+        function getAvailabilityColor(availability) {
+            switch(availability) {
+                case 'Available': return '#28a745';
+                case 'Busy': return '#ffc107';
+                case 'On Leave': return '#dc3545';
+                case 'Part Time': return '#17a2b8';
+                default: return '#6c757d';
+            }
+        }
+
+        function openAddPersonnelModal() {
+            populatePersonnelForm();
+            openModal('addPersonnelModal');
+        }
+
+        function populatePersonnelForm() {
+            const positionSelect = document.getElementById('personnelPosition');
+            const locationSelect = document.getElementById('personnelLocation');
+
+            positionSelect.innerHTML = (workflowConfig.positions || []).map(position =>
+                `<option value="${position}">${position}</option>`
+            ).join('');
+
+            locationSelect.innerHTML = (workflowConfig.locations || []).map(location =>
+                `<option value="${location}">${location}</option>`
+            ).join('');
+        }
+
+        // VENDOR MANAGEMENT FUNCTIONS
+        async function loadVendors() {
+            try {
+                const vendors = await apiCall('/vendors');
+                const container = document.getElementById('vendorsList');
+
+                if (!vendors || vendors.length === 0) {
+                    container.innerHTML = '<div class="empty-state"><div class="empty-state-icon">🏢</div><p>No vendors added yet. Add your first vendor!</p></div>';
+                    return;
+                }
+
+                container.innerHTML = vendors.map(vendor => `
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-title">${vendor.name}</div>
+                            <div class="project-number" style="background-color: ${getVendorStatusColor(vendor.status)}">${vendor.status}</div>
+                        </div>
+                        <div class="project-details">
+                            <div class="project-detail">
+                                <div class="project-detail-label">Contact</div>
+                                <div class="project-detail-value">${vendor.contactName}</div>
+                            </div>
+                            <div class="project-detail">
+                                <div class="project-detail-label">Email</div>
+                                <div class="project-detail-value">${vendor.email}</div>
+                            </div>
+                            <div class="project-detail">
+                                <div class="project-detail-label">Phone</div>
+                                <div class="project-detail-value">${vendor.phone || 'Not provided'}</div>
+                            </div>
+                            <div class="project-detail">
+                                <div class="project-detail-label">Rating</div>
+                                <div class="project-detail-value">${'⭐'.repeat(vendor.rating || 0)} (${vendor.rating || 0}/5)</div>
+                            </div>
+                        </div>
+                        ${vendor.services && vendor.services.length > 0 ? `<p style="margin-top: 10px; color: #6c757d;"><strong>Services:</strong> ${vendor.services.join(', ')}</p>` : ''}
+                        ${vendor.notes ? `<p style="margin-top: 10px; color: #6c757d;"><strong>Notes:</strong> ${vendor.notes}</p>` : ''}
+                        <div style="margin-top: 15px;">
+                            <button class="btn btn-small btn-secondary" onclick="editVendor('${vendor.id}')">Edit</button>
+                            <button class="btn btn-small btn-danger" onclick="deleteVendor('${vendor.id}')">Delete</button>
+                        </div>
+                    </div>
+                `).join('');
+            } catch (error) {
+                console.error('Error loading vendors:', error);
+            }
+        }
+
+        function getVendorStatusColor(status) {
+            switch(status) {
+                case 'Preferred': return '#28a745';
+                case 'Active': return '#17a2b8';
+                case 'On Hold': return '#ffc107';
+                case 'Inactive': return '#dc3545';
+                default: return '#6c757d';
+            }
+        }
+
+        function openAddVendorModal() {
+            openModal('addVendorModal');
+        }
+
+        // FORM HANDLERS FOR PERSONNEL AND VENDORS
+        document.getElementById('addPersonnelForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+
+            const personnelData = {
+                name: document.getElementById('personnelName').value,
+                email: document.getElementById('personnelEmail').value,
+                phone: document.getElementById('personnelPhone').value,
+                position: document.getElementById('personnelPosition').value,
+                location: document.getElementById('personnelLocation').value,
+                hourlyRate: parseFloat(document.getElementById('personnelHourlyRate').value) || 0,
+                skills: document.getElementById('personnelSkills').value.split(',').map(s => s.trim()).filter(s => s),
+                availability: document.getElementById('personnelAvailability').value
+            };
+
+            try {
+                const person = await apiCall('/personnel', {
+                    method: 'POST',
+                    body: JSON.stringify(personnelData)
+                });
+
+                if (person) {
+                    alert('✅ Personnel added successfully!');
+                    loadPersonnel();
+                    closeModal('addPersonnelModal');
+                    document.getElementById('addPersonnelForm').reset();
+                }
+            } catch (error) {
+                alert('Error adding personnel: ' + error.message);
+            }
+        });
+
+        document.getElementById('addVendorForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+
+            const vendorData = {
+                name: document.getElementById('vendorName').value,
+                contactName: document.getElementById('vendorContactName').value,
+                email: document.getElementById('vendorEmail').value,
+                phone: document.getElementById('vendorPhone').value,
+                address: document.getElementById('vendorAddress').value,
+                services: document.getElementById('vendorServices').value.split(',').map(s => s.trim()).filter(s => s),
+                certifications: document.getElementById('vendorCertifications').value.split(',').map(s => s.trim()).filter(s => s),
+                rating: parseFloat(document.getElementById('vendorRating').value) || 0,
+                status: document.getElementById('vendorStatus').value,
+                notes: document.getElementById('vendorNotes').value
+            };
+
+            try {
+                const vendor = await apiCall('/vendors', {
+                    method: 'POST',
+                    body: JSON.stringify(vendorData)
+                });
+
+                if (vendor) {
+                    alert('✅ Vendor added successfully!');
+                    loadVendors();
+                    closeModal('addVendorModal');
+                    document.getElementById('addVendorForm').reset();
+                }
+            } catch (error) {
+                alert('Error adding vendor: ' + error.message);
+            }
+        });
+
+        // DELETE FUNCTIONS
+        async function deletePersonnel(id) {
+            if (!confirm('Are you sure you want to delete this person?')) return;
+
+            try {
+                await apiCall(`/personnel/${id}`, { method: 'DELETE' });
+                loadPersonnel();
+            } catch (error) {
+                alert('Error deleting personnel: ' + error.message);
+            }
+        }
+
+        async function deleteVendor(id) {
+            if (!confirm('Are you sure you want to delete this vendor?')) return;
+
+            try {
+                await apiCall(`/vendors/${id}`, { method: 'DELETE' });
+                loadVendors();
+            } catch (error) {
+                alert('Error deleting vendor: ' + error.message);
+            }
+        }
+
+        // Close modals when clicking outside
+        window.onclick = function(event) {
+            const modals = document.querySelectorAll('.modal');
+            modals.forEach(modal => {
+                if (event.target === modal) {
+                    modal.style.display = 'none';
+                }
+            });
+        };
+    </script>
+</body>
+</html>

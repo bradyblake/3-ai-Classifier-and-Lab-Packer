@@ -1,0 +1,31 @@
+{
+  "name": "revolutionary-project-management",
+  "version": "1.0.0",
+  "description": "Revolutionary Project Management Platform with JARVIS AI - unboXed streamlined deployment",
+  "type": "module",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node backend/server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "cors": "^2.8.5",
+    "jsonwebtoken": "^9.0.0",
+    "bcryptjs": "^2.4.3",
+    "multer": "^2.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "project-management",
+    "kanban",
+    "calendar",
+    "ai-assistant",
+    "jarvis",
+    "business-management"
+  ],
+  "author": "unboXed Platform",
+  "license": "MIT"
+}

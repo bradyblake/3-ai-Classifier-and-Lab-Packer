@@ -28,27 +28,29 @@
   transition: transform var(--transition-base);
 }
 
-.draggable-card:hover {
+.draggable-card:hover:not(.dragging) {
   transform: translateY(-3px);
   box-shadow: var(--shadow-lg);
   border-color: var(--env-primary-300);
   background: linear-gradient(135deg, rgba(255, 255, 255, 1), rgba(248, 250, 252, 0.95));
 }
 
-.draggable-card:hover::before {
+.draggable-card:hover:not(.dragging)::before {
   transform: scaleX(1);
 }
 
-.draggable-card:active {
+.draggable-card:active:not(.dragging) {
   cursor: grabbing;
-  transform: translateY(-1px) rotate(2deg);
+  transform: translateY(-1px) rotate(1deg);
 }
 
 .draggable-card.dragging {
-  opacity: 0.7;
-  transform: translateY(-5px) rotate(3deg);
-  box-shadow: var(--shadow-xl);
-  z-index: 1000;
+  opacity: 0.6 !important;
+  transform: translateY(-8px) rotate(3deg) scale(1.05) !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2) !important;
+  z-index: 1000 !important;
+  pointer-events: none !important;
+  transition: none !important;
 }
 
 /* Card Header */

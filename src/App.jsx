@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
 import toolMap from "./toolRegistry";
-import CalendarPanel from "./components/CalendarPanel";
 import AgentPanel from "./components/AgentPanel";
-import NotesPanel from "./components/NotesPanel";
+import FileDropPanel from "./components/FileDropPanel";
 import HandsFreeOverlay from "./components/HandsFreeOverlay";
 import "./styles/Dashboard.css";
 import { saveSessionToLocal, loadSessionFromLocal } from "./utils/sessionStorage";
@@ -10,12 +9,12 @@ import { useSecuritySync } from "./hooks/useSecuritySync";
 import syncData from "./data/sampleSyncData.json";
 import { ThemeProvider } from "./context/ThemeContext.jsx";
 import { WorkflowProvider } from "./context/WorkflowContext.jsx";
+import { FileUploadProvider } from "./context/FileUploadContext.jsx";
 import WorkflowPanel from "./components/WorkflowPanel.jsx";
 
 export default function App() {
   const [activeTool, setActiveTool] = useState("TileDock");
-  const [calendarEvents, setCalendarEvents] = useState([]);
-  const [rightTab, setRightTab] = useState("notes");
+  const [rightTab, setRightTab] = useState("agent");
 
   const { validated, syncInfo } = useSecuritySync({
     syncData,
@@ -30,14 +29,6 @@ export default function App() {
     }
   }, [validated]);
 
-  useEffect(() => {
-    const saved = loadSessionFromLocal();
-    if (saved?.calendarEvents) setCalendarEvents(saved.calendarEvents);
-  }, []);
-
-  useEffect(() => {
-    saveSessionToLocal({ calendarEvents });
-  }, [calendarEvents]);
 
   useEffect(() => {
     window.setActiveTool = setActiveTool;
@@ -51,38 +42,30 @@ export default function App() {
     }
   };
 
-  const addEvent = (event) => {
-    setCalendarEvents((prev) => [...prev, event]);
-  };
 
   const ToolComponent = toolMap[activeTool];
 
   return (
     <ThemeProvider>
       <WorkflowProvider>
-        <div className="dashboard-container relative">
+        <FileUploadProvider>
+          <div className="dashboard-container relative">
         {/* Left Pane: Main Tool */}
         <div className="left-pane">
           <ToolComponent openTool={openTool} />
         </div>
 
-        {/* Right Pane: Calendar (Top) + Notes/Agent Tabs (Bottom) */}
+        {/* Right Pane: File Drop Zone (Top) + Agent/Workflow Tabs (Bottom) */}
         <div className="right-pane">
-          {/* Top 75%: Calendar */}
+          {/* Top 75%: File Drop Zone */}
           <div style={{ flex: "3", overflowY: "auto" }}>
-            <CalendarPanel events={calendarEvents} addEventToCalendar={addEvent} />
+            <FileDropPanel />
           </div>
 
-          {/* Bottom 25%: Notes/Agent Tabs */}
+          {/* Bottom 25%: Agent/Workflow Tabs */}
           <div style={{ flex: "1", display: "flex", flexDirection: "column" }}>
             {/* Tab Buttons */}
             <div className="flex justify-around mb-2">
-              <button
-                className={`tab-button ${rightTab === "notes" ? "active-tab" : ""}`}
-                onClick={() => setRightTab("notes")}
-              >
-                📝 Notes
-              </button>
               <button
                 className={`tab-button ${rightTab === "agent" ? "active-tab" : ""}`}
                 onClick={() => setRightTab("agent")}
@@ -99,12 +82,8 @@ export default function App() {
 
             {/* Panel Content */}
             <div className="overflow-auto border rounded bg-white p-2" style={{ flex: 1 }}>
-              {rightTab === "notes" && <NotesPanel />}
               {rightTab === "agent" && (
-                <AgentPanel
-                  calendarEvents={calendarEvents}
-                  addEventToCalendar={addEvent}
-                />
+                <AgentPanel />
               )}
               {rightTab === "workflow" && (
                 <WorkflowPanel
@@ -118,7 +97,8 @@ export default function App() {
 
         {/* Floating Voice Overlay (Driving Mode) */}
         <HandsFreeOverlay />
-        </div>
+          </div>
+        </FileUploadProvider>
       </WorkflowProvider>
     </ThemeProvider>
   );

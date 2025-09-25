@@ -2,7 +2,7 @@ import TileDock from "./components/TileDock.jsx";
 import SDSAnalyzer from "./components/SDSAnalyzer.jsx";
 import LabPackPlanner from "./components/LabPackPlanner.jsx";
 import LeadGenerator from "./components/LeadGenerator.jsx";
-import ProjectKanban from "./components/EnhancedProjectTracker.jsx";
+import ProjectKanban from "./components/KanbanBoard.jsx";
 import LabPackCompatibilityTest from "./components/LabPackCompatibilityTest.jsx";
 import LearningEngineMonitor from "./components/LearningEngineMonitor.jsx";
 import DatabaseViewer from "./components/DatabaseViewer.jsx";
