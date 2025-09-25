@@ -730,9 +730,9 @@ const ReportsModal = ({ isOpen, onClose, cards, lanes, statuses }) => {
 
       yPosition += 40;
 
-      // Location Breakdown
+      // Location Breakdown (filtered)
       const locationBreakdown = {};
-      cards.forEach(card => {
+      filteredCards.forEach(card => {
         const location = card.location || 'Unknown';
         if (!locationBreakdown[location]) {
           locationBreakdown[location] = {
@@ -801,7 +801,9 @@ const ReportsModal = ({ isOpen, onClose, cards, lanes, statuses }) => {
       doc.setTextColor(0, 0, 0);
       yPosition += 20;
 
-      Object.values(reportData.data).forEach(location => {
+      Object.values(reportData.data)
+        .filter(location => reportData.filters.location === 'all' || location.name === reportData.filters.location)
+        .forEach(location => {
         checkNewPage(150);
 
         // Location Header
@@ -935,7 +937,9 @@ const ReportsModal = ({ isOpen, onClose, cards, lanes, statuses }) => {
       checkNewPage();
       yPosition = addText('STATUS REPORT BY LOCATION:', margin, yPosition, 12, 'bold');
 
-      Object.values(reportData.data).forEach(location => {
+      Object.values(reportData.data)
+        .filter(location => reportData.filters.location === 'all' || location.name === reportData.filters.location)
+        .forEach(location => {
         if (location.totalProjects === 0) return;
 
         checkNewPage(80);
@@ -1242,7 +1246,9 @@ const ReportsModal = ({ isOpen, onClose, cards, lanes, statuses }) => {
         yPosition += 10;
       }
 
-      Object.values(reportData.data).forEach(location => {
+      Object.values(reportData.data)
+        .filter(location => reportData.filters.location === 'all' || location.name === reportData.filters.location)
+        .forEach(location => {
         const hasData = location.scheduledJobs.length > 0 || location.billingJobs.length > 0;
         if (!hasData) return;
 

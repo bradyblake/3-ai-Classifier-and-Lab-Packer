@@ -8,6 +8,7 @@ import './index.css';
 import { ModalProvider } from './context/ModalContext';
 import { ThemeProvider } from './context/ThemeContext.jsx';
 import { SessionProvider } from './context/SessionContext.jsx';
+import { AuthProvider } from './hooks/useAuth';
 import { unifiedToolMap, openTool } from './config/revolutionaryToolRegistry';
 
 // Global tool access for UI framework
@@ -16,12 +17,14 @@ window.openTool = openTool;
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <SessionProvider>
-      <ThemeProvider>
-        <ModalProvider>
-          <App />
-        </ModalProvider>
-      </ThemeProvider>
-    </SessionProvider>
+    <AuthProvider>
+      <SessionProvider>
+        <ThemeProvider>
+          <ModalProvider>
+            <App />
+          </ModalProvider>
+        </ThemeProvider>
+      </SessionProvider>
+    </AuthProvider>
   </React.StrictMode>
 );

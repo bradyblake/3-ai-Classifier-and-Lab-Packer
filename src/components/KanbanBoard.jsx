@@ -19,6 +19,9 @@ import "../styles/KanbanBoard.css";
 import { ModalContext } from "../context/ModalContext";
 import { ThemeContext } from "../context/ThemeContext.jsx";
 import BackButton from "./BackButton";
+import { useAuth } from "../hooks/useAuth";
+import LoginModal from "./LoginModal";
+import UserProfile from "./UserProfile";
 import {
   getLanes,
   getStatuses,
@@ -59,7 +62,12 @@ const KanbanBoard = () => {
   const [quickWorkflowsOpen, setQuickWorkflowsOpen] = useState(false);
   const [smartUploadOpen, setSmartUploadOpen] = useState(false);
   const [dragOver, setDragOver] = useState(false);
+  const [loginModalOpen, setLoginModalOpen] = useState(false);
+
   const { themeColors } = useContext(ThemeContext);
+
+  // Authentication
+  const { currentUser } = useAuth();
 
   // Load data on mount
   useEffect(() => {
@@ -1485,6 +1493,20 @@ ${Object.entries(locationWorkload).map(([location, count]) => {
             </div>
             
             <div className="flex items-center gap-4 flex-wrap">
+              {/* User Profile */}
+              {currentUser ? (
+                <UserProfile />
+              ) : (
+                <button
+                  onClick={() => setLoginModalOpen(true)}
+                  className="btn btn-primary btn-sm"
+                  title="Sign in to sync your data across devices"
+                >
+                  <span>🔐</span>
+                  <span>Sign In</span>
+                </button>
+              )}
+
               {/* Board Setup Button */}
               <button
                 onClick={() => setSetupPanelOpen(true)}
@@ -2522,6 +2544,12 @@ ${Object.entries(locationWorkload).map(([location, count]) => {
           saveCards={saveCards}
           setEditingCard={setEditingCard}
           setModalOpen={setModalOpen}
+        />
+
+        {/* Login Modal */}
+        <LoginModal
+          isOpen={loginModalOpen}
+          onClose={() => setLoginModalOpen(false)}
         />
       </div>
     </DndProvider>

@@ -1289,31 +1289,18 @@ export default function KanbanCardModal({ card, closeModal, updateCards, lanes, 
     }
   };
 
-  // Handle comment changes with auto-save timeout
+  // Handle comment changes - no autosave
   const handleCommentChange = (value) => {
     setNewComment(value);
-
-    // Clear existing timeout
-    if (autoSaveTimeout) {
-      clearTimeout(autoSaveTimeout);
-    }
-
-    // Set new timeout for auto-save after 2 seconds of inactivity
-    const timeout = setTimeout(() => {
-      autoSaveComment();
-    }, 2000);
-
-    setAutoSaveTimeout(timeout);
   };
 
-  // Cleanup timeout on unmount
-  useEffect(() => {
-    return () => {
-      if (autoSaveTimeout) {
-        clearTimeout(autoSaveTimeout);
-      }
-    };
-  }, [autoSaveTimeout]);
+  // Handle Enter key in comment box
+  const handleCommentKeyDown = (e) => {
+    if (e.key === 'Enter' && !e.shiftKey) {
+      e.preventDefault();
+      autoSaveComment();
+    }
+  };
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-60">
@@ -1968,19 +1955,20 @@ export default function KanbanCardModal({ card, closeModal, updateCards, lanes, 
                 className="border p-2 w-full text-sm"
                 value={newComment}
                 onChange={e => handleCommentChange(e.target.value)}
-                placeholder="Add a comment... (auto-saves after 2 seconds)"
+                onKeyDown={handleCommentKeyDown}
+                placeholder="Add a comment... (Press Enter to save, Shift+Enter for new line)"
                 rows={3}
               />
               <div className="flex justify-between items-center mt-1">
                 <span className="text-xs text-gray-500">
-                  {newComment.length > 0 && 'Auto-saving...'}
+                  Press Enter to save, or use button →
                 </span>
                 <button
                   onClick={autoSaveComment}
-                  className="text-xs text-blue-600 hover:text-blue-800"
+                  className="px-3 py-1 text-sm bg-blue-600 text-white rounded hover:bg-blue-700"
                   disabled={!newComment.trim()}
                 >
-                  Save Now
+                  Save Comment
                 </button>
               </div>
             </div>

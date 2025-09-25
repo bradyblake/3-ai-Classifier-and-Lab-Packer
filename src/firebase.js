@@ -1,7 +1,8 @@
 // Firebase Configuration
 import { initializeApp } from 'firebase/app';
+import { getAuth } from 'firebase/auth';
 import { getStorage, ref, uploadBytes, getDownloadURL } from 'firebase/storage';
-import { getFirestore, collection, addDoc, getDocs, doc, updateDoc, deleteDoc } from 'firebase/firestore';
+import { getFirestore, collection, addDoc, getDocs, doc, updateDoc, deleteDoc, setDoc } from 'firebase/firestore';
 
 // Firebase config from your existing project
 const firebaseConfig = {
@@ -17,8 +18,11 @@ const firebaseConfig = {
 const firebaseApp = initializeApp(firebaseConfig);
 
 // Initialize Firebase services
+const auth = getAuth(firebaseApp);
 const storage = getStorage(firebaseApp);
 const db = getFirestore(firebaseApp);
+
+export { auth };
 
 // Storage Functions
 export const uploadFileToFirebase = async (file, path = 'uploads') => {
@@ -163,6 +167,81 @@ export const loadEopArchivesFromFirebase = async (userId = 'default') => {
   } catch (error) {
     console.error('❌ Firebase EOP archives load error:', error);
     return [];
+  }
+};
+
+// Data Migration Function to preserve existing data
+export const migrateExistingDataToUser = async (userId) => {
+  try {
+    console.log('🔄 Starting data migration for user:', userId);
+
+    // Load existing data from localStorage
+    const existingCards = JSON.parse(localStorage.getItem('kanbanCards') || '[]');
+    const existingLanes = JSON.parse(localStorage.getItem('kanbanLanes') || '[]');
+    const existingArchives = JSON.parse(localStorage.getItem('eopArchives') || '[]');
+
+    if (existingCards.length === 0 && existingLanes.length === 0 && existingArchives.length === 0) {
+      console.log('ℹ️ No existing data to migrate');
+      return { success: true, migrated: { cards: 0, lanes: 0, archives: 0 } };
+    }
+
+    // Check if user already has data in Firebase
+    const existingUserCards = await loadCardsFromFirebase(userId);
+
+    if (existingUserCards.length > 0) {
+      console.log('ℹ️ User already has data in Firebase, skipping migration');
+      return { success: true, message: 'User already has data', migrated: { cards: 0, lanes: 0, archives: 0 } };
+    }
+
+    // Migrate data to user's Firebase account
+    const migrations = [];
+
+    // Migrate cards
+    if (existingCards.length > 0) {
+      await saveCardsToFirebase(existingCards, userId);
+      migrations.push(`${existingCards.length} cards`);
+    }
+
+    // Migrate lanes
+    if (existingLanes.length > 0) {
+      await saveLanesToFirebase(existingLanes, userId);
+      migrations.push(`${existingLanes.length} lanes`);
+    }
+
+    // Migrate archives
+    for (const archive of existingArchives) {
+      await saveEopArchiveToFirebase(archive, userId);
+    }
+    if (existingArchives.length > 0) {
+      migrations.push(`${existingArchives.length} archives`);
+    }
+
+    // Create backup of localStorage data with timestamp
+    const backupData = {
+      cards: existingCards,
+      lanes: existingLanes,
+      archives: existingArchives,
+      migratedAt: new Date().toISOString(),
+      migratedToUserId: userId
+    };
+
+    localStorage.setItem('dataBackup_beforeMigration', JSON.stringify(backupData));
+
+    console.log('✅ Data migration completed:', migrations.join(', '));
+
+    return {
+      success: true,
+      migrated: {
+        cards: existingCards.length,
+        lanes: existingLanes.length,
+        archives: existingArchives.length
+      },
+      message: `Successfully migrated: ${migrations.join(', ')}`
+    };
+
+  } catch (error) {
+    console.error('❌ Data migration error:', error);
+    throw error;
   }
 };
 

@@ -5,8 +5,10 @@ import {
   loadCardsFromFirebase,
   saveLanesToFirebase,
   loadLanesFromFirebase,
-  saveEopArchiveToFirebase
+  saveEopArchiveToFirebase,
+  migrateExistingDataToUser
 } from '../firebase';
+import { useAuth } from './useAuth';
 
 const useFirebaseSync = (initialCards = [], initialLanes = []) => {
   const [isFirebaseEnabled] = useState(
@@ -15,13 +17,39 @@ const useFirebaseSync = (initialCards = [], initialLanes = []) => {
   const [isSyncing, setIsSyncing] = useState(false);
   const [lastSyncTime, setLastSyncTime] = useState(null);
   const [syncError, setSyncError] = useState(null);
+  const [migrationStatus, setMigrationStatus] = useState(null);
 
-  // Auto-sync on mount if Firebase is enabled
+  const { currentUser } = useAuth();
+  const userId = currentUser?.uid || 'default';
+
+  // Auto-sync and migration on mount if Firebase is enabled
   useEffect(() => {
-    if (isFirebaseEnabled) {
-      loadFromFirebase();
+    if (isFirebaseEnabled && currentUser) {
+      handleUserAuthenticated();
     }
-  }, [isFirebaseEnabled]);
+  }, [isFirebaseEnabled, currentUser]);
+
+  const handleUserAuthenticated = async () => {
+    try {
+      // First, try to migrate existing data if this is the first login
+      const migrationResult = await migrateExistingDataToUser(userId);
+      setMigrationStatus(migrationResult);
+
+      // Then load data (either migrated or existing user data)
+      await loadFromFirebase();
+
+      // Show migration success message if data was migrated
+      if (migrationResult.migrated &&
+          (migrationResult.migrated.cards > 0 ||
+           migrationResult.migrated.lanes > 0 ||
+           migrationResult.migrated.archives > 0)) {
+        console.log('✅ Your existing data has been preserved and migrated to your account!');
+      }
+    } catch (error) {
+      console.error('❌ User authentication setup error:', error);
+      setSyncError(`Setup failed: ${error.message}`);
+    }
+  };
 
   const loadFromFirebase = useCallback(async () => {
     if (!isFirebaseEnabled) return { cards: initialCards, lanes: initialLanes };
@@ -33,8 +61,8 @@ const useFirebaseSync = (initialCards = [], initialLanes = []) => {
       console.log('🔄 Loading data from Firebase...');
 
       const [cards, lanes] = await Promise.all([
-        loadCardsFromFirebase(),
-        loadLanesFromFirebase()
+        loadCardsFromFirebase(userId),
+        loadLanesFromFirebase(userId)
       ]);
 
       setLastSyncTime(new Date());
@@ -54,7 +82,7 @@ const useFirebaseSync = (initialCards = [], initialLanes = []) => {
     } finally {
       setIsSyncing(false);
     }
-  }, [isFirebaseEnabled, initialCards, initialLanes]);
+  }, [isFirebaseEnabled, initialCards, initialLanes, userId]);
 
   const saveToFirebase = useCallback(async (cards, lanes) => {
     if (!isFirebaseEnabled) {
@@ -72,8 +100,8 @@ const useFirebaseSync = (initialCards = [], initialLanes = []) => {
 
       // Save to both Firebase and localStorage
       await Promise.all([
-        saveCardsToFirebase(cards),
-        saveLanesToFirebase(lanes)
+        saveCardsToFirebase(cards, userId),
+        saveLanesToFirebase(lanes, userId)
       ]);
 
       // Backup to localStorage
@@ -98,7 +126,7 @@ const useFirebaseSync = (initialCards = [], initialLanes = []) => {
     } finally {
       setIsSyncing(false);
     }
-  }, [isFirebaseEnabled]);
+  }, [isFirebaseEnabled, userId]);
 
   const saveEopArchive = useCallback(async (archiveData) => {
     if (!isFirebaseEnabled) {
@@ -119,7 +147,7 @@ const useFirebaseSync = (initialCards = [], initialLanes = []) => {
 
       console.log('📋 Saving EOP archive to Firebase...');
 
-      const archiveId = await saveEopArchiveToFirebase(archiveData);
+      const archiveId = await saveEopArchiveToFirebase(archiveData, userId);
 
       // Also backup to localStorage
       const existingArchives = JSON.parse(localStorage.getItem('eopArchives') || '[]');
@@ -151,7 +179,7 @@ const useFirebaseSync = (initialCards = [], initialLanes = []) => {
     } finally {
       setIsSyncing(false);
     }
-  }, [isFirebaseEnabled]);
+  }, [isFirebaseEnabled, userId]);
 
   const forceSync = useCallback(async (cards, lanes) => {
     console.log('🔄 Force syncing to Firebase...');
@@ -173,6 +201,7 @@ const useFirebaseSync = (initialCards = [], initialLanes = []) => {
     isSyncing,
     lastSyncTime,
     syncError,
+    migrationStatus,
     loadFromFirebase,
     saveToFirebase,
     saveEopArchive,
