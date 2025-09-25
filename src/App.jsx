@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import toolMap from "./toolRegistry";
-import AgentPanel from "./components/AgentPanel";
 import FileDropPanel from "./components/FileDropPanel";
 import HandsFreeOverlay from "./components/HandsFreeOverlay";
 import "./styles/Dashboard.css";
@@ -14,7 +13,7 @@ import WorkflowPanel from "./components/WorkflowPanel.jsx";
 
 export default function App() {
   const [activeTool, setActiveTool] = useState("TileDock");
-  const [rightTab, setRightTab] = useState("agent");
+  const [rightTab, setRightTab] = useState("files");
 
   const { validated, syncInfo } = useSecuritySync({
     syncData,
@@ -67,10 +66,10 @@ export default function App() {
             {/* Tab Buttons */}
             <div className="flex justify-around mb-2">
               <button
-                className={`tab-button ${rightTab === "agent" ? "active-tab" : ""}`}
-                onClick={() => setRightTab("agent")}
+                className={`tab-button ${rightTab === "files" ? "active-tab" : ""}`}
+                onClick={() => setRightTab("files")}
               >
-                🧠 Agent
+                📁 Files
               </button>
               <button
                 className={`tab-button ${rightTab === "workflow" ? "active-tab" : ""}`}
@@ -82,8 +81,8 @@ export default function App() {
 
             {/* Panel Content */}
             <div className="overflow-auto border rounded bg-white p-2" style={{ flex: 1 }}>
-              {rightTab === "agent" && (
-                <AgentPanel />
+              {rightTab === "files" && (
+                <FileDropPanel />
               )}
               {rightTab === "workflow" && (
                 <WorkflowPanel

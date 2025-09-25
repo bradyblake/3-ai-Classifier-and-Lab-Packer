@@ -1,0 +1,284 @@
+[
+  {
+    "code": "F001",
+    "description": "Spent halogenated solvents used in degreasing",
+    "chemicals": [
+      "tetrachloroethylene",
+      "trichloroethylene",
+      "methylene chloride",
+      "1,1,1-trichloroethane",
+      "carbon tetrachloride",
+      "chlorinated fluorocarbons"
+    ],
+    "source": "degreasing operations",
+    "applies_to": "spent_solvent",
+    "usage_type": "used",
+    "citation": "40 CFR §261.31"
+  },
+  {
+    "code": "F002",
+    "description": "Spent halogenated solvents",
+    "chemicals": [
+      "tetrachloroethylene",
+      "methylene chloride",
+      "trichloroethylene",
+      "1,1,1-trichloroethane",
+      "chlorobenzene",
+      "1,1,2-trichloro-1,2,2-trifluoroethane",
+      "ortho-dichlorobenzene",
+      "trichlorofluoromethane"
+    ],
+    "source": "various industrial operations",
+    "applies_to": "spent_solvent",
+    "usage_type": "used",
+    "citation": "40 CFR §261.31"
+  },
+  {
+    "code": "F003",
+    "description": "Spent non-halogenated solvents",
+    "chemicals": [
+      "xylene",
+      "acetone",
+      "ethyl acetate",
+      "ethyl benzene",
+      "ethyl ether",
+      "methyl isobutyl ketone",
+      "n-butyl alcohol",
+      "cyclohexanone",
+      "methanol"
+    ],
+    "source": "various industrial operations",
+    "applies_to": "spent_solvent",
+    "usage_type": "used",
+    "citation": "40 CFR §261.31"
+  },
+  {
+    "code": "F004",
+    "description": "Spent non-halogenated solvents",
+    "chemicals": [
+      "cresols",
+      "cresylic acid",
+      "nitrobenzene"
+    ],
+    "source": "various industrial operations",
+    "applies_to": "spent_solvent",
+    "usage_type": "used",
+    "citation": "40 CFR §261.31"
+  },
+  {
+    "code": "F005",
+    "description": "Spent non-halogenated solvents",
+    "chemicals": [
+      "toluene",
+      "methyl ethyl ketone",
+      "carbon disulfide",
+      "isobutanol",
+      "pyridine",
+      "benzene",
+      "2-ethoxyethanol",
+      "2-nitropropane"
+    ],
+    "source": "various industrial operations",
+    "applies_to": "spent_solvent",
+    "usage_type": "used",
+    "citation": "40 CFR §261.31"
+  },
+  {
+    "code": "F020",
+    "description": "Wastes from production of tri- and tetrachlorophenol",
+    "chemicals": [
+      "trichlorophenol",
+      "tetrachlorophenol",
+      "hexachlorodibenzo-p-dioxin",
+      "hexachlorodibenzofuran"
+    ],
+    "source": "manufacturing or formulating operations",
+    "applies_to": "manufacturing_waste",
+    "usage_type": "production",
+    "citation": "40 CFR §261.31"
+  },
+  {
+    "code": "F021",
+    "description": "Wastes from production of pentachlorophenol",
+    "chemicals": [
+      "pentachlorophenol",
+      "hexachlorodibenzo-p-dioxin",
+      "hexachlorodibenzofuran"
+    ],
+    "source": "manufacturing or formulating operations",
+    "applies_to": "manufacturing_waste",
+    "usage_type": "production",
+    "citation": "40 CFR §261.31"
+  },
+  {
+    "code": "F022",
+    "description": "Wastes from production of tetra-, penta-, or hexachlorobenzenes",
+    "chemicals": [
+      "tetrachlorobenzenes",
+      "pentachlorobenzenes",
+      "hexachlorobenzene",
+      "hexachlorodibenzo-p-dioxin",
+      "hexachlorodibenzofuran"
+    ],
+    "source": "manufacturing operations",
+    "applies_to": "manufacturing_waste",
+    "usage_type": "production",
+    "citation": "40 CFR §261.31"
+  },
+  {
+    "code": "F023",
+    "description": "Wastes from production of materials on or containing tri- and tetrachlorophenol",
+    "chemicals": [
+      "trichlorophenol",
+      "tetrachlorophenol",
+      "hexachlorodibenzo-p-dioxin",
+      "hexachlorodibenzofuran"
+    ],
+    "source": "manufacturing operations",
+    "applies_to": "manufacturing_waste",
+    "usage_type": "production",
+    "citation": "40 CFR §261.31"
+  },
+  {
+    "code": "F024",
+    "description": "Process wastes from production of materials containing tri- or tetrachlorophenol",
+    "chemicals": [
+      "trichlorophenol",
+      "tetrachlorophenol"
+    ],
+    "source": "manufacturing operations using chlorine",
+    "applies_to": "manufacturing_waste",
+    "usage_type": "production",
+    "citation": "40 CFR §261.31"
+  },
+  {
+    "code": "F025",
+    "description": "Condensed light ends from production of certain chlorinated aliphatic hydrocarbons",
+    "chemicals": [
+      "trichloroethylene",
+      "1,1,1-trichloroethane",
+      "1,1,2-trichloroethane",
+      "tetrachloroethylene",
+      "1,1,2,2-tetrachloroethane"
+    ],
+    "source": "distillation of chlorinated aliphatic hydrocarbons",
+    "applies_to": "distillation_waste",
+    "usage_type": "production",
+    "citation": "40 CFR §261.31"
+  },
+  {
+    "code": "F026",
+    "description": "Wastes from production of materials on or containing tetra-, penta-, or hexachlorobenzenes",
+    "chemicals": [
+      "tetrachlorobenzenes",
+      "pentachlorobenzenes",
+      "hexachlorobenzene"
+    ],
+    "source": "manufacturing operations using chlorine",
+    "applies_to": "manufacturing_waste",
+    "usage_type": "production",
+    "citation": "40 CFR §261.31"
+  },
+  {
+    "code": "F027",
+    "description": "Discarded unused formulations containing tri-, tetra-, or pentachlorophenol",
+    "chemicals": [
+      "trichlorophenol",
+      "tetrachlorophenol",
+      "pentachlorophenol"
+    ],
+    "source": "unused commercial chemical products",
+    "applies_to": "unused_formulation",
+    "usage_type": "unused",
+    "citation": "40 CFR §261.31"
+  },
+  {
+    "code": "F028",
+    "description": "Residues from incineration or thermal treatment of soil contaminated with EPA Hazardous Waste",
+    "chemicals": [
+      "various EPA hazardous waste constituents"
+    ],
+    "source": "thermal treatment operations",
+    "applies_to": "treatment_residue",
+    "usage_type": "treatment",
+    "citation": "40 CFR §261.31"
+  },
+  {
+    "code": "F032",
+    "description": "Wastewaters, process residuals, or spent carbon from hexachlorocyclohexane production",
+    "chemicals": [
+      "hexachlorocyclohexane",
+      "alpha-HCH",
+      "beta-HCH",
+      "gamma-HCH"
+    ],
+    "source": "hexachlorocyclohexane production",
+    "applies_to": "manufacturing_waste",
+    "usage_type": "production",
+    "citation": "40 CFR §261.31"
+  },
+  {
+    "code": "F034",
+    "description": "Wastes from reductive dechlorination of chlorinated aliphatic hydrocarbons",
+    "chemicals": [
+      "various chlorinated aliphatic hydrocarbons"
+    ],
+    "source": "reductive dechlorination processes",
+    "applies_to": "treatment_waste",
+    "usage_type": "treatment",
+    "citation": "40 CFR §261.31"
+  },
+  {
+    "code": "F035",
+    "description": "Spent potliners from primary aluminum reduction",
+    "chemicals": [
+      "cyanides",
+      "fluorides"
+    ],
+    "source": "primary aluminum reduction operations",
+    "applies_to": "spent_potliner",
+    "usage_type": "spent",
+    "citation": "40 CFR §261.31"
+  },
+  {
+    "code": "F037",
+    "description": "Petroleum refinery primary oil/water/solids separation sludge",
+    "chemicals": [
+      "benzene",
+      "benzo(a)pyrene",
+      "chrysene",
+      "phenanthrene"
+    ],
+    "source": "petroleum refinery operations",
+    "applies_to": "separation_sludge",
+    "usage_type": "waste_treatment",
+    "citation": "40 CFR §261.31"
+  },
+  {
+    "code": "F038",
+    "description": "Petroleum refinery secondary oil/water/solids separation sludge",
+    "chemicals": [
+      "benzene",
+      "benzo(a)pyrene",
+      "chrysene",
+      "phenanthrene"
+    ],
+    "source": "petroleum refinery operations",
+    "applies_to": "separation_sludge",
+    "usage_type": "waste_treatment",
+    "citation": "40 CFR §261.31"
+  },
+  {
+    "code": "F039",
+    "description": "Leachate resulting from land treatment of petroleum refinery wastes",
+    "chemicals": [
+      "benzene",
+      "phenols",
+      "naphthalene"
+    ],
+    "source": "petroleum refinery land treatment",
+    "applies_to": "leachate",
+    "usage_type": "land_treatment",
+    "citation": "40 CFR §261.31"
+  }
+]

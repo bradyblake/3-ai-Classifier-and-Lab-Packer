@@ -1,0 +1,378 @@
+[
+  {
+    "code": "K001",
+    "description": "Bottom sediment sludge from treatment of wastewaters from wood preserving processes",
+    "industry": "wood_preserving",
+    "chemicals": ["creosote", "pentachlorophenol", "inorganic arsenicals"],
+    "source": "wastewater treatment",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K002",
+    "description": "Wastewater treatment sludge from production of chrome yellow and orange pigments",
+    "industry": "inorganic_pigments",
+    "chemicals": ["chromium", "lead"],
+    "source": "pigment manufacturing",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K003",
+    "description": "Wastewater treatment sludge from production of molybdate orange pigments",
+    "industry": "inorganic_pigments",
+    "chemicals": ["chromium", "lead", "molybdenum"],
+    "source": "pigment manufacturing",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K004",
+    "description": "Wastewater treatment sludge from production of zinc yellow pigments",
+    "industry": "inorganic_pigments",
+    "chemicals": ["chromium", "zinc"],
+    "source": "pigment manufacturing",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K005",
+    "description": "Wastewater treatment sludge from production of chrome green pigments",
+    "industry": "inorganic_pigments",
+    "chemicals": ["chromium"],
+    "source": "pigment manufacturing",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K006",
+    "description": "Wastewater treatment sludge from production of chrome oxide green pigments",
+    "industry": "inorganic_pigments",
+    "chemicals": ["chromium"],
+    "source": "pigment manufacturing",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K007",
+    "description": "Wastewater treatment sludge from production of iron blue pigments",
+    "industry": "inorganic_pigments",
+    "chemicals": ["chromium", "cyanide"],
+    "source": "pigment manufacturing",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K008",
+    "description": "Oven residue from production of chrome oxide green pigments",
+    "industry": "inorganic_pigments",
+    "chemicals": ["chromium"],
+    "source": "pigment manufacturing",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K009",
+    "description": "Distillation bottoms from production of acetaldehyde from ethylene",
+    "industry": "organic_chemicals",
+    "chemicals": ["acetaldehyde"],
+    "source": "acetaldehyde production",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K010",
+    "description": "Distillation side cuts from production of acetaldehyde from ethylene",
+    "industry": "organic_chemicals",
+    "chemicals": ["acetaldehyde"],
+    "source": "acetaldehyde production",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K011",
+    "description": "Bottom stream from column stripping of acetaldehyde",
+    "industry": "organic_chemicals",
+    "chemicals": ["acetaldehyde"],
+    "source": "acetaldehyde production",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K013",
+    "description": "Bottom stream from acetonitrile column in acrylonitrile production",
+    "industry": "organic_chemicals",
+    "chemicals": ["acetonitrile", "acrylonitrile"],
+    "source": "acrylonitrile production",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K014",
+    "description": "Bottoms from acetonitrile purification column in acrylonitrile production",
+    "industry": "organic_chemicals",
+    "chemicals": ["acetonitrile"],
+    "source": "acrylonitrile production",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K015",
+    "description": "Still bottoms from distillation of benzyl chloride",
+    "industry": "organic_chemicals",
+    "chemicals": ["benzyl chloride", "toluene", "benzotrichloride"],
+    "source": "benzyl chloride production",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K016",
+    "description": "Heavy ends or distillation residues from production of carbon tetrachloride",
+    "industry": "organic_chemicals",
+    "chemicals": ["carbon tetrachloride", "tetrachloroethylene"],
+    "source": "carbon tetrachloride production",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K017",
+    "description": "Heavy ends from distillation of epichlorohydrin",
+    "industry": "organic_chemicals",
+    "chemicals": ["epichlorohydrin"],
+    "source": "epichlorohydrin production",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K018",
+    "description": "Heavy ends from fractionation of ethyl chloride",
+    "industry": "organic_chemicals",
+    "chemicals": ["ethyl chloride"],
+    "source": "ethyl chloride production",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K019",
+    "description": "Heavy ends from distillation of ethylene dichloride in ethylene dichloride production",
+    "industry": "organic_chemicals",
+    "chemicals": ["ethylene dichloride", "trichloroethanes"],
+    "source": "ethylene dichloride production",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K020",
+    "description": "Heavy ends from distillation of vinyl chloride in vinyl chloride monomer production",
+    "industry": "organic_chemicals",
+    "chemicals": ["vinyl chloride", "ethylene dichloride"],
+    "source": "vinyl chloride production",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K021",
+    "description": "Aqueous spent antimony catalyst waste from fluoromethane production",
+    "industry": "organic_chemicals",
+    "chemicals": ["antimony"],
+    "source": "fluoromethane production",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K022",
+    "description": "Distillation bottom tars from production of phenol/acetone from cumene",
+    "industry": "organic_chemicals",
+    "chemicals": ["phenol", "acetone"],
+    "source": "phenol production",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K023",
+    "description": "Distillation light ends from production of phthalic anhydride from naphthalene",
+    "industry": "organic_chemicals",
+    "chemicals": ["phthalic anhydride", "naphthalene"],
+    "source": "phthalic anhydride production",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K024",
+    "description": "Distillation bottoms from production of phthalic anhydride from naphthalene",
+    "industry": "organic_chemicals",
+    "chemicals": ["phthalic anhydride", "naphthalene"],
+    "source": "phthalic anhydride production",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K025",
+    "description": "Distillation bottoms from production of nitrobenzene by nitration of benzene",
+    "industry": "organic_chemicals",
+    "chemicals": ["nitrobenzene"],
+    "source": "nitrobenzene production",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K026",
+    "description": "Stripping still tails from production of methyl ethyl pyridines",
+    "industry": "organic_chemicals",
+    "chemicals": ["methyl ethyl pyridines"],
+    "source": "methyl ethyl pyridines production",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K027",
+    "description": "Centrifuge and distillation residues from toluene diisocyanate production",
+    "industry": "organic_chemicals",
+    "chemicals": ["toluene diisocyanate"],
+    "source": "toluene diisocyanate production",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K028",
+    "description": "Spent catalyst from hydrochlorinator reactor in ethyl chloride production",
+    "industry": "organic_chemicals",
+    "chemicals": ["ethyl chloride"],
+    "source": "ethyl chloride production",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K029",
+    "description": "Waste from production of 1,1,1-trichloroethane",
+    "industry": "organic_chemicals",
+    "chemicals": ["1,1,1-trichloroethane"],
+    "source": "1,1,1-trichloroethane production",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K030",
+    "description": "Column bottoms or heavy ends from combined production of trichloroethylene and perchloroethylene",
+    "industry": "organic_chemicals",
+    "chemicals": ["trichloroethylene", "perchloroethylene"],
+    "source": "chlorinated solvent production",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K083",
+    "description": "Distillation bottoms from aniline production",
+    "industry": "organic_chemicals",
+    "chemicals": ["aniline", "nitrobenzene"],
+    "source": "aniline production",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K084",
+    "description": "Wastewater treatment sludges from production of veterinary pharmaceuticals",
+    "industry": "pharmaceuticals",
+    "chemicals": ["various pharmaceutical compounds"],
+    "source": "veterinary pharmaceutical production",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K085",
+    "description": "Distillation or fractionation column bottoms from production of chlorobenzenes",
+    "industry": "organic_chemicals",
+    "chemicals": ["chlorobenzenes"],
+    "source": "chlorobenzene production",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K086",
+    "description": "Solvent washes and sludges from cleaning toluene diisocyanate production equipment",
+    "industry": "organic_chemicals",
+    "chemicals": ["toluene diisocyanate"],
+    "source": "equipment cleaning",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K087",
+    "description": "Decanting tank tar sludge from coking operations",
+    "industry": "iron_steel",
+    "chemicals": ["benzene", "naphthalene", "phenanthrene", "pyrene"],
+    "source": "coking operations",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K088",
+    "description": "Spent potliners from primary aluminum reduction",
+    "industry": "aluminum_reduction",
+    "chemicals": ["cyanide", "fluoride"],
+    "source": "aluminum smelting",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K090",
+    "description": "Emission control dust/sludge from ferrochromium production",
+    "industry": "ferroalloys",
+    "chemicals": ["chromium"],
+    "source": "ferrochromium production",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K091",
+    "description": "Emission control dust/sludge from ferrosilicon production",
+    "industry": "ferroalloys",
+    "chemicals": ["arsenic", "lead"],
+    "source": "ferrosilicon production",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K093",
+    "description": "Distillation light ends from production of phthalic anhydride from ortho-xylene",
+    "industry": "organic_chemicals",
+    "chemicals": ["phthalic anhydride", "ortho-xylene"],
+    "source": "phthalic anhydride production",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K094",
+    "description": "Distillation bottoms from production of phthalic anhydride from ortho-xylene",
+    "industry": "organic_chemicals",
+    "chemicals": ["phthalic anhydride", "ortho-xylene"],
+    "source": "phthalic anhydride production",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K095",
+    "description": "Distillation bottoms from production of 1,1,1-trichloroethane",
+    "industry": "organic_chemicals",
+    "chemicals": ["1,1,1-trichloroethane"],
+    "source": "1,1,1-trichloroethane production",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K096",
+    "description": "Heavy ends from heavy ends column of ethyl chloride production",
+    "industry": "organic_chemicals",
+    "chemicals": ["ethyl chloride"],
+    "source": "ethyl chloride production",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K097",
+    "description": "Vacuum stripper discharge from chlordane chlorinator",
+    "industry": "pesticides",
+    "chemicals": ["chlordane", "heptachlor"],
+    "source": "chlordane production",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K098",
+    "description": "Untreated process wastewater from sulfuric acid production",
+    "industry": "inorganic_chemicals",
+    "chemicals": ["arsenic", "lead", "mercury"],
+    "source": "sulfuric acid production",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K099",
+    "description": "Untreated wastewater from production of 2,4-D",
+    "industry": "pesticides",
+    "chemicals": ["2,4-D", "2,4,5-T"],
+    "source": "2,4-D production",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K100",
+    "description": "Waste leaching solution from acid leaching of emission control dust/sludge from ferroalloy furnaces",
+    "industry": "ferroalloys",
+    "chemicals": ["arsenic", "cadmium", "chromium", "lead", "mercury"],
+    "source": "ferroalloy production",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K101",
+    "description": "Distillation tar residues from distillation of aniline-based compounds",
+    "industry": "organic_chemicals",
+    "chemicals": ["aniline", "nitrobenzene"],
+    "source": "aniline compound production",
+    "citation": "40 CFR §261.32"
+  },
+  {
+    "code": "K102",
+    "description": "Residue from mercury cell process in chlor-alkali production",
+    "industry": "inorganic_chemicals",
+    "chemicals": ["mercury"],
+    "source": "chlor-alkali production",
+    "citation": "40 CFR §261.32"
+  }
+]

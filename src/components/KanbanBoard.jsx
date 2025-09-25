@@ -22,6 +22,8 @@ import BackButton from "./BackButton";
 import { useAuth } from "../hooks/useAuth";
 import LoginModal from "./LoginModal";
 import UserProfile from "./UserProfile";
+import FirebaseTest from "./FirebaseTest";
+import SmartCalendar from "./SmartCalendar";
 import {
   getLanes,
   getStatuses,
@@ -30,6 +32,7 @@ import {
   saveLanes,
   saveStatuses,
   getStatusRevenueCategory,
+  getSalesPeriodEnd,
 } from "../shared/utils/kanbanUtils.jsx";
 import { generateProjectNumber, updateCardLaneHistory } from "../utils/projectNumberUtils.js";
 import customerProfileManager from "../utils/customerProfileManager.js";
@@ -63,6 +66,7 @@ const KanbanBoard = () => {
   const [smartUploadOpen, setSmartUploadOpen] = useState(false);
   const [dragOver, setDragOver] = useState(false);
   const [loginModalOpen, setLoginModalOpen] = useState(false);
+  const [smartCalendarOpen, setSmartCalendarOpen] = useState(false);
 
   const { themeColors } = useContext(ThemeContext);
 
@@ -1547,6 +1551,16 @@ ${Object.entries(locationWorkload).map(([location, count]) => {
                 <span>Quick Start</span>
               </button>
 
+              {/* Smart Calendar Button */}
+              <button
+                onClick={() => setSmartCalendarOpen(true)}
+                className="btn btn-success btn-sm"
+                title="View scheduled jobs and sales periods on calendar"
+              >
+                <span>📅</span>
+                <span>Calendar</span>
+              </button>
+
               {/* Bulk Operations Button */}
               <button
                 onClick={() => setBulkOperationsOpen(true)}
@@ -2551,6 +2565,31 @@ ${Object.entries(locationWorkload).map(([location, count]) => {
           isOpen={loginModalOpen}
           onClose={() => setLoginModalOpen(false)}
         />
+
+        {/* Smart Calendar */}
+        <SmartCalendar
+          isOpen={smartCalendarOpen}
+          onClose={() => setSmartCalendarOpen(false)}
+          cards={cards}
+          lanes={lanes}
+          statuses={statuses}
+          onEditCard={handleEditCard}
+          salesPeriods={(() => {
+            const salesPeriodEnd = getSalesPeriodEnd();
+            const salesPeriodStart = new Date(salesPeriodEnd);
+            salesPeriodStart.setFullYear(salesPeriodStart.getFullYear() - 1);
+            salesPeriodStart.setDate(salesPeriodStart.getDate() + 1); // Day after last year's end
+
+            return [{
+              start: salesPeriodStart,
+              end: salesPeriodEnd,
+              title: 'Current Sales Period'
+            }];
+          })()}
+        />
+
+        {/* Firebase Test Panel - Remove in production */}
+        <FirebaseTest />
       </div>
     </DndProvider>
   );
