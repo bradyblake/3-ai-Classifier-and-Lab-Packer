@@ -2573,7 +2573,10 @@ ${Object.entries(locationWorkload).map(([location, count]) => {
           cards={cards}
           lanes={lanes}
           statuses={statuses}
-          onEditCard={handleEditCard}
+          onEditCard={(card) => {
+            setEditingCard(card);
+            setModalOpen(true);
+          }}
           salesPeriods={(() => {
             const salesPeriodEnd = getSalesPeriodEnd();
             const salesPeriodStart = new Date(salesPeriodEnd);

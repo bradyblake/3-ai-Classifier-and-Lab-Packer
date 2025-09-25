@@ -82,7 +82,11 @@
       "Bash(start http://localhost:5174/debug-reset.html)",
       "Bash(npm run build:*)",
       "Bash(findstr:*)",
-      "Bash(npm run preview:*)"
+      "Bash(npm run preview:*)",
+      "Bash(npx eslint:*)",
+      "Bash(timeout 10 npm start)",
+      "Bash(timeout 10 npm run dev)",
+      "Bash(move:*)"
     ],
     "deny": [],
     "ask": []
